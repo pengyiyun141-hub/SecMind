@@ -1,0 +1,2 @@
+https://blog.nsfocus.net/feed/
+https://export.arxiv.org/rss/cs.CR

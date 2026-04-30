@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"strings"
-	"github.com/PuerkitoBio/goquery"
+	//"strings"
+	//"github.com/PuerkitoBio/goquery"
 	//"golang.org/x/text/message"
 	"bytes"
 	"encoding/json"
@@ -46,7 +46,7 @@ func analyzeByAI(articles []Article){
 		Messages : []Message{
 			{
 				Role:    "system",
-				Content: "你是一个说话极其刻薄的资深黑客，请用讽刺的口吻评价这些论文的实战价值",
+				Content: "你是一名资深的网络安全工程师，请对这份列表中的标题进行筛选，选出你认为的最前沿，最理论的，并给出判断。",
 			},
 			{
 				Role:    "user", 
@@ -110,7 +110,7 @@ func analyzeByAI(articles []Article){
 
 func main() {
 	// arXiv 的计算机安全最近更新列表
-	url := "https://arxiv.org/list/cs.CR/recent"
+	url := "https://blog.nsfocus.net/feed/"
 
 	resp, err := http.Get(url)
 	if err != nil {
@@ -124,12 +124,16 @@ func main() {
 
 	
 	// 2. 解析 HTML
-	doc, err := goquery.NewDocumentFromReader(resp.Body)
+	rssData, err := ParseRSS(resp.Body)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("ParseRss解析失败：",err)
 	}
 
-	htmlContent, _ := doc.Html()
+	for a, item := range rssData.Channel.Items[:10] {
+    fmt.Println("标题:", item.Title , a)
+}
+
+	/*htmlContent, _ := doc.Html()
 	fmt.Println("还原后的树结构预览：\n", htmlContent[:500])
 
 	var reportList []Article
@@ -162,6 +166,6 @@ func main() {
 	})
 
 	fmt.Printf("\n--- 成功！共抓取 %d 篇高价值论文数据 ---\n", len(reportList))
-
-	analyzeByAI(reportList)
+	*/
+	//analyzeByAI()
 }
