@@ -1,15 +1,20 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
 	"log"
 	"net/http"
+	//"text/scanner"
+
 	//"strings"
 	//"github.com/PuerkitoBio/goquery"
 	//"golang.org/x/text/message"
 	"bytes"
 	"encoding/json"
+
 	//"io"
+	"os"
 )
 
 type Article struct {
@@ -62,9 +67,6 @@ func analyzeByAI(articles []Article){
 			return
 		}
 
-		//fmt.Println("\n=== 准备发送给 AI 的 JSON 包预览 ===")
-		//fmt.Println(string(jsonData))
-
 		bodyPipe := bytes.NewBuffer(jsonData)
 
 		req, err := http.NewRequest("POST", apiURL, bodyPipe)
@@ -109,29 +111,50 @@ func analyzeByAI(articles []Article){
 	
 
 func main() {
-	// arXiv 的计算机安全最近更新列表
-	url := "https://blog.nsfocus.net/feed/"
+	// 读取urls.txt
+	url, err:= os.Open("../../configs/urls.txt")
 
-	resp, err := http.Get(url)
 	if err != nil {
-		log.Fatal("请求失败:", err)
+		log.Fatal("文件打开失败:", err)
 	}
-	defer resp.Body.Close()
 
-	if resp.StatusCode != 200 {
+	scanner := bufio.NewScanner(url)
+
+	for scanner.Scan() {
+		line := scanner.Text()
+		resp, err := http.Get(line)
+
+		if err != nil {
+		log.Fatal("请求失败:", err)
+		}
+
+		if resp.StatusCode != 200 {
 		log.Fatalf("状态码错误: %d", resp.StatusCode)
 	}
-
-	
 	// 2. 解析 HTML
 	rssData, err := ParseRSS(resp.Body)
 	if err != nil {
-		log.Fatal("ParseRss解析失败：",err)
+		log.Print("ParseRss解析失败：",err)
 	}
 
-	for a, item := range rssData.Channel.Items[:10] {
-    fmt.Println("标题:", item.Title , a)
-}
+	i := len(rssData.Channel.Items)
+
+	if  i > 0 {
+		
+		for a, item := range rssData.Channel.Items[:i] {
+    		fmt.Println("标题",a+1,":", item.Title)
+		}
+	}
+	
+
+	fmt.Println("")
+	
+	resp.Body.Close()
+	}
+
+}	
+	
+	
 
 	/*htmlContent, _ := doc.Html()
 	fmt.Println("还原后的树结构预览：\n", htmlContent[:500])
@@ -168,4 +191,3 @@ func main() {
 	fmt.Printf("\n--- 成功！共抓取 %d 篇高价值论文数据 ---\n", len(reportList))
 	*/
 	//analyzeByAI()
-}
