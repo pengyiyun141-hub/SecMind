@@ -1,2 +1,3 @@
 https://export.arxiv.org/rss/cs.CR
 https://blog.trailofbits.com/index.xml
+https://projectzero.google/feed.xml
