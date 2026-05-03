@@ -6,13 +6,11 @@ import (
 	"log"
 	"net/http"
 	//"text/scanner"
-
 	//"strings"
 	//"github.com/PuerkitoBio/goquery"
 	//"golang.org/x/text/message"
 	"bytes"
 	"encoding/json"
-
 	//"io"
 	"os"
 )
@@ -124,6 +122,8 @@ func main() {
 		line := scanner.Text()
 		resp, err := http.Get(line)
 
+		fmt.Println("开始抓取：",line)
+
 		if err != nil {
 		log.Fatal("请求失败:", err)
 		}
@@ -132,17 +132,18 @@ func main() {
 		log.Fatalf("状态码错误: %d", resp.StatusCode)
 	}
 	// 2. 解析 HTML
-	rssData, err := ParseRSS(resp.Body)
+	xmlData,err := Parse(resp.Body)
+
 	if err != nil {
-		log.Print("ParseRss解析失败：",err)
+		log.Print("解析失败：",err)
 	}
 
-	i := len(rssData.Channel.Items)
+	i := len(xmlData)
 
 	if  i > 0 {
 		
-		for a, item := range rssData.Channel.Items[:i] {
-    		fmt.Println("标题",a+1,":", item.Title)
+		for a, item := range xmlData {
+    		fmt.Printf("标题 %d: %s\n[%s]\n\n", a+1, item.Title,item.Link )
 		}
 	}
 	
@@ -153,41 +154,3 @@ func main() {
 	}
 
 }	
-	
-	
-
-	/*htmlContent, _ := doc.Html()
-	fmt.Println("还原后的树结构预览：\n", htmlContent[:500])
-
-	var reportList []Article
-
-	// 3. arXiv 的结构：标题在 <div class="list-title"> 里面
-	fmt.Println("=== 正在捕获 arXiv 全球安全研究前沿 ===")
-	
-	doc.Find("dt").Each(func(i int, dt *goquery.Selection) {
-		if i >= 10 { return } // 我们先抓前 10 篇
-
-		// 寻找对应的标题 (在下一个兄弟节点 dd 中)
-		dd := dt.Next()
-		title := dd.Find(".list-title").Text()
-		// 这里先去掉title两边的
-		title = strings.TrimSpace(strings.TrimPrefix(strings.TrimSpace(title), "Title:"))
-
-		// 寻找 PDF 链接 (在当前 dt 节点中)
-		pdfPath, _ := dt.Find("a[title='Download PDF']").Attr("href")
-		pdfLink := "https://arxiv.org" + pdfPath
-
-		item := Article{
-			ID:    i + 1,
-			Title: title,
-			Link:  pdfLink,
-		}
-		reportList = append(reportList, item)
-		
-		fmt.Printf("[%d] 发现论文: %s\n", item.ID, item.Title)
-		fmt.Printf("PDF链接: %s\n\n",  item.Link)
-	})
-
-	fmt.Printf("\n--- 成功！共抓取 %d 篇高价值论文数据 ---\n", len(reportList))
-	*/
-	//analyzeByAI()

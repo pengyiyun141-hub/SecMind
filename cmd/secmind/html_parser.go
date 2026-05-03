@@ -2,7 +2,9 @@ package main
 
 import (
 	"encoding/xml"
+	"fmt"
 	"io"
+	//"golang.org/x/tools/blog/atom"
 )
 
 //RSS_parser
@@ -21,16 +23,6 @@ type RSS struct {
     Channel Channel  `xml:"channel"`
 }
 
-func ParseRSS(reader io.Reader) (RSS, error){
-	var rss RSS
-	err := xml.NewDecoder(reader).Decode(&rss)
-	if rss.XMLName!= nil {
-		rss,err = ParseAtom(reader)
-	}
-	return rss,err
-}
-
-
 //Atom_parser
 
 type AtomLink struct {
@@ -47,9 +39,76 @@ type AtomFeed struct {
     Entries []Entry  `xml:"entry"`
 }
 
+//Parse
 
-func ParseAtom(reader io.Reader) (AtomFeed, error){
+type Common struct{
+	XMLName xml.Name
+}
+
+type Article1 struct {
+	Id int
+    Title  string
+    Link   string
+    Source string
+}
+
+func Parse(reader io.Reader) ([]Article1, error){
+	var Xmldata []byte
+
+	Xmldata, err := io.ReadAll(reader)
+
+	if err != nil {
+		fmt.Println("失败：",err)
+		return nil, err
+	}
+
+	var common Common
+	var articles []Article1
+
+	xml.Unmarshal(Xmldata, &common)
+
+	switch common.XMLName.Local {
+	case "rss":
+		rssData, err :=ParseRSS(Xmldata)
+		
+		if err != nil {
+			fmt.Println("ParseRss失败：",err)
+			return nil, err
+		}
+
+		for i, item := range rssData.Channel.Items {
+			articles = append(articles, Article1{Id: i,Title: item.Title, Link: item.Link})
+		}
+
+
+	case "feed":
+		atomData, err :=ParseAtom(Xmldata)
+
+		if err != nil {
+			fmt.Println("ParseAtom失败：",err)
+			return nil, err
+		}
+
+		for i, entry := range atomData.Entries {
+			articles = append(articles, Article1{Id: i,Title: entry.Title, Link: entry.Link.Href})
+		}
+		
+	
+	default:
+		fmt.Println("未知格式")
+	
+	}
+	return articles, err
+}
+
+func ParseRSS(Xmldata []byte) (RSS, error){
+	var rss RSS
+	err := xml.Unmarshal(Xmldata, &rss)
+	return rss, err
+}
+
+func ParseAtom(Xmldata []byte) (AtomFeed, error){
 	var atom AtomFeed
-	err := xml.NewDecoder(reader).Decode(&atom)
-	return atom,err
+	err := xml.Unmarshal(Xmldata, &atom)
+	return atom, err
 }
