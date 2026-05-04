@@ -147,9 +147,10 @@ func main() {
 		}
 	}
 	
-
 	fmt.Println("")
 	
+	SaveToMD(xmlData)
+
 	resp.Body.Close()
 	}
 
