@@ -4,3 +4,6 @@ https://projectzero.google/feed.xml
 https://portswigger.net/blog/rss
 https://unit42.paloaltonetworks.com/feed/
 https://blog.cloudflare.com/tag/security/rss/
+https://www.zerodayinitiative.com/blog?format=rss
+https://securelist.com/feed/
+https://dl.acm.org/rss/journals/tops.xml
