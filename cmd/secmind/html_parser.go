@@ -50,6 +50,7 @@ type Article1 struct {
     Title  string
     Link   string
     Source string
+	Description string
 }
 
 func Parse(reader io.Reader) ([]Article1, error){

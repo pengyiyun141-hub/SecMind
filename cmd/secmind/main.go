@@ -110,48 +110,38 @@ func analyzeByAI(articles []Article){
 
 func main() {
 	// 读取urls.txt
-	url, err:= os.Open("../../configs/urls.txt")
+	urls_file, err:= os.Open("../../configs/urls.txt")
 
 	if err != nil {
 		log.Fatal("文件打开失败:", err)
 	}
 
-	scanner := bufio.NewScanner(url)
+	scanner := bufio.NewScanner(urls_file)
 
+	var urls_str []string
 	for scanner.Scan() {
 		line := scanner.Text()
-		resp, err := http.Get(line)
 
-		fmt.Println("开始抓取：",line)
+		urls_str = append(urls_str, line)
+	}
+	
+		var xmlData_slice []Article1
 
-		if err != nil {
-		log.Fatal("请求失败:", err)
+		for article := range Fetch(urls_str) {
+    		xmlData_slice = append(xmlData_slice, article)
 		}
 
-		if resp.StatusCode != 200 {
-		log.Fatalf("状态码错误: %d", resp.StatusCode)
-	}
-	// 2. 解析 HTML
-	xmlData,err := Parse(resp.Body)
-
-	if err != nil {
-		log.Print("解析失败：",err)
-	}
-
-	i := len(xmlData)
+	i := len(xmlData_slice)
 
 	if  i > 0 {
 		
-		for a, item := range xmlData {
-    		fmt.Printf("标题 %d: %s\n[%s]\n\n", a+1, item.Title,item.Link )
+		for a, article := range xmlData_slice {
+    		fmt.Printf("标题 %d: %s\n[%s]\n\n", a+1, article.Title, article.Link)
 		}
 	}
 	
 	fmt.Println("")
 	
-	SaveToMD(xmlData)
-
-	resp.Body.Close()
-	}
+	SaveToMD(xmlData_slice)
 
 }	
