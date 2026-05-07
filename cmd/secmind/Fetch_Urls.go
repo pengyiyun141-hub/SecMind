@@ -10,7 +10,11 @@ import (
 
 func Fetch(urls []string) <- chan Article1 {
 	var wg sync.WaitGroup
+<<<<<<< HEAD
 	ch := make(chan Article1, 5)
+=======
+	ch := make(chan Article1, len(urls))
+>>>>>>> d3f970c82297a06d4880e55f2fb1e2d60a6f261c
 
 	for _, url := range urls{
 		wg.Add(1)
@@ -21,16 +25,33 @@ func Fetch(urls []string) <- chan Article1 {
 			
 			
 			resp, err := http.Get(url)
+<<<<<<< HEAD
 			if err != nil {
 				log.Printf("请求失败:[URL]: %s, %s", url, err)
 				return 
 			}
+=======
+>>>>>>> d3f970c82297a06d4880e55f2fb1e2d60a6f261c
 			defer resp.Body.Close()
 
 			fmt.Println("开始抓取：",url)
 
+<<<<<<< HEAD
 			xmlData, err := Parse(resp.Body, url)
 
+=======
+			if err != nil {
+			log.Printf("请求失败:%s，%s",url,err)
+			}
+
+			if resp.StatusCode != 200 {
+			
+				log.Printf("状态码错误: %d", resp.StatusCode)
+			}
+			fmt.Println("1")
+			xmlData, err := Parse(resp.Body)
+			fmt.Println("2")
+>>>>>>> d3f970c82297a06d4880e55f2fb1e2d60a6f261c
 			if err != nil {
 				log.Print("解析失败：",err)
 			}

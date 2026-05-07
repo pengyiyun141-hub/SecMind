@@ -51,7 +51,10 @@ type Article1 struct {
     Title  string
     Link   string
     Source string
+<<<<<<< HEAD
 	SourceCount int
+=======
+>>>>>>> d3f970c82297a06d4880e55f2fb1e2d60a6f261c
 	Description string
 }
 
