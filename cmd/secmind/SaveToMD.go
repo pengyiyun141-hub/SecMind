@@ -11,7 +11,7 @@ func SaveToMD(articles []Article1) (error){
 	if err != nil {
 		fmt.Println("文件打开或创建失败：",err)
 	}
-
+	
 	for _, text := range articles{
 		fmt.Fprintf(file, "### [%s]\n(%s)\n\n", text.Title, text.Link)
 	}

@@ -4,6 +4,7 @@ import (
 	"encoding/xml"
 	"fmt"
 	"io"
+	//"net/url"
 	//"golang.org/x/tools/blog/atom"
 )
 
@@ -50,10 +51,11 @@ type Article1 struct {
     Title  string
     Link   string
     Source string
+	SourceCount int
 	Description string
 }
 
-func Parse(reader io.Reader) ([]Article1, error){
+func Parse(reader io.Reader, sourceURL string) ([]Article1, error){
 	var Xmldata []byte
 
 	Xmldata, err := io.ReadAll(reader)
@@ -77,10 +79,14 @@ func Parse(reader io.Reader) ([]Article1, error){
 			return nil, err
 		}
 
-		for i, item := range rssData.Channel.Items {
-			articles = append(articles, Article1{Id: i,Title: item.Title, Link: item.Link})
-		}
+		var count int
+		count = 0
 
+		for i, item := range rssData.Channel.Items {
+			articles = append(articles, Article1{Id: i,Title: item.Title, Link: item.Link, Source: sourceURL})
+			count++
+		}
+		fmt.Printf("源%s共获取到文章数为：%d，正在处理文章信息\n",sourceURL, count)
 
 	case "feed":
 		atomData, err :=ParseAtom(Xmldata)
@@ -91,7 +97,7 @@ func Parse(reader io.Reader) ([]Article1, error){
 		}
 
 		for i, entry := range atomData.Entries {
-			articles = append(articles, Article1{Id: i,Title: entry.Title, Link: entry.Link.Href})
+			articles = append(articles, Article1{Id: i,Title: entry.Title, Link: entry.Link.Href, Source: sourceURL})
 		}
 		
 	

@@ -135,8 +135,8 @@ func main() {
 
 	if  i > 0 {
 		
-		for a, article := range xmlData_slice {
-    		fmt.Printf("标题 %d: %s\n[%s]\n\n", a+1, article.Title, article.Link)
+		for _, article := range xmlData_slice {
+    		fmt.Printf("标题 %d: %s\n[%s] 源:[%s]\n\n", article.Id+1, article.Title, article.Link, article.Source)
 		}
 	}
 	
