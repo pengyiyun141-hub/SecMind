@@ -45,9 +45,9 @@ func Fetch(urls []string) <- chan Article1 {
 			
 				log.Printf("状态码错误: %d", resp.StatusCode)
 			}
-			fmt.Println("1")
+
 			xmlData, err := Parse(resp.Body)
-			fmt.Println("2")
+	
 			if err != nil {
 				log.Print("解析失败：",err)
 			}
