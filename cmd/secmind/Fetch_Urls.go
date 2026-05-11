@@ -41,8 +41,6 @@ func Fetch(urls []string) <-chan Article1 {
 				log.Printf("状态码错误: %d", resp.StatusCode)
 			}
 
-			xmlData, err := Parse(resp.Body)
-
 			if err != nil {
 				log.Print("解析失败：", err)
 			}
@@ -56,6 +54,5 @@ func Fetch(urls []string) <-chan Article1 {
 		wg.Wait() // ① 等待所有 goroutine 完成
 		close(ch) // ② 所有任务完成后关闭通道
 	}()
-	fmt.Println("3")
 	return ch
 }
