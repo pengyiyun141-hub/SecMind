@@ -4,22 +4,9 @@ import (
 	"bufio"
 	"fmt"
 	"log"
-	"net/http"
-	//"text/scanner"
-	//"strings"
-	//"github.com/PuerkitoBio/goquery"
-	//"golang.org/x/text/message"
-	"bytes"
-	"encoding/json"
-	//"io"
 	"os"
 )
 
-type Article struct {
-	ID    int    `json:"id"`
-	Title string `json:"title"`
-	Link  string `json:"link"`
-}
 
 func main() {
 	urls_file, err:= os.Open("../../configs/urls.txt")
@@ -37,7 +24,7 @@ func main() {
 		urls_str = append(urls_str, line)
 	}
 	
-		var xmlData_slice []Article1
+		var xmlData_slice []Article
 		for article := range Fetch(urls_str) {
     		xmlData_slice = append(xmlData_slice, article)
 		}
@@ -48,11 +35,12 @@ func main() {
 		
 
 		for _, article := range xmlData_slice {
-    		fmt.Printf("标题 %d: %s\n[%s] 源:[%s]\n\n", article.Id+1, article.Title, article.Link, article.Source)
+    		fmt.Printf("标题 %d: %s\n[%s] 源:[%s]\n\n", article.Id, article.Title, article.Link, article.Source)
 		}
 	}
 	fmt.Println("")
 	
+	analyzeByAI(xmlData_slice)
 	SaveToMD(xmlData_slice)
 
 }	

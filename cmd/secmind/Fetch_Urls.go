@@ -7,10 +7,10 @@ import (
 	"sync"
 )
 
-func Fetch(urls []string) <-chan Article1 {
+func Fetch(urls []string) <-chan Article {
 	var wg sync.WaitGroup
 
-	ch := make(chan Article1, len(urls))
+	ch := make(chan Article, len(urls))
 
 	for _, url := range urls {
 		wg.Add(1)
@@ -33,16 +33,7 @@ func Fetch(urls []string) <-chan Article1 {
 			xmlData, err := Parse(resp.Body, url)
 
 			if err != nil {
-				log.Printf("请求失败:%s，%s", url, err)
-			}
-
-			if resp.StatusCode != 200 {
-
-				log.Printf("状态码错误: %d", resp.StatusCode)
-			}
-
-			if err != nil {
-				log.Print("解析失败：", err)
+				log.Printf("解析失败:%s，%s", url, err)
 			}
 
 			for _, article := range xmlData {

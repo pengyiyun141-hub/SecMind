@@ -5,7 +5,7 @@ import(
 	"fmt"
 )
 
-func SaveToMD(articles []Article1) (error){
+func SaveToMD(articles []Article) (error){
 	file, err := os.OpenFile("../../internal/storage/intel_report.md", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 
 	if err != nil {

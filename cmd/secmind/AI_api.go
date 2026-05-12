@@ -1,10 +1,21 @@
 package main
 
-import(
+import (
+	"bytes"
+	"encoding/json"
 	"fmt"
 	"log"
-	"json/encoding"
+	"net/http"
+	"os"
+	"github.com/joho/godotenv"
 )
+
+type Article_AI struct {
+	Id    int    `json:"id"`
+	Title string `json:"title"`
+	Link  string `json:"link"`
+	Source string `json:"source"`
+}
 
 type Message struct {
 	Role    string `json:"role"`    
@@ -16,29 +27,51 @@ type ChatRequest struct {
 	Messages []Message `json:"messages"` 
 }
 
-func analyzeByAI(articles []Article){
+func analyzeByAI(articles []Article ){
 	
-	apiKey := "" 
-	apiURL := ""
+	err := godotenv.Load("../../configs/.env")
+
+	if err != nil {
+        log.Println("加载 .env 失败: ", err)
+    }
+
+	apiKey  := os.Getenv("ZHIPU_API_KEY")
+	apiURL  := os.Getenv("ZHIPU_API_URL")
+	modelName := os.Getenv("ZHIPU_MODEL")
+	
+
+	var ai_message_result []Article_AI
+	for _ , ai_message:= range articles{
+		
+		ai_message := Article_AI{
+			Id : ai_message.Id,
+			Title : ai_message.Title,
+			Link : ai_message.Link,
+			Source: ai_message.Source,
+		}
+		
+		ai_message_result = append(ai_message_result, ai_message)
+	}
+
+
 
 	var promptText string
 
 	for _,a := range articles{
-		promptText += fmt.Sprintf("[%d] %s\n",a.ID,a.Title)
+		promptText += fmt.Sprintf("id:[%d] Title:%s Source:%s\n",a.Id,a.Title,a.Source)
 	}
 
-	fmt.Println(promptText)
-
+	
 	requestPayload := ChatRequest{
-		Model : "glm-4-flash",
+		Model : modelName,
 		Messages : []Message{
 			{
 				Role:    "system",
-				Content: "你是一名资深的网络安全工程师，请对这份列表中的标题进行筛选，选出你认为的最前沿，最理论的，并给出判断。",
+				Content: "你是一名资深的网络安全的研究员，请对这份列表中的标题进行筛选，选出你认为与智能安全最相关的十篇，并说明理由。",
 			},
 			{
 				Role:    "user", 
-				Content: "请将标题翻译成中文，这是今天的论文列表：\n" + promptText,
+				Content: "请将原标题翻译成中文，并标注source和id，要求保留原标题。这是今天的论文列表：\n" + promptText,
 			},
 		},
 	}
@@ -59,7 +92,7 @@ func analyzeByAI(articles []Article){
 
 
 	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("Authorization", "Bearer "+apiKey) 
+	req.Header.Set("Authorization", "Bearer "+ apiKey) 
 
 	client := &http.Client{}
 	fmt.Println("\n[AI] 正在进行情报分析，请稍候...")
@@ -88,4 +121,5 @@ func analyzeByAI(articles []Article){
 		fmt.Println("\n=== SecMind 1.0 研判简报 ===")
 		fmt.Println(aiResponse.Choices[0].Message.Content)
 	}
+		
 }
