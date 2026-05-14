@@ -22119,3 +22119,2130 @@
 ### [Detect Go’s silent arithmetic bugs with go-panikint]
 (https://blog.trailofbits.com/2025/12/31/detect-gos-silent-arithmetic-bugs-with-go-panikint/)
 
+### [Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools]
+(https://unit42.paloaltonetworks.com/active-directory-certificate-services-exploitation/)
+
+### [Threat Brief: Exploitation of PAN-OS Captive Portal Zero-Day for Unauthenticated Remote Code Execution]
+(https://unit42.paloaltonetworks.com/captive-portal-zero-day/)
+
+### [Copy Fail: What You Need to Know About the Most Severe Linux Threat in Years]
+(https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/)
+
+### [The npm Threat Landscape: Attack Surface and Mitigations (Updated May 1)]
+(https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
+
+### [Essential Data Sources for Detection Beyond the Endpoint]
+(https://unit42.paloaltonetworks.com/detection-beyond-the-endpoint/)
+
+### [That AI Extension Helping You Write Emails? It’s Reading Them First]
+(https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/)
+
+### [TGR-STA-1030: New Activity in Central and South America]
+(https://unit42.paloaltonetworks.com/new-activity-central-south-america/)
+
+### [Frontier AI and the Future of Defense: Your Top Questions Answered]
+(https://unit42.paloaltonetworks.com/frontier-ai-top-questions-answered/)
+
+### [Can AI Attack the Cloud? Lessons From Building an Autonomous Cloud Offensive Multi-Agent System]
+(https://unit42.paloaltonetworks.com/autonomous-ai-cloud-attacks/)
+
+### [When Wi-Fi Encryption Fails: Protecting Your Enterprise from AirSnitch Attacks]
+(https://unit42.paloaltonetworks.com/air-snitch-enterprise-wireless-attacks/)
+
+### [Fracturing Software Security With Frontier AI Models]
+(https://unit42.paloaltonetworks.com/ai-software-security-risks/)
+
+### [Threat Brief: Escalation of Cyber Risk Related to Iran (Updated April 17)]
+(https://unit42.paloaltonetworks.com/iranian-cyberattacks-2026/)
+
+### [A Deep Dive Into Attempted Exploitation of CVE-2023-33538]
+(https://unit42.paloaltonetworks.com/exploitation-of-cve-2023-33538/)
+
+### [Cracks in the Bedrock: Agent God Mode]
+(https://unit42.paloaltonetworks.com/exploit-of-aws-agentcore-iam-god-mode/)
+
+### [Cracks in the Bedrock: Escaping the AWS AgentCore Sandbox]
+(https://unit42.paloaltonetworks.com/bypass-of-aws-sandbox-network-isolation-mode/)
+
+### [The beast needs a cage: What's next for AppSec post-Mythos]
+(https://portswigger.net/blog/the-beast-needs-a-cage-whats-next-for-appsec-post-mythos)
+
+### [3 ways custom scan checks turn practitioner knowledge into scalable automation]
+(https://portswigger.net/blog/3-ways-custom-scan-checks-turn-practitioner-knowledge-into-scalable-automation)
+
+### [PortSwigger recognized at the Northern Tech Awards 2026.]
+(https://portswigger.net/blog/portswigger-recognized-at-the-northern-tech-awards-2026)
+
+### [Introducing the official Burp Ambassador Program]
+(https://portswigger.net/blog/introducing-the-official-burp-ambassador-program)
+
+### [PortSwigger partners with Meta Bug Bounty to empower bug hunters with training and Pro licenses]
+(https://portswigger.net/blog/portswigger-partners-with-meta-bug-bounty-to-empower-bug-hunters-with-training-and-pro-licenses)
+
+### [HTTP/1.1 Must Die: Conquering the 0.CL Challenge]
+(https://portswigger.net/blog/http-1-1-must-die-conquering-the-0-cl-challenge)
+
+### [Automation without alignment: The hidden cost of modern DAST]
+(https://portswigger.net/blog/automation-without-alignment-the-hidden-cost-of-modern-dast)
+
+### [PortSwigger X Intigriti: Burp Suite Professional licenses up for grabs with this new collaboration]
+(https://portswigger.net/blog/portswigger-x-intigriti-burp-suite-professional-licenses-up-for-grabs-with-this-new-collaboration)
+
+### [How I sped up exploit validation in Repeater using Burp AI ]
+(https://portswigger.net/blog/how-i-sped-up-exploit-validation-in-repeater-using-burp-ai)
+
+### [Functional PoCs in less than a minute? Julen Garrido Estévez puts Burp AI to the test]
+(https://portswigger.net/blog/functional-pocs-in-less-than-a-minute)
+
+### [Burp On Tour 2025: bringing the AppSec community together around the world]
+(https://portswigger.net/blog/burp-on-tour-2025-bringing-the-appsec-community-together-around-the-world)
+
+### [DAST without disruption: Burp Suite DAST winter update 2025]
+(https://portswigger.net/blog/burp-suite-dast-winter-update-2025)
+
+### [How to detect React2Shell with Burp Suite]
+(https://portswigger.net/blog/how-to-detect-react2shell-with-burp-suite)
+
+### [PortSwigger x TryHackMe: Supporting Advent of Cyber]
+(https://portswigger.net/blog/portswigger-x-tryhackme-supporting-advent-of-cyber)
+
+### [Hacking with Burp AI in the Chesspocalypse: API expert Corey Ball showcases how Burp AI can support pentesters. ]
+(https://portswigger.net/blog/hacking-with-burp-ai-in-the-chesspocalypse-api-expert-corey-ball-showcases-how-burp-ai-can-support-pentesters)
+
+### [Can Burp AI hack a website? CyberMaddy explores the new agentic capabilities in Burp AI]
+(https://portswigger.net/blog/can-burp-ai-hack-a-website-cybermaddy-explores-the-new-agentic-capabilities-in-burp-ai)
+
+### [Burp AI takes on a vulnerable web app: watch Tib3rius put Burp’s new agentic capabilities to the test]
+(https://portswigger.net/blog/burp-ai-takes-on-a-vulnerable-web-app-watch-tib3rius-put-burps-new-agentic-capabilities-to-the-test)
+
+### [HTTP/1.1 must die: Dafydd Stuttard on what this means for enterprise security]
+(https://portswigger.net/blog/http-1-1-must-die-dafydd-stuttard-on-what-this-means-for-enterprise-security)
+
+### [The future of pentesting is Human x AI, and it's already in Burp Suite Professional]
+(https://portswigger.net/blog/the-future-of-pentesting-is-human-x-ai-and-its-already-in-burp-suite-professional)
+
+### [Hacking smarter with Burp AI: NahamSec puts Burp AI to the test]
+(https://portswigger.net/blog/hacking-smarter-with-burp-ai-nahamsec-puts-burp-ai-to-the-test)
+
+### [Welcome to AI pentesting - add on-demand AI assistance directly to your workflow with new, agentic Burp AI capabilities]
+(https://portswigger.net/blog/welcome-to-ai-pentesting-add-on-demand-ai-assistance-directly-to-your-workflow-with-new-agentic-burp-ai-capabilities)
+
+### [How to join the desync endgame: Practical tips from pentester Tom Stacey]
+(https://portswigger.net/blog/how-to-join-the-desync-endgame-practical-tips-from-pentester-tom-stacey)
+
+### [How this seasoned bug bounty hunter combines Burp Suite and HackerOne to uncover high-impact vulnerabilities]
+(https://portswigger.net/blog/how-this-seasoned-bug-bounty-hunter-combines-burp-suite-and-hackerone-to-uncover-high-impact-vulnerabilities)
+
+### [Watch the webinar: Scale secure coverage without scaling headcount]
+(https://portswigger.net/blog/watch-the-webinar-scale-secure-coverage-without-scaling-headcount)
+
+### [The year so far: How Burp Suite DAST is leveling up enterprise security in 2025]
+(https://portswigger.net/blog/the-year-so-far-how-burp-suite-dast-is-leveling-up-enterprise-security-in-2025)
+
+### ["The entire internet is broken": ethical hacking expert John Hammond meets James Kettle]
+(https://portswigger.net/blog/the-entire-internet-is-broken-ethical-hacking-expert-john-hammond-meets-james-kettle)
+
+### [HTTP/1.1 Must Die: What This Means for AppSec Leadership]
+(https://portswigger.net/blog/http-1-1-must-die-what-this-means-for-appsec-leadership)
+
+### [HTTP/1.1 Must Die: What This Means for In-House Pentesters]
+(https://portswigger.net/blog/http-1-1-must-die-what-this-means-for-in-house-pentesters)
+
+### [HTTP/1.1 Must Die: What This Means for Bug Bounty Hunters]
+(https://portswigger.net/blog/http-1-1-must-die-what-this-means-for-bug-bounty-hunters)
+
+### [HTTP/1.1 Must Die: What This Means for Contract Pentesters and MSSPs]
+(https://portswigger.net/blog/http-1-1-must-die-what-this-means-for-contract-pentesters-and-mssps)
+
+### [The Desync Delusion: Are You Really Protected Against HTTP Request Smuggling?]
+(https://portswigger.net/blog/the-desync-delusion-are-you-really-protected-against-http-request-smuggling)
+
+### [HTTP Request Smuggling Explained: with seasoned bug bounty hunter NahamSec and world-class researcher James Kettle]
+(https://portswigger.net/blog/http-request-smuggling-explained-with-seasoned-bug-bounty-hunter-nahamsec-and-world-class-researcher-james-kettle)
+
+### [Watch the on-demand webinar: Shift left without the strain]
+(https://portswigger.net/blog/watch-the-on-demand-webinar-shift-left-without-the-strain)
+
+### [PortSwigger at Black Hat &amp; DEF CON 33]
+(https://portswigger.net/blog/portswigger-at-black-hat-amp-def-con-33)
+
+### [Two months of Burp AI: empowering security testers with the future of AppSec]
+(https://portswigger.net/blog/two-months-of-burp-ai-empowering-security-testers-with-the-future-of-appsec)
+
+### [PortSwigger Honored with the King's Award for Enterprise in International Trade]
+(https://portswigger.net/blog/portswigger-honored-with-the-kings-award-for-enterprise-in-international-trade)
+
+### [Meet Burp Suite DAST: Your questions answered]
+(https://portswigger.net/blog/meet-burp-suite-dast-your-questions-answered)
+
+### [Elevate your testing with Burp AI: watch Clint Gibler’s exclusive interview with PortSwigger’s Dafydd Stuttard and James Kettle]
+(https://portswigger.net/blog/elevate-your-testing-with-burp-ai-watch-clint-giblers-exclusive-interview-with-portswiggers-dafydd-stuttard-and-james-kettle)
+
+### [What's new in Burp Suite Professional: A year of innovation]
+(https://portswigger.net/blog/whats-new-in-burp-suite-professional-a-year-of-innovation)
+
+### [Using AI to find web app vulnerabilities: hacking expert John Hammond takes Burp AI for a spin]
+(https://portswigger.net/blog/using-ai-to-find-web-app-vulnerabilities-hacking-expert-john-hammond-takes-burp-ai-for-a-spin)
+
+### [Words Become SQL: Securing AI Assistants That Talk to Databases]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11359973/2dsHocrpTC8)
+
+### [Living Off the LLM: <bold>How LLMs Will Change Adversary Tactics</bold>]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11417765/2ex5VZOkUes)
+
+### [I See You: Using RF Signals to See Inside Manufacturing Processes]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11419789/2eyKI0oZvos)
+
+### [Beyond Guesswork: How to Measure What Makes Cyber Deception Work]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11424411/2eOBImdWQa4)
+
+### [Software Security Is Your Highest Priority. Do Your Developers Know That?]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11456578/2faQW1VJ5uw)
+
+### [Robust AI Security and Alignment: A Sisyphean Endeavor?]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11475847/2fuMjW6wGis)
+
+### [IEEE Transactions on Big Data]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519082/2gswrQNayis)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519083/2gsws5nwyI0)
+
+### [Building an Open Source Operational Technology Pentesting Platform: Lessons From LINICS]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519084/2gswqjmxF3G)
+
+### [Security Knowledge in Books]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519085/2gswqE6XKy4)
+
+### [IEEE Computer Graphics and Applications]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519086/2gswq5waFIA)
+
+### [Reducing Noise: Hybrid Static Application Security Testing&#x2013;Large Language Model Pipeline for Code Security]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519482/2gswqpKNGDK)
+
+### [IEEE IT Professionals Call for Articles]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519483/2gswrmAjc4M)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519484/2gswpYh7fWw)
+
+### [Advancing Human-Centered Cybersecurity: Challenges and Pathways Forward]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519485/2gswsBXq8j6)
+
+### [IEEE Annals of the History of Computing]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519486/2gswsc93GXm)
+
+### [From the Editors: Thoughts on &#x201C;ilities&#x201D;]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519487/2gswrCaxKQo)
+
+### [Technology Facilitated Abuse and the Security Paradox]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519488/2gswpPfVtHq)
+
+### [The General Data Protection Regulation Goes to School: Proportional Versus Top-Down Regulation in Primary and Secondary Institutions]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519489/2gswr7lVKk8)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519490/2gswruzlCVi)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519491/2gswr079VG8)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519492/2gswpmeiD2o)
+
+### [IEEE Computer Science and Engineering Award]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519493/2gswpfOl0FW)
+
+### [IEEE Transactions on Sustainable Computing]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519494/2gswsYr8AXS)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519495/2gswpIADwju)
+
+### [IEEE Transactions on Computers]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519496/2gswqwZhU9G)
+
+### [Beyond Stop Signs: Why Evasion Attacks Matter Even More]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519507/2gswqcloAEM)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519508/2gswqSROUM0)
+
+### [IEEE Access The Reliability Society Section]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519509/2gswsQMfGlW)
+
+### [IEEE Computer Society Membership]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519510/2gswptU2l2w)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519511/2gswsJacL2E)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519512/2gswrYkXuEM)
+
+### [Post-Quantum Software Updates with Stateful Hash-Based Signatures and The Update Framework]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11111737/28UtqfViOWc)
+
+### [Obstacles to Practical Supply Chain Risk Management for Digital Components]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11121660/2965QOqizcY)
+
+### [Maritime Operational Technology Shipboard Testbed for Cybersecurity Research, Training, Exercises, and Education]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11204793/2aPD6oMcdhe)
+
+### [The Rise of Miniapps: A New Frontier with Security Challenges in Mobile Apps]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11362975/2dw1dEAVciY)
+
+### [Combinatorial Security Testing&#x2014;10 Years Later]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11395278/2e3dv9cn0wo)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435538/2eUfWx3yV0s)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435539/2eUfXaI0Kze)
+
+### [IEEE Computer Society Membership]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435540/2eUfVTIHpq8)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435541/2eUfWkHryWk)
+
+### [IEEE Open Journal of the Computer Society]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435542/2eUfWK9nH0Y)
+
+### [From Promise to Peril: Rethinking Cybersecurity Red and Blue Teaming in the Age of LLMs]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435543/2eUfWdX2Pde)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435544/2eUfXvay6Ry)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435545/2eUfY77Ymis)
+
+### [List of Reviewers 2025]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435546/2eUfXnqgOMo)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435547/2eUfWqFAuys)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435548/2eUfXNp8pWw)
+
+### [IEEE Computer Society Information]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435549/2eUfX300fwA)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435550/2eUfWQWCq2I)
+
+### [IEEE Computer Science and Engineering Awards]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435551/2eUfWXo023u)
+
+### [IEEE Volunteer Service Awards]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435552/2eUfW3bZtxC)
+
+### [The Path to Powerful Quantum Computers]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435562/2eUfXB9PqZW)
+
+### [Quashing Quishing Attacks Using Self-Authenticating Dual-Modulated QR Codes]
+(https://www.computer.org/csdl/magazine/sp/2026/01/10877412/247rZV34H2E)
+
+### [A Call to Reconsider Certification Authority Authorization]
+(https://www.computer.org/csdl/magazine/sp/2026/01/10883040/24h3Os7iE48)
+
+### [Back in the Game: Privacy Concerns of Second-Hand Game Consoles]
+(https://www.computer.org/csdl/magazine/sp/2026/01/10960377/25LWluDWP8A)
+
+### [To Trust or Not To Trust]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11078452/28giBNcfVjq)
+
+### [Differential Privacy in Practice: Lessons Learned From 10 Years of Real-World Applications]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11108240/28UtqarwYeY)
+
+### [Building Trustworthy AI Agents]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369814/2dHi8b9dlAI)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369816/2dHi5XdRJ16)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369817/2dHi76McuVq)
+
+### [Software Liability Came to Europe]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369818/2dHi6lsA9CE)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369819/2dHi6R78KWI)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369822/2dHi5ClMt0Y)
+
+### [IEEE Computer Society Membership]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369823/2dHi7vV7vhK)
+
+### [Forgotten Memories]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369824/2dHi64C0iXe)
+
+### [IEEE IT Professionals Call for Articles]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369825/2dHi6BoXqxi)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369826/2dHi7nuPzX2)
+
+### [IEEE Computer Society Benefits]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369828/2dHi5v0Ltvy)
+
+### [IEEE Annals of the History of Computing]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369829/2dHi8ix4koM)
+
+### [New Editor in Chief Introduction]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369831/2dHi8qRXSgg)
+
+### [Understanding the Adversarial Landscape of Large Language Models Through the Lens of Attack Objectives]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369832/2dHi7f004xi)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369833/2dHi8NZ8A00)
+
+### [How Human-Centered Security Takes Root in Organizations]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369834/2dHi6tqLN4Y)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369835/2dHi83o5g7m)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369836/2dHi6dnixUI)
+
+### [IEEE Computer Society Information]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369838/2dHi6Z3lcuA)
+
+### [A Systems Security Approach for Emerging Programmable Network Architectures]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11156132/29TxEpAoeRi)
+
+### [Clouds Are Where the (Security) Action Is: Have Honeypots Been Left in the Dust?]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11159550/29VciQgGctq)
+
+### [Learning-Based Internet of Things Honeypots for Cyber Deception]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11165356/2a3QlQqrJYY)
+
+### [Your Headset Is Listening: Motion Sensor Side-Channels and the Future of Extended Reality Privacy]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11175145/2adNLAmjPzO)
+
+### [Securing Networks with Programmable Data Planes: Opportunities and Challenges]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11182159/2akrusK8dfa)
+
+### [Agentic AI&#x2019;s OODA Loop Problem]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11194053/2aB2Rf5nZ0k)
+
+### [Cybersecurity in Tactical Edge Networks]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11205949/2aRi49bd7fq)
+
+### [IEEE Transactions on Privacy]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269918/2bXLbs2tEPe)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269921/2bXLcBeFIAw)
+
+### [IEEE Computer Society Benefits]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269928/2bXLbA3vhAc)
+
+### [Toward Practical and Scalable Adoption of Nonce-Based Content Security Policy on the Web]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269929/2bXLdWGsmqs)
+
+### [IEEE Volunteer Service Awards]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269930/2bXLdpW3D0Y)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269931/2bXLe3cnywg)
+
+### [IEEE Computer Society Information]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269934/2bXLea3j4eQ)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269935/2bXLb8kcUJq)
+
+### [IEEE Computer Graphics and Applications]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269936/2bXLcJVqnsY)
+
+### [IEEE Open Journal of the Computer Society]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269938/2bXLbVUTTGg)
+
+### [Recent Advances in Securing Networked Systems]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269939/2bXLayfacCY)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269942/2bXLdctflte)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269943/2bXLaKpVBuw)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269944/2bXLekAatpe)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269945/2bXLctBuoKY)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269947/2bXLdPB3j4A)
+
+### [How Cloudflare responded to the “Copy Fail” Linux vulnerability]
+(https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/)
+
+### [Post-quantum encryption for Cloudflare IPsec is generally available]
+(https://blog.cloudflare.com/post-quantum-ipsec/)
+
+### [Securing non-human identities: automated revocation, OAuth, and scoped permissions]
+(https://blog.cloudflare.com/improved-developer-security/)
+
+### [Scaling MCP adoption: Our reference architecture for simpler, safer and cheaper enterprise deployments of MCP]
+(https://blog.cloudflare.com/enterprise-mcp/)
+
+### [Managed OAuth for Access: make internal apps agent-ready in one click]
+(https://blog.cloudflare.com/managed-oauth-for-access/)
+
+### [Cloudflare targets 2029 for full post-quantum security]
+(https://blog.cloudflare.com/post-quantum-roadmap/)
+
+### [Cloudflare Client-Side Security: smarter detection, now open to everyone]
+(https://blog.cloudflare.com/client-side-security-open-to-everyone/)
+
+### [Announcing Cloudflare Account Abuse Protection: prevent fraudulent attacks from bots and humans]
+(https://blog.cloudflare.com/account-abuse-protection/)
+
+### [AI Security for Apps is now generally available]
+(https://blog.cloudflare.com/ai-security-for-apps-ga/)
+
+### [Investigating multi-vector attacks in Log Explorer]
+(https://blog.cloudflare.com/investigating-multi-vector-attacks-in-log-explorer/)
+
+### [Fixing request smuggling vulnerabilities in Pingora OSS deployments]
+(https://blog.cloudflare.com/pingora-oss-smuggling-vulnerabilities/)
+
+### [Active defense: introducing a stateful vulnerability scanner for APIs]
+(https://blog.cloudflare.com/vulnerability-scanner/)
+
+### [How Cloudy translates complex security into human action]
+(https://blog.cloudflare.com/cloudy-upgrades-for-cloudflare-one/)
+
+### [From reactive to proactive: closing the phishing gap with LLMs]
+(https://blog.cloudflare.com/email-security-phishing-gap-llm/)
+
+### [Bringing more transparency to post-quantum usage, encrypted messaging, and routing security]
+(https://blog.cloudflare.com/radar-origin-pq-key-transparency-aspa/)
+
+### [2025 Q4 DDoS threat report: A record-setting 31.4 Tbps attack caps a year of massive DDoS assaults]
+(https://blog.cloudflare.com/ddos-threat-report-2025-q4/)
+
+### [Building a serverless, post-quantum Matrix homeserver]
+(https://blog.cloudflare.com/serverless-matrix-homeserver-workers/)
+
+### [How we mitigated a vulnerability in Cloudflare’s ACME validation logic]
+(https://blog.cloudflare.com/acme-path-vulnerability/)
+
+### [Astro is joining Cloudflare]
+(https://blog.cloudflare.com/astro-joins-cloudflare/)
+
+### [The 2025 Cloudflare Radar Year in Review: The rise of AI, post-quantum, and record-breaking DDoS attacks]
+(https://blog.cloudflare.com/radar-2025-year-in-review/)
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./)
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/)
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/)
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/)
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/)
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/)
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/)
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/)
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/)
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/)
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/)
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/)
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/)
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/)
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/)
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/)
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/)
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/)
+
+### [Lack of isolation in agentic browsers resurfaces old vulnerabilities]
+(https://blog.trailofbits.com/2026/01/13/lack-of-isolation-in-agentic-browsers-resurfaces-old-vulnerabilities/)
+
+### [Detect Go’s silent arithmetic bugs with go-panikint]
+(https://blog.trailofbits.com/2025/12/31/detect-gos-silent-arithmetic-bugs-with-go-panikint/)
+
+### [State of ransomware in 2026]
+(https://securelist.com/state-of-ransomware-in-2026/119761/)
+
+### [CVE-2025-68670: discovering an RCE vulnerability in xrdp]
+(https://securelist.com/cve-2025-68670/119742/)
+
+### [Exploits and vulnerabilities in Q1 2026]
+(https://securelist.com/vulnerabilities-and-exploits-in-q1-2026/119733/)
+
+### [OceanLotus suspected of using PyPI to deliver ZiChatBot malware]
+(https://securelist.com/oceanlotus-suspected-pypi-zichatbot-campaign/119603/)
+
+### [Websites with an undefined trust level: avoiding the trap]
+(https://securelist.com/suspicious-websites-undefined-trust-level/119675/)
+
+### [“Legitimate” phishing: how attackers weaponize Amazon SES to bypass email security]
+(https://securelist.com/amazon-ses-phishing-and-bec-attacks/119623/)
+
+### [Silver Fox uses the new ABCDoor backdoor to target organizations in Russia and India]
+(https://securelist.com/silver-fox-tax-notification-campaign/119575/)
+
+### [PhantomRPC: A new privilege escalation technique in Windows RPC]
+(https://securelist.com/phantomrpc-rpc-vulnerability/119428/)
+
+### [FakeWallet crypto stealer spreading through iOS apps in the App Store]
+(https://securelist.com/fakewallet-cryptostealer-ios-app-store/119474/)
+
+### [Threat landscape for industrial automation systems in Q4 2025]
+(https://securelist.com/industrial-threat-report-q4-2025/119392/)
+
+### [Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools]
+(https://unit42.paloaltonetworks.com/active-directory-certificate-services-exploitation/)
+
+### [Threat Brief: Exploitation of PAN-OS Captive Portal Zero-Day for Unauthenticated Remote Code Execution]
+(https://unit42.paloaltonetworks.com/captive-portal-zero-day/)
+
+### [Copy Fail: What You Need to Know About the Most Severe Linux Threat in Years]
+(https://unit42.paloaltonetworks.com/cve-2026-31431-copy-fail/)
+
+### [The npm Threat Landscape: Attack Surface and Mitigations (Updated May 1)]
+(https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
+
+### [Essential Data Sources for Detection Beyond the Endpoint]
+(https://unit42.paloaltonetworks.com/detection-beyond-the-endpoint/)
+
+### [That AI Extension Helping You Write Emails? It’s Reading Them First]
+(https://unit42.paloaltonetworks.com/high-risk-gen-ai-browser-extensions/)
+
+### [TGR-STA-1030: New Activity in Central and South America]
+(https://unit42.paloaltonetworks.com/new-activity-central-south-america/)
+
+### [Frontier AI and the Future of Defense: Your Top Questions Answered]
+(https://unit42.paloaltonetworks.com/frontier-ai-top-questions-answered/)
+
+### [Can AI Attack the Cloud? Lessons From Building an Autonomous Cloud Offensive Multi-Agent System]
+(https://unit42.paloaltonetworks.com/autonomous-ai-cloud-attacks/)
+
+### [When Wi-Fi Encryption Fails: Protecting Your Enterprise from AirSnitch Attacks]
+(https://unit42.paloaltonetworks.com/air-snitch-enterprise-wireless-attacks/)
+
+### [Fracturing Software Security With Frontier AI Models]
+(https://unit42.paloaltonetworks.com/ai-software-security-risks/)
+
+### [Threat Brief: Escalation of Cyber Risk Related to Iran (Updated April 17)]
+(https://unit42.paloaltonetworks.com/iranian-cyberattacks-2026/)
+
+### [A Deep Dive Into Attempted Exploitation of CVE-2023-33538]
+(https://unit42.paloaltonetworks.com/exploitation-of-cve-2023-33538/)
+
+### [Cracks in the Bedrock: Agent God Mode]
+(https://unit42.paloaltonetworks.com/exploit-of-aws-agentcore-iam-god-mode/)
+
+### [Cracks in the Bedrock: Escaping the AWS AgentCore Sandbox]
+(https://unit42.paloaltonetworks.com/bypass-of-aws-sandbox-network-isolation-mode/)
+
+### [Words Become SQL: Securing AI Assistants That Talk to Databases]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11359973/2dsHocrpTC8)
+
+### [Living Off the LLM: <bold>How LLMs Will Change Adversary Tactics</bold>]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11417765/2ex5VZOkUes)
+
+### [I See You: Using RF Signals to See Inside Manufacturing Processes]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11419789/2eyKI0oZvos)
+
+### [Beyond Guesswork: How to Measure What Makes Cyber Deception Work]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11424411/2eOBImdWQa4)
+
+### [Software Security Is Your Highest Priority. Do Your Developers Know That?]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11456578/2faQW1VJ5uw)
+
+### [Robust AI Security and Alignment: A Sisyphean Endeavor?]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11475847/2fuMjW6wGis)
+
+### [IEEE Transactions on Big Data]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519082/2gswrQNayis)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519083/2gsws5nwyI0)
+
+### [Building an Open Source Operational Technology Pentesting Platform: Lessons From LINICS]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519084/2gswqjmxF3G)
+
+### [Security Knowledge in Books]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519085/2gswqE6XKy4)
+
+### [IEEE Computer Graphics and Applications]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519086/2gswq5waFIA)
+
+### [Reducing Noise: Hybrid Static Application Security Testing&#x2013;Large Language Model Pipeline for Code Security]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519482/2gswqpKNGDK)
+
+### [IEEE IT Professionals Call for Articles]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519483/2gswrmAjc4M)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519484/2gswpYh7fWw)
+
+### [Advancing Human-Centered Cybersecurity: Challenges and Pathways Forward]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519485/2gswsBXq8j6)
+
+### [IEEE Annals of the History of Computing]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519486/2gswsc93GXm)
+
+### [From the Editors: Thoughts on &#x201C;ilities&#x201D;]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519487/2gswrCaxKQo)
+
+### [Technology Facilitated Abuse and the Security Paradox]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519488/2gswpPfVtHq)
+
+### [The General Data Protection Regulation Goes to School: Proportional Versus Top-Down Regulation in Primary and Secondary Institutions]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519489/2gswr7lVKk8)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519490/2gswruzlCVi)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519491/2gswr079VG8)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519492/2gswpmeiD2o)
+
+### [IEEE Computer Science and Engineering Award]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519493/2gswpfOl0FW)
+
+### [IEEE Transactions on Sustainable Computing]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519494/2gswsYr8AXS)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519495/2gswpIADwju)
+
+### [IEEE Transactions on Computers]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519496/2gswqwZhU9G)
+
+### [Beyond Stop Signs: Why Evasion Attacks Matter Even More]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519507/2gswqcloAEM)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519508/2gswqSROUM0)
+
+### [IEEE Access The Reliability Society Section]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519509/2gswsQMfGlW)
+
+### [IEEE Computer Society Membership]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519510/2gswptU2l2w)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519511/2gswsJacL2E)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519512/2gswrYkXuEM)
+
+### [Post-Quantum Software Updates with Stateful Hash-Based Signatures and The Update Framework]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11111737/28UtqfViOWc)
+
+### [Obstacles to Practical Supply Chain Risk Management for Digital Components]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11121660/2965QOqizcY)
+
+### [Maritime Operational Technology Shipboard Testbed for Cybersecurity Research, Training, Exercises, and Education]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11204793/2aPD6oMcdhe)
+
+### [The Rise of Miniapps: A New Frontier with Security Challenges in Mobile Apps]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11362975/2dw1dEAVciY)
+
+### [Combinatorial Security Testing&#x2014;10 Years Later]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11395278/2e3dv9cn0wo)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435538/2eUfWx3yV0s)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435539/2eUfXaI0Kze)
+
+### [IEEE Computer Society Membership]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435540/2eUfVTIHpq8)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435541/2eUfWkHryWk)
+
+### [IEEE Open Journal of the Computer Society]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435542/2eUfWK9nH0Y)
+
+### [From Promise to Peril: Rethinking Cybersecurity Red and Blue Teaming in the Age of LLMs]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435543/2eUfWdX2Pde)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435544/2eUfXvay6Ry)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435545/2eUfY77Ymis)
+
+### [List of Reviewers 2025]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435546/2eUfXnqgOMo)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435547/2eUfWqFAuys)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435548/2eUfXNp8pWw)
+
+### [IEEE Computer Society Information]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435549/2eUfX300fwA)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435550/2eUfWQWCq2I)
+
+### [IEEE Computer Science and Engineering Awards]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435551/2eUfWXo023u)
+
+### [IEEE Volunteer Service Awards]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435552/2eUfW3bZtxC)
+
+### [The Path to Powerful Quantum Computers]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435562/2eUfXB9PqZW)
+
+### [Quashing Quishing Attacks Using Self-Authenticating Dual-Modulated QR Codes]
+(https://www.computer.org/csdl/magazine/sp/2026/01/10877412/247rZV34H2E)
+
+### [A Call to Reconsider Certification Authority Authorization]
+(https://www.computer.org/csdl/magazine/sp/2026/01/10883040/24h3Os7iE48)
+
+### [Back in the Game: Privacy Concerns of Second-Hand Game Consoles]
+(https://www.computer.org/csdl/magazine/sp/2026/01/10960377/25LWluDWP8A)
+
+### [To Trust or Not To Trust]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11078452/28giBNcfVjq)
+
+### [Differential Privacy in Practice: Lessons Learned From 10 Years of Real-World Applications]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11108240/28UtqarwYeY)
+
+### [Building Trustworthy AI Agents]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369814/2dHi8b9dlAI)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369816/2dHi5XdRJ16)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369817/2dHi76McuVq)
+
+### [Software Liability Came to Europe]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369818/2dHi6lsA9CE)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369819/2dHi6R78KWI)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369822/2dHi5ClMt0Y)
+
+### [IEEE Computer Society Membership]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369823/2dHi7vV7vhK)
+
+### [Forgotten Memories]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369824/2dHi64C0iXe)
+
+### [IEEE IT Professionals Call for Articles]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369825/2dHi6BoXqxi)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369826/2dHi7nuPzX2)
+
+### [IEEE Computer Society Benefits]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369828/2dHi5v0Ltvy)
+
+### [IEEE Annals of the History of Computing]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369829/2dHi8ix4koM)
+
+### [New Editor in Chief Introduction]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369831/2dHi8qRXSgg)
+
+### [Understanding the Adversarial Landscape of Large Language Models Through the Lens of Attack Objectives]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369832/2dHi7f004xi)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369833/2dHi8NZ8A00)
+
+### [How Human-Centered Security Takes Root in Organizations]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369834/2dHi6tqLN4Y)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369835/2dHi83o5g7m)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369836/2dHi6dnixUI)
+
+### [IEEE Computer Society Information]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369838/2dHi6Z3lcuA)
+
+### [A Systems Security Approach for Emerging Programmable Network Architectures]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11156132/29TxEpAoeRi)
+
+### [Clouds Are Where the (Security) Action Is: Have Honeypots Been Left in the Dust?]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11159550/29VciQgGctq)
+
+### [Learning-Based Internet of Things Honeypots for Cyber Deception]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11165356/2a3QlQqrJYY)
+
+### [Your Headset Is Listening: Motion Sensor Side-Channels and the Future of Extended Reality Privacy]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11175145/2adNLAmjPzO)
+
+### [Securing Networks with Programmable Data Planes: Opportunities and Challenges]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11182159/2akrusK8dfa)
+
+### [Agentic AI&#x2019;s OODA Loop Problem]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11194053/2aB2Rf5nZ0k)
+
+### [Cybersecurity in Tactical Edge Networks]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11205949/2aRi49bd7fq)
+
+### [IEEE Transactions on Privacy]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269918/2bXLbs2tEPe)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269921/2bXLcBeFIAw)
+
+### [IEEE Computer Society Benefits]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269928/2bXLbA3vhAc)
+
+### [Toward Practical and Scalable Adoption of Nonce-Based Content Security Policy on the Web]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269929/2bXLdWGsmqs)
+
+### [IEEE Volunteer Service Awards]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269930/2bXLdpW3D0Y)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269931/2bXLe3cnywg)
+
+### [IEEE Computer Society Information]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269934/2bXLea3j4eQ)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269935/2bXLb8kcUJq)
+
+### [IEEE Computer Graphics and Applications]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269936/2bXLcJVqnsY)
+
+### [IEEE Open Journal of the Computer Society]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269938/2bXLbVUTTGg)
+
+### [Recent Advances in Securing Networked Systems]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269939/2bXLayfacCY)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269942/2bXLdctflte)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269943/2bXLaKpVBuw)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269944/2bXLekAatpe)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269945/2bXLctBuoKY)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269947/2bXLdPB3j4A)
+
+### [The beast needs a cage: What's next for AppSec post-Mythos]
+(https://portswigger.net/blog/the-beast-needs-a-cage-whats-next-for-appsec-post-mythos)
+
+### [3 ways custom scan checks turn practitioner knowledge into scalable automation]
+(https://portswigger.net/blog/3-ways-custom-scan-checks-turn-practitioner-knowledge-into-scalable-automation)
+
+### [PortSwigger recognized at the Northern Tech Awards 2026.]
+(https://portswigger.net/blog/portswigger-recognized-at-the-northern-tech-awards-2026)
+
+### [Introducing the official Burp Ambassador Program]
+(https://portswigger.net/blog/introducing-the-official-burp-ambassador-program)
+
+### [PortSwigger partners with Meta Bug Bounty to empower bug hunters with training and Pro licenses]
+(https://portswigger.net/blog/portswigger-partners-with-meta-bug-bounty-to-empower-bug-hunters-with-training-and-pro-licenses)
+
+### [HTTP/1.1 Must Die: Conquering the 0.CL Challenge]
+(https://portswigger.net/blog/http-1-1-must-die-conquering-the-0-cl-challenge)
+
+### [Automation without alignment: The hidden cost of modern DAST]
+(https://portswigger.net/blog/automation-without-alignment-the-hidden-cost-of-modern-dast)
+
+### [PortSwigger X Intigriti: Burp Suite Professional licenses up for grabs with this new collaboration]
+(https://portswigger.net/blog/portswigger-x-intigriti-burp-suite-professional-licenses-up-for-grabs-with-this-new-collaboration)
+
+### [How I sped up exploit validation in Repeater using Burp AI ]
+(https://portswigger.net/blog/how-i-sped-up-exploit-validation-in-repeater-using-burp-ai)
+
+### [Functional PoCs in less than a minute? Julen Garrido Estévez puts Burp AI to the test]
+(https://portswigger.net/blog/functional-pocs-in-less-than-a-minute)
+
+### [Burp On Tour 2025: bringing the AppSec community together around the world]
+(https://portswigger.net/blog/burp-on-tour-2025-bringing-the-appsec-community-together-around-the-world)
+
+### [DAST without disruption: Burp Suite DAST winter update 2025]
+(https://portswigger.net/blog/burp-suite-dast-winter-update-2025)
+
+### [How to detect React2Shell with Burp Suite]
+(https://portswigger.net/blog/how-to-detect-react2shell-with-burp-suite)
+
+### [PortSwigger x TryHackMe: Supporting Advent of Cyber]
+(https://portswigger.net/blog/portswigger-x-tryhackme-supporting-advent-of-cyber)
+
+### [Hacking with Burp AI in the Chesspocalypse: API expert Corey Ball showcases how Burp AI can support pentesters. ]
+(https://portswigger.net/blog/hacking-with-burp-ai-in-the-chesspocalypse-api-expert-corey-ball-showcases-how-burp-ai-can-support-pentesters)
+
+### [Can Burp AI hack a website? CyberMaddy explores the new agentic capabilities in Burp AI]
+(https://portswigger.net/blog/can-burp-ai-hack-a-website-cybermaddy-explores-the-new-agentic-capabilities-in-burp-ai)
+
+### [Burp AI takes on a vulnerable web app: watch Tib3rius put Burp’s new agentic capabilities to the test]
+(https://portswigger.net/blog/burp-ai-takes-on-a-vulnerable-web-app-watch-tib3rius-put-burps-new-agentic-capabilities-to-the-test)
+
+### [HTTP/1.1 must die: Dafydd Stuttard on what this means for enterprise security]
+(https://portswigger.net/blog/http-1-1-must-die-dafydd-stuttard-on-what-this-means-for-enterprise-security)
+
+### [The future of pentesting is Human x AI, and it's already in Burp Suite Professional]
+(https://portswigger.net/blog/the-future-of-pentesting-is-human-x-ai-and-its-already-in-burp-suite-professional)
+
+### [Hacking smarter with Burp AI: NahamSec puts Burp AI to the test]
+(https://portswigger.net/blog/hacking-smarter-with-burp-ai-nahamsec-puts-burp-ai-to-the-test)
+
+### [Welcome to AI pentesting - add on-demand AI assistance directly to your workflow with new, agentic Burp AI capabilities]
+(https://portswigger.net/blog/welcome-to-ai-pentesting-add-on-demand-ai-assistance-directly-to-your-workflow-with-new-agentic-burp-ai-capabilities)
+
+### [How to join the desync endgame: Practical tips from pentester Tom Stacey]
+(https://portswigger.net/blog/how-to-join-the-desync-endgame-practical-tips-from-pentester-tom-stacey)
+
+### [How this seasoned bug bounty hunter combines Burp Suite and HackerOne to uncover high-impact vulnerabilities]
+(https://portswigger.net/blog/how-this-seasoned-bug-bounty-hunter-combines-burp-suite-and-hackerone-to-uncover-high-impact-vulnerabilities)
+
+### [Watch the webinar: Scale secure coverage without scaling headcount]
+(https://portswigger.net/blog/watch-the-webinar-scale-secure-coverage-without-scaling-headcount)
+
+### [The year so far: How Burp Suite DAST is leveling up enterprise security in 2025]
+(https://portswigger.net/blog/the-year-so-far-how-burp-suite-dast-is-leveling-up-enterprise-security-in-2025)
+
+### ["The entire internet is broken": ethical hacking expert John Hammond meets James Kettle]
+(https://portswigger.net/blog/the-entire-internet-is-broken-ethical-hacking-expert-john-hammond-meets-james-kettle)
+
+### [HTTP/1.1 Must Die: What This Means for AppSec Leadership]
+(https://portswigger.net/blog/http-1-1-must-die-what-this-means-for-appsec-leadership)
+
+### [HTTP/1.1 Must Die: What This Means for In-House Pentesters]
+(https://portswigger.net/blog/http-1-1-must-die-what-this-means-for-in-house-pentesters)
+
+### [HTTP/1.1 Must Die: What This Means for Bug Bounty Hunters]
+(https://portswigger.net/blog/http-1-1-must-die-what-this-means-for-bug-bounty-hunters)
+
+### [HTTP/1.1 Must Die: What This Means for Contract Pentesters and MSSPs]
+(https://portswigger.net/blog/http-1-1-must-die-what-this-means-for-contract-pentesters-and-mssps)
+
+### [The Desync Delusion: Are You Really Protected Against HTTP Request Smuggling?]
+(https://portswigger.net/blog/the-desync-delusion-are-you-really-protected-against-http-request-smuggling)
+
+### [HTTP Request Smuggling Explained: with seasoned bug bounty hunter NahamSec and world-class researcher James Kettle]
+(https://portswigger.net/blog/http-request-smuggling-explained-with-seasoned-bug-bounty-hunter-nahamsec-and-world-class-researcher-james-kettle)
+
+### [Watch the on-demand webinar: Shift left without the strain]
+(https://portswigger.net/blog/watch-the-on-demand-webinar-shift-left-without-the-strain)
+
+### [PortSwigger at Black Hat &amp; DEF CON 33]
+(https://portswigger.net/blog/portswigger-at-black-hat-amp-def-con-33)
+
+### [Two months of Burp AI: empowering security testers with the future of AppSec]
+(https://portswigger.net/blog/two-months-of-burp-ai-empowering-security-testers-with-the-future-of-appsec)
+
+### [PortSwigger Honored with the King's Award for Enterprise in International Trade]
+(https://portswigger.net/blog/portswigger-honored-with-the-kings-award-for-enterprise-in-international-trade)
+
+### [Meet Burp Suite DAST: Your questions answered]
+(https://portswigger.net/blog/meet-burp-suite-dast-your-questions-answered)
+
+### [Elevate your testing with Burp AI: watch Clint Gibler’s exclusive interview with PortSwigger’s Dafydd Stuttard and James Kettle]
+(https://portswigger.net/blog/elevate-your-testing-with-burp-ai-watch-clint-giblers-exclusive-interview-with-portswiggers-dafydd-stuttard-and-james-kettle)
+
+### [What's new in Burp Suite Professional: A year of innovation]
+(https://portswigger.net/blog/whats-new-in-burp-suite-professional-a-year-of-innovation)
+
+### [Using AI to find web app vulnerabilities: hacking expert John Hammond takes Burp AI for a spin]
+(https://portswigger.net/blog/using-ai-to-find-web-app-vulnerabilities-hacking-expert-john-hammond-takes-burp-ai-for-a-spin)
+
+### [BackFlush: Knowledge-Free Backdoor Detection and Elimination with Watermark Preservation in Large Language Models]
+(https://arxiv.org/abs/2605.12529)
+
+### [Ghost in the Context: Measuring Policy-Carriage Failures in Decision-Time Assembly]
+(https://arxiv.org/abs/2605.12535)
+
+### [OverrideFuzz: Semantic-Aware Grammar Fuzzing for Script-Runtime Vulnerabilities]
+(https://arxiv.org/abs/2605.12563)
+
+### [Persona-Conditioned Adversarial Prompting (PCAP): Multi-Identity Red-Teaming for Enhanced Adversarial Prompt Discovery]
+(https://arxiv.org/abs/2605.12565)
+
+### [Still Camouflage, Moving Illusion: View-Induced Trajectory Manipulation in Autonomous Driving]
+(https://arxiv.org/abs/2605.12743)
+
+### [CoT-Guard: Small Models for Strong Monitoring]
+(https://arxiv.org/abs/2605.12746)
+
+### [GraphIP-Bench: How Hard Is It to Steal a Graph Neural Network, and Can We Stop It?]
+(https://arxiv.org/abs/2605.12827)
+
+### [HE-PIM: Demystifying Homomorphic Operations on a Real-world Processing-in-Memory System]
+(https://arxiv.org/abs/2605.12841)
+
+### [Quantifying LLM Safety Degradation Under Repeated Attacks Using Survival Analysis]
+(https://arxiv.org/abs/2605.12869)
+
+### [Do Skill Descriptions Tell the Truth? Detecting Undisclosed Security Behaviors in Code-Backed LLM Skills]
+(https://arxiv.org/abs/2605.12875)
+
+### [ThermalTap: Passive Application Fingerprinting in VR Headsets via Thermal Side Channels]
+(https://arxiv.org/abs/2605.12927)
+
+### [From Compression to Accountability: Harmless Copyright Protection for Dataset Distillation]
+(https://arxiv.org/abs/2605.12942)
+
+### [CLOUDBURST: Cloud-Layer Observations Using Beacons for Unified Real-time Surveillance and Threat Attribution]
+(https://arxiv.org/abs/2605.12976)
+
+### [Insecure Despite Proven Updated: Extracting the Root VCEK Seed on EPYC Milan via a Software-Only Attack]
+(https://arxiv.org/abs/2605.12990)
+
+### [No Attack Required: Semantic Fuzzing for Specification Violations in Agent Skills]
+(https://arxiv.org/abs/2605.13044)
+
+### [Watermarking Should Be Treated as a Monitoring Primitive]
+(https://arxiv.org/abs/2605.13095)
+
+### [Security Incentivization: An Empirical Study of how Micropayments Impact Code Security]
+(https://arxiv.org/abs/2605.13100)
+
+### [DiffusionHijack: Supply-Chain PRNG Backdoor Attack on Diffusion Models and Quantum Random Number Defense]
+(https://arxiv.org/abs/2605.13115)
+
+### [Extending Blockchain Untraceability with Plausible Deniability]
+(https://arxiv.org/abs/2605.13132)
+
+### [Empowering IoT Security: On-Device Intrusion Detection in Resource Constrained Devices]
+(https://arxiv.org/abs/2605.13159)
+
+### [LoREnc: Low-Rank Encryption for Securing Foundation Models and LoRA Adapters]
+(https://arxiv.org/abs/2605.13163)
+
+### [Backdoor Channels Hidden in Latent Space: Cryptographic Undetectability in Modern Neural Networks]
+(https://arxiv.org/abs/2605.13214)
+
+### [Automatic Detection of Reference Counting Bugs in Linux Kernel Drivers]
+(https://arxiv.org/abs/2605.13246)
+
+### [Context-Aware Web Attack Detection in Open-Source SIEM Systems via MITRE ATT&CK-Enriched Behavioral Profiling]
+(https://arxiv.org/abs/2605.13337)
+
+### [Inducing Overthink: Hierarchical Genetic Algorithm-based DoS Attack on Black-Box Large Language Reasoning Models]
+(https://arxiv.org/abs/2605.13338)
+
+### [Model-Agnostic Lifelong LLM Safety via Externalized Attack-Defense Co-Evolution]
+(https://arxiv.org/abs/2605.13411)
+
+### [Sleeper Channels and Provenance Gates: Persistent Prompt Injection in Always-on Autonomous AI Agents]
+(https://arxiv.org/abs/2605.13471)
+
+### [Phantom Force: Injecting Adversarial Tactile Perceptions into Embodied Intelligence via EMI]
+(https://arxiv.org/abs/2605.13492)
+
+### [Limits of Personalizing Differential Privacy Budgets]
+(https://arxiv.org/abs/2605.13503)
+
+### [EBCC: Enclave-Backed Confidential Containers via OCI-Compatible Runtime Integration]
+(https://arxiv.org/abs/2605.13676)
+
+### [MQTT Across a Raspberry Pi 5 IoT Network Utilizing Quantum-resistant Signature Algorithms]
+(https://arxiv.org/abs/2605.13698)
+
+### [Identifying AI Web Scrapers Using Canary Tokens]
+(https://arxiv.org/abs/2605.13706)
+
+### [DisAgg: Distributed Aggregators for Efficient Secure Aggregation in Federated Learning]
+(https://arxiv.org/abs/2605.13708)
+
+### [VectorSmuggle: Steganographic Exfiltration in Embedding Stores and a Cryptographic Provenance Defense]
+(https://arxiv.org/abs/2605.13764)
+
+### [Interoperability Effects: Extending DeFi Lending Risk Models to Multi-Chain Environments]
+(https://arxiv.org/abs/2605.12508)
+
+### [Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack]
+(https://arxiv.org/abs/2605.12673)
+
+### [Large Language Models for Agentic NetOps and AIOps: Architectures, Evaluation, and Safety]
+(https://arxiv.org/abs/2605.12729)
+
+### [Dynamic Transaction Scheduling and Pricing in the Ethereum Mempool]
+(https://arxiv.org/abs/2605.12794)
+
+### [REALISTA: Realistic Latent Adversarial Attacks that Elicit LLM Hallucinations]
+(https://arxiv.org/abs/2605.12813)
+
+### [Persona-Model Collapse in Emergent Misalignment]
+(https://arxiv.org/abs/2605.12850)
+
+### [Language-Based Agent Control]
+(https://arxiv.org/abs/2605.12863)
+
+### [QCIVET: A Quantum--Classical Pipeline Integrity Framework with Contract-Based Subtype Verification and Hash-Chained Audit Traces]
+(https://arxiv.org/abs/2605.13109)
+
+### [Code-Centric Detection of Vulnerability-Fixing Commits: A Unified Benchmark and Empirical Study]
+(https://arxiv.org/abs/2605.13138)
+
+### [PoisonCap: Efficient Hierarchical Temporal Safety for CHERI]
+(https://arxiv.org/abs/2605.13210)
+
+### [Uncertainty-Aware 3D Position Refinement for Multi-UAV Systems]
+(https://arxiv.org/abs/2605.13500)
+
+### [Backdoor Threats in Variational Quantum Circuits: Taxonomy, Attacks, and Defenses]
+(https://arxiv.org/abs/2605.13796)
+
+### [SaTor: Exploring Satellite Routing in Tor to Reduce Latency]
+(https://arxiv.org/abs/2406.15055)
+
+### [DeePen: Penetration Testing for Audio Deepfake Detection]
+(https://arxiv.org/abs/2502.20427)
+
+### [Incentivizing Collaboration for Detection of Credential Database Breaches]
+(https://arxiv.org/abs/2506.04634)
+
+### [SoK: Exposing the Generation and Detection Gaps in LLM-Generated Phishing]
+(https://arxiv.org/abs/2508.21457)
+
+### [Quantitative Certification of Agentic Tool Selection]
+(https://arxiv.org/abs/2510.03992)
+
+### [EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channel]
+(https://arxiv.org/abs/2510.07533)
+
+### [Differentially Private Nonparametric Confidence Intervals Under Minimal Distributional Assumptions]
+(https://arxiv.org/abs/2511.01303)
+
+### [GUIGuard-Bench: Toward a General Evaluation for Privacy-Preserving GUI Agents]
+(https://arxiv.org/abs/2601.18842)
+
+### [ZKBoost: Zero-Knowledge Verifiable Training for XGBoost]
+(https://arxiv.org/abs/2602.04113)
+
+### [How to Steal Reasoning Without Reasoning Traces]
+(https://arxiv.org/abs/2603.07267)
+
+### [Not All Entities are Created Equal: A Dynamic Anonymization Framework for Privacy-Preserving Retrieval-Augmented Generation]
+(https://arxiv.org/abs/2603.26074)
+
+### [Evaluation of Prompt Injection Defenses in Large Language Models]
+(https://arxiv.org/abs/2604.23887)
+
+### [Tracking Conversations: Measuring Content and Identity Exposure on AI Chatbots]
+(https://arxiv.org/abs/2604.27438)
+
+### [GuardSec: A Multi-Modal Web Platform for Real-Time Digital Fraud Detection, Entity Verification, and Connection Security Analysis in the African Context]
+(https://arxiv.org/abs/2605.02502)
+
+### [LLMs for Secure Hardware Design and Related Problems: Opportunities and Challenges]
+(https://arxiv.org/abs/2605.10807)
+
+### [MCPShield: Content-Aware Attack Detection for LLM Agent Tool-Call Traffic]
+(https://arxiv.org/abs/2605.11053)
+
+### [A microservices-based endpoint monitoring platform with predictive NLP models for real-time security and hate-speech risk alerting]
+(https://arxiv.org/abs/2605.11997)
+
+### [Convergent Differential Privacy Analysis for General Federated Learning]
+(https://arxiv.org/abs/2408.15621)
+
+### [Exact Verification of Graph Neural Networks with Incremental Constraint Solving]
+(https://arxiv.org/abs/2508.09320)
+
+### [Local Information-Theoretic Security via Euclidean Geometry]
+(https://arxiv.org/abs/2510.13661)
+
+### [List Decoding of Reed-Solomon Codes and Folded Reed-Solomon Codes Over Galois Ring]
+(https://arxiv.org/abs/2511.04135)
+
+### [Sockpuppetting: Jailbreaking LLMs by Combining Prefilling with Optimization]
+(https://arxiv.org/abs/2601.13359)
+
+### [Evidence-based Decision Modeling for Synthetic Face Detection with Uncertainty-driven Active Learning]
+(https://arxiv.org/abs/2605.09935)
+
+### [How Cloudflare responded to the “Copy Fail” Linux vulnerability]
+(https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/)
+
+### [Post-quantum encryption for Cloudflare IPsec is generally available]
+(https://blog.cloudflare.com/post-quantum-ipsec/)
+
+### [Securing non-human identities: automated revocation, OAuth, and scoped permissions]
+(https://blog.cloudflare.com/improved-developer-security/)
+
+### [Scaling MCP adoption: Our reference architecture for simpler, safer and cheaper enterprise deployments of MCP]
+(https://blog.cloudflare.com/enterprise-mcp/)
+
+### [Managed OAuth for Access: make internal apps agent-ready in one click]
+(https://blog.cloudflare.com/managed-oauth-for-access/)
+
+### [Cloudflare targets 2029 for full post-quantum security]
+(https://blog.cloudflare.com/post-quantum-roadmap/)
+
+### [Cloudflare Client-Side Security: smarter detection, now open to everyone]
+(https://blog.cloudflare.com/client-side-security-open-to-everyone/)
+
+### [Announcing Cloudflare Account Abuse Protection: prevent fraudulent attacks from bots and humans]
+(https://blog.cloudflare.com/account-abuse-protection/)
+
+### [AI Security for Apps is now generally available]
+(https://blog.cloudflare.com/ai-security-for-apps-ga/)
+
+### [Investigating multi-vector attacks in Log Explorer]
+(https://blog.cloudflare.com/investigating-multi-vector-attacks-in-log-explorer/)
+
+### [Fixing request smuggling vulnerabilities in Pingora OSS deployments]
+(https://blog.cloudflare.com/pingora-oss-smuggling-vulnerabilities/)
+
+### [Active defense: introducing a stateful vulnerability scanner for APIs]
+(https://blog.cloudflare.com/vulnerability-scanner/)
+
+### [How Cloudy translates complex security into human action]
+(https://blog.cloudflare.com/cloudy-upgrades-for-cloudflare-one/)
+
+### [From reactive to proactive: closing the phishing gap with LLMs]
+(https://blog.cloudflare.com/email-security-phishing-gap-llm/)
+
+### [Bringing more transparency to post-quantum usage, encrypted messaging, and routing security]
+(https://blog.cloudflare.com/radar-origin-pq-key-transparency-aspa/)
+
+### [2025 Q4 DDoS threat report: A record-setting 31.4 Tbps attack caps a year of massive DDoS assaults]
+(https://blog.cloudflare.com/ddos-threat-report-2025-q4/)
+
+### [Building a serverless, post-quantum Matrix homeserver]
+(https://blog.cloudflare.com/serverless-matrix-homeserver-workers/)
+
+### [How we mitigated a vulnerability in Cloudflare’s ACME validation logic]
+(https://blog.cloudflare.com/acme-path-vulnerability/)
+
+### [Astro is joining Cloudflare]
+(https://blog.cloudflare.com/astro-joins-cloudflare/)
+
+### [The 2025 Cloudflare Radar Year in Review: The rise of AI, post-quantum, and record-breaking DDoS attacks]
+(https://blog.cloudflare.com/radar-2025-year-in-review/)
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./)
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/)
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/)
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/)
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/)
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/)
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/)
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/)
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/)
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/)
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/)
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/)
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/)
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/)
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/)
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/)
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/)
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/)
+
+### [Lack of isolation in agentic browsers resurfaces old vulnerabilities]
+(https://blog.trailofbits.com/2026/01/13/lack-of-isolation-in-agentic-browsers-resurfaces-old-vulnerabilities/)
+
+### [Detect Go’s silent arithmetic bugs with go-panikint]
+(https://blog.trailofbits.com/2025/12/31/detect-gos-silent-arithmetic-bugs-with-go-panikint/)
+
+### [Pwn2Own Berlin 2026 - Day One Results]
+(https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results)
+
+### [Pwn2Own Berlin 2026: The Full Schedule]
+(https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-the-full-schedule)
+
+### [The May 2026 Security Update Review]
+(https://www.thezdi.com/blog/2026/5/12/the-may-2026-security-update-review)
+
+### [The Apple macOS Security Update Review]
+(https://www.thezdi.com/blog/2026/5/12/the-apple-macos-security-update-review)
+
+### [CVE-2026-33824: Remote Code Execution in Windows IKEv2]
+(https://www.thezdi.com/blog/2026/4/22/cve-2026-33824-remote-code-execution-in-windows-ikev2)
+
+### [The April 2026 Security Update Review]
+(https://www.thezdi.com/blog/2026/4/14/the-april-2026-security-update-review)
+
+### [Node.js Trust Falls: Dangerous Module Resolution on Windows]
+(https://www.thezdi.com/blog/2026/4/8/nodejs-trust-falls-dangerous-module-resolution-on-windows)
+
+### [Announcing Pwn2Own Berlin for 2026]
+(https://www.thezdi.com/blog/2026/3/11/announcing-pwn2own-berlin-for-2026)
+
+### [The March 2026 Security Update Review]
+(https://www.thezdi.com/blog/2026/3/10/the-march-2026-security-update-review)
+
+### [CVE-2026-20841: Arbitrary Code Execution in the Windows Notepad]
+(https://www.thezdi.com/blog/2026/2/19/cve-2026-20841-arbitrary-code-execution-in-the-windows-notepad)
+
+### [The February 2026 Security Update Review]
+(https://www.thezdi.com/blog/2026/2/10/the-february-2026-security-update-review)
+
+### [CVE-2025-6978: Arbitrary Code Execution in the Arista NG Firewall]
+(https://www.thezdi.com/blog/2026/2/4/cve-2025-6978-arbitrary-code-execution-in-the-arista-ng-firewall)
+
+### [Pwn2Own Automotive 2026 - Day Three Results and the Master of Pwn]
+(https://www.thezdi.com/blog/2026/1/23/pwn2own-automotive-2026-day-three-results-and-the-master-of-pwn)
+
+### [Pwn2Own Automotive 2026 - Day Two Results]
+(https://www.thezdi.com/blog/2026/1/22/pwn2own-automotive-2026-day-two-results)
+
+### [Pwn2Own Automotive 2026 - Day One Results]
+(https://www.thezdi.com/blog/2026/1/21/pwn2own-automotive-2026-day-one-results)
+
+### [Pwn2Own Automotive 2026 - The Full Schedule]
+(https://www.thezdi.com/blog/2026/1/20/pwn2own-automotive-2026-the-full-schedule)
+
+### [The January 2026 Security Update Review]
+(https://www.thezdi.com/blog/2026/1/13/the-january-2026-security-update-review)
+
+### [Breaking Down the Attack Surface of the Kenwood DNR1007XR – Part Two]
+(https://www.thezdi.com/blog/2026/1/8/breaking-down-the-attack-surface-of-the-kenwood-dnr1007xr-part-two)
+
+### [Breaking Down the Attack Surface of the Kenwood DNR1007XR – Part One]
+(https://www.thezdi.com/blog/2026/1/6/breaking-down-the-attack-surface-of-the-kenwood-dnr1007xr-part-one)
+
+### [The December 2025 Security Update Review]
+(https://www.thezdi.com/blog/2025/12/9/the-december-2025-security-update-review)
+
+### [State of ransomware in 2026]
+(https://securelist.com/state-of-ransomware-in-2026/119761/)
+
+### [CVE-2025-68670: discovering an RCE vulnerability in xrdp]
+(https://securelist.com/cve-2025-68670/119742/)
+
+### [Exploits and vulnerabilities in Q1 2026]
+(https://securelist.com/vulnerabilities-and-exploits-in-q1-2026/119733/)
+
+### [OceanLotus suspected of using PyPI to deliver ZiChatBot malware]
+(https://securelist.com/oceanlotus-suspected-pypi-zichatbot-campaign/119603/)
+
+### [Websites with an undefined trust level: avoiding the trap]
+(https://securelist.com/suspicious-websites-undefined-trust-level/119675/)
+
+### [“Legitimate” phishing: how attackers weaponize Amazon SES to bypass email security]
+(https://securelist.com/amazon-ses-phishing-and-bec-attacks/119623/)
+
+### [Silver Fox uses the new ABCDoor backdoor to target organizations in Russia and India]
+(https://securelist.com/silver-fox-tax-notification-campaign/119575/)
+
+### [PhantomRPC: A new privilege escalation technique in Windows RPC]
+(https://securelist.com/phantomrpc-rpc-vulnerability/119428/)
+
+### [FakeWallet crypto stealer spreading through iOS apps in the App Store]
+(https://securelist.com/fakewallet-cryptostealer-ios-app-store/119474/)
+
+### [Threat landscape for industrial automation systems in Q4 2025]
+(https://securelist.com/industrial-threat-report-q4-2025/119392/)
+
+### [A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens]
+(https://projectzero.google/2026/05/pixel-10-exploit.html)
+
+### [On the Effectiveness of Mutational Grammar Fuzzing]
+(https://projectzero.google/2026/03/mutational-grammar-fuzzing.html)
+
+### [A Deep Dive into the GetProcessHandleFromHwnd API]
+(https://projectzero.google/2026/02/gphfh-deep-dive.html)
+
+### [Bypassing Administrator Protection by Abusing UI Access]
+(https://projectzero.google/2026/02/windows-administrator-protection.html)
+
+### [Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529]
+(https://projectzero.google/2026/01/sound-barrier-2.html)
+
+### [Bypassing Windows Administrator Protection]
+(https://projectzero.google/2026/26/windows-administrator-protection.html)
+
+### [A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?]
+(https://projectzero.google/2026/01/pixel-0-click-part-3.html)
+
+### [A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave]
+(https://projectzero.google/2026/01/pixel-0-click-part-2.html)
+
+### [A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby]
+(https://projectzero.google/2026/01/pixel-0-click-part-1.html)
+
+### [Welcome to the new Project Zero Blog]
+(https://projectzero.google/2025/12/welcome.html)
+
+### [Words Become SQL: Securing AI Assistants That Talk to Databases]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11359973/2dsHocrpTC8)
+
+### [Living Off the LLM: <bold>How LLMs Will Change Adversary Tactics</bold>]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11417765/2ex5VZOkUes)
+
+### [I See You: Using RF Signals to See Inside Manufacturing Processes]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11419789/2eyKI0oZvos)
+
+### [Beyond Guesswork: How to Measure What Makes Cyber Deception Work]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11424411/2eOBImdWQa4)
+
+### [Software Security Is Your Highest Priority. Do Your Developers Know That?]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11456578/2faQW1VJ5uw)
+
+### [Robust AI Security and Alignment: A Sisyphean Endeavor?]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11475847/2fuMjW6wGis)
+
+### [IEEE Transactions on Big Data]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519082/2gswrQNayis)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519083/2gsws5nwyI0)
+
+### [Building an Open Source Operational Technology Pentesting Platform: Lessons From LINICS]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519084/2gswqjmxF3G)
+
+### [Security Knowledge in Books]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519085/2gswqE6XKy4)
+
+### [IEEE Computer Graphics and Applications]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519086/2gswq5waFIA)
+
+### [Reducing Noise: Hybrid Static Application Security Testing&#x2013;Large Language Model Pipeline for Code Security]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519482/2gswqpKNGDK)
+
+### [IEEE IT Professionals Call for Articles]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519483/2gswrmAjc4M)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519484/2gswpYh7fWw)
+
+### [Advancing Human-Centered Cybersecurity: Challenges and Pathways Forward]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519485/2gswsBXq8j6)
+
+### [IEEE Annals of the History of Computing]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519486/2gswsc93GXm)
+
+### [From the Editors: Thoughts on &#x201C;ilities&#x201D;]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519487/2gswrCaxKQo)
+
+### [Technology Facilitated Abuse and the Security Paradox]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519488/2gswpPfVtHq)
+
+### [The General Data Protection Regulation Goes to School: Proportional Versus Top-Down Regulation in Primary and Secondary Institutions]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519489/2gswr7lVKk8)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519490/2gswruzlCVi)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519491/2gswr079VG8)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519492/2gswpmeiD2o)
+
+### [IEEE Computer Science and Engineering Award]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519493/2gswpfOl0FW)
+
+### [IEEE Transactions on Sustainable Computing]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519494/2gswsYr8AXS)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519495/2gswpIADwju)
+
+### [IEEE Transactions on Computers]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519496/2gswqwZhU9G)
+
+### [Beyond Stop Signs: Why Evasion Attacks Matter Even More]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519507/2gswqcloAEM)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519508/2gswqSROUM0)
+
+### [IEEE Access The Reliability Society Section]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519509/2gswsQMfGlW)
+
+### [IEEE Computer Society Membership]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519510/2gswptU2l2w)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519511/2gswsJacL2E)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519512/2gswrYkXuEM)
+
+### [Post-Quantum Software Updates with Stateful Hash-Based Signatures and The Update Framework]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11111737/28UtqfViOWc)
+
+### [Obstacles to Practical Supply Chain Risk Management for Digital Components]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11121660/2965QOqizcY)
+
+### [Maritime Operational Technology Shipboard Testbed for Cybersecurity Research, Training, Exercises, and Education]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11204793/2aPD6oMcdhe)
+
+### [The Rise of Miniapps: A New Frontier with Security Challenges in Mobile Apps]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11362975/2dw1dEAVciY)
+
+### [Combinatorial Security Testing&#x2014;10 Years Later]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11395278/2e3dv9cn0wo)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435538/2eUfWx3yV0s)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435539/2eUfXaI0Kze)
+
+### [IEEE Computer Society Membership]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435540/2eUfVTIHpq8)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435541/2eUfWkHryWk)
+
+### [IEEE Open Journal of the Computer Society]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435542/2eUfWK9nH0Y)
+
+### [From Promise to Peril: Rethinking Cybersecurity Red and Blue Teaming in the Age of LLMs]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435543/2eUfWdX2Pde)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435544/2eUfXvay6Ry)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435545/2eUfY77Ymis)
+
+### [List of Reviewers 2025]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435546/2eUfXnqgOMo)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435547/2eUfWqFAuys)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435548/2eUfXNp8pWw)
+
+### [IEEE Computer Society Information]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435549/2eUfX300fwA)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435550/2eUfWQWCq2I)
+
+### [IEEE Computer Science and Engineering Awards]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435551/2eUfWXo023u)
+
+### [IEEE Volunteer Service Awards]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435552/2eUfW3bZtxC)
+
+### [The Path to Powerful Quantum Computers]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435562/2eUfXB9PqZW)
+
+### [Quashing Quishing Attacks Using Self-Authenticating Dual-Modulated QR Codes]
+(https://www.computer.org/csdl/magazine/sp/2026/01/10877412/247rZV34H2E)
+
+### [A Call to Reconsider Certification Authority Authorization]
+(https://www.computer.org/csdl/magazine/sp/2026/01/10883040/24h3Os7iE48)
+
+### [Back in the Game: Privacy Concerns of Second-Hand Game Consoles]
+(https://www.computer.org/csdl/magazine/sp/2026/01/10960377/25LWluDWP8A)
+
+### [To Trust or Not To Trust]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11078452/28giBNcfVjq)
+
+### [Differential Privacy in Practice: Lessons Learned From 10 Years of Real-World Applications]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11108240/28UtqarwYeY)
+
+### [Building Trustworthy AI Agents]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369814/2dHi8b9dlAI)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369816/2dHi5XdRJ16)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369817/2dHi76McuVq)
+
+### [Software Liability Came to Europe]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369818/2dHi6lsA9CE)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369819/2dHi6R78KWI)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369822/2dHi5ClMt0Y)
+
+### [IEEE Computer Society Membership]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369823/2dHi7vV7vhK)
+
+### [Forgotten Memories]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369824/2dHi64C0iXe)
+
+### [IEEE IT Professionals Call for Articles]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369825/2dHi6BoXqxi)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369826/2dHi7nuPzX2)
+
+### [IEEE Computer Society Benefits]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369828/2dHi5v0Ltvy)
+
+### [IEEE Annals of the History of Computing]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369829/2dHi8ix4koM)
+
+### [New Editor in Chief Introduction]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369831/2dHi8qRXSgg)
+
+### [Understanding the Adversarial Landscape of Large Language Models Through the Lens of Attack Objectives]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369832/2dHi7f004xi)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369833/2dHi8NZ8A00)
+
+### [How Human-Centered Security Takes Root in Organizations]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369834/2dHi6tqLN4Y)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369835/2dHi83o5g7m)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369836/2dHi6dnixUI)
+
+### [IEEE Computer Society Information]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369838/2dHi6Z3lcuA)
+
+### [A Systems Security Approach for Emerging Programmable Network Architectures]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11156132/29TxEpAoeRi)
+
+### [Clouds Are Where the (Security) Action Is: Have Honeypots Been Left in the Dust?]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11159550/29VciQgGctq)
+
+### [Learning-Based Internet of Things Honeypots for Cyber Deception]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11165356/2a3QlQqrJYY)
+
+### [Your Headset Is Listening: Motion Sensor Side-Channels and the Future of Extended Reality Privacy]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11175145/2adNLAmjPzO)
+
+### [Securing Networks with Programmable Data Planes: Opportunities and Challenges]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11182159/2akrusK8dfa)
+
+### [Agentic AI&#x2019;s OODA Loop Problem]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11194053/2aB2Rf5nZ0k)
+
+### [Cybersecurity in Tactical Edge Networks]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11205949/2aRi49bd7fq)
+
+### [IEEE Transactions on Privacy]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269918/2bXLbs2tEPe)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269921/2bXLcBeFIAw)
+
+### [IEEE Computer Society Benefits]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269928/2bXLbA3vhAc)
+
+### [Toward Practical and Scalable Adoption of Nonce-Based Content Security Policy on the Web]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269929/2bXLdWGsmqs)
+
+### [IEEE Volunteer Service Awards]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269930/2bXLdpW3D0Y)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269931/2bXLe3cnywg)
+
+### [IEEE Computer Society Information]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269934/2bXLea3j4eQ)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269935/2bXLb8kcUJq)
+
+### [IEEE Computer Graphics and Applications]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269936/2bXLcJVqnsY)
+
+### [IEEE Open Journal of the Computer Society]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269938/2bXLbVUTTGg)
+
+### [Recent Advances in Securing Networked Systems]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269939/2bXLayfacCY)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269942/2bXLdctflte)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269943/2bXLaKpVBuw)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269944/2bXLekAatpe)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269945/2bXLctBuoKY)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269947/2bXLdPB3j4A)
+
+### [Words Become SQL: Securing AI Assistants That Talk to Databases]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11359973/2dsHocrpTC8)
+
+### [Living Off the LLM: <bold>How LLMs Will Change Adversary Tactics</bold>]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11417765/2ex5VZOkUes)
+
+### [I See You: Using RF Signals to See Inside Manufacturing Processes]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11419789/2eyKI0oZvos)
+
+### [Beyond Guesswork: How to Measure What Makes Cyber Deception Work]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11424411/2eOBImdWQa4)
+
+### [Software Security Is Your Highest Priority. Do Your Developers Know That?]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11456578/2faQW1VJ5uw)
+
+### [Robust AI Security and Alignment: A Sisyphean Endeavor?]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11475847/2fuMjW6wGis)
+
+### [IEEE Transactions on Big Data]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519082/2gswrQNayis)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519083/2gsws5nwyI0)
+
+### [Building an Open Source Operational Technology Pentesting Platform: Lessons From LINICS]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519084/2gswqjmxF3G)
+
+### [Security Knowledge in Books]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519085/2gswqE6XKy4)
+
+### [IEEE Computer Graphics and Applications]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519086/2gswq5waFIA)
+
+### [Reducing Noise: Hybrid Static Application Security Testing&#x2013;Large Language Model Pipeline for Code Security]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519482/2gswqpKNGDK)
+
+### [IEEE IT Professionals Call for Articles]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519483/2gswrmAjc4M)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519484/2gswpYh7fWw)
+
+### [Advancing Human-Centered Cybersecurity: Challenges and Pathways Forward]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519485/2gswsBXq8j6)
+
+### [IEEE Annals of the History of Computing]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519486/2gswsc93GXm)
+
+### [From the Editors: Thoughts on &#x201C;ilities&#x201D;]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519487/2gswrCaxKQo)
+
+### [Technology Facilitated Abuse and the Security Paradox]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519488/2gswpPfVtHq)
+
+### [The General Data Protection Regulation Goes to School: Proportional Versus Top-Down Regulation in Primary and Secondary Institutions]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519489/2gswr7lVKk8)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519490/2gswruzlCVi)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519491/2gswr079VG8)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519492/2gswpmeiD2o)
+
+### [IEEE Computer Science and Engineering Award]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519493/2gswpfOl0FW)
+
+### [IEEE Transactions on Sustainable Computing]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519494/2gswsYr8AXS)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519495/2gswpIADwju)
+
+### [IEEE Transactions on Computers]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519496/2gswqwZhU9G)
+
+### [Beyond Stop Signs: Why Evasion Attacks Matter Even More]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519507/2gswqcloAEM)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519508/2gswqSROUM0)
+
+### [IEEE Access The Reliability Society Section]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519509/2gswsQMfGlW)
+
+### [IEEE Computer Society Membership]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519510/2gswptU2l2w)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519511/2gswsJacL2E)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2026/03/11519512/2gswrYkXuEM)
+
+### [Post-Quantum Software Updates with Stateful Hash-Based Signatures and The Update Framework]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11111737/28UtqfViOWc)
+
+### [Obstacles to Practical Supply Chain Risk Management for Digital Components]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11121660/2965QOqizcY)
+
+### [Maritime Operational Technology Shipboard Testbed for Cybersecurity Research, Training, Exercises, and Education]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11204793/2aPD6oMcdhe)
+
+### [The Rise of Miniapps: A New Frontier with Security Challenges in Mobile Apps]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11362975/2dw1dEAVciY)
+
+### [Combinatorial Security Testing&#x2014;10 Years Later]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11395278/2e3dv9cn0wo)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435538/2eUfWx3yV0s)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435539/2eUfXaI0Kze)
+
+### [IEEE Computer Society Membership]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435540/2eUfVTIHpq8)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435541/2eUfWkHryWk)
+
+### [IEEE Open Journal of the Computer Society]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435542/2eUfWK9nH0Y)
+
+### [From Promise to Peril: Rethinking Cybersecurity Red and Blue Teaming in the Age of LLMs]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435543/2eUfWdX2Pde)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435544/2eUfXvay6Ry)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435545/2eUfY77Ymis)
+
+### [List of Reviewers 2025]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435546/2eUfXnqgOMo)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435547/2eUfWqFAuys)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435548/2eUfXNp8pWw)
+
+### [IEEE Computer Society Information]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435549/2eUfX300fwA)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435550/2eUfWQWCq2I)
+
+### [IEEE Computer Science and Engineering Awards]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435551/2eUfWXo023u)
+
+### [IEEE Volunteer Service Awards]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435552/2eUfW3bZtxC)
+
+### [The Path to Powerful Quantum Computers]
+(https://www.computer.org/csdl/magazine/sp/2026/02/11435562/2eUfXB9PqZW)
+
+### [Quashing Quishing Attacks Using Self-Authenticating Dual-Modulated QR Codes]
+(https://www.computer.org/csdl/magazine/sp/2026/01/10877412/247rZV34H2E)
+
+### [A Call to Reconsider Certification Authority Authorization]
+(https://www.computer.org/csdl/magazine/sp/2026/01/10883040/24h3Os7iE48)
+
+### [Back in the Game: Privacy Concerns of Second-Hand Game Consoles]
+(https://www.computer.org/csdl/magazine/sp/2026/01/10960377/25LWluDWP8A)
+
+### [To Trust or Not To Trust]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11078452/28giBNcfVjq)
+
+### [Differential Privacy in Practice: Lessons Learned From 10 Years of Real-World Applications]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11108240/28UtqarwYeY)
+
+### [Building Trustworthy AI Agents]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369814/2dHi8b9dlAI)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369816/2dHi5XdRJ16)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369817/2dHi76McuVq)
+
+### [Software Liability Came to Europe]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369818/2dHi6lsA9CE)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369819/2dHi6R78KWI)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369822/2dHi5ClMt0Y)
+
+### [IEEE Computer Society Membership]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369823/2dHi7vV7vhK)
+
+### [Forgotten Memories]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369824/2dHi64C0iXe)
+
+### [IEEE IT Professionals Call for Articles]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369825/2dHi6BoXqxi)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369826/2dHi7nuPzX2)
+
+### [IEEE Computer Society Benefits]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369828/2dHi5v0Ltvy)
+
+### [IEEE Annals of the History of Computing]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369829/2dHi8ix4koM)
+
+### [New Editor in Chief Introduction]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369831/2dHi8qRXSgg)
+
+### [Understanding the Adversarial Landscape of Large Language Models Through the Lens of Attack Objectives]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369832/2dHi7f004xi)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369833/2dHi8NZ8A00)
+
+### [How Human-Centered Security Takes Root in Organizations]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369834/2dHi6tqLN4Y)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369835/2dHi83o5g7m)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369836/2dHi6dnixUI)
+
+### [IEEE Computer Society Information]
+(https://www.computer.org/csdl/magazine/sp/2026/01/11369838/2dHi6Z3lcuA)
+
+### [A Systems Security Approach for Emerging Programmable Network Architectures]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11156132/29TxEpAoeRi)
+
+### [Clouds Are Where the (Security) Action Is: Have Honeypots Been Left in the Dust?]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11159550/29VciQgGctq)
+
+### [Learning-Based Internet of Things Honeypots for Cyber Deception]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11165356/2a3QlQqrJYY)
+
+### [Your Headset Is Listening: Motion Sensor Side-Channels and the Future of Extended Reality Privacy]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11175145/2adNLAmjPzO)
+
+### [Securing Networks with Programmable Data Planes: Opportunities and Challenges]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11182159/2akrusK8dfa)
+
+### [Agentic AI&#x2019;s OODA Loop Problem]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11194053/2aB2Rf5nZ0k)
+
+### [Cybersecurity in Tactical Edge Networks]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11205949/2aRi49bd7fq)
+
+### [IEEE Transactions on Privacy]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269918/2bXLbs2tEPe)
+
+### [IEEE Computer Society Call for Papers]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269921/2bXLcBeFIAw)
+
+### [IEEE Computer Society Benefits]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269928/2bXLbA3vhAc)
+
+### [Toward Practical and Scalable Adoption of Nonce-Based Content Security Policy on the Web]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269929/2bXLdWGsmqs)
+
+### [IEEE Volunteer Service Awards]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269930/2bXLdpW3D0Y)
+
+### [Reliability Society]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269931/2bXLe3cnywg)
+
+### [IEEE Computer Society Information]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269934/2bXLea3j4eQ)
+
+### [IEEE Emerging Technologies]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269935/2bXLb8kcUJq)
+
+### [IEEE Computer Graphics and Applications]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269936/2bXLcJVqnsY)
+
+### [IEEE Open Journal of the Computer Society]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269938/2bXLbVUTTGg)
+
+### [Recent Advances in Securing Networked Systems]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269939/2bXLayfacCY)
+
+### [Front Cover]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269942/2bXLdctflte)
+
+### [IEEE Career Center]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269943/2bXLaKpVBuw)
+
+### [Table of Contents]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269944/2bXLekAatpe)
+
+### [Masthead]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269945/2bXLctBuoKY)
+
+### [IEEE Computing Edge]
+(https://www.computer.org/csdl/magazine/sp/2025/06/11269947/2bXLdPB3j4A)
+

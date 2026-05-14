@@ -4,13 +4,14 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"secmind/internal/model"
 	"sync"
 )
 
-func Fetch(urls []string) <-chan Article {
+func Fetch(urls []string) <-chan model.Article {
 	var wg sync.WaitGroup
 
-	ch := make(chan Article, len(urls))
+	ch := make(chan model.Article, len(urls))
 
 	for _, url := range urls {
 		wg.Add(1)
