@@ -6,6 +6,8 @@ import (
 	"log"
 	"os"
 	"secmind/internal/model"
+	"secmind/internal/scraper"
+	"secmind/internal/savetofile"
 )
 
 func main() {
@@ -25,7 +27,7 @@ func main() {
 	}
 
 	var xmlData_slice []model.Article
-	for article := range Fetch(urls_str) {
+	for article := range scarper.Fetch(urls_str) {
 		xmlData_slice = append(xmlData_slice, article)
 	}
 
@@ -40,6 +42,6 @@ func main() {
 	fmt.Println("")
 
 	//analyzeByAI(xmlData_slice)
-	SaveToMD(xmlData_slice)
+	savetofile.SaveToMD(xmlData_slice)
 
 }

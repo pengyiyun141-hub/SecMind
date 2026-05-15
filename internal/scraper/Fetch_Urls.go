@@ -1,10 +1,11 @@
-package main
+package scarper
 
 import (
 	"fmt"
 	"log"
 	"net/http"
 	"secmind/internal/model"
+	"secmind/internal/parser"
 	"sync"
 )
 
@@ -31,7 +32,7 @@ func Fetch(urls []string) <-chan model.Article {
 
 			fmt.Println("开始抓取：", url)
 
-			xmlData, err := Parse(resp.Body, url)
+			xmlData, err := parser.Parse(resp.Body, url)
 
 			if err != nil {
 				log.Printf("解析失败:%s，%s", url, err)
