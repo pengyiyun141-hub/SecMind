@@ -1,1 +1,7 @@
-https://csdl-api.computer.org/api/rss/periodicals/mags/sp/rss.xml
+https://export.arxiv.org/rss/cs.CR
+https://blog.trailofbits.com/index.xml
+https://projectzero.google/feed.xml
+https://unit42.paloaltonetworks.com/feed/
+https://blog.cloudflare.com/tag/security/rss/
+https://www.zerodayinitiative.com/blog?format=rss
+https://securelist.com/feed/

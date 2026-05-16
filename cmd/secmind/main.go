@@ -7,7 +7,8 @@ import (
 	"os"
 	"secmind/internal/model"
 	"secmind/internal/scraper"
-	"secmind/internal/savetofile"
+	"secmind/internal/storage"
+	"secmind/internal/analyzer"
 )
 
 func main() {
@@ -41,7 +42,7 @@ func main() {
 	}
 	fmt.Println("")
 
-	//analyzeByAI(xmlData_slice)
-	savetofile.SaveToMD(xmlData_slice)
+	analyzer.AnalyzeByAI(xmlData_slice)
+	storage.SaveToMD(xmlData_slice)
 
 }

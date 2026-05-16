@@ -8,15 +8,9 @@ import (
 	"net/http"
 	"os"
 	"secmind/internal/model"
+	"strings"
 	"github.com/joho/godotenv" //从文件中获取环境变量用
 )
-
-type Article_AI struct {
-	Id     int    `json:"id"`
-	Title  string `json:"title"`
-	Link   string `json:"link"`
-	Source string `json:"source"`
-}
 
 type Message struct {
 	Role    string `json:"role"`
@@ -28,9 +22,9 @@ type ChatRequest struct {
 	Messages []Message `json:"messages"`
 }
 
-func analyzeByAI(articles []model.Article) {
+func AnalyzeByAI(articles []model.Article) {
 
-	err := godotenv.Load("../../configs/.env")
+	err := godotenv.Load("configs/.env")
 
 	if err != nil {
 		log.Println("加载 .env 失败: ", err)
@@ -40,21 +34,7 @@ func analyzeByAI(articles []model.Article) {
 	apiURL := os.Getenv("ZHIPU_API_URL")
 	modelName := os.Getenv("ZHIPU_MODEL")
 
-	var ai_message_result []Article_AI
-	for _, ai_message := range articles {
-
-		ai_message := Article_AI{
-			Id:     ai_message.Id,
-			Title:  ai_message.Title,
-			Link:   ai_message.Link,
-			Source: ai_message.Source,
-		}
-
-		ai_message_result = append(ai_message_result, ai_message)
-	}
-
 	var promptText string
-
 	for _, a := range articles {
 		promptText += fmt.Sprintf("id:[%d] Title:%s Source:%s\n", a.Id, a.Title, a.Source)
 	}
@@ -68,7 +48,7 @@ func analyzeByAI(articles []model.Article) {
 			},
 			{
 				Role:    "user",
-				Content: "请将原标题翻译成中文，并标注source和id，要求保留原标题。这是今天的论文列表：\n" + promptText,
+				Content: "请将原标题翻译成中文，要求保留原标题。要求返回结果为json格式，其中包含字段：ID,Title,engtitle（英文标题）,Link,Source,Reason。其中id只显示数字，且这里的id是我传进来的字段，返回结果时请不要自行生成ID。source显示完整的源url。这是今天的论文列表：\n" + promptText,
 			},
 		},
 	}
@@ -117,4 +97,42 @@ func analyzeByAI(articles []model.Article) {
 		fmt.Println(aiResponse.Choices[0].Message.Content)
 	}
 
+	screeneddata, err := ParseScreeningTitleJSON(aiResponse.Choices[0].Message.Content)
+	if err != nil {
+		fmt.Println("第一轮内容筛选解析失败",err)
+	}
+
+	for _, articles := range screeneddata {
+
+		fmt.Printf("[源%s:%d]：\n%s eng:%s [%s]\n%s\n\n",articles.Source, articles.ID, articles.Title, articles.EngTitle, articles.Link, articles.Reason )
+	}
+}
+
+func extractJSON(text string) string {
+	
+	start := strings.Index(text, "[")
+	end := strings.LastIndex(text, "]")
+
+	if start == -1 || end == -1 || start >= end {
+		fmt.Println("start,end分别为：", start, end)
+		return ""
+	}
+
+	return text[start : end+1]
+}
+
+func ParseScreeningTitleJSON(content string)([]model.ScreenedArticle, error) {
+	
+	jsonStr := extractJSON(content)
+	if jsonStr == "" {
+		return nil, fmt.Errorf("AI回复中未找到有效的json数组")
+	}
+
+	var  screeneddata []model.ScreenedArticle
+	err := json.Unmarshal([]byte(jsonStr), &screeneddata)
+	if err != nil {
+		return nil, fmt.Errorf("JSON 解析失败: %w", err)
+	}
+
+	return screeneddata, err
 }
