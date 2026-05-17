@@ -3014,3 +3014,93 @@
 ### [Welcome to the new Project Zero Blog]
 (https://projectzero.google/2025/12/welcome.html) [source]:https://projectzero.google/feed.xml
 
+### [A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens]
+(https://projectzero.google/2026/05/pixel-10-exploit.html) [source]:https://projectzero.google/feed.xml
+
+### [On the Effectiveness of Mutational Grammar Fuzzing]
+(https://projectzero.google/2026/03/mutational-grammar-fuzzing.html) [source]:https://projectzero.google/feed.xml
+
+### [A Deep Dive into the GetProcessHandleFromHwnd API]
+(https://projectzero.google/2026/02/gphfh-deep-dive.html) [source]:https://projectzero.google/feed.xml
+
+### [Bypassing Administrator Protection by Abusing UI Access]
+(https://projectzero.google/2026/02/windows-administrator-protection.html) [source]:https://projectzero.google/feed.xml
+
+### [Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529]
+(https://projectzero.google/2026/01/sound-barrier-2.html) [source]:https://projectzero.google/feed.xml
+
+### [Bypassing Windows Administrator Protection]
+(https://projectzero.google/2026/26/windows-administrator-protection.html) [source]:https://projectzero.google/feed.xml
+
+### [A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?]
+(https://projectzero.google/2026/01/pixel-0-click-part-3.html) [source]:https://projectzero.google/feed.xml
+
+### [A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave]
+(https://projectzero.google/2026/01/pixel-0-click-part-2.html) [source]:https://projectzero.google/feed.xml
+
+### [A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby]
+(https://projectzero.google/2026/01/pixel-0-click-part-1.html) [source]:https://projectzero.google/feed.xml
+
+### [Welcome to the new Project Zero Blog]
+(https://projectzero.google/2025/12/welcome.html) [source]:https://projectzero.google/feed.xml
+
+### [A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens]
+(https://projectzero.google/2026/05/pixel-10-exploit.html) [source]:https://projectzero.google/feed.xml
+
+### [On the Effectiveness of Mutational Grammar Fuzzing]
+(https://projectzero.google/2026/03/mutational-grammar-fuzzing.html) [source]:https://projectzero.google/feed.xml
+
+### [A Deep Dive into the GetProcessHandleFromHwnd API]
+(https://projectzero.google/2026/02/gphfh-deep-dive.html) [source]:https://projectzero.google/feed.xml
+
+### [Bypassing Administrator Protection by Abusing UI Access]
+(https://projectzero.google/2026/02/windows-administrator-protection.html) [source]:https://projectzero.google/feed.xml
+
+### [Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529]
+(https://projectzero.google/2026/01/sound-barrier-2.html) [source]:https://projectzero.google/feed.xml
+
+### [Bypassing Windows Administrator Protection]
+(https://projectzero.google/2026/26/windows-administrator-protection.html) [source]:https://projectzero.google/feed.xml
+
+### [A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?]
+(https://projectzero.google/2026/01/pixel-0-click-part-3.html) [source]:https://projectzero.google/feed.xml
+
+### [A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave]
+(https://projectzero.google/2026/01/pixel-0-click-part-2.html) [source]:https://projectzero.google/feed.xml
+
+### [A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby]
+(https://projectzero.google/2026/01/pixel-0-click-part-1.html) [source]:https://projectzero.google/feed.xml
+
+### [Welcome to the new Project Zero Blog]
+(https://projectzero.google/2025/12/welcome.html) [source]:https://projectzero.google/feed.xml
+
+### [A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens]
+(https://projectzero.google/2026/05/pixel-10-exploit.html) [source]:https://projectzero.google/feed.xml
+
+### [On the Effectiveness of Mutational Grammar Fuzzing]
+(https://projectzero.google/2026/03/mutational-grammar-fuzzing.html) [source]:https://projectzero.google/feed.xml
+
+### [A Deep Dive into the GetProcessHandleFromHwnd API]
+(https://projectzero.google/2026/02/gphfh-deep-dive.html) [source]:https://projectzero.google/feed.xml
+
+### [Bypassing Administrator Protection by Abusing UI Access]
+(https://projectzero.google/2026/02/windows-administrator-protection.html) [source]:https://projectzero.google/feed.xml
+
+### [Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529]
+(https://projectzero.google/2026/01/sound-barrier-2.html) [source]:https://projectzero.google/feed.xml
+
+### [Bypassing Windows Administrator Protection]
+(https://projectzero.google/2026/26/windows-administrator-protection.html) [source]:https://projectzero.google/feed.xml
+
+### [A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?]
+(https://projectzero.google/2026/01/pixel-0-click-part-3.html) [source]:https://projectzero.google/feed.xml
+
+### [A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave]
+(https://projectzero.google/2026/01/pixel-0-click-part-2.html) [source]:https://projectzero.google/feed.xml
+
+### [A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby]
+(https://projectzero.google/2026/01/pixel-0-click-part-1.html) [source]:https://projectzero.google/feed.xml
+
+### [Welcome to the new Project Zero Blog]
+(https://projectzero.google/2025/12/welcome.html) [source]:https://projectzero.google/feed.xml
+

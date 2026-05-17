@@ -8,7 +8,10 @@ import (
 	"net/http"
 	"os"
 	"secmind/internal/model"
+	"secmind/internal/scraper"
+	"secmind/internal/storage"
 	"strings"
+
 	"github.com/joho/godotenv" //从文件中获取环境变量用
 )
 
@@ -48,7 +51,7 @@ func AnalyzeByAI(articles []model.Article) {
 			},
 			{
 				Role:    "user",
-				Content: "请将原标题翻译成中文，要求保留原标题。要求返回结果为json格式，其中包含字段：ID,Title,engtitle（英文标题）,Link,Source,Reason。其中id只显示数字，且这里的id是我传进来的字段，返回结果时请不要自行生成ID。source显示完整的源url。这是今天的论文列表：\n" + promptText,
+				Content: "请将原标题翻译成中文，要求保留原标题。要求返回结果为json格式，其中包含字段：ID,Title,engtitle（英文标题）,Link,Source,Reason。其中id只显示数字，且这里的id是我传进来的字段，另外id字段是int类型，不要带引号，返回结果时请不要自行生成ID。source显示完整的源url。这是今天的论文列表：\n" + promptText,
 			},
 		},
 	}
@@ -102,10 +105,14 @@ func AnalyzeByAI(articles []model.Article) {
 		fmt.Println("第一轮内容筛选解析失败",err)
 	}
 
-	for _, articles := range screeneddata {
+	var article1 model.ScreenedArticle
+	article1 = screeneddata[1]
+	
+	fmt.Printf("[源%s:%d]：\n%s eng:%s [%s]\n%s\n\n",article1.Source, article1.ID, article1.Title, article1.EngTitle, article1.Link, article1.Reason )
 
-		fmt.Printf("[源%s:%d]：\n%s eng:%s [%s]\n%s\n\n",articles.Source, articles.ID, articles.Title, articles.EngTitle, articles.Link, articles.Reason )
-	}
+	articlehtmldata := scarper.FetchArticleHtml(article1.Link)
+
+	storage.SaveArticleToMD(articlehtmldata)
 }
 
 func extractJSON(text string) string {

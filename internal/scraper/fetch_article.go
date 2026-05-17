@@ -1,5 +1,0 @@
-package scarper
-
-import (
-	
-)
