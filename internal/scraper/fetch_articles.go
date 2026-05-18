@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"net/url"
 	"strings"
-
 	readability "codeberg.org/readeck/go-readability/v2"
 )
 
 func FetchArticleHtml (articleURL string) (string) {
 	
+	fmt.Println("开始抓取文章：",articleURL)
 	resp, err := http.Get(articleURL)
 	if err != nil {
 		fmt.Println("请求文章失败",err)
