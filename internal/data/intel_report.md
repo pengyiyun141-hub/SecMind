@@ -116,5 +116,5 @@
 (https://blog.trailofbits.com/2026/01/13/lack-of-isolation-in-agentic-browsers-resurfaces-old-vulnerabilities/) [source]:https://blog.trailofbits.com/index.xml
 
 ### [Detect Go’s silent arithmetic bugs with go-panikint]
-(https://blog.trailofbits.com/2025/12/31/detect-gos-silent-arithmetic-bugs-with-go-panikint/) [source]:https://blog.trailofbits.com/index.xml
+(https://blog.trailofbits.com/2025/12/31/detect-gos-silent-arithmetic-bugs-with-go-panikint/) [source]:https://blog.trailofbits.com/index.
 
