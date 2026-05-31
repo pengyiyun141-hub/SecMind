@@ -8,9 +8,10 @@ import (
 	"net/http"
 	"os"
 	"secmind/internal/model"
-	"secmind/internal/scraper"
+	scarper "secmind/internal/scraper"
 	"secmind/internal/storage"
 	"strings"
+
 	"github.com/joho/godotenv" //从文件中获取环境变量用
 )
 
@@ -101,22 +102,22 @@ func AnalyzeByAI(articles []model.Article) {
 
 	screeneddata, err := ParseScreeningTitleJSON(aiResponse.Choices[0].Message.Content)
 	if err != nil {
-		fmt.Println("第一轮内容筛选解析失败",err)
+		fmt.Println("第一轮内容筛选解析失败", err)
 	}
 
 	for _, articleData := range screeneddata {
-		
-		fmt.Printf("[源%s:%d]：\n%s eng:%s [%s]\n%s\n\n",articleData.Source, articleData.ID, articleData.Title, articleData.EngTitle, articleData.Link, articleData.Reason )
-		
+
+		fmt.Printf("[源%s:%d]：\n%s eng:%s [%s]\n%s\n\n", articleData.Source, articleData.ID, articleData.Title, articleData.EngTitle, articleData.Link, articleData.Reason)
+
 		articlehtmldata := scarper.FetchArticleHtml(articleData.Link)
-		
+
 		storage.SaveArticleToMD(articlehtmldata, articleData.EngTitle)
 	}
-	
+
 }
 
 func extractJSON(text string) string {
-	
+
 	start := strings.Index(text, "[")
 	end := strings.LastIndex(text, "]")
 
@@ -128,14 +129,14 @@ func extractJSON(text string) string {
 	return text[start : end+1]
 }
 
-func ParseScreeningTitleJSON(content string)([]model.ScreenedArticle, error) {
-	
+func ParseScreeningTitleJSON(content string) ([]model.ScreenedArticle, error) {
+
 	jsonStr := extractJSON(content)
 	if jsonStr == "" {
 		return nil, fmt.Errorf("AI回复中未找到有效的json数组")
 	}
 
-	var  screeneddata []model.ScreenedArticle
+	var screeneddata []model.ScreenedArticle
 	err := json.Unmarshal([]byte(jsonStr), &screeneddata)
 	if err != nil {
 		return nil, fmt.Errorf("JSON 解析失败: %w", err)
