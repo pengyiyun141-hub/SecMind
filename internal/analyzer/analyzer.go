@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"os"
 	"secmind/internal/model"
-	scarper "secmind/internal/scraper"
+	"secmind/internal/scraper"
 	"secmind/internal/storage"
 	"strings"
 
@@ -25,7 +25,7 @@ type ChatRequest struct {
 	Messages []Message `json:"messages"`
 }
 
-func AnalyzeByAI(articles []model.Article) {
+func AnalyzeByAI(articles []model.Article, soureceMap map[string]string) {
 
 	err := godotenv.Load("configs/.env")
 
@@ -47,11 +47,11 @@ func AnalyzeByAI(articles []model.Article) {
 		Messages: []Message{
 			{
 				Role:    "system",
-				Content: "你是一名资深的网络安全的研究员，你将很仔细的检查返回的url，请对这份列表中的标题进行筛选，选出你认为与智能安全最相关的十篇，并说明理由。",
+				Content: "你是一名资深的网络安全的研究员，请对这份列表中的标题进行筛选，选出你认为与智能安全最相关的十篇，并说明理由。",
 			},
 			{
 				Role:    "user",
-				Content: "请将原标题翻译成中文，要求保留原标题。要求返回结果为json格式，其中包含字段：ID,Title,engtitle（英文标题）,Link,Source,Reason。其中id只显示数字，且这里的id是我传进来的字段，另外id字段是int类型，不要带引号，返回结果时请不要自行生成ID。source显示完整的源url。请严格返回url，不要有一点标点符号的差异。这是今天的论文列表：\n" + promptText,
+				Content: "请将原标题翻译成中文，要求保留原英文标题。要求返回结果为json格式，其中包含字段：ID,Title,engtitle（英文标题）,Source,Reason。其中id只显示数字，且这里的id是我传进来的字段，另外id字段是int类型，不要带引号，返回结果时请不要自行生成ID。source返回我传入的缩写即可。这是今天的论文列表：\n" + promptText,
 			},
 		},
 	}
@@ -109,7 +109,7 @@ func AnalyzeByAI(articles []model.Article) {
 
 		fmt.Printf("[源%s:%d]：\n%s eng:%s [%s]\n%s\n\n", articleData.Source, articleData.ID, articleData.Title, articleData.EngTitle, articleData.Link, articleData.Reason)
 
-		articlehtmldata := scarper.FetchArticleHtml(articleData.Link)
+		articlehtmldata := scraper.FetchArticleHtml(articleData.Link)
 
 		storage.SaveArticleToMD(articlehtmldata, articleData.EngTitle)
 	}

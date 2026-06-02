@@ -45,7 +45,7 @@ type Common struct {
 	XMLName xml.Name
 }
 
-func Parse(reader io.Reader, sourceURL string) ([]model.Article, error) {
+func Parse(reader io.Reader, sourceURLshort string) ([]model.Article, error) {
 	var Xmldata []byte
 
 	Xmldata, err := io.ReadAll(reader)
@@ -73,10 +73,10 @@ func Parse(reader io.Reader, sourceURL string) ([]model.Article, error) {
 		count = 0
 
 		for i, item := range rssData.Channel.Items {
-			articles = append(articles, model.Article{Id: i + 1, Title: item.Title, Link: item.Link, Source: sourceURL})
+			articles = append(articles, model.Article{Id: i + 1, Title: item.Title, Link: item.Link, Source: sourceURLshort})
 			count++
 		}
-		fmt.Printf("源%s共获取到文章数为：%d，正在处理文章信息\n", sourceURL, count)
+		fmt.Printf("源%s共获取到文章数为：%d，正在处理文章信息\n", sourceURLshort, count)
 
 	case "feed":
 		atomData, err := ParseAtom(Xmldata)
@@ -87,7 +87,7 @@ func Parse(reader io.Reader, sourceURL string) ([]model.Article, error) {
 		}
 
 		for i, entry := range atomData.Entries {
-			articles = append(articles, model.Article{Id: i + 1, Title: entry.Title, Link: entry.Link.Href, Source: sourceURL})
+			articles = append(articles, model.Article{Id: i + 1, Title: entry.Title, Link: entry.Link.Href, Source: sourceURLshort})
 		}
 
 	default:
