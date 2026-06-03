@@ -1,3 +1,5 @@
 {
-   "TOB":"https://blog.trailofbits.com/index.xml"
+   "TOB":"https://blog.trailofbits.com/index.xml",
+   "P0":"https://projectzero.google/feed.xml",
+   "ARXIV":"https://export.arxiv.org/rss/cs.CR"
 }

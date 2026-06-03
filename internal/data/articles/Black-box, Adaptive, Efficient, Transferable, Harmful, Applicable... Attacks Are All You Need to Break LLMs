@@ -1,0 +1,19 @@
+<div id="readability-page-1" class="page"><div id="content-inner">
+    
+    
+                
+    <p><a href="https://arxiv.org/pdf/2606.03647">View PDF</a>
+    <a href="https://arxiv.org/html/2606.03647v1">HTML (experimental)</a></p>
+
+
+
+    <blockquote>
+            <span>Abstract:</span>Accurately evaluating adversarial robustness is a longstanding challenge. A flawed attack design can inflate robustness estimates, making deployment risk assessment and defense comparison unreliable. Historically, standardized attacks such as AutoAttack have largely resolved this for image classifiers, providing a reliable evaluation baseline for systematic comparison across defenses. However, no equivalent exists for LLM jailbreak evaluation yet, where designing such an attack is considerably more difficult. A reliable attack must, among other things, be black-box compatible, applicable to arbitrary defense pipelines, and efficient, which no existing method jointly satisfies. We introduce Indirect Harm Optimization (IHO), a masked diffusion language model attacker trained via iterative preference optimization against a harmfulness judge, requiring only black-box access to the target. The same method can be used without modification as a strong adaptive attack on individual behaviors, or as an efficient amortized policy that transfers to held-out behaviors and unseen target models without fine-tuning. Even against layered defenses, such as a Circuit Breaker-trained model combined with an auxiliary detector, IHO improves attack success considerably over state-of-the-art approaches, without any defense-specific adaptation. Our results position IHO as a practical step toward the kind of standardized jailbreak evaluation that has improved reliability in the past. Code and models are available on GitHub and Hugging Face.
+    </blockquote>
+
+    
+    
+  </div><div>
+      <h2>Submission history</h2><p> From: Jonas Dornbusch [<a href="https://arxiv.org/show-email/27cd7479/2606.03647" rel="nofollow">view email</a>]      <br/>    <strong>[v1]</strong>
+        Tue, 2 Jun 2026 13:39:15 UTC (1,759 KB)<br/>
+</p></div></div>

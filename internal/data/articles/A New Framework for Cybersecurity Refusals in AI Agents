@@ -1,0 +1,19 @@
+<div id="readability-page-1" class="page"><div id="content-inner">
+    
+    
+                
+    <p><a href="https://arxiv.org/pdf/2606.02644">View PDF</a>
+    <a href="https://arxiv.org/html/2606.02644v1">HTML (experimental)</a></p>
+
+
+
+    <blockquote>
+            <span>Abstract:</span>Agentic scaffolds have dramatically improved LLM performance on complex, long-horizon tasks, yielding both broad benefits and amplified risks in domains like cybersecurity. Existing benchmarks for AI agents in cybersecurity focus mainly on measuring proficiency--how effectively agents can complete offensive security tasks--but neglect a critical question: when and how should agents refuse harmful requests? We present the first framework for establishing refusal boundaries in offensive security contexts. Our framework defines (1) principled criteria for when tasks should be refused, (2) categories of tasks that warrant refusal, and (3) evaluation methodology for measuring agent robustness under both benign and adversarial conditions. We apply this framework to assess how current LLM-powered agents adhere to appropriate refusal boundaries across a range of web-based offensive security scenarios, finding that 6 of 8 frontier models tested show near-zero refusal rates, with only 2 models (GPT-5.2 and GPT-5.1 Codex) demonstrating any meaningful refusal behavior.
+    </blockquote>
+
+    
+    
+  </div><div>
+      <h2>Submission history</h2><p> From: Eliot Jones [<a href="https://arxiv.org/show-email/4aebdd28/2606.02644" rel="nofollow">view email</a>]      <br/>    <strong>[v1]</strong>
+        Sun, 31 May 2026 15:39:39 UTC (578 KB)<br/>
+</p></div></div>

@@ -25,7 +25,7 @@ type ChatRequest struct {
 	Messages []Message `json:"messages"`
 }
 
-func AnalyzeByAI(articles []model.Article, soureceMap map[string]string) {
+func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, articleIndex map[string]*model.Article) {
 
 	err := godotenv.Load("configs/.env")
 
@@ -47,7 +47,7 @@ func AnalyzeByAI(articles []model.Article, soureceMap map[string]string) {
 		Messages: []Message{
 			{
 				Role:    "system",
-				Content: "你是一名资深的网络安全的研究员，请对这份列表中的标题进行筛选，选出你认为与智能安全最相关的十篇，并说明理由。",
+				Content: "你是一名资深的网络安全的研究员，请对这份列表中的标题进行筛选，选出你认为跟AI最相关的五篇，并说明理由。",
 			},
 			{
 				Role:    "user",
@@ -107,9 +107,15 @@ func AnalyzeByAI(articles []model.Article, soureceMap map[string]string) {
 
 	for _, articleData := range screeneddata {
 
-		fmt.Printf("[源%s:%d]：\n%s eng:%s [%s]\n%s\n\n", articleData.Source, articleData.ID, articleData.Title, articleData.EngTitle, articleData.Link, articleData.Reason)
-
-		articlehtmldata := scraper.FetchArticleHtml(articleData.Link)
+		key := fmt.Sprintf("%s-%d", articleData.Source, articleData.ID)
+		realArticle, ok := articleIndex[key]
+		if !ok {
+			fmt.Printf("未找到文章: %s\n", key)
+			continue
+		}
+		fmt.Println("开始抓取文章：", realArticle.Link)
+		fmt.Printf("[%s-%d]：\n%s eng:%s \n%s\n\n", articleData.Source, articleData.ID, articleData.Title, articleData.EngTitle, articleData.Reason)
+		articlehtmldata := scraper.FetchArticleHtml(realArticle.Link)
 
 		storage.SaveArticleToMD(articlehtmldata, articleData.EngTitle)
 	}

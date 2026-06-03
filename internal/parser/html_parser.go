@@ -86,9 +86,13 @@ func Parse(reader io.Reader, sourceURLshort string) ([]model.Article, error) {
 			return nil, err
 		}
 
+		var count int
+		count = 0
+
 		for i, entry := range atomData.Entries {
 			articles = append(articles, model.Article{Id: i + 1, Title: entry.Title, Link: entry.Link.Href, Source: sourceURLshort})
 		}
+		fmt.Printf("源%s共获取到文章数为：%d，正在处理文章信息\n", sourceURLshort, count)
 
 	default:
 		fmt.Println("未知格式")
