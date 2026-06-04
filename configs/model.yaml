@@ -1,0 +1,29 @@
+# SecMind 模型配置文件
+models:
+  # 快速筛选模型：用于判断文章是否值得读
+  - name: filter
+    api_key_env: DEEPSEEK_FAST_API_KEY
+    base_url_env: DEEPSEEK_FAST_URL
+    model_name_env: DEEPSEEK_FAST_MODEL
+    system_prompt: configs/prompts/filter_system.txt
+    user_prompt: configs/prompts/filter_user.txt
+    temperature: 0.0
+    top_p: 0.9
+    max_tokens: 800
+    frequency_penalty: 0.0
+    presence_penalty: 0.0
+    stop: ["```"]
+
+  # 思考型模型：用于深度总结文章内容
+  - name: summarize
+    api_key_env: DEEPSEEK_PRO_API_KEY
+    base_url_env: DEEPSEEK_PRO_URL
+    model_name_env: DEEPSEEK_PRO_MODEL
+    system_prompt: configs/prompts/summarize_system.txt
+    user_prompt: configs/prompts/summarize_user.txt
+    temperature: 0.3
+    top_p: 0.9
+    max_tokens: 600
+    frequency_penalty: 0.1
+    presence_penalty: 0.0
+    stop: []   # 不需要停止序列

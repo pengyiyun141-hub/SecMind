@@ -12,4 +12,5 @@ require (
 	github.com/gogs/chardet v0.0.0-20211120154057-b7413eaefb8f // indirect
 	golang.org/x/net v0.41.0 // indirect
 	golang.org/x/text v0.26.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

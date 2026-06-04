@@ -1,0 +1,16 @@
+要求：
+- 如果文章不足 10 篇，则全部返回
+- 请将原标题翻译成中文，要求保留原英文标题。要求返回结果为json格式，其中包含字段：Source, ID,Title,engtitle（英文标题）, Reason。其中id只显示数字，且这里的id是我传进来的字段，另外id字段是int类型，不要带引号，返回结果时请不要自行生成ID。source返回我传入的缩写即可。
+格式示例如下：
+  {
+    "Source": "TOB",
+    "ID": 12,
+    "Title": "我们如何使Trail of Bits实现AI原生（迄今为止）",
+    "engtitle": "How we made Trail of Bits AI-native (so far)",
+    "Reason": "讲述安全研究机构将AI融入工作流程的实践经验，反映AI与网络安全融合趋势。"
+  }
+
+这是今天的论文列表：
+
+文章列表：
+{{.Articles}}

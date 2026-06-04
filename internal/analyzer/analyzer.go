@@ -13,6 +13,7 @@ import (
 	"strings"
 
 	"github.com/joho/godotenv" //从文件中获取环境变量用
+	"gopkg.in/yaml.v3"
 )
 
 type Message struct {
@@ -23,6 +24,25 @@ type Message struct {
 type ChatRequest struct {
 	Model    string    `json:"model"`
 	Messages []Message `json:"messages"`
+}
+
+type ModelSpec struct {
+    Name            string    `yaml:"name"`
+    APIKeyEnv       string    `yaml:"api_key_env"`
+    BaseURLEnv      string    `yaml:"base_url_env"`
+    ModelNameEnv    string    `yaml:"model_name_env"`
+    SystemPrompt    string    `yaml:"system_prompt"`
+    UserPrompt      string    `yaml:"user_prompt"`
+    Temperature     float64   `yaml:"temperature"`
+    TopP            float64   `yaml:"top_p"`
+    MaxTokens       int       `yaml:"max_tokens"`
+    FrequencyPenalty float64  `yaml:"frequency_penalty"`
+    PresencePenalty float64   `yaml:"presence_penalty"`
+    Stop            []string  `yaml:"stop"`
+    // 运行时填充的真实值（不从 YAML 读）
+    APIKey          string
+    BaseURL         string
+    ModelName       string
 }
 
 func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, articleIndex map[string]*model.Article) {
@@ -149,4 +169,32 @@ func ParseScreeningTitleJSON(content string) ([]model.ScreenedArticle, error) {
 	}
 
 	return screeneddata, err
+}
+
+func LoadModelConfigByName(yamlPath, modelName string) (*ModelSpec, error) {
+	yamlfile, err := os.ReadFile(yamlPath)
+	if err != nil {
+		return nil, fmt.Errorf("加载model.yaml文件失败: %w", err)
+	}
+
+	var wrapper struct {
+		Models []ModelSpec `yaml:"models"`
+	}
+
+	err = yaml.Unmarshal(yamlfile, &wrapper)
+	if err != nil {
+		return nil, fmt.Errorf("解析yaml值失败: %w", err)
+	}
+
+	for _, m := range wrapper.Models {
+		if m.Name == modelName {
+			// 从环境变量读取真实密钥/URL/模型名
+            m.APIKey = os.Getenv(m.APIKeyEnv)
+            m.BaseURL = os.Getenv(m.BaseURLEnv)
+            m.ModelName = os.Getenv(m.ModelNameEnv)
+            return &m, nil
+		}
+	}
+	
+	return nil, fmt.Errorf("model %s not found", modelName)
 }
