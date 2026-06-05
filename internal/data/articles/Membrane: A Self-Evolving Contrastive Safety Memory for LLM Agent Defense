@@ -1,0 +1,19 @@
+<div id="readability-page-1" class="page"><div id="content-inner">
+    
+    
+                
+    <p><a href="https://arxiv.org/pdf/2606.05743">View PDF</a>
+    <a href="https://arxiv.org/html/2606.05743v1">HTML (experimental)</a></p>
+
+
+
+    <blockquote>
+            <span>Abstract:</span>Despite advances in safety alignment, large language models remain vulnerable to continuously evolving jailbreaks. Existing fine-tuned safety classifiers cannot adapt to these evolving attacks, while adaptive memory-based guardrails tend to over-refuse benign queries that resemble stored attacks. We propose Membrane, a self-evolving guardrail built on Contrastive Safety Memory (CSM): each cell pairs the conditions for blocking a harmful query with those for permitting a superficially similar benign request. Without retraining, Membrane evolves CSM by distilling each harmful interaction and its benign counterpart into a contrastive cell indexed by the underlying attack strategy, so that one cell generalizes across topical variants of the same mechanism. At inference, retrieved cells serve as grounding context for precise safety decisions. Across model-level safety on HarmBench and agent-level safety on AgentHarm, Membrane achieves the highest F1 on all six jailbreak attacks. Notably, benign refusal on AgentHarm stays at 7-14%, well below the 28-85% range of prior guards. Memory cells also retain 87-88% F1 under cross-attack transfer and remain stable under memory poisoning.
+    </blockquote>
+
+    
+    
+  </div><div>
+      <h2>Submission history</h2><p> From: Minseok Choi [<a href="https://arxiv.org/show-email/4e43e397/2606.05743" rel="nofollow">view email</a>]      <br/>    <strong>[v1]</strong>
+        Thu, 4 Jun 2026 06:14:08 UTC (3,152 KB)<br/>
+</p></div></div>

@@ -12,7 +12,10 @@ models:
     max_tokens: 800
     frequency_penalty: 0.0
     presence_penalty: 0.0
-    stop: ["```"]
+    stop: []
+    extra_body:                     # 直接配置 extra_body
+      thinking:
+        type: disabled
 
   # 思考型模型：用于深度总结文章内容
   - name: summarize

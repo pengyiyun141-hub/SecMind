@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"io"
 	"log"
 	"net/http"
 	"os"
@@ -11,9 +12,10 @@ import (
 	"secmind/internal/scraper"
 	"secmind/internal/storage"
 	"strings"
+	"time"
 
 	"github.com/joho/godotenv" //从文件中获取环境变量用
-	"gopkg.in/yaml.v3"
+	"gopkg.in/yaml.v3"         //yaml格式处理
 )
 
 type Message struct {
@@ -22,86 +24,80 @@ type Message struct {
 }
 
 type ChatRequest struct {
-	Model    string    `json:"model"`
-	Messages []Message `json:"messages"`
+	Model            string    `json:"model"`
+	Messages         []Message `json:"messages"`
+	Temperature      float64   `json:"temperature,omitempty"`
+	TopP             float64   `json:"top_p,omitempty"`
+	MaxTokens        int       `json:"max_tokens,omitempty"`
+	FrequencyPenalty float64   `json:"frequency_penalty,omitempty"`
+	PresencePenalty  float64   `json:"presence_penalty,omitempty"`
+	Stop             []string  `json:"stop,omitempty"`
 }
 
 type ModelSpec struct {
-    Name            string    `yaml:"name"`
-    APIKeyEnv       string    `yaml:"api_key_env"`
-    BaseURLEnv      string    `yaml:"base_url_env"`
-    ModelNameEnv    string    `yaml:"model_name_env"`
-    SystemPrompt    string    `yaml:"system_prompt"`
-    UserPrompt      string    `yaml:"user_prompt"`
-    Temperature     float64   `yaml:"temperature"`
-    TopP            float64   `yaml:"top_p"`
-    MaxTokens       int       `yaml:"max_tokens"`
-    FrequencyPenalty float64  `yaml:"frequency_penalty"`
-    PresencePenalty float64   `yaml:"presence_penalty"`
-    Stop            []string  `yaml:"stop"`
-    // 运行时填充的真实值（不从 YAML 读）
-    APIKey          string
-    BaseURL         string
-    ModelName       string
+	Name             string   `yaml:"name"`
+	APIKeyEnv        string   `yaml:"api_key_env"`
+	BaseURLEnv       string   `yaml:"base_url_env"`
+	ModelNameEnv     string   `yaml:"model_name_env"`
+	SystemPrompt     string   `yaml:"system_prompt"`
+	UserPrompt       string   `yaml:"user_prompt"`
+	Temperature      float64  `yaml:"temperature"`
+	TopP             float64  `yaml:"top_p"`
+	MaxTokens        int      `yaml:"max_tokens"`
+	FrequencyPenalty float64  `yaml:"frequency_penalty"`
+	PresencePenalty  float64  `yaml:"presence_penalty"`
+	Stop             []string `yaml:"stop"`
+	APIKey    string
+	BaseURL   string
+	ModelName string
+	ExtraBody        map[string]interface{} `yaml:"extra_body"`
 }
 
 func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, articleIndex map[string]*model.Article) {
 
+	//加载环境变量
 	err := godotenv.Load("configs/.env")
-
 	if err != nil {
 		log.Println("加载 .env 失败: ", err)
 	}
 
-	apiKey := os.Getenv("DEEPSEEK_API_KEY")
-	apiURL := os.Getenv("DEEPSEEK_API_URL")
-	modelName := os.Getenv("DEEPSEEK_MODEL")
+	//加载yaml配置文件
+	var model_param *ModelSpec
+	model_param, err = LoadModelConfigByName("configs/model.yaml", "filter")
+	if err != nil {
+		log.Fatal("加载 .env 失败: ", err)
+	}
 
+	//加载提示词
+	var promptSys string
 	var promptText string
+	promptTextdata_sys, err := os.ReadFile(model_param.SystemPrompt)
+	if err != nil {
+		log.Fatal("读取sys提示词失败: ", err)
+	}
+	promptTextdata_user, err := os.ReadFile(model_param.UserPrompt)
+	if err != nil {
+		log.Fatal("读取user提示词失败: ", err)
+	}
+
+	promptSys = string(promptTextdata_sys)
+	promptText = string(promptTextdata_user)
+
 	for _, a := range articles {
-		promptText += fmt.Sprintf("id:[%d] Title:%s Source:%s\n", a.Id, a.Title, a.Source)
+		promptText += fmt.Sprintf("[%s]:%d Title:%s \n", a.Source, a.Id, a.Title)
 	}
 
-	requestPayload := ChatRequest{
-		Model: modelName,
-		Messages: []Message{
-			{
-				Role:    "system",
-				Content: "你是一名资深的网络安全的研究员，请对这份列表中的标题进行筛选，选出你认为跟AI最相关的五篇，并说明理由。",
-			},
-			{
-				Role:    "user",
-				Content: "请将原标题翻译成中文，要求保留原英文标题。要求返回结果为json格式，其中包含字段：ID,Title,engtitle（英文标题）,Source,Reason。其中id只显示数字，且这里的id是我传进来的字段，另外id字段是int类型，不要带引号，返回结果时请不要自行生成ID。source返回我传入的缩写即可。这是今天的论文列表：\n" + promptText,
-			},
-		},
+	var promptMessage []Message
+	promptMessage = []Message{
+		{Role: "system", Content: promptSys},
+		{Role: "user", Content: promptText},
 	}
 
-	jsonData, err := json.Marshal(requestPayload)
-
+	primaryRespData, err := CallAiApi(model_param, promptMessage)
 	if err != nil {
-		fmt.Println("打包失败:", err)
-		return
+		log.Fatal("Call_Ai返回数据失败: ", err)
 	}
-
-	bodyPipe := bytes.NewBuffer(jsonData)
-
-	req, err := http.NewRequest("POST", apiURL, bodyPipe)
-	if err != nil {
-		log.Fatal("构造请求对象失败:", err)
-	}
-
-	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("Authorization", "Bearer "+apiKey)
-
-	client := &http.Client{}
-	fmt.Println("\n[AI] 正在进行情报分析，请稍候...")
-
-	resp, err := client.Do(req)
-	if err != nil {
-		log.Fatal("向 AI 发送请求失败:", err)
-	}
-	defer resp.Body.Close()
-
+	
 	var aiResponse struct {
 		Choices []struct {
 			Message struct {
@@ -110,9 +106,9 @@ func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, article
 		} `json:"choices"`
 	}
 
-	err = json.NewDecoder(resp.Body).Decode(&aiResponse)
+	err = json.Unmarshal(primaryRespData, &aiResponse)
 	if err != nil {
-		log.Fatal("解析 AI 回复失败:", err)
+		log.Fatalf("解析 AI 响应 JSON 失败: %v, 原始响应: %s", err, string(primaryRespData))
 	}
 
 	if len(aiResponse.Choices) > 0 {
@@ -186,15 +182,68 @@ func LoadModelConfigByName(yamlPath, modelName string) (*ModelSpec, error) {
 		return nil, fmt.Errorf("解析yaml值失败: %w", err)
 	}
 
-	for _, m := range wrapper.Models {
-		if m.Name == modelName {
+	for i := range wrapper.Models {
+		if wrapper.Models[i].Name == modelName {
 			// 从环境变量读取真实密钥/URL/模型名
-            m.APIKey = os.Getenv(m.APIKeyEnv)
-            m.BaseURL = os.Getenv(m.BaseURLEnv)
-            m.ModelName = os.Getenv(m.ModelNameEnv)
-            return &m, nil
+			wrapper.Models[i].APIKey = os.Getenv(wrapper.Models[i].APIKeyEnv)
+			wrapper.Models[i].BaseURL = os.Getenv(wrapper.Models[i].BaseURLEnv)
+			wrapper.Models[i].ModelName = os.Getenv(wrapper.Models[i].ModelNameEnv)
+
+			return &wrapper.Models[i], nil
 		}
 	}
-	
+
 	return nil, fmt.Errorf("model %s not found", modelName)
+}
+
+func CallAiApi(model_param *ModelSpec, promptMessage []Message) ([]byte, error) {
+
+	reqBody := map[string]interface{}{
+		"model":             model_param.ModelName,
+		"messages":          promptMessage,
+		"temperature":       model_param.Temperature,
+		"top_p":             model_param.TopP,
+		"max_tokens":        model_param.MaxTokens,
+		"frequency_penalty": model_param.FrequencyPenalty,
+		"presence_penalty":  model_param.PresencePenalty,
+		"stop":              model_param.Stop,
+	}
+
+	for k, v := range model_param.ExtraBody {
+    	reqBody[k] = v
+	}
+
+	reqBodyJsonData, err := json.Marshal(reqBody)
+	if err != nil {
+		log.Fatal("ai api请求体解析json格式失败", err)
+	}
+
+	client := http.Client{Timeout: 60 * time.Second}
+
+	req, err := http.NewRequest("POST", model_param.BaseURL, bytes.NewBuffer([]byte(reqBodyJsonData)))
+	if err != nil {
+		log.Fatal("创建请求包失败", err)
+	}
+
+	req.Header.Set("Content-Type", "application/json")
+	req.Header.Set("Authorization", "Bearer "+model_param.APIKey)
+
+	resp, err := client.Do(req)
+	if err != nil {
+		return nil, fmt.Errorf("发送请求失败: %w", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		errbody, _ := io.ReadAll(resp.Body)
+		return nil, fmt.Errorf("API 返回错误状态 %d: %s", resp.StatusCode, string(errbody))
+	}
+
+	primaryRespBody, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("读取响应体失败: %w", err)
+	}
+
+	fmt.Println(string(primaryRespBody))
+	return primaryRespBody, nil
 }
