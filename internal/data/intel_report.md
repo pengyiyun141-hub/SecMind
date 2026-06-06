@@ -6802,3 +6802,183 @@
 ### [Welcome to the new Project Zero Blog]
 (https://projectzero.google/2025/12/welcome.html) [source]:P0
 
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/) [source]:TOB
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
+
+### [A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens]
+(https://projectzero.google/2026/05/pixel-10-exploit.html) [source]:P0
+
+### [On the Effectiveness of Mutational Grammar Fuzzing]
+(https://projectzero.google/2026/03/mutational-grammar-fuzzing.html) [source]:P0
+
+### [A Deep Dive into the GetProcessHandleFromHwnd API]
+(https://projectzero.google/2026/02/gphfh-deep-dive.html) [source]:P0
+
+### [Bypassing Administrator Protection by Abusing UI Access]
+(https://projectzero.google/2026/02/windows-administrator-protection.html) [source]:P0
+
+### [Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529]
+(https://projectzero.google/2026/01/sound-barrier-2.html) [source]:P0
+
+### [Bypassing Windows Administrator Protection]
+(https://projectzero.google/2026/26/windows-administrator-protection.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?]
+(https://projectzero.google/2026/01/pixel-0-click-part-3.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave]
+(https://projectzero.google/2026/01/pixel-0-click-part-2.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby]
+(https://projectzero.google/2026/01/pixel-0-click-part-1.html) [source]:P0
+
+### [Welcome to the new Project Zero Blog]
+(https://projectzero.google/2025/12/welcome.html) [source]:P0
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/) [source]:TOB
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
+
+### [A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens]
+(https://projectzero.google/2026/05/pixel-10-exploit.html) [source]:P0
+
+### [On the Effectiveness of Mutational Grammar Fuzzing]
+(https://projectzero.google/2026/03/mutational-grammar-fuzzing.html) [source]:P0
+
+### [A Deep Dive into the GetProcessHandleFromHwnd API]
+(https://projectzero.google/2026/02/gphfh-deep-dive.html) [source]:P0
+
+### [Bypassing Administrator Protection by Abusing UI Access]
+(https://projectzero.google/2026/02/windows-administrator-protection.html) [source]:P0
+
+### [Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529]
+(https://projectzero.google/2026/01/sound-barrier-2.html) [source]:P0
+
+### [Bypassing Windows Administrator Protection]
+(https://projectzero.google/2026/26/windows-administrator-protection.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?]
+(https://projectzero.google/2026/01/pixel-0-click-part-3.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave]
+(https://projectzero.google/2026/01/pixel-0-click-part-2.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby]
+(https://projectzero.google/2026/01/pixel-0-click-part-1.html) [source]:P0
+
+### [Welcome to the new Project Zero Blog]
+(https://projectzero.google/2025/12/welcome.html) [source]:P0
+

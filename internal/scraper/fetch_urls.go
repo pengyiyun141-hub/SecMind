@@ -26,7 +26,6 @@ func Fetch(sourceMap map[string]string) <-chan model.Article {
 			defer wg.Done()
 
 			resp, err := http.Get(url)
-
 			if err != nil {
 				log.Printf("请求失败:[URL]: %s, %s", realurl, err)
 				return
@@ -37,7 +36,6 @@ func Fetch(sourceMap map[string]string) <-chan model.Article {
 			fmt.Println("开始抓取：", url)
 
 			xmlData, err := parser.Parse(resp.Body, shortsource)
-
 			if err != nil {
 				log.Printf("解析失败:%s，%s", url, err)
 			}
