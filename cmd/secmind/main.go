@@ -23,9 +23,9 @@ func main() {
 	var realsource []string
 	for ss, rs := range sourceMap {
 		shortsource = append(shortsource, ss)
-		fmt.Printf("%s:", ss)
+		//fmt.Printf("%s:", ss)
 		realsource = append(realsource, rs)
-		fmt.Printf("%s\n", rs)
+		//fmt.Printf("%s\n", rs)
 	}
 
 	var xmlData_slice []model.Article
