@@ -6952,6 +6952,213 @@
 ### [Building cryptographic agility into Sigstore]
 (https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
 
+<<<<<<< HEAD
+=======
+### [Enhancing Malware Detection with Generative AI: Using Variational Autoencoders to Boost Machine Learning Classifiers' Performance]
+(https://arxiv.org/abs/2606.06501) [source]:ARXIV
+
+### [Subtle Injection for Ground-truth Inference of LLM Training Data]
+(https://arxiv.org/abs/2606.06502) [source]:ARXIV
+
+### [MalTree: Tracing Malware Evolution from Embeddings at Scale]
+(https://arxiv.org/abs/2606.06570) [source]:ARXIV
+
+### [AgileOS: A GPU Operating System Layer for Protected CUDA Services]
+(https://arxiv.org/abs/2606.06697) [source]:ARXIV
+
+### [The Custody Envelope Threshold: Authority-Scaled Admission of External Artifacts in Institutional Infrastructure]
+(https://arxiv.org/abs/2606.06767) [source]:ARXIV
+
+### [What Your Posts Reveal: A Benchmark and Agentic Framework for User-Level Privacy Leakage on Social Media]
+(https://arxiv.org/abs/2606.06784) [source]:ARXIV
+
+### [AMD-FCG: An Enhanced Function Call Graph Dataset with Integrated Topological Features for Malware Detection and Classification]
+(https://arxiv.org/abs/2606.06815) [source]:ARXIV
+
+### [On the Incentive Compatibility of Block Propagation in Bitcoin]
+(https://arxiv.org/abs/2606.06860) [source]:ARXIV
+
+### [FDM: A Framework for Decision-making to build ML-based Malware detection systems]
+(https://arxiv.org/abs/2606.06894) [source]:ARXIV
+
+### [Blockchain Infrastructure for Intelligent Cyber--Physical--Social Systems:Post-Quantum Security, Interoperability, and Trustworthy Data Economies in the Era of Embodied AI]
+(https://arxiv.org/abs/2606.06895) [source]:ARXIV
+
+### [DPAgent-in-the-Middle: Agentic Defense and Repair Against AI-Groomed Deceptive Patterns]
+(https://arxiv.org/abs/2606.06914) [source]:ARXIV
+
+### [HAVE: Host Active Verification Engine for Closing the Contextual Reality Gap in Security Digital Twins]
+(https://arxiv.org/abs/2606.06968) [source]:ARXIV
+
+### [The Sound of Malware: A Memory Forensics Approach for Android Malware Analysis via Audio Signals]
+(https://arxiv.org/abs/2606.07005) [source]:ARXIV
+
+### [Fast Bounded-Independence Functions and Their Duals]
+(https://arxiv.org/abs/2606.07009) [source]:ARXIV
+
+### [MalSkillBench: A Runtime-Verified Benchmark of Malicious Agent Skills]
+(https://arxiv.org/abs/2606.07131) [source]:ARXIV
+
+### [From Privacy to Workflow Integrity: Communication-Graph Metadata in Autonomous Agent Interoperability]
+(https://arxiv.org/abs/2606.07150) [source]:ARXIV
+
+### [Synthetic APTs: the Collapse of TTP-Based Attribution]
+(https://arxiv.org/abs/2606.07158) [source]:ARXIV
+
+### [Rethinking IoT Intrusion Detection: Augmenting Routing Metrics with Radio Features]
+(https://arxiv.org/abs/2606.07282) [source]:ARXIV
+
+### [Authorized and Verifiable Searchable Encryption Based on Public Key Equality Test for Cloud Storage]
+(https://arxiv.org/abs/2606.07319) [source]:ARXIV
+
+### [Defending Jailbreak Attacks on Large Language Models via Manifold Trajectory Kinetics]
+(https://arxiv.org/abs/2606.07335) [source]:ARXIV
+
+### [Empirical Evaluation of Large Language Models for Migration of Code Fragments to Post-Quantum Cryptography]
+(https://arxiv.org/abs/2606.07341) [source]:ARXIV
+
+### [On the Shoulders of Giants: Empowering Automated Smart Contract Auditing via the GiAnt Corpus]
+(https://arxiv.org/abs/2606.07363) [source]:ARXIV
+
+### [Lost in Migration: Exposing Android Framework Vulnerabilities in Parallel Java-Kotlin Implementations]
+(https://arxiv.org/abs/2606.07420) [source]:ARXIV
+
+### [Verifiable and Confidential DNN Inference on Low-End Edge Devices]
+(https://arxiv.org/abs/2606.07470) [source]:ARXIV
+
+### [Online Safety Regulation Increases Privacy Risk: Evidence from the UK Online Safety Act]
+(https://arxiv.org/abs/2606.05273) [source]:ARXIV
+
+### [Beyond the Canonical Protocol: Quantum Encrypted Cloning from Secret-Sharing Access Structures]
+(https://arxiv.org/abs/2606.06552) [source]:ARXIV
+
+### [The Economics of Proof-of-Useful-Work]
+(https://arxiv.org/abs/2606.06700) [source]:ARXIV
+
+### [Hearing the Unspoken: Language Model Priors for Acoustic Adversarial Attacks]
+(https://arxiv.org/abs/2606.06833) [source]:ARXIV
+
+### [Unified Safe In-context Image Generation in Multimodal Diffusion Transformers via Restricting Unsafe Information Flows]
+(https://arxiv.org/abs/2606.06875) [source]:ARXIV
+
+### [An Expanded Synthetic Conversation Dataset for Multi-Turn Smishing Detection]
+(https://arxiv.org/abs/2606.06879) [source]:ARXIV
+
+### [TRACE: Trajectory Reasoning through Adaptive Cross-Step Evidence Aggregation for LLM Agents]
+(https://arxiv.org/abs/2606.07054) [source]:ARXIV
+
+### [A Large-Scale Per-Speaker Analysis of Re-identification Risk in Speech Anonymization]
+(https://arxiv.org/abs/2606.07210) [source]:ARXIV
+
+### [The Capacity of Information-Theoretic Secure Aggregation in Federated Learning]
+(https://arxiv.org/abs/2606.07277) [source]:ARXIV
+
+### [An End-to-End Encrypted Control Pipeline for Multi-Agent Coordination via CKKS Homomorphic Encryption]
+(https://arxiv.org/abs/2606.07375) [source]:ARXIV
+
+### [Sort, Partition, Randomize: Optimal Binary Hypothesis Testing under Local Differential Privacy]
+(https://arxiv.org/abs/2606.07443) [source]:ARXIV
+
+### [ADAGE: Active Defenses Against GNN Extraction]
+(https://arxiv.org/abs/2503.00065) [source]:ARXIV
+
+### [Post-Quantum Cryptography and Quantum-Safe Security: A Comprehensive Survey]
+(https://arxiv.org/abs/2510.10436) [source]:ARXIV
+
+### [Extracting Recurring Vulnerabilities from Black-Box LLM-Generated Software]
+(https://arxiv.org/abs/2602.04894) [source]:ARXIV
+
+### [From Storage to Steering: Memory Control Flow Attacks on LLM Agents]
+(https://arxiv.org/abs/2603.15125) [source]:ARXIV
+
+### [RAVEN: Retrieval-Augmented Vulnerability Exploration Network for Memory Corruption Analysis in User Code and Binary Programs]
+(https://arxiv.org/abs/2604.17948) [source]:ARXIV
+
+### [Self-Supervised Learning for Android Malware Detection on a Time-Stamped Dataset]
+(https://arxiv.org/abs/2604.23025) [source]:ARXIV
+
+### [Bit-Exact AI Inference Verification Without Performance Tradeoffs]
+(https://arxiv.org/abs/2606.00279) [source]:ARXIV
+
+### [GCD: Garbled, Corrected, Demonstrandum -- Fixing and Proving Go's Extended GCD Implementation]
+(https://arxiv.org/abs/2606.05796) [source]:ARXIV
+
+### [Opportunities and Challenges in Securely Reusing and Repurposing Mobile Devices]
+(https://arxiv.org/abs/2606.06181) [source]:ARXIV
+
+### [Almost perfect nonlinear power functions with exponents expressed as fractions]
+(https://arxiv.org/abs/2307.15657) [source]:ARXIV
+
+### [Certified Robustness to Data Poisoning in Gradient-Based Training]
+(https://arxiv.org/abs/2406.05670) [source]:ARXIV
+
+### [The Utility and Complexity of in- and out-of-Distribution Machine Unlearning]
+(https://arxiv.org/abs/2412.09119) [source]:ARXIV
+
+### [Towards Efficient and Exact Forgetting Services in Pre-Trained-Model-based Continual Learning]
+(https://arxiv.org/abs/2505.12239) [source]:ARXIV
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/) [source]:TOB
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
+
+>>>>>>> 9826588 (feat: add basic AI article analysis function)
 ### [A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens]
 (https://projectzero.google/2026/05/pixel-10-exploit.html) [source]:P0
 
@@ -6981,4 +7188,3169 @@
 
 ### [Welcome to the new Project Zero Blog]
 (https://projectzero.google/2025/12/welcome.html) [source]:P0
+
+<<<<<<< HEAD
+=======
+### [Detecting Aimbot Cheaters in MOGs]
+(https://arxiv.org/abs/2606.07650) [source]:ARXIV
+
+### [MLingualFC: Evaluating Jailbreak Vulnerabilities in Multilingual Vision-Language Models]
+(https://arxiv.org/abs/2606.07706) [source]:ARXIV
+
+### [SHIELD-IDS: Structurally Heterogeneous Ensemble with Integrated Layered Defense for Intrusion Detection Systems]
+(https://arxiv.org/abs/2606.07716) [source]:ARXIV
+
+### [ScaleDisturb: Exploiting Temporal Asymmetry to Amplify Read Disturbance in Modern DRAM Chips]
+(https://arxiv.org/abs/2606.07761) [source]:ARXIV
+
+### [MOLOT System Card: Malicious Operational Logic Observation Transformer]
+(https://arxiv.org/abs/2606.07792) [source]:ARXIV
+
+### [Belief-Space Quantum-Inspired Reinforcement Learning for Partially Observable Autonomous Cyber Defense in the Internet of Vehicles]
+(https://arxiv.org/abs/2606.07796) [source]:ARXIV
+
+### [Quantum-Inspired Reinforcement Learning for Low-Latency Intrusion Detection in V2X and Internet-of-Vehicles Networks]
+(https://arxiv.org/abs/2606.07804) [source]:ARXIV
+
+### [Ternary public-key cryptosystem]
+(https://arxiv.org/abs/2606.07832) [source]:ARXIV
+
+### [Beyond Pass/Fail: Using Process Mining to Understand How LLMs Resist (and Fail) Red Team Attacks]
+(https://arxiv.org/abs/2606.07833) [source]:ARXIV
+
+### [Model Multiplicity for Adversarial Detection in Small Language Model Training on Edge Devices]
+(https://arxiv.org/abs/2606.07857) [source]:ARXIV
+
+### [DP4SQL: Differentially Private SQL with Flexible Privacy Policies]
+(https://arxiv.org/abs/2606.07883) [source]:ARXIV
+
+### [Hallucination Cascade: Analyzing Error Propagation in Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07937) [source]:ARXIV
+
+### [SGTO-MAS: Secure Gorilla Troops Optimization for Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07940) [source]:ARXIV
+
+### [Collective Hallucination in Multi-Agent LLMs:Modeling and Defense]
+(https://arxiv.org/abs/2606.07941) [source]:ARXIV
+
+### [POISE: Position-Aware Undetectable Skill Injection on LLM Agents]
+(https://arxiv.org/abs/2606.07943) [source]:ARXIV
+
+### [Demand-Driven Vulnerability Detection for Cloud Security Posture Management: Removing Human Rule Authoring from the Disclosure-to-Protection Critical Path]
+(https://arxiv.org/abs/2606.07957) [source]:ARXIV
+
+### [RecurGuard: Runtime Monitoring for Reasoning-Token Consumption Attacks]
+(https://arxiv.org/abs/2606.07968) [source]:ARXIV
+
+### [The Dodona Protocol: A Living Design Science Experiment in Oracle Design]
+(https://arxiv.org/abs/2606.08012) [source]:ARXIV
+
+### [Policy Description Language for Authorization using Logic-Based Programming]
+(https://arxiv.org/abs/2606.08119) [source]:ARXIV
+
+### [Closing the Sim-to-Real Gap: An Evaluation Framework for Autonomous Cyber Defense Configuration of Commercial EDR]
+(https://arxiv.org/abs/2606.08168) [source]:ARXIV
+
+### [AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation]
+(https://arxiv.org/abs/2606.08173) [source]:ARXIV
+
+### [LPOR: A Layered Proof of Reserves Framework for Usable and Publicly Auditable Solvency Verification]
+(https://arxiv.org/abs/2606.08211) [source]:ARXIV
+
+### [Quantifying and Defending against the Privacy Risk in Logit-based Federated Learning]
+(https://arxiv.org/abs/2606.08252) [source]:ARXIV
+
+### [An AI Security Agent for University ACMIS: Multi-Vector Threat Detection and Automated Response]
+(https://arxiv.org/abs/2606.08270) [source]:ARXIV
+
+### [SoK: Reconstruction Attacks on Synthetic Tabular Data (Insights from Winning the NIST CRC)]
+(https://arxiv.org/abs/2606.08372) [source]:ARXIV
+
+### [Hiding in Plain Floats: Steganographic Carriers for Indirect Prompt and Content Injection]
+(https://arxiv.org/abs/2606.08403) [source]:ARXIV
+
+### [AI Code Sandboxes: A Comparative Security Study. Part 1 of 2 -- Engine-Level Properties (Attack Surface, Leakage, Stackability, CVE History, Patch Cadence, Fuzzing)]
+(https://arxiv.org/abs/2606.08433) [source]:ARXIV
+
+### [Digital White Spaces: A Cyberpsychology-Informed Framework to Mobile Phone Addiction]
+(https://arxiv.org/abs/2606.08472) [source]:ARXIV
+
+### [Exploring CKKS Parameter Trade-offs for Privacy-Preserving Personalized Federated Learning]
+(https://arxiv.org/abs/2606.08521) [source]:ARXIV
+
+### [Sample-Efficient LLM-Based Detection of Malicious Web Server Logs with Forensically Explainable Reasoning]
+(https://arxiv.org/abs/2606.08649) [source]:ARXIV
+
+### [Data Agents Under Attack: Vulnerabilities in LLM-Driven Analytical Systems]
+(https://arxiv.org/abs/2606.08661) [source]:ARXIV
+
+### [X-rated Compliance Theater: An Empirical Evaluation of European Age Verification Systems in Adult Websites]
+(https://arxiv.org/abs/2606.08667) [source]:ARXIV
+
+### [Asymptotic Optimality of the High-Dimensional Gaussian Mechanism and Improved Low-Dimensional Mechanisms for Differential Privacy]
+(https://arxiv.org/abs/2606.08681) [source]:ARXIV
+
+### [AutoSUT: The Environment Semantics Gap in Structured CTI for Adversary Emulation]
+(https://arxiv.org/abs/2606.08700) [source]:ARXIV
+
+### [Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography]
+(https://arxiv.org/abs/2606.08726) [source]:ARXIV
+
+### [Block-A-Mole: The Sustainability Frontier of Moving-Target Censorship Resistance]
+(https://arxiv.org/abs/2606.08886) [source]:ARXIV
+
+### [Hardening Agent Benchmarks with Adversarial Hacker-Fixer Loops]
+(https://arxiv.org/abs/2606.08960) [source]:ARXIV
+
+### [Document-Authored Control-Signal Impersonation: A Low-Cost Indirect Prompt Attack on RAG Safety Boundaries]
+(https://arxiv.org/abs/2606.09005) [source]:ARXIV
+
+### [Security-First Approach to API Pipeline Development with Zero-Trust Architecture]
+(https://arxiv.org/abs/2606.09062) [source]:ARXIV
+
+### [Context-Fractured Decomposition Attacks on Tool-Using LLM Agents: Exploiting Artifact Provenance Gaps]
+(https://arxiv.org/abs/2606.09084) [source]:ARXIV
+
+### [Unveiling Privacy Risks in Multi-modal Large Language Models: Task-specific Vulnerabilities and Mitigation Challenges]
+(https://arxiv.org/abs/2606.09125) [source]:ARXIV
+
+### [Steganography Without Modification: Hidden Communication via LLM Seeds]
+(https://arxiv.org/abs/2606.09135) [source]:ARXIV
+
+### [PrivCode++: Latent-Conditioned Differentially Private Code Generation for Comprehensive Guarantees]
+(https://arxiv.org/abs/2606.09145) [source]:ARXIV
+
+### [Customization under Fire: Plugin Poisoning in Text-to-Image Ecosystem]
+(https://arxiv.org/abs/2606.09151) [source]:ARXIV
+
+### [EnclaveScale: Hardware-Assisted Edge-DP for Secure Data Centre Power Telemetry]
+(https://arxiv.org/abs/2606.09163) [source]:ARXIV
+
+### [Pretrained, Frozen, Still Leaking: Auditing Cross-Encoder Attribute Transfer in EEG Foundation Models]
+(https://arxiv.org/abs/2606.09189) [source]:ARXIV
+
+### [Trustworthy Smart Fabs via Professional Proxies: Scaling Safe and Sustainable by Design (SSbD) through Industrial Data Spaces]
+(https://arxiv.org/abs/2606.09227) [source]:ARXIV
+
+### [Brain-Prompt Injection: A Route-Safety Audit for BCI-LLM Agents]
+(https://arxiv.org/abs/2606.09315) [source]:ARXIV
+
+### [Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors]
+(https://arxiv.org/abs/2606.09402) [source]:ARXIV
+
+### [Now You (Still) See Me: Detecting Evasive Steganographic Payloads in LLMs]
+(https://arxiv.org/abs/2606.09411) [source]:ARXIV
+
+### [Towards Post-Quantum Secure Pharmacovigilance with ML-KEM and ML-DSA]
+(https://arxiv.org/abs/2606.09412) [source]:ARXIV
+
+### [Model Poisoning Against Federated Model Adaptation with Chain of Bit-Flips]
+(https://arxiv.org/abs/2606.09548) [source]:ARXIV
+
+### [SecureClaw: Clawing Back Control of LLM Agents]
+(https://arxiv.org/abs/2606.09549) [source]:ARXIV
+
+### [FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing]
+(https://arxiv.org/abs/2606.09551) [source]:ARXIV
+
+### [Observability for Delegated Execution in Agentic AI Systems]
+(https://arxiv.org/abs/2606.09692) [source]:ARXIV
+
+### [What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks]
+(https://arxiv.org/abs/2606.09700) [source]:ARXIV
+
+### [FADRW: A Feature-Aware Modulated and Dynamically Reweighted Loss for Few-Shot Linguistic Steganalysis]
+(https://arxiv.org/abs/2606.07655) [source]:ARXIV
+
+### [VATS: Exploiting Implicit Authority in Error-Path Injection via Systematic Mutation]
+(https://arxiv.org/abs/2606.07992) [source]:ARXIV
+
+### [TOMOYO Linux: A Mandatory Access Control Method Based on Application Execution State]
+(https://arxiv.org/abs/2606.08060) [source]:ARXIV
+
+### [Multidimensional Resilience for Electrical Power Systems: Systematic Review, Integrated Index, and Validation under Real-World Cyber-Physical Attack Scenarios]
+(https://arxiv.org/abs/2606.08062) [source]:ARXIV
+
+### [Differentially Private Range Subgraph Counting]
+(https://arxiv.org/abs/2606.08179) [source]:ARXIV
+
+### [Uncertainty Principles for the Number Theoretic Transform]
+(https://arxiv.org/abs/2606.08662) [source]:ARXIV
+
+### [RAILS: Verification-Native Clearing For Agentic Commerce]
+(https://arxiv.org/abs/2606.08790) [source]:ARXIV
+
+### [Cheap Reward Hacking Detection]
+(https://arxiv.org/abs/2606.08893) [source]:ARXIV
+
+### [Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human]
+(https://arxiv.org/abs/2606.08919) [source]:ARXIV
+
+### [The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context Injection]
+(https://arxiv.org/abs/2606.09204) [source]:ARXIV
+
+### [Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models]
+(https://arxiv.org/abs/2606.09401) [source]:ARXIV
+
+### [Targeting World Models to Compromise Robot Learning Pipelines]
+(https://arxiv.org/abs/2606.09499) [source]:ARXIV
+
+### [Safe-RULE: Safe Reinforcement UnLEarning]
+(https://arxiv.org/abs/2606.09559) [source]:ARXIV
+
+### [Clinically Grounded Privacy Evaluation of Medical LMs]
+(https://arxiv.org/abs/2606.09590) [source]:ARXIV
+
+### [Parent-Hash DAG: A Cost Analysis of Constant-Time Append for On-Chain Registries]
+(https://arxiv.org/abs/2606.09593) [source]:ARXIV
+
+### [A Bell-State Extension of Loop-Back Quantum Key Distribution]
+(https://arxiv.org/abs/2606.09723) [source]:ARXIV
+
+### [Human-Centred Risk Mitigation for AI-Mediated Information Manipulation: A SOCMINT Framework Based on Information Manipulation Sets]
+(https://arxiv.org/abs/2606.09754) [source]:ARXIV
+
+### [FIT-Print: Towards False-claim-resistant Model Ownership Verification via Targeted Fingerprint]
+(https://arxiv.org/abs/2501.15509) [source]:ARXIV
+
+### [Maris: A Formally Verifiable Privacy Policy Enforcement Paradigm for Multi-Agent Collaboration Systems]
+(https://arxiv.org/abs/2505.04799) [source]:ARXIV
+
+### [Cryptographic Backdoor for Neural Networks: Boon and Bane]
+(https://arxiv.org/abs/2509.20714) [source]:ARXIV
+
+### [TAO: Tolerance-Aware Optimistic Verification for Floating-Point Neural Networks]
+(https://arxiv.org/abs/2510.16028) [source]:ARXIV
+
+### [PLAGUE: Plug-and-play framework for Lifelong Adaptive Generation of Multi-turn Exploits]
+(https://arxiv.org/abs/2510.17947) [source]:ARXIV
+
+### [Security Analysis of LTE Connectivity in Connected Cars: A Case Study of Tesla]
+(https://arxiv.org/abs/2510.22024) [source]:ARXIV
+
+### [Future-Proofing Authentication Against Insecure Bootstrapping for 5G Networks: Feasibility, Resiliency, and Accountability]
+(https://arxiv.org/abs/2510.23457) [source]:ARXIV
+
+### [A Survey of Heterogeneous Graph Neural Networks for Cybersecurity Anomaly Detection]
+(https://arxiv.org/abs/2510.26307) [source]:ARXIV
+
+### [Tuning for TraceTarnish: Techniques, Trends, and Testing Tangible Traits]
+(https://arxiv.org/abs/2512.03465) [source]:ARXIV
+
+### [State Backdoor: Towards Stealthy Real-world Poisoning Attack on Vision-Language-Action Model in State Space]
+(https://arxiv.org/abs/2601.04266) [source]:ARXIV
+
+### [Composition for Pufferfish Privacy]
+(https://arxiv.org/abs/2602.02718) [source]:ARXIV
+
+### [Security of the Fischlin Transform in Quantum Random Oracle Model]
+(https://arxiv.org/abs/2602.17307) [source]:ARXIV
+
+### [Automated Framework to Evaluate and Harden LLM System Instructions against Encoding Attacks]
+(https://arxiv.org/abs/2604.01039) [source]:ARXIV
+
+### [Scalable and Private Federated Learning Using Distributed Differential Privacy and Secure Aggregation]
+(https://arxiv.org/abs/2604.07125) [source]:ARXIV
+
+### [Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions]
+(https://arxiv.org/abs/2604.08304) [source]:ARXIV
+
+### [Hijacking Text Heritage: Hiding the Human Signature through Homoglyphic Substitution]
+(https://arxiv.org/abs/2604.10271) [source]:ARXIV
+
+### [Bit-Flip Vulnerability of Shared KV-Cache Blocks in LLM Serving Systems]
+(https://arxiv.org/abs/2604.17249) [source]:ARXIV
+
+### [Secure Cross-Silo Synthetic Genomic Data Generation]
+(https://arxiv.org/abs/2604.27456) [source]:ARXIV
+
+### [LoRA-Key: User-Centric LoRA Watermarking for Text-to-Image Diffusion Models]
+(https://arxiv.org/abs/2605.29569) [source]:ARXIV
+
+### [Privacy-Enhanced Zero-Order Federated Learning via xMK-CKKS over Wireless Channels]
+(https://arxiv.org/abs/2605.30123) [source]:ARXIV
+
+### [Defenses & Enablers For Skill Injection Attacks on Terminal Based Agents]
+(https://arxiv.org/abs/2606.01567) [source]:ARXIV
+
+### [Private Embedding Lookup with Encrypted Compact Queries under Fully Homomorphic Encryption]
+(https://arxiv.org/abs/2606.03191) [source]:ARXIV
+
+### [The Usefulness Gap in Proof-of-Useful-Work: An Empirical Study of Pearl's cuPOW Protocol]
+(https://arxiv.org/abs/2606.04819) [source]:ARXIV
+
+### [Robust In-Context Reinforcement Learning Under Reward Poisoning Attacks]
+(https://arxiv.org/abs/2506.06891) [source]:ARXIV
+
+### [Efficient and Stealthy Jailbreak Attacks via Adversarial Prompt Distillation from LLMs to SLMs]
+(https://arxiv.org/abs/2506.17231) [source]:ARXIV
+
+### [Pseudo-Equilibria, or: How to Stop Worrying About Crypto and Just Analyze the Game]
+(https://arxiv.org/abs/2506.22089) [source]:ARXIV
+
+### [SecureVibeBench: Benchmarking Secure Vibe Coding of AI Agents via Reconstructing Vulnerability-Introducing Scenarios]
+(https://arxiv.org/abs/2509.22097) [source]:ARXIV
+
+### [GLP: A Grassroots, Multiagent, Concurrent, Logic Programming Language for AI (Full Version)]
+(https://arxiv.org/abs/2510.15747) [source]:ARXIV
+
+### [Logarithmic Density of Rank $\geq 1$ and Rank $\geq 2$ Genus-2 Jacobians and Applications to Hyperelliptic Curve Cryptography]
+(https://arxiv.org/abs/2601.17142) [source]:ARXIV
+
+### [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents]
+(https://arxiv.org/abs/2602.08235) [source]:ARXIV
+
+### [A New Approach to Code Smoothing Bounds]
+(https://arxiv.org/abs/2603.18077) [source]:ARXIV
+
+### [Self-Mined Hardness for Safety Fine-Tuning]
+(https://arxiv.org/abs/2605.03226) [source]:ARXIV
+
+### [Causal Unlearning in Collaborative Optimization: Exact and Approximate Influence Reversal under Adversarial Contributions]
+(https://arxiv.org/abs/2605.20341) [source]:ARXIV
+
+### [Cycle-Space Informed Detection of Autoencoded Blind False Data Injection Attacks on Power Systems]
+(https://arxiv.org/abs/2605.28912) [source]:ARXIV
+
+### [On the History of the Square and Multiply Algorithm]
+(https://arxiv.org/abs/2606.00958) [source]:ARXIV
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/) [source]:TOB
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
+
+### [A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens]
+(https://projectzero.google/2026/05/pixel-10-exploit.html) [source]:P0
+
+### [On the Effectiveness of Mutational Grammar Fuzzing]
+(https://projectzero.google/2026/03/mutational-grammar-fuzzing.html) [source]:P0
+
+### [A Deep Dive into the GetProcessHandleFromHwnd API]
+(https://projectzero.google/2026/02/gphfh-deep-dive.html) [source]:P0
+
+### [Bypassing Administrator Protection by Abusing UI Access]
+(https://projectzero.google/2026/02/windows-administrator-protection.html) [source]:P0
+
+### [Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529]
+(https://projectzero.google/2026/01/sound-barrier-2.html) [source]:P0
+
+### [Bypassing Windows Administrator Protection]
+(https://projectzero.google/2026/26/windows-administrator-protection.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?]
+(https://projectzero.google/2026/01/pixel-0-click-part-3.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave]
+(https://projectzero.google/2026/01/pixel-0-click-part-2.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby]
+(https://projectzero.google/2026/01/pixel-0-click-part-1.html) [source]:P0
+
+### [Welcome to the new Project Zero Blog]
+(https://projectzero.google/2025/12/welcome.html) [source]:P0
+
+### [Detecting Aimbot Cheaters in MOGs]
+(https://arxiv.org/abs/2606.07650) [source]:ARXIV
+
+### [MLingualFC: Evaluating Jailbreak Vulnerabilities in Multilingual Vision-Language Models]
+(https://arxiv.org/abs/2606.07706) [source]:ARXIV
+
+### [SHIELD-IDS: Structurally Heterogeneous Ensemble with Integrated Layered Defense for Intrusion Detection Systems]
+(https://arxiv.org/abs/2606.07716) [source]:ARXIV
+
+### [ScaleDisturb: Exploiting Temporal Asymmetry to Amplify Read Disturbance in Modern DRAM Chips]
+(https://arxiv.org/abs/2606.07761) [source]:ARXIV
+
+### [MOLOT System Card: Malicious Operational Logic Observation Transformer]
+(https://arxiv.org/abs/2606.07792) [source]:ARXIV
+
+### [Belief-Space Quantum-Inspired Reinforcement Learning for Partially Observable Autonomous Cyber Defense in the Internet of Vehicles]
+(https://arxiv.org/abs/2606.07796) [source]:ARXIV
+
+### [Quantum-Inspired Reinforcement Learning for Low-Latency Intrusion Detection in V2X and Internet-of-Vehicles Networks]
+(https://arxiv.org/abs/2606.07804) [source]:ARXIV
+
+### [Ternary public-key cryptosystem]
+(https://arxiv.org/abs/2606.07832) [source]:ARXIV
+
+### [Beyond Pass/Fail: Using Process Mining to Understand How LLMs Resist (and Fail) Red Team Attacks]
+(https://arxiv.org/abs/2606.07833) [source]:ARXIV
+
+### [Model Multiplicity for Adversarial Detection in Small Language Model Training on Edge Devices]
+(https://arxiv.org/abs/2606.07857) [source]:ARXIV
+
+### [DP4SQL: Differentially Private SQL with Flexible Privacy Policies]
+(https://arxiv.org/abs/2606.07883) [source]:ARXIV
+
+### [Hallucination Cascade: Analyzing Error Propagation in Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07937) [source]:ARXIV
+
+### [SGTO-MAS: Secure Gorilla Troops Optimization for Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07940) [source]:ARXIV
+
+### [Collective Hallucination in Multi-Agent LLMs:Modeling and Defense]
+(https://arxiv.org/abs/2606.07941) [source]:ARXIV
+
+### [POISE: Position-Aware Undetectable Skill Injection on LLM Agents]
+(https://arxiv.org/abs/2606.07943) [source]:ARXIV
+
+### [Demand-Driven Vulnerability Detection for Cloud Security Posture Management: Removing Human Rule Authoring from the Disclosure-to-Protection Critical Path]
+(https://arxiv.org/abs/2606.07957) [source]:ARXIV
+
+### [RecurGuard: Runtime Monitoring for Reasoning-Token Consumption Attacks]
+(https://arxiv.org/abs/2606.07968) [source]:ARXIV
+
+### [The Dodona Protocol: A Living Design Science Experiment in Oracle Design]
+(https://arxiv.org/abs/2606.08012) [source]:ARXIV
+
+### [Policy Description Language for Authorization using Logic-Based Programming]
+(https://arxiv.org/abs/2606.08119) [source]:ARXIV
+
+### [Closing the Sim-to-Real Gap: An Evaluation Framework for Autonomous Cyber Defense Configuration of Commercial EDR]
+(https://arxiv.org/abs/2606.08168) [source]:ARXIV
+
+### [AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation]
+(https://arxiv.org/abs/2606.08173) [source]:ARXIV
+
+### [LPOR: A Layered Proof of Reserves Framework for Usable and Publicly Auditable Solvency Verification]
+(https://arxiv.org/abs/2606.08211) [source]:ARXIV
+
+### [Quantifying and Defending against the Privacy Risk in Logit-based Federated Learning]
+(https://arxiv.org/abs/2606.08252) [source]:ARXIV
+
+### [An AI Security Agent for University ACMIS: Multi-Vector Threat Detection and Automated Response]
+(https://arxiv.org/abs/2606.08270) [source]:ARXIV
+
+### [SoK: Reconstruction Attacks on Synthetic Tabular Data (Insights from Winning the NIST CRC)]
+(https://arxiv.org/abs/2606.08372) [source]:ARXIV
+
+### [Hiding in Plain Floats: Steganographic Carriers for Indirect Prompt and Content Injection]
+(https://arxiv.org/abs/2606.08403) [source]:ARXIV
+
+### [AI Code Sandboxes: A Comparative Security Study. Part 1 of 2 -- Engine-Level Properties (Attack Surface, Leakage, Stackability, CVE History, Patch Cadence, Fuzzing)]
+(https://arxiv.org/abs/2606.08433) [source]:ARXIV
+
+### [Digital White Spaces: A Cyberpsychology-Informed Framework to Mobile Phone Addiction]
+(https://arxiv.org/abs/2606.08472) [source]:ARXIV
+
+### [Exploring CKKS Parameter Trade-offs for Privacy-Preserving Personalized Federated Learning]
+(https://arxiv.org/abs/2606.08521) [source]:ARXIV
+
+### [Sample-Efficient LLM-Based Detection of Malicious Web Server Logs with Forensically Explainable Reasoning]
+(https://arxiv.org/abs/2606.08649) [source]:ARXIV
+
+### [Data Agents Under Attack: Vulnerabilities in LLM-Driven Analytical Systems]
+(https://arxiv.org/abs/2606.08661) [source]:ARXIV
+
+### [X-rated Compliance Theater: An Empirical Evaluation of European Age Verification Systems in Adult Websites]
+(https://arxiv.org/abs/2606.08667) [source]:ARXIV
+
+### [Asymptotic Optimality of the High-Dimensional Gaussian Mechanism and Improved Low-Dimensional Mechanisms for Differential Privacy]
+(https://arxiv.org/abs/2606.08681) [source]:ARXIV
+
+### [AutoSUT: The Environment Semantics Gap in Structured CTI for Adversary Emulation]
+(https://arxiv.org/abs/2606.08700) [source]:ARXIV
+
+### [Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography]
+(https://arxiv.org/abs/2606.08726) [source]:ARXIV
+
+### [Block-A-Mole: The Sustainability Frontier of Moving-Target Censorship Resistance]
+(https://arxiv.org/abs/2606.08886) [source]:ARXIV
+
+### [Hardening Agent Benchmarks with Adversarial Hacker-Fixer Loops]
+(https://arxiv.org/abs/2606.08960) [source]:ARXIV
+
+### [Document-Authored Control-Signal Impersonation: A Low-Cost Indirect Prompt Attack on RAG Safety Boundaries]
+(https://arxiv.org/abs/2606.09005) [source]:ARXIV
+
+### [Security-First Approach to API Pipeline Development with Zero-Trust Architecture]
+(https://arxiv.org/abs/2606.09062) [source]:ARXIV
+
+### [Context-Fractured Decomposition Attacks on Tool-Using LLM Agents: Exploiting Artifact Provenance Gaps]
+(https://arxiv.org/abs/2606.09084) [source]:ARXIV
+
+### [Unveiling Privacy Risks in Multi-modal Large Language Models: Task-specific Vulnerabilities and Mitigation Challenges]
+(https://arxiv.org/abs/2606.09125) [source]:ARXIV
+
+### [Steganography Without Modification: Hidden Communication via LLM Seeds]
+(https://arxiv.org/abs/2606.09135) [source]:ARXIV
+
+### [PrivCode++: Latent-Conditioned Differentially Private Code Generation for Comprehensive Guarantees]
+(https://arxiv.org/abs/2606.09145) [source]:ARXIV
+
+### [Customization under Fire: Plugin Poisoning in Text-to-Image Ecosystem]
+(https://arxiv.org/abs/2606.09151) [source]:ARXIV
+
+### [EnclaveScale: Hardware-Assisted Edge-DP for Secure Data Centre Power Telemetry]
+(https://arxiv.org/abs/2606.09163) [source]:ARXIV
+
+### [Pretrained, Frozen, Still Leaking: Auditing Cross-Encoder Attribute Transfer in EEG Foundation Models]
+(https://arxiv.org/abs/2606.09189) [source]:ARXIV
+
+### [Trustworthy Smart Fabs via Professional Proxies: Scaling Safe and Sustainable by Design (SSbD) through Industrial Data Spaces]
+(https://arxiv.org/abs/2606.09227) [source]:ARXIV
+
+### [Brain-Prompt Injection: A Route-Safety Audit for BCI-LLM Agents]
+(https://arxiv.org/abs/2606.09315) [source]:ARXIV
+
+### [Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors]
+(https://arxiv.org/abs/2606.09402) [source]:ARXIV
+
+### [Now You (Still) See Me: Detecting Evasive Steganographic Payloads in LLMs]
+(https://arxiv.org/abs/2606.09411) [source]:ARXIV
+
+### [Towards Post-Quantum Secure Pharmacovigilance with ML-KEM and ML-DSA]
+(https://arxiv.org/abs/2606.09412) [source]:ARXIV
+
+### [Model Poisoning Against Federated Model Adaptation with Chain of Bit-Flips]
+(https://arxiv.org/abs/2606.09548) [source]:ARXIV
+
+### [SecureClaw: Clawing Back Control of LLM Agents]
+(https://arxiv.org/abs/2606.09549) [source]:ARXIV
+
+### [FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing]
+(https://arxiv.org/abs/2606.09551) [source]:ARXIV
+
+### [Observability for Delegated Execution in Agentic AI Systems]
+(https://arxiv.org/abs/2606.09692) [source]:ARXIV
+
+### [What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks]
+(https://arxiv.org/abs/2606.09700) [source]:ARXIV
+
+### [FADRW: A Feature-Aware Modulated and Dynamically Reweighted Loss for Few-Shot Linguistic Steganalysis]
+(https://arxiv.org/abs/2606.07655) [source]:ARXIV
+
+### [VATS: Exploiting Implicit Authority in Error-Path Injection via Systematic Mutation]
+(https://arxiv.org/abs/2606.07992) [source]:ARXIV
+
+### [TOMOYO Linux: A Mandatory Access Control Method Based on Application Execution State]
+(https://arxiv.org/abs/2606.08060) [source]:ARXIV
+
+### [Multidimensional Resilience for Electrical Power Systems: Systematic Review, Integrated Index, and Validation under Real-World Cyber-Physical Attack Scenarios]
+(https://arxiv.org/abs/2606.08062) [source]:ARXIV
+
+### [Differentially Private Range Subgraph Counting]
+(https://arxiv.org/abs/2606.08179) [source]:ARXIV
+
+### [Uncertainty Principles for the Number Theoretic Transform]
+(https://arxiv.org/abs/2606.08662) [source]:ARXIV
+
+### [RAILS: Verification-Native Clearing For Agentic Commerce]
+(https://arxiv.org/abs/2606.08790) [source]:ARXIV
+
+### [Cheap Reward Hacking Detection]
+(https://arxiv.org/abs/2606.08893) [source]:ARXIV
+
+### [Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human]
+(https://arxiv.org/abs/2606.08919) [source]:ARXIV
+
+### [The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context Injection]
+(https://arxiv.org/abs/2606.09204) [source]:ARXIV
+
+### [Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models]
+(https://arxiv.org/abs/2606.09401) [source]:ARXIV
+
+### [Targeting World Models to Compromise Robot Learning Pipelines]
+(https://arxiv.org/abs/2606.09499) [source]:ARXIV
+
+### [Safe-RULE: Safe Reinforcement UnLEarning]
+(https://arxiv.org/abs/2606.09559) [source]:ARXIV
+
+### [Clinically Grounded Privacy Evaluation of Medical LMs]
+(https://arxiv.org/abs/2606.09590) [source]:ARXIV
+
+### [Parent-Hash DAG: A Cost Analysis of Constant-Time Append for On-Chain Registries]
+(https://arxiv.org/abs/2606.09593) [source]:ARXIV
+
+### [A Bell-State Extension of Loop-Back Quantum Key Distribution]
+(https://arxiv.org/abs/2606.09723) [source]:ARXIV
+
+### [Human-Centred Risk Mitigation for AI-Mediated Information Manipulation: A SOCMINT Framework Based on Information Manipulation Sets]
+(https://arxiv.org/abs/2606.09754) [source]:ARXIV
+
+### [FIT-Print: Towards False-claim-resistant Model Ownership Verification via Targeted Fingerprint]
+(https://arxiv.org/abs/2501.15509) [source]:ARXIV
+
+### [Maris: A Formally Verifiable Privacy Policy Enforcement Paradigm for Multi-Agent Collaboration Systems]
+(https://arxiv.org/abs/2505.04799) [source]:ARXIV
+
+### [Cryptographic Backdoor for Neural Networks: Boon and Bane]
+(https://arxiv.org/abs/2509.20714) [source]:ARXIV
+
+### [TAO: Tolerance-Aware Optimistic Verification for Floating-Point Neural Networks]
+(https://arxiv.org/abs/2510.16028) [source]:ARXIV
+
+### [PLAGUE: Plug-and-play framework for Lifelong Adaptive Generation of Multi-turn Exploits]
+(https://arxiv.org/abs/2510.17947) [source]:ARXIV
+
+### [Security Analysis of LTE Connectivity in Connected Cars: A Case Study of Tesla]
+(https://arxiv.org/abs/2510.22024) [source]:ARXIV
+
+### [Future-Proofing Authentication Against Insecure Bootstrapping for 5G Networks: Feasibility, Resiliency, and Accountability]
+(https://arxiv.org/abs/2510.23457) [source]:ARXIV
+
+### [A Survey of Heterogeneous Graph Neural Networks for Cybersecurity Anomaly Detection]
+(https://arxiv.org/abs/2510.26307) [source]:ARXIV
+
+### [Tuning for TraceTarnish: Techniques, Trends, and Testing Tangible Traits]
+(https://arxiv.org/abs/2512.03465) [source]:ARXIV
+
+### [State Backdoor: Towards Stealthy Real-world Poisoning Attack on Vision-Language-Action Model in State Space]
+(https://arxiv.org/abs/2601.04266) [source]:ARXIV
+
+### [Composition for Pufferfish Privacy]
+(https://arxiv.org/abs/2602.02718) [source]:ARXIV
+
+### [Security of the Fischlin Transform in Quantum Random Oracle Model]
+(https://arxiv.org/abs/2602.17307) [source]:ARXIV
+
+### [Automated Framework to Evaluate and Harden LLM System Instructions against Encoding Attacks]
+(https://arxiv.org/abs/2604.01039) [source]:ARXIV
+
+### [Scalable and Private Federated Learning Using Distributed Differential Privacy and Secure Aggregation]
+(https://arxiv.org/abs/2604.07125) [source]:ARXIV
+
+### [Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions]
+(https://arxiv.org/abs/2604.08304) [source]:ARXIV
+
+### [Hijacking Text Heritage: Hiding the Human Signature through Homoglyphic Substitution]
+(https://arxiv.org/abs/2604.10271) [source]:ARXIV
+
+### [Bit-Flip Vulnerability of Shared KV-Cache Blocks in LLM Serving Systems]
+(https://arxiv.org/abs/2604.17249) [source]:ARXIV
+
+### [Secure Cross-Silo Synthetic Genomic Data Generation]
+(https://arxiv.org/abs/2604.27456) [source]:ARXIV
+
+### [LoRA-Key: User-Centric LoRA Watermarking for Text-to-Image Diffusion Models]
+(https://arxiv.org/abs/2605.29569) [source]:ARXIV
+
+### [Privacy-Enhanced Zero-Order Federated Learning via xMK-CKKS over Wireless Channels]
+(https://arxiv.org/abs/2605.30123) [source]:ARXIV
+
+### [Defenses & Enablers For Skill Injection Attacks on Terminal Based Agents]
+(https://arxiv.org/abs/2606.01567) [source]:ARXIV
+
+### [Private Embedding Lookup with Encrypted Compact Queries under Fully Homomorphic Encryption]
+(https://arxiv.org/abs/2606.03191) [source]:ARXIV
+
+### [The Usefulness Gap in Proof-of-Useful-Work: An Empirical Study of Pearl's cuPOW Protocol]
+(https://arxiv.org/abs/2606.04819) [source]:ARXIV
+
+### [Robust In-Context Reinforcement Learning Under Reward Poisoning Attacks]
+(https://arxiv.org/abs/2506.06891) [source]:ARXIV
+
+### [Efficient and Stealthy Jailbreak Attacks via Adversarial Prompt Distillation from LLMs to SLMs]
+(https://arxiv.org/abs/2506.17231) [source]:ARXIV
+
+### [Pseudo-Equilibria, or: How to Stop Worrying About Crypto and Just Analyze the Game]
+(https://arxiv.org/abs/2506.22089) [source]:ARXIV
+
+### [SecureVibeBench: Benchmarking Secure Vibe Coding of AI Agents via Reconstructing Vulnerability-Introducing Scenarios]
+(https://arxiv.org/abs/2509.22097) [source]:ARXIV
+
+### [GLP: A Grassroots, Multiagent, Concurrent, Logic Programming Language for AI (Full Version)]
+(https://arxiv.org/abs/2510.15747) [source]:ARXIV
+
+### [Logarithmic Density of Rank $\geq 1$ and Rank $\geq 2$ Genus-2 Jacobians and Applications to Hyperelliptic Curve Cryptography]
+(https://arxiv.org/abs/2601.17142) [source]:ARXIV
+
+### [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents]
+(https://arxiv.org/abs/2602.08235) [source]:ARXIV
+
+### [A New Approach to Code Smoothing Bounds]
+(https://arxiv.org/abs/2603.18077) [source]:ARXIV
+
+### [Self-Mined Hardness for Safety Fine-Tuning]
+(https://arxiv.org/abs/2605.03226) [source]:ARXIV
+
+### [Causal Unlearning in Collaborative Optimization: Exact and Approximate Influence Reversal under Adversarial Contributions]
+(https://arxiv.org/abs/2605.20341) [source]:ARXIV
+
+### [Cycle-Space Informed Detection of Autoencoded Blind False Data Injection Attacks on Power Systems]
+(https://arxiv.org/abs/2605.28912) [source]:ARXIV
+
+### [On the History of the Square and Multiply Algorithm]
+(https://arxiv.org/abs/2606.00958) [source]:ARXIV
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/) [source]:TOB
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
+
+### [A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens]
+(https://projectzero.google/2026/05/pixel-10-exploit.html) [source]:P0
+
+### [On the Effectiveness of Mutational Grammar Fuzzing]
+(https://projectzero.google/2026/03/mutational-grammar-fuzzing.html) [source]:P0
+
+### [A Deep Dive into the GetProcessHandleFromHwnd API]
+(https://projectzero.google/2026/02/gphfh-deep-dive.html) [source]:P0
+
+### [Bypassing Administrator Protection by Abusing UI Access]
+(https://projectzero.google/2026/02/windows-administrator-protection.html) [source]:P0
+
+### [Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529]
+(https://projectzero.google/2026/01/sound-barrier-2.html) [source]:P0
+
+### [Bypassing Windows Administrator Protection]
+(https://projectzero.google/2026/26/windows-administrator-protection.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?]
+(https://projectzero.google/2026/01/pixel-0-click-part-3.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave]
+(https://projectzero.google/2026/01/pixel-0-click-part-2.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby]
+(https://projectzero.google/2026/01/pixel-0-click-part-1.html) [source]:P0
+
+### [Welcome to the new Project Zero Blog]
+(https://projectzero.google/2025/12/welcome.html) [source]:P0
+
+### [Detecting Aimbot Cheaters in MOGs]
+(https://arxiv.org/abs/2606.07650) [source]:ARXIV
+
+### [MLingualFC: Evaluating Jailbreak Vulnerabilities in Multilingual Vision-Language Models]
+(https://arxiv.org/abs/2606.07706) [source]:ARXIV
+
+### [SHIELD-IDS: Structurally Heterogeneous Ensemble with Integrated Layered Defense for Intrusion Detection Systems]
+(https://arxiv.org/abs/2606.07716) [source]:ARXIV
+
+### [ScaleDisturb: Exploiting Temporal Asymmetry to Amplify Read Disturbance in Modern DRAM Chips]
+(https://arxiv.org/abs/2606.07761) [source]:ARXIV
+
+### [MOLOT System Card: Malicious Operational Logic Observation Transformer]
+(https://arxiv.org/abs/2606.07792) [source]:ARXIV
+
+### [Belief-Space Quantum-Inspired Reinforcement Learning for Partially Observable Autonomous Cyber Defense in the Internet of Vehicles]
+(https://arxiv.org/abs/2606.07796) [source]:ARXIV
+
+### [Quantum-Inspired Reinforcement Learning for Low-Latency Intrusion Detection in V2X and Internet-of-Vehicles Networks]
+(https://arxiv.org/abs/2606.07804) [source]:ARXIV
+
+### [Ternary public-key cryptosystem]
+(https://arxiv.org/abs/2606.07832) [source]:ARXIV
+
+### [Beyond Pass/Fail: Using Process Mining to Understand How LLMs Resist (and Fail) Red Team Attacks]
+(https://arxiv.org/abs/2606.07833) [source]:ARXIV
+
+### [Model Multiplicity for Adversarial Detection in Small Language Model Training on Edge Devices]
+(https://arxiv.org/abs/2606.07857) [source]:ARXIV
+
+### [DP4SQL: Differentially Private SQL with Flexible Privacy Policies]
+(https://arxiv.org/abs/2606.07883) [source]:ARXIV
+
+### [Hallucination Cascade: Analyzing Error Propagation in Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07937) [source]:ARXIV
+
+### [SGTO-MAS: Secure Gorilla Troops Optimization for Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07940) [source]:ARXIV
+
+### [Collective Hallucination in Multi-Agent LLMs:Modeling and Defense]
+(https://arxiv.org/abs/2606.07941) [source]:ARXIV
+
+### [POISE: Position-Aware Undetectable Skill Injection on LLM Agents]
+(https://arxiv.org/abs/2606.07943) [source]:ARXIV
+
+### [Demand-Driven Vulnerability Detection for Cloud Security Posture Management: Removing Human Rule Authoring from the Disclosure-to-Protection Critical Path]
+(https://arxiv.org/abs/2606.07957) [source]:ARXIV
+
+### [RecurGuard: Runtime Monitoring for Reasoning-Token Consumption Attacks]
+(https://arxiv.org/abs/2606.07968) [source]:ARXIV
+
+### [The Dodona Protocol: A Living Design Science Experiment in Oracle Design]
+(https://arxiv.org/abs/2606.08012) [source]:ARXIV
+
+### [Policy Description Language for Authorization using Logic-Based Programming]
+(https://arxiv.org/abs/2606.08119) [source]:ARXIV
+
+### [Closing the Sim-to-Real Gap: An Evaluation Framework for Autonomous Cyber Defense Configuration of Commercial EDR]
+(https://arxiv.org/abs/2606.08168) [source]:ARXIV
+
+### [AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation]
+(https://arxiv.org/abs/2606.08173) [source]:ARXIV
+
+### [LPOR: A Layered Proof of Reserves Framework for Usable and Publicly Auditable Solvency Verification]
+(https://arxiv.org/abs/2606.08211) [source]:ARXIV
+
+### [Quantifying and Defending against the Privacy Risk in Logit-based Federated Learning]
+(https://arxiv.org/abs/2606.08252) [source]:ARXIV
+
+### [An AI Security Agent for University ACMIS: Multi-Vector Threat Detection and Automated Response]
+(https://arxiv.org/abs/2606.08270) [source]:ARXIV
+
+### [SoK: Reconstruction Attacks on Synthetic Tabular Data (Insights from Winning the NIST CRC)]
+(https://arxiv.org/abs/2606.08372) [source]:ARXIV
+
+### [Hiding in Plain Floats: Steganographic Carriers for Indirect Prompt and Content Injection]
+(https://arxiv.org/abs/2606.08403) [source]:ARXIV
+
+### [AI Code Sandboxes: A Comparative Security Study. Part 1 of 2 -- Engine-Level Properties (Attack Surface, Leakage, Stackability, CVE History, Patch Cadence, Fuzzing)]
+(https://arxiv.org/abs/2606.08433) [source]:ARXIV
+
+### [Digital White Spaces: A Cyberpsychology-Informed Framework to Mobile Phone Addiction]
+(https://arxiv.org/abs/2606.08472) [source]:ARXIV
+
+### [Exploring CKKS Parameter Trade-offs for Privacy-Preserving Personalized Federated Learning]
+(https://arxiv.org/abs/2606.08521) [source]:ARXIV
+
+### [Sample-Efficient LLM-Based Detection of Malicious Web Server Logs with Forensically Explainable Reasoning]
+(https://arxiv.org/abs/2606.08649) [source]:ARXIV
+
+### [Data Agents Under Attack: Vulnerabilities in LLM-Driven Analytical Systems]
+(https://arxiv.org/abs/2606.08661) [source]:ARXIV
+
+### [X-rated Compliance Theater: An Empirical Evaluation of European Age Verification Systems in Adult Websites]
+(https://arxiv.org/abs/2606.08667) [source]:ARXIV
+
+### [Asymptotic Optimality of the High-Dimensional Gaussian Mechanism and Improved Low-Dimensional Mechanisms for Differential Privacy]
+(https://arxiv.org/abs/2606.08681) [source]:ARXIV
+
+### [AutoSUT: The Environment Semantics Gap in Structured CTI for Adversary Emulation]
+(https://arxiv.org/abs/2606.08700) [source]:ARXIV
+
+### [Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography]
+(https://arxiv.org/abs/2606.08726) [source]:ARXIV
+
+### [Block-A-Mole: The Sustainability Frontier of Moving-Target Censorship Resistance]
+(https://arxiv.org/abs/2606.08886) [source]:ARXIV
+
+### [Hardening Agent Benchmarks with Adversarial Hacker-Fixer Loops]
+(https://arxiv.org/abs/2606.08960) [source]:ARXIV
+
+### [Document-Authored Control-Signal Impersonation: A Low-Cost Indirect Prompt Attack on RAG Safety Boundaries]
+(https://arxiv.org/abs/2606.09005) [source]:ARXIV
+
+### [Security-First Approach to API Pipeline Development with Zero-Trust Architecture]
+(https://arxiv.org/abs/2606.09062) [source]:ARXIV
+
+### [Context-Fractured Decomposition Attacks on Tool-Using LLM Agents: Exploiting Artifact Provenance Gaps]
+(https://arxiv.org/abs/2606.09084) [source]:ARXIV
+
+### [Unveiling Privacy Risks in Multi-modal Large Language Models: Task-specific Vulnerabilities and Mitigation Challenges]
+(https://arxiv.org/abs/2606.09125) [source]:ARXIV
+
+### [Steganography Without Modification: Hidden Communication via LLM Seeds]
+(https://arxiv.org/abs/2606.09135) [source]:ARXIV
+
+### [PrivCode++: Latent-Conditioned Differentially Private Code Generation for Comprehensive Guarantees]
+(https://arxiv.org/abs/2606.09145) [source]:ARXIV
+
+### [Customization under Fire: Plugin Poisoning in Text-to-Image Ecosystem]
+(https://arxiv.org/abs/2606.09151) [source]:ARXIV
+
+### [EnclaveScale: Hardware-Assisted Edge-DP for Secure Data Centre Power Telemetry]
+(https://arxiv.org/abs/2606.09163) [source]:ARXIV
+
+### [Pretrained, Frozen, Still Leaking: Auditing Cross-Encoder Attribute Transfer in EEG Foundation Models]
+(https://arxiv.org/abs/2606.09189) [source]:ARXIV
+
+### [Trustworthy Smart Fabs via Professional Proxies: Scaling Safe and Sustainable by Design (SSbD) through Industrial Data Spaces]
+(https://arxiv.org/abs/2606.09227) [source]:ARXIV
+
+### [Brain-Prompt Injection: A Route-Safety Audit for BCI-LLM Agents]
+(https://arxiv.org/abs/2606.09315) [source]:ARXIV
+
+### [Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors]
+(https://arxiv.org/abs/2606.09402) [source]:ARXIV
+
+### [Now You (Still) See Me: Detecting Evasive Steganographic Payloads in LLMs]
+(https://arxiv.org/abs/2606.09411) [source]:ARXIV
+
+### [Towards Post-Quantum Secure Pharmacovigilance with ML-KEM and ML-DSA]
+(https://arxiv.org/abs/2606.09412) [source]:ARXIV
+
+### [Model Poisoning Against Federated Model Adaptation with Chain of Bit-Flips]
+(https://arxiv.org/abs/2606.09548) [source]:ARXIV
+
+### [SecureClaw: Clawing Back Control of LLM Agents]
+(https://arxiv.org/abs/2606.09549) [source]:ARXIV
+
+### [FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing]
+(https://arxiv.org/abs/2606.09551) [source]:ARXIV
+
+### [Observability for Delegated Execution in Agentic AI Systems]
+(https://arxiv.org/abs/2606.09692) [source]:ARXIV
+
+### [What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks]
+(https://arxiv.org/abs/2606.09700) [source]:ARXIV
+
+### [FADRW: A Feature-Aware Modulated and Dynamically Reweighted Loss for Few-Shot Linguistic Steganalysis]
+(https://arxiv.org/abs/2606.07655) [source]:ARXIV
+
+### [VATS: Exploiting Implicit Authority in Error-Path Injection via Systematic Mutation]
+(https://arxiv.org/abs/2606.07992) [source]:ARXIV
+
+### [TOMOYO Linux: A Mandatory Access Control Method Based on Application Execution State]
+(https://arxiv.org/abs/2606.08060) [source]:ARXIV
+
+### [Multidimensional Resilience for Electrical Power Systems: Systematic Review, Integrated Index, and Validation under Real-World Cyber-Physical Attack Scenarios]
+(https://arxiv.org/abs/2606.08062) [source]:ARXIV
+
+### [Differentially Private Range Subgraph Counting]
+(https://arxiv.org/abs/2606.08179) [source]:ARXIV
+
+### [Uncertainty Principles for the Number Theoretic Transform]
+(https://arxiv.org/abs/2606.08662) [source]:ARXIV
+
+### [RAILS: Verification-Native Clearing For Agentic Commerce]
+(https://arxiv.org/abs/2606.08790) [source]:ARXIV
+
+### [Cheap Reward Hacking Detection]
+(https://arxiv.org/abs/2606.08893) [source]:ARXIV
+
+### [Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human]
+(https://arxiv.org/abs/2606.08919) [source]:ARXIV
+
+### [The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context Injection]
+(https://arxiv.org/abs/2606.09204) [source]:ARXIV
+
+### [Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models]
+(https://arxiv.org/abs/2606.09401) [source]:ARXIV
+
+### [Targeting World Models to Compromise Robot Learning Pipelines]
+(https://arxiv.org/abs/2606.09499) [source]:ARXIV
+
+### [Safe-RULE: Safe Reinforcement UnLEarning]
+(https://arxiv.org/abs/2606.09559) [source]:ARXIV
+
+### [Clinically Grounded Privacy Evaluation of Medical LMs]
+(https://arxiv.org/abs/2606.09590) [source]:ARXIV
+
+### [Parent-Hash DAG: A Cost Analysis of Constant-Time Append for On-Chain Registries]
+(https://arxiv.org/abs/2606.09593) [source]:ARXIV
+
+### [A Bell-State Extension of Loop-Back Quantum Key Distribution]
+(https://arxiv.org/abs/2606.09723) [source]:ARXIV
+
+### [Human-Centred Risk Mitigation for AI-Mediated Information Manipulation: A SOCMINT Framework Based on Information Manipulation Sets]
+(https://arxiv.org/abs/2606.09754) [source]:ARXIV
+
+### [FIT-Print: Towards False-claim-resistant Model Ownership Verification via Targeted Fingerprint]
+(https://arxiv.org/abs/2501.15509) [source]:ARXIV
+
+### [Maris: A Formally Verifiable Privacy Policy Enforcement Paradigm for Multi-Agent Collaboration Systems]
+(https://arxiv.org/abs/2505.04799) [source]:ARXIV
+
+### [Cryptographic Backdoor for Neural Networks: Boon and Bane]
+(https://arxiv.org/abs/2509.20714) [source]:ARXIV
+
+### [TAO: Tolerance-Aware Optimistic Verification for Floating-Point Neural Networks]
+(https://arxiv.org/abs/2510.16028) [source]:ARXIV
+
+### [PLAGUE: Plug-and-play framework for Lifelong Adaptive Generation of Multi-turn Exploits]
+(https://arxiv.org/abs/2510.17947) [source]:ARXIV
+
+### [Security Analysis of LTE Connectivity in Connected Cars: A Case Study of Tesla]
+(https://arxiv.org/abs/2510.22024) [source]:ARXIV
+
+### [Future-Proofing Authentication Against Insecure Bootstrapping for 5G Networks: Feasibility, Resiliency, and Accountability]
+(https://arxiv.org/abs/2510.23457) [source]:ARXIV
+
+### [A Survey of Heterogeneous Graph Neural Networks for Cybersecurity Anomaly Detection]
+(https://arxiv.org/abs/2510.26307) [source]:ARXIV
+
+### [Tuning for TraceTarnish: Techniques, Trends, and Testing Tangible Traits]
+(https://arxiv.org/abs/2512.03465) [source]:ARXIV
+
+### [State Backdoor: Towards Stealthy Real-world Poisoning Attack on Vision-Language-Action Model in State Space]
+(https://arxiv.org/abs/2601.04266) [source]:ARXIV
+
+### [Composition for Pufferfish Privacy]
+(https://arxiv.org/abs/2602.02718) [source]:ARXIV
+
+### [Security of the Fischlin Transform in Quantum Random Oracle Model]
+(https://arxiv.org/abs/2602.17307) [source]:ARXIV
+
+### [Automated Framework to Evaluate and Harden LLM System Instructions against Encoding Attacks]
+(https://arxiv.org/abs/2604.01039) [source]:ARXIV
+
+### [Scalable and Private Federated Learning Using Distributed Differential Privacy and Secure Aggregation]
+(https://arxiv.org/abs/2604.07125) [source]:ARXIV
+
+### [Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions]
+(https://arxiv.org/abs/2604.08304) [source]:ARXIV
+
+### [Hijacking Text Heritage: Hiding the Human Signature through Homoglyphic Substitution]
+(https://arxiv.org/abs/2604.10271) [source]:ARXIV
+
+### [Bit-Flip Vulnerability of Shared KV-Cache Blocks in LLM Serving Systems]
+(https://arxiv.org/abs/2604.17249) [source]:ARXIV
+
+### [Secure Cross-Silo Synthetic Genomic Data Generation]
+(https://arxiv.org/abs/2604.27456) [source]:ARXIV
+
+### [LoRA-Key: User-Centric LoRA Watermarking for Text-to-Image Diffusion Models]
+(https://arxiv.org/abs/2605.29569) [source]:ARXIV
+
+### [Privacy-Enhanced Zero-Order Federated Learning via xMK-CKKS over Wireless Channels]
+(https://arxiv.org/abs/2605.30123) [source]:ARXIV
+
+### [Defenses & Enablers For Skill Injection Attacks on Terminal Based Agents]
+(https://arxiv.org/abs/2606.01567) [source]:ARXIV
+
+### [Private Embedding Lookup with Encrypted Compact Queries under Fully Homomorphic Encryption]
+(https://arxiv.org/abs/2606.03191) [source]:ARXIV
+
+### [The Usefulness Gap in Proof-of-Useful-Work: An Empirical Study of Pearl's cuPOW Protocol]
+(https://arxiv.org/abs/2606.04819) [source]:ARXIV
+
+### [Robust In-Context Reinforcement Learning Under Reward Poisoning Attacks]
+(https://arxiv.org/abs/2506.06891) [source]:ARXIV
+
+### [Efficient and Stealthy Jailbreak Attacks via Adversarial Prompt Distillation from LLMs to SLMs]
+(https://arxiv.org/abs/2506.17231) [source]:ARXIV
+
+### [Pseudo-Equilibria, or: How to Stop Worrying About Crypto and Just Analyze the Game]
+(https://arxiv.org/abs/2506.22089) [source]:ARXIV
+
+### [SecureVibeBench: Benchmarking Secure Vibe Coding of AI Agents via Reconstructing Vulnerability-Introducing Scenarios]
+(https://arxiv.org/abs/2509.22097) [source]:ARXIV
+
+### [GLP: A Grassroots, Multiagent, Concurrent, Logic Programming Language for AI (Full Version)]
+(https://arxiv.org/abs/2510.15747) [source]:ARXIV
+
+### [Logarithmic Density of Rank $\geq 1$ and Rank $\geq 2$ Genus-2 Jacobians and Applications to Hyperelliptic Curve Cryptography]
+(https://arxiv.org/abs/2601.17142) [source]:ARXIV
+
+### [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents]
+(https://arxiv.org/abs/2602.08235) [source]:ARXIV
+
+### [A New Approach to Code Smoothing Bounds]
+(https://arxiv.org/abs/2603.18077) [source]:ARXIV
+
+### [Self-Mined Hardness for Safety Fine-Tuning]
+(https://arxiv.org/abs/2605.03226) [source]:ARXIV
+
+### [Causal Unlearning in Collaborative Optimization: Exact and Approximate Influence Reversal under Adversarial Contributions]
+(https://arxiv.org/abs/2605.20341) [source]:ARXIV
+
+### [Cycle-Space Informed Detection of Autoencoded Blind False Data Injection Attacks on Power Systems]
+(https://arxiv.org/abs/2605.28912) [source]:ARXIV
+
+### [On the History of the Square and Multiply Algorithm]
+(https://arxiv.org/abs/2606.00958) [source]:ARXIV
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/) [source]:TOB
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
+
+### [A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens]
+(https://projectzero.google/2026/05/pixel-10-exploit.html) [source]:P0
+
+### [On the Effectiveness of Mutational Grammar Fuzzing]
+(https://projectzero.google/2026/03/mutational-grammar-fuzzing.html) [source]:P0
+
+### [A Deep Dive into the GetProcessHandleFromHwnd API]
+(https://projectzero.google/2026/02/gphfh-deep-dive.html) [source]:P0
+
+### [Bypassing Administrator Protection by Abusing UI Access]
+(https://projectzero.google/2026/02/windows-administrator-protection.html) [source]:P0
+
+### [Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529]
+(https://projectzero.google/2026/01/sound-barrier-2.html) [source]:P0
+
+### [Bypassing Windows Administrator Protection]
+(https://projectzero.google/2026/26/windows-administrator-protection.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?]
+(https://projectzero.google/2026/01/pixel-0-click-part-3.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave]
+(https://projectzero.google/2026/01/pixel-0-click-part-2.html) [source]:P0
+
+### [A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby]
+(https://projectzero.google/2026/01/pixel-0-click-part-1.html) [source]:P0
+
+### [Welcome to the new Project Zero Blog]
+(https://projectzero.google/2025/12/welcome.html) [source]:P0
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/) [source]:TOB
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
+
+### [Detecting Aimbot Cheaters in MOGs]
+(https://arxiv.org/abs/2606.07650) [source]:ARXIV
+
+### [MLingualFC: Evaluating Jailbreak Vulnerabilities in Multilingual Vision-Language Models]
+(https://arxiv.org/abs/2606.07706) [source]:ARXIV
+
+### [SHIELD-IDS: Structurally Heterogeneous Ensemble with Integrated Layered Defense for Intrusion Detection Systems]
+(https://arxiv.org/abs/2606.07716) [source]:ARXIV
+
+### [ScaleDisturb: Exploiting Temporal Asymmetry to Amplify Read Disturbance in Modern DRAM Chips]
+(https://arxiv.org/abs/2606.07761) [source]:ARXIV
+
+### [MOLOT System Card: Malicious Operational Logic Observation Transformer]
+(https://arxiv.org/abs/2606.07792) [source]:ARXIV
+
+### [Belief-Space Quantum-Inspired Reinforcement Learning for Partially Observable Autonomous Cyber Defense in the Internet of Vehicles]
+(https://arxiv.org/abs/2606.07796) [source]:ARXIV
+
+### [Quantum-Inspired Reinforcement Learning for Low-Latency Intrusion Detection in V2X and Internet-of-Vehicles Networks]
+(https://arxiv.org/abs/2606.07804) [source]:ARXIV
+
+### [Ternary public-key cryptosystem]
+(https://arxiv.org/abs/2606.07832) [source]:ARXIV
+
+### [Beyond Pass/Fail: Using Process Mining to Understand How LLMs Resist (and Fail) Red Team Attacks]
+(https://arxiv.org/abs/2606.07833) [source]:ARXIV
+
+### [Model Multiplicity for Adversarial Detection in Small Language Model Training on Edge Devices]
+(https://arxiv.org/abs/2606.07857) [source]:ARXIV
+
+### [DP4SQL: Differentially Private SQL with Flexible Privacy Policies]
+(https://arxiv.org/abs/2606.07883) [source]:ARXIV
+
+### [Hallucination Cascade: Analyzing Error Propagation in Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07937) [source]:ARXIV
+
+### [SGTO-MAS: Secure Gorilla Troops Optimization for Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07940) [source]:ARXIV
+
+### [Collective Hallucination in Multi-Agent LLMs:Modeling and Defense]
+(https://arxiv.org/abs/2606.07941) [source]:ARXIV
+
+### [POISE: Position-Aware Undetectable Skill Injection on LLM Agents]
+(https://arxiv.org/abs/2606.07943) [source]:ARXIV
+
+### [Demand-Driven Vulnerability Detection for Cloud Security Posture Management: Removing Human Rule Authoring from the Disclosure-to-Protection Critical Path]
+(https://arxiv.org/abs/2606.07957) [source]:ARXIV
+
+### [RecurGuard: Runtime Monitoring for Reasoning-Token Consumption Attacks]
+(https://arxiv.org/abs/2606.07968) [source]:ARXIV
+
+### [The Dodona Protocol: A Living Design Science Experiment in Oracle Design]
+(https://arxiv.org/abs/2606.08012) [source]:ARXIV
+
+### [Policy Description Language for Authorization using Logic-Based Programming]
+(https://arxiv.org/abs/2606.08119) [source]:ARXIV
+
+### [Closing the Sim-to-Real Gap: An Evaluation Framework for Autonomous Cyber Defense Configuration of Commercial EDR]
+(https://arxiv.org/abs/2606.08168) [source]:ARXIV
+
+### [AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation]
+(https://arxiv.org/abs/2606.08173) [source]:ARXIV
+
+### [LPOR: A Layered Proof of Reserves Framework for Usable and Publicly Auditable Solvency Verification]
+(https://arxiv.org/abs/2606.08211) [source]:ARXIV
+
+### [Quantifying and Defending against the Privacy Risk in Logit-based Federated Learning]
+(https://arxiv.org/abs/2606.08252) [source]:ARXIV
+
+### [An AI Security Agent for University ACMIS: Multi-Vector Threat Detection and Automated Response]
+(https://arxiv.org/abs/2606.08270) [source]:ARXIV
+
+### [SoK: Reconstruction Attacks on Synthetic Tabular Data (Insights from Winning the NIST CRC)]
+(https://arxiv.org/abs/2606.08372) [source]:ARXIV
+
+### [Hiding in Plain Floats: Steganographic Carriers for Indirect Prompt and Content Injection]
+(https://arxiv.org/abs/2606.08403) [source]:ARXIV
+
+### [AI Code Sandboxes: A Comparative Security Study. Part 1 of 2 -- Engine-Level Properties (Attack Surface, Leakage, Stackability, CVE History, Patch Cadence, Fuzzing)]
+(https://arxiv.org/abs/2606.08433) [source]:ARXIV
+
+### [Digital White Spaces: A Cyberpsychology-Informed Framework to Mobile Phone Addiction]
+(https://arxiv.org/abs/2606.08472) [source]:ARXIV
+
+### [Exploring CKKS Parameter Trade-offs for Privacy-Preserving Personalized Federated Learning]
+(https://arxiv.org/abs/2606.08521) [source]:ARXIV
+
+### [Sample-Efficient LLM-Based Detection of Malicious Web Server Logs with Forensically Explainable Reasoning]
+(https://arxiv.org/abs/2606.08649) [source]:ARXIV
+
+### [Data Agents Under Attack: Vulnerabilities in LLM-Driven Analytical Systems]
+(https://arxiv.org/abs/2606.08661) [source]:ARXIV
+
+### [X-rated Compliance Theater: An Empirical Evaluation of European Age Verification Systems in Adult Websites]
+(https://arxiv.org/abs/2606.08667) [source]:ARXIV
+
+### [Asymptotic Optimality of the High-Dimensional Gaussian Mechanism and Improved Low-Dimensional Mechanisms for Differential Privacy]
+(https://arxiv.org/abs/2606.08681) [source]:ARXIV
+
+### [AutoSUT: The Environment Semantics Gap in Structured CTI for Adversary Emulation]
+(https://arxiv.org/abs/2606.08700) [source]:ARXIV
+
+### [Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography]
+(https://arxiv.org/abs/2606.08726) [source]:ARXIV
+
+### [Block-A-Mole: The Sustainability Frontier of Moving-Target Censorship Resistance]
+(https://arxiv.org/abs/2606.08886) [source]:ARXIV
+
+### [Hardening Agent Benchmarks with Adversarial Hacker-Fixer Loops]
+(https://arxiv.org/abs/2606.08960) [source]:ARXIV
+
+### [Document-Authored Control-Signal Impersonation: A Low-Cost Indirect Prompt Attack on RAG Safety Boundaries]
+(https://arxiv.org/abs/2606.09005) [source]:ARXIV
+
+### [Security-First Approach to API Pipeline Development with Zero-Trust Architecture]
+(https://arxiv.org/abs/2606.09062) [source]:ARXIV
+
+### [Context-Fractured Decomposition Attacks on Tool-Using LLM Agents: Exploiting Artifact Provenance Gaps]
+(https://arxiv.org/abs/2606.09084) [source]:ARXIV
+
+### [Unveiling Privacy Risks in Multi-modal Large Language Models: Task-specific Vulnerabilities and Mitigation Challenges]
+(https://arxiv.org/abs/2606.09125) [source]:ARXIV
+
+### [Steganography Without Modification: Hidden Communication via LLM Seeds]
+(https://arxiv.org/abs/2606.09135) [source]:ARXIV
+
+### [PrivCode++: Latent-Conditioned Differentially Private Code Generation for Comprehensive Guarantees]
+(https://arxiv.org/abs/2606.09145) [source]:ARXIV
+
+### [Customization under Fire: Plugin Poisoning in Text-to-Image Ecosystem]
+(https://arxiv.org/abs/2606.09151) [source]:ARXIV
+
+### [EnclaveScale: Hardware-Assisted Edge-DP for Secure Data Centre Power Telemetry]
+(https://arxiv.org/abs/2606.09163) [source]:ARXIV
+
+### [Pretrained, Frozen, Still Leaking: Auditing Cross-Encoder Attribute Transfer in EEG Foundation Models]
+(https://arxiv.org/abs/2606.09189) [source]:ARXIV
+
+### [Trustworthy Smart Fabs via Professional Proxies: Scaling Safe and Sustainable by Design (SSbD) through Industrial Data Spaces]
+(https://arxiv.org/abs/2606.09227) [source]:ARXIV
+
+### [Brain-Prompt Injection: A Route-Safety Audit for BCI-LLM Agents]
+(https://arxiv.org/abs/2606.09315) [source]:ARXIV
+
+### [Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors]
+(https://arxiv.org/abs/2606.09402) [source]:ARXIV
+
+### [Now You (Still) See Me: Detecting Evasive Steganographic Payloads in LLMs]
+(https://arxiv.org/abs/2606.09411) [source]:ARXIV
+
+### [Towards Post-Quantum Secure Pharmacovigilance with ML-KEM and ML-DSA]
+(https://arxiv.org/abs/2606.09412) [source]:ARXIV
+
+### [Model Poisoning Against Federated Model Adaptation with Chain of Bit-Flips]
+(https://arxiv.org/abs/2606.09548) [source]:ARXIV
+
+### [SecureClaw: Clawing Back Control of LLM Agents]
+(https://arxiv.org/abs/2606.09549) [source]:ARXIV
+
+### [FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing]
+(https://arxiv.org/abs/2606.09551) [source]:ARXIV
+
+### [Observability for Delegated Execution in Agentic AI Systems]
+(https://arxiv.org/abs/2606.09692) [source]:ARXIV
+
+### [What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks]
+(https://arxiv.org/abs/2606.09700) [source]:ARXIV
+
+### [FADRW: A Feature-Aware Modulated and Dynamically Reweighted Loss for Few-Shot Linguistic Steganalysis]
+(https://arxiv.org/abs/2606.07655) [source]:ARXIV
+
+### [VATS: Exploiting Implicit Authority in Error-Path Injection via Systematic Mutation]
+(https://arxiv.org/abs/2606.07992) [source]:ARXIV
+
+### [TOMOYO Linux: A Mandatory Access Control Method Based on Application Execution State]
+(https://arxiv.org/abs/2606.08060) [source]:ARXIV
+
+### [Multidimensional Resilience for Electrical Power Systems: Systematic Review, Integrated Index, and Validation under Real-World Cyber-Physical Attack Scenarios]
+(https://arxiv.org/abs/2606.08062) [source]:ARXIV
+
+### [Differentially Private Range Subgraph Counting]
+(https://arxiv.org/abs/2606.08179) [source]:ARXIV
+
+### [Uncertainty Principles for the Number Theoretic Transform]
+(https://arxiv.org/abs/2606.08662) [source]:ARXIV
+
+### [RAILS: Verification-Native Clearing For Agentic Commerce]
+(https://arxiv.org/abs/2606.08790) [source]:ARXIV
+
+### [Cheap Reward Hacking Detection]
+(https://arxiv.org/abs/2606.08893) [source]:ARXIV
+
+### [Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human]
+(https://arxiv.org/abs/2606.08919) [source]:ARXIV
+
+### [The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context Injection]
+(https://arxiv.org/abs/2606.09204) [source]:ARXIV
+
+### [Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models]
+(https://arxiv.org/abs/2606.09401) [source]:ARXIV
+
+### [Targeting World Models to Compromise Robot Learning Pipelines]
+(https://arxiv.org/abs/2606.09499) [source]:ARXIV
+
+### [Safe-RULE: Safe Reinforcement UnLEarning]
+(https://arxiv.org/abs/2606.09559) [source]:ARXIV
+
+### [Clinically Grounded Privacy Evaluation of Medical LMs]
+(https://arxiv.org/abs/2606.09590) [source]:ARXIV
+
+### [Parent-Hash DAG: A Cost Analysis of Constant-Time Append for On-Chain Registries]
+(https://arxiv.org/abs/2606.09593) [source]:ARXIV
+
+### [A Bell-State Extension of Loop-Back Quantum Key Distribution]
+(https://arxiv.org/abs/2606.09723) [source]:ARXIV
+
+### [Human-Centred Risk Mitigation for AI-Mediated Information Manipulation: A SOCMINT Framework Based on Information Manipulation Sets]
+(https://arxiv.org/abs/2606.09754) [source]:ARXIV
+
+### [FIT-Print: Towards False-claim-resistant Model Ownership Verification via Targeted Fingerprint]
+(https://arxiv.org/abs/2501.15509) [source]:ARXIV
+
+### [Maris: A Formally Verifiable Privacy Policy Enforcement Paradigm for Multi-Agent Collaboration Systems]
+(https://arxiv.org/abs/2505.04799) [source]:ARXIV
+
+### [Cryptographic Backdoor for Neural Networks: Boon and Bane]
+(https://arxiv.org/abs/2509.20714) [source]:ARXIV
+
+### [TAO: Tolerance-Aware Optimistic Verification for Floating-Point Neural Networks]
+(https://arxiv.org/abs/2510.16028) [source]:ARXIV
+
+### [PLAGUE: Plug-and-play framework for Lifelong Adaptive Generation of Multi-turn Exploits]
+(https://arxiv.org/abs/2510.17947) [source]:ARXIV
+
+### [Security Analysis of LTE Connectivity in Connected Cars: A Case Study of Tesla]
+(https://arxiv.org/abs/2510.22024) [source]:ARXIV
+
+### [Future-Proofing Authentication Against Insecure Bootstrapping for 5G Networks: Feasibility, Resiliency, and Accountability]
+(https://arxiv.org/abs/2510.23457) [source]:ARXIV
+
+### [A Survey of Heterogeneous Graph Neural Networks for Cybersecurity Anomaly Detection]
+(https://arxiv.org/abs/2510.26307) [source]:ARXIV
+
+### [Tuning for TraceTarnish: Techniques, Trends, and Testing Tangible Traits]
+(https://arxiv.org/abs/2512.03465) [source]:ARXIV
+
+### [State Backdoor: Towards Stealthy Real-world Poisoning Attack on Vision-Language-Action Model in State Space]
+(https://arxiv.org/abs/2601.04266) [source]:ARXIV
+
+### [Composition for Pufferfish Privacy]
+(https://arxiv.org/abs/2602.02718) [source]:ARXIV
+
+### [Security of the Fischlin Transform in Quantum Random Oracle Model]
+(https://arxiv.org/abs/2602.17307) [source]:ARXIV
+
+### [Automated Framework to Evaluate and Harden LLM System Instructions against Encoding Attacks]
+(https://arxiv.org/abs/2604.01039) [source]:ARXIV
+
+### [Scalable and Private Federated Learning Using Distributed Differential Privacy and Secure Aggregation]
+(https://arxiv.org/abs/2604.07125) [source]:ARXIV
+
+### [Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions]
+(https://arxiv.org/abs/2604.08304) [source]:ARXIV
+
+### [Hijacking Text Heritage: Hiding the Human Signature through Homoglyphic Substitution]
+(https://arxiv.org/abs/2604.10271) [source]:ARXIV
+
+### [Bit-Flip Vulnerability of Shared KV-Cache Blocks in LLM Serving Systems]
+(https://arxiv.org/abs/2604.17249) [source]:ARXIV
+
+### [Secure Cross-Silo Synthetic Genomic Data Generation]
+(https://arxiv.org/abs/2604.27456) [source]:ARXIV
+
+### [LoRA-Key: User-Centric LoRA Watermarking for Text-to-Image Diffusion Models]
+(https://arxiv.org/abs/2605.29569) [source]:ARXIV
+
+### [Privacy-Enhanced Zero-Order Federated Learning via xMK-CKKS over Wireless Channels]
+(https://arxiv.org/abs/2605.30123) [source]:ARXIV
+
+### [Defenses & Enablers For Skill Injection Attacks on Terminal Based Agents]
+(https://arxiv.org/abs/2606.01567) [source]:ARXIV
+
+### [Private Embedding Lookup with Encrypted Compact Queries under Fully Homomorphic Encryption]
+(https://arxiv.org/abs/2606.03191) [source]:ARXIV
+
+### [The Usefulness Gap in Proof-of-Useful-Work: An Empirical Study of Pearl's cuPOW Protocol]
+(https://arxiv.org/abs/2606.04819) [source]:ARXIV
+
+### [Robust In-Context Reinforcement Learning Under Reward Poisoning Attacks]
+(https://arxiv.org/abs/2506.06891) [source]:ARXIV
+
+### [Efficient and Stealthy Jailbreak Attacks via Adversarial Prompt Distillation from LLMs to SLMs]
+(https://arxiv.org/abs/2506.17231) [source]:ARXIV
+
+### [Pseudo-Equilibria, or: How to Stop Worrying About Crypto and Just Analyze the Game]
+(https://arxiv.org/abs/2506.22089) [source]:ARXIV
+
+### [SecureVibeBench: Benchmarking Secure Vibe Coding of AI Agents via Reconstructing Vulnerability-Introducing Scenarios]
+(https://arxiv.org/abs/2509.22097) [source]:ARXIV
+
+### [GLP: A Grassroots, Multiagent, Concurrent, Logic Programming Language for AI (Full Version)]
+(https://arxiv.org/abs/2510.15747) [source]:ARXIV
+
+### [Logarithmic Density of Rank $\geq 1$ and Rank $\geq 2$ Genus-2 Jacobians and Applications to Hyperelliptic Curve Cryptography]
+(https://arxiv.org/abs/2601.17142) [source]:ARXIV
+
+### [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents]
+(https://arxiv.org/abs/2602.08235) [source]:ARXIV
+
+### [A New Approach to Code Smoothing Bounds]
+(https://arxiv.org/abs/2603.18077) [source]:ARXIV
+
+### [Self-Mined Hardness for Safety Fine-Tuning]
+(https://arxiv.org/abs/2605.03226) [source]:ARXIV
+
+### [Causal Unlearning in Collaborative Optimization: Exact and Approximate Influence Reversal under Adversarial Contributions]
+(https://arxiv.org/abs/2605.20341) [source]:ARXIV
+
+### [Cycle-Space Informed Detection of Autoencoded Blind False Data Injection Attacks on Power Systems]
+(https://arxiv.org/abs/2605.28912) [source]:ARXIV
+
+### [On the History of the Square and Multiply Algorithm]
+(https://arxiv.org/abs/2606.00958) [source]:ARXIV
+
+### [Detecting Aimbot Cheaters in MOGs]
+(https://arxiv.org/abs/2606.07650) [source]:ARXIV
+
+### [MLingualFC: Evaluating Jailbreak Vulnerabilities in Multilingual Vision-Language Models]
+(https://arxiv.org/abs/2606.07706) [source]:ARXIV
+
+### [SHIELD-IDS: Structurally Heterogeneous Ensemble with Integrated Layered Defense for Intrusion Detection Systems]
+(https://arxiv.org/abs/2606.07716) [source]:ARXIV
+
+### [ScaleDisturb: Exploiting Temporal Asymmetry to Amplify Read Disturbance in Modern DRAM Chips]
+(https://arxiv.org/abs/2606.07761) [source]:ARXIV
+
+### [MOLOT System Card: Malicious Operational Logic Observation Transformer]
+(https://arxiv.org/abs/2606.07792) [source]:ARXIV
+
+### [Belief-Space Quantum-Inspired Reinforcement Learning for Partially Observable Autonomous Cyber Defense in the Internet of Vehicles]
+(https://arxiv.org/abs/2606.07796) [source]:ARXIV
+
+### [Quantum-Inspired Reinforcement Learning for Low-Latency Intrusion Detection in V2X and Internet-of-Vehicles Networks]
+(https://arxiv.org/abs/2606.07804) [source]:ARXIV
+
+### [Ternary public-key cryptosystem]
+(https://arxiv.org/abs/2606.07832) [source]:ARXIV
+
+### [Beyond Pass/Fail: Using Process Mining to Understand How LLMs Resist (and Fail) Red Team Attacks]
+(https://arxiv.org/abs/2606.07833) [source]:ARXIV
+
+### [Model Multiplicity for Adversarial Detection in Small Language Model Training on Edge Devices]
+(https://arxiv.org/abs/2606.07857) [source]:ARXIV
+
+### [DP4SQL: Differentially Private SQL with Flexible Privacy Policies]
+(https://arxiv.org/abs/2606.07883) [source]:ARXIV
+
+### [Hallucination Cascade: Analyzing Error Propagation in Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07937) [source]:ARXIV
+
+### [SGTO-MAS: Secure Gorilla Troops Optimization for Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07940) [source]:ARXIV
+
+### [Collective Hallucination in Multi-Agent LLMs:Modeling and Defense]
+(https://arxiv.org/abs/2606.07941) [source]:ARXIV
+
+### [POISE: Position-Aware Undetectable Skill Injection on LLM Agents]
+(https://arxiv.org/abs/2606.07943) [source]:ARXIV
+
+### [Demand-Driven Vulnerability Detection for Cloud Security Posture Management: Removing Human Rule Authoring from the Disclosure-to-Protection Critical Path]
+(https://arxiv.org/abs/2606.07957) [source]:ARXIV
+
+### [RecurGuard: Runtime Monitoring for Reasoning-Token Consumption Attacks]
+(https://arxiv.org/abs/2606.07968) [source]:ARXIV
+
+### [The Dodona Protocol: A Living Design Science Experiment in Oracle Design]
+(https://arxiv.org/abs/2606.08012) [source]:ARXIV
+
+### [Policy Description Language for Authorization using Logic-Based Programming]
+(https://arxiv.org/abs/2606.08119) [source]:ARXIV
+
+### [Closing the Sim-to-Real Gap: An Evaluation Framework for Autonomous Cyber Defense Configuration of Commercial EDR]
+(https://arxiv.org/abs/2606.08168) [source]:ARXIV
+
+### [AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation]
+(https://arxiv.org/abs/2606.08173) [source]:ARXIV
+
+### [LPOR: A Layered Proof of Reserves Framework for Usable and Publicly Auditable Solvency Verification]
+(https://arxiv.org/abs/2606.08211) [source]:ARXIV
+
+### [Quantifying and Defending against the Privacy Risk in Logit-based Federated Learning]
+(https://arxiv.org/abs/2606.08252) [source]:ARXIV
+
+### [An AI Security Agent for University ACMIS: Multi-Vector Threat Detection and Automated Response]
+(https://arxiv.org/abs/2606.08270) [source]:ARXIV
+
+### [SoK: Reconstruction Attacks on Synthetic Tabular Data (Insights from Winning the NIST CRC)]
+(https://arxiv.org/abs/2606.08372) [source]:ARXIV
+
+### [Hiding in Plain Floats: Steganographic Carriers for Indirect Prompt and Content Injection]
+(https://arxiv.org/abs/2606.08403) [source]:ARXIV
+
+### [AI Code Sandboxes: A Comparative Security Study. Part 1 of 2 -- Engine-Level Properties (Attack Surface, Leakage, Stackability, CVE History, Patch Cadence, Fuzzing)]
+(https://arxiv.org/abs/2606.08433) [source]:ARXIV
+
+### [Digital White Spaces: A Cyberpsychology-Informed Framework to Mobile Phone Addiction]
+(https://arxiv.org/abs/2606.08472) [source]:ARXIV
+
+### [Exploring CKKS Parameter Trade-offs for Privacy-Preserving Personalized Federated Learning]
+(https://arxiv.org/abs/2606.08521) [source]:ARXIV
+
+### [Sample-Efficient LLM-Based Detection of Malicious Web Server Logs with Forensically Explainable Reasoning]
+(https://arxiv.org/abs/2606.08649) [source]:ARXIV
+
+### [Data Agents Under Attack: Vulnerabilities in LLM-Driven Analytical Systems]
+(https://arxiv.org/abs/2606.08661) [source]:ARXIV
+
+### [X-rated Compliance Theater: An Empirical Evaluation of European Age Verification Systems in Adult Websites]
+(https://arxiv.org/abs/2606.08667) [source]:ARXIV
+
+### [Asymptotic Optimality of the High-Dimensional Gaussian Mechanism and Improved Low-Dimensional Mechanisms for Differential Privacy]
+(https://arxiv.org/abs/2606.08681) [source]:ARXIV
+
+### [AutoSUT: The Environment Semantics Gap in Structured CTI for Adversary Emulation]
+(https://arxiv.org/abs/2606.08700) [source]:ARXIV
+
+### [Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography]
+(https://arxiv.org/abs/2606.08726) [source]:ARXIV
+
+### [Block-A-Mole: The Sustainability Frontier of Moving-Target Censorship Resistance]
+(https://arxiv.org/abs/2606.08886) [source]:ARXIV
+
+### [Hardening Agent Benchmarks with Adversarial Hacker-Fixer Loops]
+(https://arxiv.org/abs/2606.08960) [source]:ARXIV
+
+### [Document-Authored Control-Signal Impersonation: A Low-Cost Indirect Prompt Attack on RAG Safety Boundaries]
+(https://arxiv.org/abs/2606.09005) [source]:ARXIV
+
+### [Security-First Approach to API Pipeline Development with Zero-Trust Architecture]
+(https://arxiv.org/abs/2606.09062) [source]:ARXIV
+
+### [Context-Fractured Decomposition Attacks on Tool-Using LLM Agents: Exploiting Artifact Provenance Gaps]
+(https://arxiv.org/abs/2606.09084) [source]:ARXIV
+
+### [Unveiling Privacy Risks in Multi-modal Large Language Models: Task-specific Vulnerabilities and Mitigation Challenges]
+(https://arxiv.org/abs/2606.09125) [source]:ARXIV
+
+### [Steganography Without Modification: Hidden Communication via LLM Seeds]
+(https://arxiv.org/abs/2606.09135) [source]:ARXIV
+
+### [PrivCode++: Latent-Conditioned Differentially Private Code Generation for Comprehensive Guarantees]
+(https://arxiv.org/abs/2606.09145) [source]:ARXIV
+
+### [Customization under Fire: Plugin Poisoning in Text-to-Image Ecosystem]
+(https://arxiv.org/abs/2606.09151) [source]:ARXIV
+
+### [EnclaveScale: Hardware-Assisted Edge-DP for Secure Data Centre Power Telemetry]
+(https://arxiv.org/abs/2606.09163) [source]:ARXIV
+
+### [Pretrained, Frozen, Still Leaking: Auditing Cross-Encoder Attribute Transfer in EEG Foundation Models]
+(https://arxiv.org/abs/2606.09189) [source]:ARXIV
+
+### [Trustworthy Smart Fabs via Professional Proxies: Scaling Safe and Sustainable by Design (SSbD) through Industrial Data Spaces]
+(https://arxiv.org/abs/2606.09227) [source]:ARXIV
+
+### [Brain-Prompt Injection: A Route-Safety Audit for BCI-LLM Agents]
+(https://arxiv.org/abs/2606.09315) [source]:ARXIV
+
+### [Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors]
+(https://arxiv.org/abs/2606.09402) [source]:ARXIV
+
+### [Now You (Still) See Me: Detecting Evasive Steganographic Payloads in LLMs]
+(https://arxiv.org/abs/2606.09411) [source]:ARXIV
+
+### [Towards Post-Quantum Secure Pharmacovigilance with ML-KEM and ML-DSA]
+(https://arxiv.org/abs/2606.09412) [source]:ARXIV
+
+### [Model Poisoning Against Federated Model Adaptation with Chain of Bit-Flips]
+(https://arxiv.org/abs/2606.09548) [source]:ARXIV
+
+### [SecureClaw: Clawing Back Control of LLM Agents]
+(https://arxiv.org/abs/2606.09549) [source]:ARXIV
+
+### [FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing]
+(https://arxiv.org/abs/2606.09551) [source]:ARXIV
+
+### [Observability for Delegated Execution in Agentic AI Systems]
+(https://arxiv.org/abs/2606.09692) [source]:ARXIV
+
+### [What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks]
+(https://arxiv.org/abs/2606.09700) [source]:ARXIV
+
+### [FADRW: A Feature-Aware Modulated and Dynamically Reweighted Loss for Few-Shot Linguistic Steganalysis]
+(https://arxiv.org/abs/2606.07655) [source]:ARXIV
+
+### [VATS: Exploiting Implicit Authority in Error-Path Injection via Systematic Mutation]
+(https://arxiv.org/abs/2606.07992) [source]:ARXIV
+
+### [TOMOYO Linux: A Mandatory Access Control Method Based on Application Execution State]
+(https://arxiv.org/abs/2606.08060) [source]:ARXIV
+
+### [Multidimensional Resilience for Electrical Power Systems: Systematic Review, Integrated Index, and Validation under Real-World Cyber-Physical Attack Scenarios]
+(https://arxiv.org/abs/2606.08062) [source]:ARXIV
+
+### [Differentially Private Range Subgraph Counting]
+(https://arxiv.org/abs/2606.08179) [source]:ARXIV
+
+### [Uncertainty Principles for the Number Theoretic Transform]
+(https://arxiv.org/abs/2606.08662) [source]:ARXIV
+
+### [RAILS: Verification-Native Clearing For Agentic Commerce]
+(https://arxiv.org/abs/2606.08790) [source]:ARXIV
+
+### [Cheap Reward Hacking Detection]
+(https://arxiv.org/abs/2606.08893) [source]:ARXIV
+
+### [Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human]
+(https://arxiv.org/abs/2606.08919) [source]:ARXIV
+
+### [The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context Injection]
+(https://arxiv.org/abs/2606.09204) [source]:ARXIV
+
+### [Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models]
+(https://arxiv.org/abs/2606.09401) [source]:ARXIV
+
+### [Targeting World Models to Compromise Robot Learning Pipelines]
+(https://arxiv.org/abs/2606.09499) [source]:ARXIV
+
+### [Safe-RULE: Safe Reinforcement UnLEarning]
+(https://arxiv.org/abs/2606.09559) [source]:ARXIV
+
+### [Clinically Grounded Privacy Evaluation of Medical LMs]
+(https://arxiv.org/abs/2606.09590) [source]:ARXIV
+
+### [Parent-Hash DAG: A Cost Analysis of Constant-Time Append for On-Chain Registries]
+(https://arxiv.org/abs/2606.09593) [source]:ARXIV
+
+### [A Bell-State Extension of Loop-Back Quantum Key Distribution]
+(https://arxiv.org/abs/2606.09723) [source]:ARXIV
+
+### [Human-Centred Risk Mitigation for AI-Mediated Information Manipulation: A SOCMINT Framework Based on Information Manipulation Sets]
+(https://arxiv.org/abs/2606.09754) [source]:ARXIV
+
+### [FIT-Print: Towards False-claim-resistant Model Ownership Verification via Targeted Fingerprint]
+(https://arxiv.org/abs/2501.15509) [source]:ARXIV
+
+### [Maris: A Formally Verifiable Privacy Policy Enforcement Paradigm for Multi-Agent Collaboration Systems]
+(https://arxiv.org/abs/2505.04799) [source]:ARXIV
+
+### [Cryptographic Backdoor for Neural Networks: Boon and Bane]
+(https://arxiv.org/abs/2509.20714) [source]:ARXIV
+
+### [TAO: Tolerance-Aware Optimistic Verification for Floating-Point Neural Networks]
+(https://arxiv.org/abs/2510.16028) [source]:ARXIV
+
+### [PLAGUE: Plug-and-play framework for Lifelong Adaptive Generation of Multi-turn Exploits]
+(https://arxiv.org/abs/2510.17947) [source]:ARXIV
+
+### [Security Analysis of LTE Connectivity in Connected Cars: A Case Study of Tesla]
+(https://arxiv.org/abs/2510.22024) [source]:ARXIV
+
+### [Future-Proofing Authentication Against Insecure Bootstrapping for 5G Networks: Feasibility, Resiliency, and Accountability]
+(https://arxiv.org/abs/2510.23457) [source]:ARXIV
+
+### [A Survey of Heterogeneous Graph Neural Networks for Cybersecurity Anomaly Detection]
+(https://arxiv.org/abs/2510.26307) [source]:ARXIV
+
+### [Tuning for TraceTarnish: Techniques, Trends, and Testing Tangible Traits]
+(https://arxiv.org/abs/2512.03465) [source]:ARXIV
+
+### [State Backdoor: Towards Stealthy Real-world Poisoning Attack on Vision-Language-Action Model in State Space]
+(https://arxiv.org/abs/2601.04266) [source]:ARXIV
+
+### [Composition for Pufferfish Privacy]
+(https://arxiv.org/abs/2602.02718) [source]:ARXIV
+
+### [Security of the Fischlin Transform in Quantum Random Oracle Model]
+(https://arxiv.org/abs/2602.17307) [source]:ARXIV
+
+### [Automated Framework to Evaluate and Harden LLM System Instructions against Encoding Attacks]
+(https://arxiv.org/abs/2604.01039) [source]:ARXIV
+
+### [Scalable and Private Federated Learning Using Distributed Differential Privacy and Secure Aggregation]
+(https://arxiv.org/abs/2604.07125) [source]:ARXIV
+
+### [Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions]
+(https://arxiv.org/abs/2604.08304) [source]:ARXIV
+
+### [Hijacking Text Heritage: Hiding the Human Signature through Homoglyphic Substitution]
+(https://arxiv.org/abs/2604.10271) [source]:ARXIV
+
+### [Bit-Flip Vulnerability of Shared KV-Cache Blocks in LLM Serving Systems]
+(https://arxiv.org/abs/2604.17249) [source]:ARXIV
+
+### [Secure Cross-Silo Synthetic Genomic Data Generation]
+(https://arxiv.org/abs/2604.27456) [source]:ARXIV
+
+### [LoRA-Key: User-Centric LoRA Watermarking for Text-to-Image Diffusion Models]
+(https://arxiv.org/abs/2605.29569) [source]:ARXIV
+
+### [Privacy-Enhanced Zero-Order Federated Learning via xMK-CKKS over Wireless Channels]
+(https://arxiv.org/abs/2605.30123) [source]:ARXIV
+
+### [Defenses & Enablers For Skill Injection Attacks on Terminal Based Agents]
+(https://arxiv.org/abs/2606.01567) [source]:ARXIV
+
+### [Private Embedding Lookup with Encrypted Compact Queries under Fully Homomorphic Encryption]
+(https://arxiv.org/abs/2606.03191) [source]:ARXIV
+
+### [The Usefulness Gap in Proof-of-Useful-Work: An Empirical Study of Pearl's cuPOW Protocol]
+(https://arxiv.org/abs/2606.04819) [source]:ARXIV
+
+### [Robust In-Context Reinforcement Learning Under Reward Poisoning Attacks]
+(https://arxiv.org/abs/2506.06891) [source]:ARXIV
+
+### [Efficient and Stealthy Jailbreak Attacks via Adversarial Prompt Distillation from LLMs to SLMs]
+(https://arxiv.org/abs/2506.17231) [source]:ARXIV
+
+### [Pseudo-Equilibria, or: How to Stop Worrying About Crypto and Just Analyze the Game]
+(https://arxiv.org/abs/2506.22089) [source]:ARXIV
+
+### [SecureVibeBench: Benchmarking Secure Vibe Coding of AI Agents via Reconstructing Vulnerability-Introducing Scenarios]
+(https://arxiv.org/abs/2509.22097) [source]:ARXIV
+
+### [GLP: A Grassroots, Multiagent, Concurrent, Logic Programming Language for AI (Full Version)]
+(https://arxiv.org/abs/2510.15747) [source]:ARXIV
+
+### [Logarithmic Density of Rank $\geq 1$ and Rank $\geq 2$ Genus-2 Jacobians and Applications to Hyperelliptic Curve Cryptography]
+(https://arxiv.org/abs/2601.17142) [source]:ARXIV
+
+### [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents]
+(https://arxiv.org/abs/2602.08235) [source]:ARXIV
+
+### [A New Approach to Code Smoothing Bounds]
+(https://arxiv.org/abs/2603.18077) [source]:ARXIV
+
+### [Self-Mined Hardness for Safety Fine-Tuning]
+(https://arxiv.org/abs/2605.03226) [source]:ARXIV
+
+### [Causal Unlearning in Collaborative Optimization: Exact and Approximate Influence Reversal under Adversarial Contributions]
+(https://arxiv.org/abs/2605.20341) [source]:ARXIV
+
+### [Cycle-Space Informed Detection of Autoencoded Blind False Data Injection Attacks on Power Systems]
+(https://arxiv.org/abs/2605.28912) [source]:ARXIV
+
+### [On the History of the Square and Multiply Algorithm]
+(https://arxiv.org/abs/2606.00958) [source]:ARXIV
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/) [source]:TOB
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
+
+### [Detecting Aimbot Cheaters in MOGs]
+(https://arxiv.org/abs/2606.07650) [source]:ARXIV
+
+### [MLingualFC: Evaluating Jailbreak Vulnerabilities in Multilingual Vision-Language Models]
+(https://arxiv.org/abs/2606.07706) [source]:ARXIV
+
+### [SHIELD-IDS: Structurally Heterogeneous Ensemble with Integrated Layered Defense for Intrusion Detection Systems]
+(https://arxiv.org/abs/2606.07716) [source]:ARXIV
+
+### [ScaleDisturb: Exploiting Temporal Asymmetry to Amplify Read Disturbance in Modern DRAM Chips]
+(https://arxiv.org/abs/2606.07761) [source]:ARXIV
+
+### [MOLOT System Card: Malicious Operational Logic Observation Transformer]
+(https://arxiv.org/abs/2606.07792) [source]:ARXIV
+
+### [Belief-Space Quantum-Inspired Reinforcement Learning for Partially Observable Autonomous Cyber Defense in the Internet of Vehicles]
+(https://arxiv.org/abs/2606.07796) [source]:ARXIV
+
+### [Quantum-Inspired Reinforcement Learning for Low-Latency Intrusion Detection in V2X and Internet-of-Vehicles Networks]
+(https://arxiv.org/abs/2606.07804) [source]:ARXIV
+
+### [Ternary public-key cryptosystem]
+(https://arxiv.org/abs/2606.07832) [source]:ARXIV
+
+### [Beyond Pass/Fail: Using Process Mining to Understand How LLMs Resist (and Fail) Red Team Attacks]
+(https://arxiv.org/abs/2606.07833) [source]:ARXIV
+
+### [Model Multiplicity for Adversarial Detection in Small Language Model Training on Edge Devices]
+(https://arxiv.org/abs/2606.07857) [source]:ARXIV
+
+### [DP4SQL: Differentially Private SQL with Flexible Privacy Policies]
+(https://arxiv.org/abs/2606.07883) [source]:ARXIV
+
+### [Hallucination Cascade: Analyzing Error Propagation in Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07937) [source]:ARXIV
+
+### [SGTO-MAS: Secure Gorilla Troops Optimization for Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07940) [source]:ARXIV
+
+### [Collective Hallucination in Multi-Agent LLMs:Modeling and Defense]
+(https://arxiv.org/abs/2606.07941) [source]:ARXIV
+
+### [POISE: Position-Aware Undetectable Skill Injection on LLM Agents]
+(https://arxiv.org/abs/2606.07943) [source]:ARXIV
+
+### [Demand-Driven Vulnerability Detection for Cloud Security Posture Management: Removing Human Rule Authoring from the Disclosure-to-Protection Critical Path]
+(https://arxiv.org/abs/2606.07957) [source]:ARXIV
+
+### [RecurGuard: Runtime Monitoring for Reasoning-Token Consumption Attacks]
+(https://arxiv.org/abs/2606.07968) [source]:ARXIV
+
+### [The Dodona Protocol: A Living Design Science Experiment in Oracle Design]
+(https://arxiv.org/abs/2606.08012) [source]:ARXIV
+
+### [Policy Description Language for Authorization using Logic-Based Programming]
+(https://arxiv.org/abs/2606.08119) [source]:ARXIV
+
+### [Closing the Sim-to-Real Gap: An Evaluation Framework for Autonomous Cyber Defense Configuration of Commercial EDR]
+(https://arxiv.org/abs/2606.08168) [source]:ARXIV
+
+### [AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation]
+(https://arxiv.org/abs/2606.08173) [source]:ARXIV
+
+### [LPOR: A Layered Proof of Reserves Framework for Usable and Publicly Auditable Solvency Verification]
+(https://arxiv.org/abs/2606.08211) [source]:ARXIV
+
+### [Quantifying and Defending against the Privacy Risk in Logit-based Federated Learning]
+(https://arxiv.org/abs/2606.08252) [source]:ARXIV
+
+### [An AI Security Agent for University ACMIS: Multi-Vector Threat Detection and Automated Response]
+(https://arxiv.org/abs/2606.08270) [source]:ARXIV
+
+### [SoK: Reconstruction Attacks on Synthetic Tabular Data (Insights from Winning the NIST CRC)]
+(https://arxiv.org/abs/2606.08372) [source]:ARXIV
+
+### [Hiding in Plain Floats: Steganographic Carriers for Indirect Prompt and Content Injection]
+(https://arxiv.org/abs/2606.08403) [source]:ARXIV
+
+### [AI Code Sandboxes: A Comparative Security Study. Part 1 of 2 -- Engine-Level Properties (Attack Surface, Leakage, Stackability, CVE History, Patch Cadence, Fuzzing)]
+(https://arxiv.org/abs/2606.08433) [source]:ARXIV
+
+### [Digital White Spaces: A Cyberpsychology-Informed Framework to Mobile Phone Addiction]
+(https://arxiv.org/abs/2606.08472) [source]:ARXIV
+
+### [Exploring CKKS Parameter Trade-offs for Privacy-Preserving Personalized Federated Learning]
+(https://arxiv.org/abs/2606.08521) [source]:ARXIV
+
+### [Sample-Efficient LLM-Based Detection of Malicious Web Server Logs with Forensically Explainable Reasoning]
+(https://arxiv.org/abs/2606.08649) [source]:ARXIV
+
+### [Data Agents Under Attack: Vulnerabilities in LLM-Driven Analytical Systems]
+(https://arxiv.org/abs/2606.08661) [source]:ARXIV
+
+### [X-rated Compliance Theater: An Empirical Evaluation of European Age Verification Systems in Adult Websites]
+(https://arxiv.org/abs/2606.08667) [source]:ARXIV
+
+### [Asymptotic Optimality of the High-Dimensional Gaussian Mechanism and Improved Low-Dimensional Mechanisms for Differential Privacy]
+(https://arxiv.org/abs/2606.08681) [source]:ARXIV
+
+### [AutoSUT: The Environment Semantics Gap in Structured CTI for Adversary Emulation]
+(https://arxiv.org/abs/2606.08700) [source]:ARXIV
+
+### [Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography]
+(https://arxiv.org/abs/2606.08726) [source]:ARXIV
+
+### [Block-A-Mole: The Sustainability Frontier of Moving-Target Censorship Resistance]
+(https://arxiv.org/abs/2606.08886) [source]:ARXIV
+
+### [Hardening Agent Benchmarks with Adversarial Hacker-Fixer Loops]
+(https://arxiv.org/abs/2606.08960) [source]:ARXIV
+
+### [Document-Authored Control-Signal Impersonation: A Low-Cost Indirect Prompt Attack on RAG Safety Boundaries]
+(https://arxiv.org/abs/2606.09005) [source]:ARXIV
+
+### [Security-First Approach to API Pipeline Development with Zero-Trust Architecture]
+(https://arxiv.org/abs/2606.09062) [source]:ARXIV
+
+### [Context-Fractured Decomposition Attacks on Tool-Using LLM Agents: Exploiting Artifact Provenance Gaps]
+(https://arxiv.org/abs/2606.09084) [source]:ARXIV
+
+### [Unveiling Privacy Risks in Multi-modal Large Language Models: Task-specific Vulnerabilities and Mitigation Challenges]
+(https://arxiv.org/abs/2606.09125) [source]:ARXIV
+
+### [Steganography Without Modification: Hidden Communication via LLM Seeds]
+(https://arxiv.org/abs/2606.09135) [source]:ARXIV
+
+### [PrivCode++: Latent-Conditioned Differentially Private Code Generation for Comprehensive Guarantees]
+(https://arxiv.org/abs/2606.09145) [source]:ARXIV
+
+### [Customization under Fire: Plugin Poisoning in Text-to-Image Ecosystem]
+(https://arxiv.org/abs/2606.09151) [source]:ARXIV
+
+### [EnclaveScale: Hardware-Assisted Edge-DP for Secure Data Centre Power Telemetry]
+(https://arxiv.org/abs/2606.09163) [source]:ARXIV
+
+### [Pretrained, Frozen, Still Leaking: Auditing Cross-Encoder Attribute Transfer in EEG Foundation Models]
+(https://arxiv.org/abs/2606.09189) [source]:ARXIV
+
+### [Trustworthy Smart Fabs via Professional Proxies: Scaling Safe and Sustainable by Design (SSbD) through Industrial Data Spaces]
+(https://arxiv.org/abs/2606.09227) [source]:ARXIV
+
+### [Brain-Prompt Injection: A Route-Safety Audit for BCI-LLM Agents]
+(https://arxiv.org/abs/2606.09315) [source]:ARXIV
+
+### [Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors]
+(https://arxiv.org/abs/2606.09402) [source]:ARXIV
+
+### [Now You (Still) See Me: Detecting Evasive Steganographic Payloads in LLMs]
+(https://arxiv.org/abs/2606.09411) [source]:ARXIV
+
+### [Towards Post-Quantum Secure Pharmacovigilance with ML-KEM and ML-DSA]
+(https://arxiv.org/abs/2606.09412) [source]:ARXIV
+
+### [Model Poisoning Against Federated Model Adaptation with Chain of Bit-Flips]
+(https://arxiv.org/abs/2606.09548) [source]:ARXIV
+
+### [SecureClaw: Clawing Back Control of LLM Agents]
+(https://arxiv.org/abs/2606.09549) [source]:ARXIV
+
+### [FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing]
+(https://arxiv.org/abs/2606.09551) [source]:ARXIV
+
+### [Observability for Delegated Execution in Agentic AI Systems]
+(https://arxiv.org/abs/2606.09692) [source]:ARXIV
+
+### [What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks]
+(https://arxiv.org/abs/2606.09700) [source]:ARXIV
+
+### [FADRW: A Feature-Aware Modulated and Dynamically Reweighted Loss for Few-Shot Linguistic Steganalysis]
+(https://arxiv.org/abs/2606.07655) [source]:ARXIV
+
+### [VATS: Exploiting Implicit Authority in Error-Path Injection via Systematic Mutation]
+(https://arxiv.org/abs/2606.07992) [source]:ARXIV
+
+### [TOMOYO Linux: A Mandatory Access Control Method Based on Application Execution State]
+(https://arxiv.org/abs/2606.08060) [source]:ARXIV
+
+### [Multidimensional Resilience for Electrical Power Systems: Systematic Review, Integrated Index, and Validation under Real-World Cyber-Physical Attack Scenarios]
+(https://arxiv.org/abs/2606.08062) [source]:ARXIV
+
+### [Differentially Private Range Subgraph Counting]
+(https://arxiv.org/abs/2606.08179) [source]:ARXIV
+
+### [Uncertainty Principles for the Number Theoretic Transform]
+(https://arxiv.org/abs/2606.08662) [source]:ARXIV
+
+### [RAILS: Verification-Native Clearing For Agentic Commerce]
+(https://arxiv.org/abs/2606.08790) [source]:ARXIV
+
+### [Cheap Reward Hacking Detection]
+(https://arxiv.org/abs/2606.08893) [source]:ARXIV
+
+### [Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human]
+(https://arxiv.org/abs/2606.08919) [source]:ARXIV
+
+### [The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context Injection]
+(https://arxiv.org/abs/2606.09204) [source]:ARXIV
+
+### [Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models]
+(https://arxiv.org/abs/2606.09401) [source]:ARXIV
+
+### [Targeting World Models to Compromise Robot Learning Pipelines]
+(https://arxiv.org/abs/2606.09499) [source]:ARXIV
+
+### [Safe-RULE: Safe Reinforcement UnLEarning]
+(https://arxiv.org/abs/2606.09559) [source]:ARXIV
+
+### [Clinically Grounded Privacy Evaluation of Medical LMs]
+(https://arxiv.org/abs/2606.09590) [source]:ARXIV
+
+### [Parent-Hash DAG: A Cost Analysis of Constant-Time Append for On-Chain Registries]
+(https://arxiv.org/abs/2606.09593) [source]:ARXIV
+
+### [A Bell-State Extension of Loop-Back Quantum Key Distribution]
+(https://arxiv.org/abs/2606.09723) [source]:ARXIV
+
+### [Human-Centred Risk Mitigation for AI-Mediated Information Manipulation: A SOCMINT Framework Based on Information Manipulation Sets]
+(https://arxiv.org/abs/2606.09754) [source]:ARXIV
+
+### [FIT-Print: Towards False-claim-resistant Model Ownership Verification via Targeted Fingerprint]
+(https://arxiv.org/abs/2501.15509) [source]:ARXIV
+
+### [Maris: A Formally Verifiable Privacy Policy Enforcement Paradigm for Multi-Agent Collaboration Systems]
+(https://arxiv.org/abs/2505.04799) [source]:ARXIV
+
+### [Cryptographic Backdoor for Neural Networks: Boon and Bane]
+(https://arxiv.org/abs/2509.20714) [source]:ARXIV
+
+### [TAO: Tolerance-Aware Optimistic Verification for Floating-Point Neural Networks]
+(https://arxiv.org/abs/2510.16028) [source]:ARXIV
+
+### [PLAGUE: Plug-and-play framework for Lifelong Adaptive Generation of Multi-turn Exploits]
+(https://arxiv.org/abs/2510.17947) [source]:ARXIV
+
+### [Security Analysis of LTE Connectivity in Connected Cars: A Case Study of Tesla]
+(https://arxiv.org/abs/2510.22024) [source]:ARXIV
+
+### [Future-Proofing Authentication Against Insecure Bootstrapping for 5G Networks: Feasibility, Resiliency, and Accountability]
+(https://arxiv.org/abs/2510.23457) [source]:ARXIV
+
+### [A Survey of Heterogeneous Graph Neural Networks for Cybersecurity Anomaly Detection]
+(https://arxiv.org/abs/2510.26307) [source]:ARXIV
+
+### [Tuning for TraceTarnish: Techniques, Trends, and Testing Tangible Traits]
+(https://arxiv.org/abs/2512.03465) [source]:ARXIV
+
+### [State Backdoor: Towards Stealthy Real-world Poisoning Attack on Vision-Language-Action Model in State Space]
+(https://arxiv.org/abs/2601.04266) [source]:ARXIV
+
+### [Composition for Pufferfish Privacy]
+(https://arxiv.org/abs/2602.02718) [source]:ARXIV
+
+### [Security of the Fischlin Transform in Quantum Random Oracle Model]
+(https://arxiv.org/abs/2602.17307) [source]:ARXIV
+
+### [Automated Framework to Evaluate and Harden LLM System Instructions against Encoding Attacks]
+(https://arxiv.org/abs/2604.01039) [source]:ARXIV
+
+### [Scalable and Private Federated Learning Using Distributed Differential Privacy and Secure Aggregation]
+(https://arxiv.org/abs/2604.07125) [source]:ARXIV
+
+### [Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions]
+(https://arxiv.org/abs/2604.08304) [source]:ARXIV
+
+### [Hijacking Text Heritage: Hiding the Human Signature through Homoglyphic Substitution]
+(https://arxiv.org/abs/2604.10271) [source]:ARXIV
+
+### [Bit-Flip Vulnerability of Shared KV-Cache Blocks in LLM Serving Systems]
+(https://arxiv.org/abs/2604.17249) [source]:ARXIV
+
+### [Secure Cross-Silo Synthetic Genomic Data Generation]
+(https://arxiv.org/abs/2604.27456) [source]:ARXIV
+
+### [LoRA-Key: User-Centric LoRA Watermarking for Text-to-Image Diffusion Models]
+(https://arxiv.org/abs/2605.29569) [source]:ARXIV
+
+### [Privacy-Enhanced Zero-Order Federated Learning via xMK-CKKS over Wireless Channels]
+(https://arxiv.org/abs/2605.30123) [source]:ARXIV
+
+### [Defenses & Enablers For Skill Injection Attacks on Terminal Based Agents]
+(https://arxiv.org/abs/2606.01567) [source]:ARXIV
+
+### [Private Embedding Lookup with Encrypted Compact Queries under Fully Homomorphic Encryption]
+(https://arxiv.org/abs/2606.03191) [source]:ARXIV
+
+### [The Usefulness Gap in Proof-of-Useful-Work: An Empirical Study of Pearl's cuPOW Protocol]
+(https://arxiv.org/abs/2606.04819) [source]:ARXIV
+
+### [Robust In-Context Reinforcement Learning Under Reward Poisoning Attacks]
+(https://arxiv.org/abs/2506.06891) [source]:ARXIV
+
+### [Efficient and Stealthy Jailbreak Attacks via Adversarial Prompt Distillation from LLMs to SLMs]
+(https://arxiv.org/abs/2506.17231) [source]:ARXIV
+
+### [Pseudo-Equilibria, or: How to Stop Worrying About Crypto and Just Analyze the Game]
+(https://arxiv.org/abs/2506.22089) [source]:ARXIV
+
+### [SecureVibeBench: Benchmarking Secure Vibe Coding of AI Agents via Reconstructing Vulnerability-Introducing Scenarios]
+(https://arxiv.org/abs/2509.22097) [source]:ARXIV
+
+### [GLP: A Grassroots, Multiagent, Concurrent, Logic Programming Language for AI (Full Version)]
+(https://arxiv.org/abs/2510.15747) [source]:ARXIV
+
+### [Logarithmic Density of Rank $\geq 1$ and Rank $\geq 2$ Genus-2 Jacobians and Applications to Hyperelliptic Curve Cryptography]
+(https://arxiv.org/abs/2601.17142) [source]:ARXIV
+
+### [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents]
+(https://arxiv.org/abs/2602.08235) [source]:ARXIV
+
+### [A New Approach to Code Smoothing Bounds]
+(https://arxiv.org/abs/2603.18077) [source]:ARXIV
+
+### [Self-Mined Hardness for Safety Fine-Tuning]
+(https://arxiv.org/abs/2605.03226) [source]:ARXIV
+
+### [Causal Unlearning in Collaborative Optimization: Exact and Approximate Influence Reversal under Adversarial Contributions]
+(https://arxiv.org/abs/2605.20341) [source]:ARXIV
+
+### [Cycle-Space Informed Detection of Autoencoded Blind False Data Injection Attacks on Power Systems]
+(https://arxiv.org/abs/2605.28912) [source]:ARXIV
+
+### [On the History of the Square and Multiply Algorithm]
+(https://arxiv.org/abs/2606.00958) [source]:ARXIV
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/) [source]:TOB
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
+
+### [Detecting Aimbot Cheaters in MOGs]
+(https://arxiv.org/abs/2606.07650) [source]:ARXIV
+
+### [MLingualFC: Evaluating Jailbreak Vulnerabilities in Multilingual Vision-Language Models]
+(https://arxiv.org/abs/2606.07706) [source]:ARXIV
+
+### [SHIELD-IDS: Structurally Heterogeneous Ensemble with Integrated Layered Defense for Intrusion Detection Systems]
+(https://arxiv.org/abs/2606.07716) [source]:ARXIV
+
+### [ScaleDisturb: Exploiting Temporal Asymmetry to Amplify Read Disturbance in Modern DRAM Chips]
+(https://arxiv.org/abs/2606.07761) [source]:ARXIV
+
+### [MOLOT System Card: Malicious Operational Logic Observation Transformer]
+(https://arxiv.org/abs/2606.07792) [source]:ARXIV
+
+### [Belief-Space Quantum-Inspired Reinforcement Learning for Partially Observable Autonomous Cyber Defense in the Internet of Vehicles]
+(https://arxiv.org/abs/2606.07796) [source]:ARXIV
+
+### [Quantum-Inspired Reinforcement Learning for Low-Latency Intrusion Detection in V2X and Internet-of-Vehicles Networks]
+(https://arxiv.org/abs/2606.07804) [source]:ARXIV
+
+### [Ternary public-key cryptosystem]
+(https://arxiv.org/abs/2606.07832) [source]:ARXIV
+
+### [Beyond Pass/Fail: Using Process Mining to Understand How LLMs Resist (and Fail) Red Team Attacks]
+(https://arxiv.org/abs/2606.07833) [source]:ARXIV
+
+### [Model Multiplicity for Adversarial Detection in Small Language Model Training on Edge Devices]
+(https://arxiv.org/abs/2606.07857) [source]:ARXIV
+
+### [DP4SQL: Differentially Private SQL with Flexible Privacy Policies]
+(https://arxiv.org/abs/2606.07883) [source]:ARXIV
+
+### [Hallucination Cascade: Analyzing Error Propagation in Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07937) [source]:ARXIV
+
+### [SGTO-MAS: Secure Gorilla Troops Optimization for Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07940) [source]:ARXIV
+
+### [Collective Hallucination in Multi-Agent LLMs:Modeling and Defense]
+(https://arxiv.org/abs/2606.07941) [source]:ARXIV
+
+### [POISE: Position-Aware Undetectable Skill Injection on LLM Agents]
+(https://arxiv.org/abs/2606.07943) [source]:ARXIV
+
+### [Demand-Driven Vulnerability Detection for Cloud Security Posture Management: Removing Human Rule Authoring from the Disclosure-to-Protection Critical Path]
+(https://arxiv.org/abs/2606.07957) [source]:ARXIV
+
+### [RecurGuard: Runtime Monitoring for Reasoning-Token Consumption Attacks]
+(https://arxiv.org/abs/2606.07968) [source]:ARXIV
+
+### [The Dodona Protocol: A Living Design Science Experiment in Oracle Design]
+(https://arxiv.org/abs/2606.08012) [source]:ARXIV
+
+### [Policy Description Language for Authorization using Logic-Based Programming]
+(https://arxiv.org/abs/2606.08119) [source]:ARXIV
+
+### [Closing the Sim-to-Real Gap: An Evaluation Framework for Autonomous Cyber Defense Configuration of Commercial EDR]
+(https://arxiv.org/abs/2606.08168) [source]:ARXIV
+
+### [AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation]
+(https://arxiv.org/abs/2606.08173) [source]:ARXIV
+
+### [LPOR: A Layered Proof of Reserves Framework for Usable and Publicly Auditable Solvency Verification]
+(https://arxiv.org/abs/2606.08211) [source]:ARXIV
+
+### [Quantifying and Defending against the Privacy Risk in Logit-based Federated Learning]
+(https://arxiv.org/abs/2606.08252) [source]:ARXIV
+
+### [An AI Security Agent for University ACMIS: Multi-Vector Threat Detection and Automated Response]
+(https://arxiv.org/abs/2606.08270) [source]:ARXIV
+
+### [SoK: Reconstruction Attacks on Synthetic Tabular Data (Insights from Winning the NIST CRC)]
+(https://arxiv.org/abs/2606.08372) [source]:ARXIV
+
+### [Hiding in Plain Floats: Steganographic Carriers for Indirect Prompt and Content Injection]
+(https://arxiv.org/abs/2606.08403) [source]:ARXIV
+
+### [AI Code Sandboxes: A Comparative Security Study. Part 1 of 2 -- Engine-Level Properties (Attack Surface, Leakage, Stackability, CVE History, Patch Cadence, Fuzzing)]
+(https://arxiv.org/abs/2606.08433) [source]:ARXIV
+
+### [Digital White Spaces: A Cyberpsychology-Informed Framework to Mobile Phone Addiction]
+(https://arxiv.org/abs/2606.08472) [source]:ARXIV
+
+### [Exploring CKKS Parameter Trade-offs for Privacy-Preserving Personalized Federated Learning]
+(https://arxiv.org/abs/2606.08521) [source]:ARXIV
+
+### [Sample-Efficient LLM-Based Detection of Malicious Web Server Logs with Forensically Explainable Reasoning]
+(https://arxiv.org/abs/2606.08649) [source]:ARXIV
+
+### [Data Agents Under Attack: Vulnerabilities in LLM-Driven Analytical Systems]
+(https://arxiv.org/abs/2606.08661) [source]:ARXIV
+
+### [X-rated Compliance Theater: An Empirical Evaluation of European Age Verification Systems in Adult Websites]
+(https://arxiv.org/abs/2606.08667) [source]:ARXIV
+
+### [Asymptotic Optimality of the High-Dimensional Gaussian Mechanism and Improved Low-Dimensional Mechanisms for Differential Privacy]
+(https://arxiv.org/abs/2606.08681) [source]:ARXIV
+
+### [AutoSUT: The Environment Semantics Gap in Structured CTI for Adversary Emulation]
+(https://arxiv.org/abs/2606.08700) [source]:ARXIV
+
+### [Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography]
+(https://arxiv.org/abs/2606.08726) [source]:ARXIV
+
+### [Block-A-Mole: The Sustainability Frontier of Moving-Target Censorship Resistance]
+(https://arxiv.org/abs/2606.08886) [source]:ARXIV
+
+### [Hardening Agent Benchmarks with Adversarial Hacker-Fixer Loops]
+(https://arxiv.org/abs/2606.08960) [source]:ARXIV
+
+### [Document-Authored Control-Signal Impersonation: A Low-Cost Indirect Prompt Attack on RAG Safety Boundaries]
+(https://arxiv.org/abs/2606.09005) [source]:ARXIV
+
+### [Security-First Approach to API Pipeline Development with Zero-Trust Architecture]
+(https://arxiv.org/abs/2606.09062) [source]:ARXIV
+
+### [Context-Fractured Decomposition Attacks on Tool-Using LLM Agents: Exploiting Artifact Provenance Gaps]
+(https://arxiv.org/abs/2606.09084) [source]:ARXIV
+
+### [Unveiling Privacy Risks in Multi-modal Large Language Models: Task-specific Vulnerabilities and Mitigation Challenges]
+(https://arxiv.org/abs/2606.09125) [source]:ARXIV
+
+### [Steganography Without Modification: Hidden Communication via LLM Seeds]
+(https://arxiv.org/abs/2606.09135) [source]:ARXIV
+
+### [PrivCode++: Latent-Conditioned Differentially Private Code Generation for Comprehensive Guarantees]
+(https://arxiv.org/abs/2606.09145) [source]:ARXIV
+
+### [Customization under Fire: Plugin Poisoning in Text-to-Image Ecosystem]
+(https://arxiv.org/abs/2606.09151) [source]:ARXIV
+
+### [EnclaveScale: Hardware-Assisted Edge-DP for Secure Data Centre Power Telemetry]
+(https://arxiv.org/abs/2606.09163) [source]:ARXIV
+
+### [Pretrained, Frozen, Still Leaking: Auditing Cross-Encoder Attribute Transfer in EEG Foundation Models]
+(https://arxiv.org/abs/2606.09189) [source]:ARXIV
+
+### [Trustworthy Smart Fabs via Professional Proxies: Scaling Safe and Sustainable by Design (SSbD) through Industrial Data Spaces]
+(https://arxiv.org/abs/2606.09227) [source]:ARXIV
+
+### [Brain-Prompt Injection: A Route-Safety Audit for BCI-LLM Agents]
+(https://arxiv.org/abs/2606.09315) [source]:ARXIV
+
+### [Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors]
+(https://arxiv.org/abs/2606.09402) [source]:ARXIV
+
+### [Now You (Still) See Me: Detecting Evasive Steganographic Payloads in LLMs]
+(https://arxiv.org/abs/2606.09411) [source]:ARXIV
+
+### [Towards Post-Quantum Secure Pharmacovigilance with ML-KEM and ML-DSA]
+(https://arxiv.org/abs/2606.09412) [source]:ARXIV
+
+### [Model Poisoning Against Federated Model Adaptation with Chain of Bit-Flips]
+(https://arxiv.org/abs/2606.09548) [source]:ARXIV
+
+### [SecureClaw: Clawing Back Control of LLM Agents]
+(https://arxiv.org/abs/2606.09549) [source]:ARXIV
+
+### [FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing]
+(https://arxiv.org/abs/2606.09551) [source]:ARXIV
+
+### [Observability for Delegated Execution in Agentic AI Systems]
+(https://arxiv.org/abs/2606.09692) [source]:ARXIV
+
+### [What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks]
+(https://arxiv.org/abs/2606.09700) [source]:ARXIV
+
+### [FADRW: A Feature-Aware Modulated and Dynamically Reweighted Loss for Few-Shot Linguistic Steganalysis]
+(https://arxiv.org/abs/2606.07655) [source]:ARXIV
+
+### [VATS: Exploiting Implicit Authority in Error-Path Injection via Systematic Mutation]
+(https://arxiv.org/abs/2606.07992) [source]:ARXIV
+
+### [TOMOYO Linux: A Mandatory Access Control Method Based on Application Execution State]
+(https://arxiv.org/abs/2606.08060) [source]:ARXIV
+
+### [Multidimensional Resilience for Electrical Power Systems: Systematic Review, Integrated Index, and Validation under Real-World Cyber-Physical Attack Scenarios]
+(https://arxiv.org/abs/2606.08062) [source]:ARXIV
+
+### [Differentially Private Range Subgraph Counting]
+(https://arxiv.org/abs/2606.08179) [source]:ARXIV
+
+### [Uncertainty Principles for the Number Theoretic Transform]
+(https://arxiv.org/abs/2606.08662) [source]:ARXIV
+
+### [RAILS: Verification-Native Clearing For Agentic Commerce]
+(https://arxiv.org/abs/2606.08790) [source]:ARXIV
+
+### [Cheap Reward Hacking Detection]
+(https://arxiv.org/abs/2606.08893) [source]:ARXIV
+
+### [Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human]
+(https://arxiv.org/abs/2606.08919) [source]:ARXIV
+
+### [The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context Injection]
+(https://arxiv.org/abs/2606.09204) [source]:ARXIV
+
+### [Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models]
+(https://arxiv.org/abs/2606.09401) [source]:ARXIV
+
+### [Targeting World Models to Compromise Robot Learning Pipelines]
+(https://arxiv.org/abs/2606.09499) [source]:ARXIV
+
+### [Safe-RULE: Safe Reinforcement UnLEarning]
+(https://arxiv.org/abs/2606.09559) [source]:ARXIV
+
+### [Clinically Grounded Privacy Evaluation of Medical LMs]
+(https://arxiv.org/abs/2606.09590) [source]:ARXIV
+
+### [Parent-Hash DAG: A Cost Analysis of Constant-Time Append for On-Chain Registries]
+(https://arxiv.org/abs/2606.09593) [source]:ARXIV
+
+### [A Bell-State Extension of Loop-Back Quantum Key Distribution]
+(https://arxiv.org/abs/2606.09723) [source]:ARXIV
+
+### [Human-Centred Risk Mitigation for AI-Mediated Information Manipulation: A SOCMINT Framework Based on Information Manipulation Sets]
+(https://arxiv.org/abs/2606.09754) [source]:ARXIV
+
+### [FIT-Print: Towards False-claim-resistant Model Ownership Verification via Targeted Fingerprint]
+(https://arxiv.org/abs/2501.15509) [source]:ARXIV
+
+### [Maris: A Formally Verifiable Privacy Policy Enforcement Paradigm for Multi-Agent Collaboration Systems]
+(https://arxiv.org/abs/2505.04799) [source]:ARXIV
+
+### [Cryptographic Backdoor for Neural Networks: Boon and Bane]
+(https://arxiv.org/abs/2509.20714) [source]:ARXIV
+
+### [TAO: Tolerance-Aware Optimistic Verification for Floating-Point Neural Networks]
+(https://arxiv.org/abs/2510.16028) [source]:ARXIV
+
+### [PLAGUE: Plug-and-play framework for Lifelong Adaptive Generation of Multi-turn Exploits]
+(https://arxiv.org/abs/2510.17947) [source]:ARXIV
+
+### [Security Analysis of LTE Connectivity in Connected Cars: A Case Study of Tesla]
+(https://arxiv.org/abs/2510.22024) [source]:ARXIV
+
+### [Future-Proofing Authentication Against Insecure Bootstrapping for 5G Networks: Feasibility, Resiliency, and Accountability]
+(https://arxiv.org/abs/2510.23457) [source]:ARXIV
+
+### [A Survey of Heterogeneous Graph Neural Networks for Cybersecurity Anomaly Detection]
+(https://arxiv.org/abs/2510.26307) [source]:ARXIV
+
+### [Tuning for TraceTarnish: Techniques, Trends, and Testing Tangible Traits]
+(https://arxiv.org/abs/2512.03465) [source]:ARXIV
+
+### [State Backdoor: Towards Stealthy Real-world Poisoning Attack on Vision-Language-Action Model in State Space]
+(https://arxiv.org/abs/2601.04266) [source]:ARXIV
+
+### [Composition for Pufferfish Privacy]
+(https://arxiv.org/abs/2602.02718) [source]:ARXIV
+
+### [Security of the Fischlin Transform in Quantum Random Oracle Model]
+(https://arxiv.org/abs/2602.17307) [source]:ARXIV
+
+### [Automated Framework to Evaluate and Harden LLM System Instructions against Encoding Attacks]
+(https://arxiv.org/abs/2604.01039) [source]:ARXIV
+
+### [Scalable and Private Federated Learning Using Distributed Differential Privacy and Secure Aggregation]
+(https://arxiv.org/abs/2604.07125) [source]:ARXIV
+
+### [Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions]
+(https://arxiv.org/abs/2604.08304) [source]:ARXIV
+
+### [Hijacking Text Heritage: Hiding the Human Signature through Homoglyphic Substitution]
+(https://arxiv.org/abs/2604.10271) [source]:ARXIV
+
+### [Bit-Flip Vulnerability of Shared KV-Cache Blocks in LLM Serving Systems]
+(https://arxiv.org/abs/2604.17249) [source]:ARXIV
+
+### [Secure Cross-Silo Synthetic Genomic Data Generation]
+(https://arxiv.org/abs/2604.27456) [source]:ARXIV
+
+### [LoRA-Key: User-Centric LoRA Watermarking for Text-to-Image Diffusion Models]
+(https://arxiv.org/abs/2605.29569) [source]:ARXIV
+
+### [Privacy-Enhanced Zero-Order Federated Learning via xMK-CKKS over Wireless Channels]
+(https://arxiv.org/abs/2605.30123) [source]:ARXIV
+
+### [Defenses & Enablers For Skill Injection Attacks on Terminal Based Agents]
+(https://arxiv.org/abs/2606.01567) [source]:ARXIV
+
+### [Private Embedding Lookup with Encrypted Compact Queries under Fully Homomorphic Encryption]
+(https://arxiv.org/abs/2606.03191) [source]:ARXIV
+
+### [The Usefulness Gap in Proof-of-Useful-Work: An Empirical Study of Pearl's cuPOW Protocol]
+(https://arxiv.org/abs/2606.04819) [source]:ARXIV
+
+### [Robust In-Context Reinforcement Learning Under Reward Poisoning Attacks]
+(https://arxiv.org/abs/2506.06891) [source]:ARXIV
+
+### [Efficient and Stealthy Jailbreak Attacks via Adversarial Prompt Distillation from LLMs to SLMs]
+(https://arxiv.org/abs/2506.17231) [source]:ARXIV
+
+### [Pseudo-Equilibria, or: How to Stop Worrying About Crypto and Just Analyze the Game]
+(https://arxiv.org/abs/2506.22089) [source]:ARXIV
+
+### [SecureVibeBench: Benchmarking Secure Vibe Coding of AI Agents via Reconstructing Vulnerability-Introducing Scenarios]
+(https://arxiv.org/abs/2509.22097) [source]:ARXIV
+
+### [GLP: A Grassroots, Multiagent, Concurrent, Logic Programming Language for AI (Full Version)]
+(https://arxiv.org/abs/2510.15747) [source]:ARXIV
+
+### [Logarithmic Density of Rank $\geq 1$ and Rank $\geq 2$ Genus-2 Jacobians and Applications to Hyperelliptic Curve Cryptography]
+(https://arxiv.org/abs/2601.17142) [source]:ARXIV
+
+### [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents]
+(https://arxiv.org/abs/2602.08235) [source]:ARXIV
+
+### [A New Approach to Code Smoothing Bounds]
+(https://arxiv.org/abs/2603.18077) [source]:ARXIV
+
+### [Self-Mined Hardness for Safety Fine-Tuning]
+(https://arxiv.org/abs/2605.03226) [source]:ARXIV
+
+### [Causal Unlearning in Collaborative Optimization: Exact and Approximate Influence Reversal under Adversarial Contributions]
+(https://arxiv.org/abs/2605.20341) [source]:ARXIV
+
+### [Cycle-Space Informed Detection of Autoencoded Blind False Data Injection Attacks on Power Systems]
+(https://arxiv.org/abs/2605.28912) [source]:ARXIV
+
+### [On the History of the Square and Multiply Algorithm]
+(https://arxiv.org/abs/2606.00958) [source]:ARXIV
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/) [source]:TOB
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
+
+>>>>>>> 9826588 (feat: add basic AI article analysis function)
+### [Detecting Aimbot Cheaters in MOGs]
+(https://arxiv.org/abs/2606.07650) [source]:ARXIV
+
+### [MLingualFC: Evaluating Jailbreak Vulnerabilities in Multilingual Vision-Language Models]
+(https://arxiv.org/abs/2606.07706) [source]:ARXIV
+
+### [SHIELD-IDS: Structurally Heterogeneous Ensemble with Integrated Layered Defense for Intrusion Detection Systems]
+(https://arxiv.org/abs/2606.07716) [source]:ARXIV
+
+### [ScaleDisturb: Exploiting Temporal Asymmetry to Amplify Read Disturbance in Modern DRAM Chips]
+(https://arxiv.org/abs/2606.07761) [source]:ARXIV
+
+### [MOLOT System Card: Malicious Operational Logic Observation Transformer]
+(https://arxiv.org/abs/2606.07792) [source]:ARXIV
+
+### [Belief-Space Quantum-Inspired Reinforcement Learning for Partially Observable Autonomous Cyber Defense in the Internet of Vehicles]
+(https://arxiv.org/abs/2606.07796) [source]:ARXIV
+
+### [Quantum-Inspired Reinforcement Learning for Low-Latency Intrusion Detection in V2X and Internet-of-Vehicles Networks]
+(https://arxiv.org/abs/2606.07804) [source]:ARXIV
+
+### [Ternary public-key cryptosystem]
+(https://arxiv.org/abs/2606.07832) [source]:ARXIV
+
+### [Beyond Pass/Fail: Using Process Mining to Understand How LLMs Resist (and Fail) Red Team Attacks]
+(https://arxiv.org/abs/2606.07833) [source]:ARXIV
+
+### [Model Multiplicity for Adversarial Detection in Small Language Model Training on Edge Devices]
+(https://arxiv.org/abs/2606.07857) [source]:ARXIV
+
+### [DP4SQL: Differentially Private SQL with Flexible Privacy Policies]
+(https://arxiv.org/abs/2606.07883) [source]:ARXIV
+
+### [Hallucination Cascade: Analyzing Error Propagation in Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07937) [source]:ARXIV
+
+### [SGTO-MAS: Secure Gorilla Troops Optimization for Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.07940) [source]:ARXIV
+
+### [Collective Hallucination in Multi-Agent LLMs:Modeling and Defense]
+(https://arxiv.org/abs/2606.07941) [source]:ARXIV
+
+### [POISE: Position-Aware Undetectable Skill Injection on LLM Agents]
+(https://arxiv.org/abs/2606.07943) [source]:ARXIV
+
+### [Demand-Driven Vulnerability Detection for Cloud Security Posture Management: Removing Human Rule Authoring from the Disclosure-to-Protection Critical Path]
+(https://arxiv.org/abs/2606.07957) [source]:ARXIV
+
+### [RecurGuard: Runtime Monitoring for Reasoning-Token Consumption Attacks]
+(https://arxiv.org/abs/2606.07968) [source]:ARXIV
+
+### [The Dodona Protocol: A Living Design Science Experiment in Oracle Design]
+(https://arxiv.org/abs/2606.08012) [source]:ARXIV
+
+### [Policy Description Language for Authorization using Logic-Based Programming]
+(https://arxiv.org/abs/2606.08119) [source]:ARXIV
+
+### [Closing the Sim-to-Real Gap: An Evaluation Framework for Autonomous Cyber Defense Configuration of Commercial EDR]
+(https://arxiv.org/abs/2606.08168) [source]:ARXIV
+
+### [AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation]
+(https://arxiv.org/abs/2606.08173) [source]:ARXIV
+
+### [LPOR: A Layered Proof of Reserves Framework for Usable and Publicly Auditable Solvency Verification]
+(https://arxiv.org/abs/2606.08211) [source]:ARXIV
+
+### [Quantifying and Defending against the Privacy Risk in Logit-based Federated Learning]
+(https://arxiv.org/abs/2606.08252) [source]:ARXIV
+
+### [An AI Security Agent for University ACMIS: Multi-Vector Threat Detection and Automated Response]
+(https://arxiv.org/abs/2606.08270) [source]:ARXIV
+
+### [SoK: Reconstruction Attacks on Synthetic Tabular Data (Insights from Winning the NIST CRC)]
+(https://arxiv.org/abs/2606.08372) [source]:ARXIV
+
+### [Hiding in Plain Floats: Steganographic Carriers for Indirect Prompt and Content Injection]
+(https://arxiv.org/abs/2606.08403) [source]:ARXIV
+
+### [AI Code Sandboxes: A Comparative Security Study. Part 1 of 2 -- Engine-Level Properties (Attack Surface, Leakage, Stackability, CVE History, Patch Cadence, Fuzzing)]
+(https://arxiv.org/abs/2606.08433) [source]:ARXIV
+
+### [Digital White Spaces: A Cyberpsychology-Informed Framework to Mobile Phone Addiction]
+(https://arxiv.org/abs/2606.08472) [source]:ARXIV
+
+### [Exploring CKKS Parameter Trade-offs for Privacy-Preserving Personalized Federated Learning]
+(https://arxiv.org/abs/2606.08521) [source]:ARXIV
+
+### [Sample-Efficient LLM-Based Detection of Malicious Web Server Logs with Forensically Explainable Reasoning]
+(https://arxiv.org/abs/2606.08649) [source]:ARXIV
+
+### [Data Agents Under Attack: Vulnerabilities in LLM-Driven Analytical Systems]
+(https://arxiv.org/abs/2606.08661) [source]:ARXIV
+
+### [X-rated Compliance Theater: An Empirical Evaluation of European Age Verification Systems in Adult Websites]
+(https://arxiv.org/abs/2606.08667) [source]:ARXIV
+
+### [Asymptotic Optimality of the High-Dimensional Gaussian Mechanism and Improved Low-Dimensional Mechanisms for Differential Privacy]
+(https://arxiv.org/abs/2606.08681) [source]:ARXIV
+
+### [AutoSUT: The Environment Semantics Gap in Structured CTI for Adversary Emulation]
+(https://arxiv.org/abs/2606.08700) [source]:ARXIV
+
+### [Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography]
+(https://arxiv.org/abs/2606.08726) [source]:ARXIV
+
+### [Block-A-Mole: The Sustainability Frontier of Moving-Target Censorship Resistance]
+(https://arxiv.org/abs/2606.08886) [source]:ARXIV
+
+### [Hardening Agent Benchmarks with Adversarial Hacker-Fixer Loops]
+(https://arxiv.org/abs/2606.08960) [source]:ARXIV
+
+### [Document-Authored Control-Signal Impersonation: A Low-Cost Indirect Prompt Attack on RAG Safety Boundaries]
+(https://arxiv.org/abs/2606.09005) [source]:ARXIV
+
+### [Security-First Approach to API Pipeline Development with Zero-Trust Architecture]
+(https://arxiv.org/abs/2606.09062) [source]:ARXIV
+
+### [Context-Fractured Decomposition Attacks on Tool-Using LLM Agents: Exploiting Artifact Provenance Gaps]
+(https://arxiv.org/abs/2606.09084) [source]:ARXIV
+
+### [Unveiling Privacy Risks in Multi-modal Large Language Models: Task-specific Vulnerabilities and Mitigation Challenges]
+(https://arxiv.org/abs/2606.09125) [source]:ARXIV
+
+### [Steganography Without Modification: Hidden Communication via LLM Seeds]
+(https://arxiv.org/abs/2606.09135) [source]:ARXIV
+
+### [PrivCode++: Latent-Conditioned Differentially Private Code Generation for Comprehensive Guarantees]
+(https://arxiv.org/abs/2606.09145) [source]:ARXIV
+
+### [Customization under Fire: Plugin Poisoning in Text-to-Image Ecosystem]
+(https://arxiv.org/abs/2606.09151) [source]:ARXIV
+
+### [EnclaveScale: Hardware-Assisted Edge-DP for Secure Data Centre Power Telemetry]
+(https://arxiv.org/abs/2606.09163) [source]:ARXIV
+
+### [Pretrained, Frozen, Still Leaking: Auditing Cross-Encoder Attribute Transfer in EEG Foundation Models]
+(https://arxiv.org/abs/2606.09189) [source]:ARXIV
+
+### [Trustworthy Smart Fabs via Professional Proxies: Scaling Safe and Sustainable by Design (SSbD) through Industrial Data Spaces]
+(https://arxiv.org/abs/2606.09227) [source]:ARXIV
+
+### [Brain-Prompt Injection: A Route-Safety Audit for BCI-LLM Agents]
+(https://arxiv.org/abs/2606.09315) [source]:ARXIV
+
+### [Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors]
+(https://arxiv.org/abs/2606.09402) [source]:ARXIV
+
+### [Now You (Still) See Me: Detecting Evasive Steganographic Payloads in LLMs]
+(https://arxiv.org/abs/2606.09411) [source]:ARXIV
+
+### [Towards Post-Quantum Secure Pharmacovigilance with ML-KEM and ML-DSA]
+(https://arxiv.org/abs/2606.09412) [source]:ARXIV
+
+### [Model Poisoning Against Federated Model Adaptation with Chain of Bit-Flips]
+(https://arxiv.org/abs/2606.09548) [source]:ARXIV
+
+### [SecureClaw: Clawing Back Control of LLM Agents]
+(https://arxiv.org/abs/2606.09549) [source]:ARXIV
+
+### [FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing]
+(https://arxiv.org/abs/2606.09551) [source]:ARXIV
+
+### [Observability for Delegated Execution in Agentic AI Systems]
+(https://arxiv.org/abs/2606.09692) [source]:ARXIV
+
+### [What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks]
+(https://arxiv.org/abs/2606.09700) [source]:ARXIV
+
+### [FADRW: A Feature-Aware Modulated and Dynamically Reweighted Loss for Few-Shot Linguistic Steganalysis]
+(https://arxiv.org/abs/2606.07655) [source]:ARXIV
+
+### [VATS: Exploiting Implicit Authority in Error-Path Injection via Systematic Mutation]
+(https://arxiv.org/abs/2606.07992) [source]:ARXIV
+
+### [TOMOYO Linux: A Mandatory Access Control Method Based on Application Execution State]
+(https://arxiv.org/abs/2606.08060) [source]:ARXIV
+
+### [Multidimensional Resilience for Electrical Power Systems: Systematic Review, Integrated Index, and Validation under Real-World Cyber-Physical Attack Scenarios]
+(https://arxiv.org/abs/2606.08062) [source]:ARXIV
+
+### [Differentially Private Range Subgraph Counting]
+(https://arxiv.org/abs/2606.08179) [source]:ARXIV
+
+### [Uncertainty Principles for the Number Theoretic Transform]
+(https://arxiv.org/abs/2606.08662) [source]:ARXIV
+
+### [RAILS: Verification-Native Clearing For Agentic Commerce]
+(https://arxiv.org/abs/2606.08790) [source]:ARXIV
+
+### [Cheap Reward Hacking Detection]
+(https://arxiv.org/abs/2606.08893) [source]:ARXIV
+
+### [Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human]
+(https://arxiv.org/abs/2606.08919) [source]:ARXIV
+
+### [The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context Injection]
+(https://arxiv.org/abs/2606.09204) [source]:ARXIV
+
+### [Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models]
+(https://arxiv.org/abs/2606.09401) [source]:ARXIV
+
+### [Targeting World Models to Compromise Robot Learning Pipelines]
+(https://arxiv.org/abs/2606.09499) [source]:ARXIV
+
+### [Safe-RULE: Safe Reinforcement UnLEarning]
+(https://arxiv.org/abs/2606.09559) [source]:ARXIV
+
+### [Clinically Grounded Privacy Evaluation of Medical LMs]
+(https://arxiv.org/abs/2606.09590) [source]:ARXIV
+
+### [Parent-Hash DAG: A Cost Analysis of Constant-Time Append for On-Chain Registries]
+(https://arxiv.org/abs/2606.09593) [source]:ARXIV
+
+### [A Bell-State Extension of Loop-Back Quantum Key Distribution]
+(https://arxiv.org/abs/2606.09723) [source]:ARXIV
+
+### [Human-Centred Risk Mitigation for AI-Mediated Information Manipulation: A SOCMINT Framework Based on Information Manipulation Sets]
+(https://arxiv.org/abs/2606.09754) [source]:ARXIV
+
+### [FIT-Print: Towards False-claim-resistant Model Ownership Verification via Targeted Fingerprint]
+(https://arxiv.org/abs/2501.15509) [source]:ARXIV
+
+### [Maris: A Formally Verifiable Privacy Policy Enforcement Paradigm for Multi-Agent Collaboration Systems]
+(https://arxiv.org/abs/2505.04799) [source]:ARXIV
+
+### [Cryptographic Backdoor for Neural Networks: Boon and Bane]
+(https://arxiv.org/abs/2509.20714) [source]:ARXIV
+
+### [TAO: Tolerance-Aware Optimistic Verification for Floating-Point Neural Networks]
+(https://arxiv.org/abs/2510.16028) [source]:ARXIV
+
+### [PLAGUE: Plug-and-play framework for Lifelong Adaptive Generation of Multi-turn Exploits]
+(https://arxiv.org/abs/2510.17947) [source]:ARXIV
+
+### [Security Analysis of LTE Connectivity in Connected Cars: A Case Study of Tesla]
+(https://arxiv.org/abs/2510.22024) [source]:ARXIV
+
+### [Future-Proofing Authentication Against Insecure Bootstrapping for 5G Networks: Feasibility, Resiliency, and Accountability]
+(https://arxiv.org/abs/2510.23457) [source]:ARXIV
+
+### [A Survey of Heterogeneous Graph Neural Networks for Cybersecurity Anomaly Detection]
+(https://arxiv.org/abs/2510.26307) [source]:ARXIV
+
+### [Tuning for TraceTarnish: Techniques, Trends, and Testing Tangible Traits]
+(https://arxiv.org/abs/2512.03465) [source]:ARXIV
+
+### [State Backdoor: Towards Stealthy Real-world Poisoning Attack on Vision-Language-Action Model in State Space]
+(https://arxiv.org/abs/2601.04266) [source]:ARXIV
+
+### [Composition for Pufferfish Privacy]
+(https://arxiv.org/abs/2602.02718) [source]:ARXIV
+
+### [Security of the Fischlin Transform in Quantum Random Oracle Model]
+(https://arxiv.org/abs/2602.17307) [source]:ARXIV
+
+### [Automated Framework to Evaluate and Harden LLM System Instructions against Encoding Attacks]
+(https://arxiv.org/abs/2604.01039) [source]:ARXIV
+
+### [Scalable and Private Federated Learning Using Distributed Differential Privacy and Secure Aggregation]
+(https://arxiv.org/abs/2604.07125) [source]:ARXIV
+
+### [Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions]
+(https://arxiv.org/abs/2604.08304) [source]:ARXIV
+
+### [Hijacking Text Heritage: Hiding the Human Signature through Homoglyphic Substitution]
+(https://arxiv.org/abs/2604.10271) [source]:ARXIV
+
+### [Bit-Flip Vulnerability of Shared KV-Cache Blocks in LLM Serving Systems]
+(https://arxiv.org/abs/2604.17249) [source]:ARXIV
+
+### [Secure Cross-Silo Synthetic Genomic Data Generation]
+(https://arxiv.org/abs/2604.27456) [source]:ARXIV
+
+### [LoRA-Key: User-Centric LoRA Watermarking for Text-to-Image Diffusion Models]
+(https://arxiv.org/abs/2605.29569) [source]:ARXIV
+
+### [Privacy-Enhanced Zero-Order Federated Learning via xMK-CKKS over Wireless Channels]
+(https://arxiv.org/abs/2605.30123) [source]:ARXIV
+
+### [Defenses & Enablers For Skill Injection Attacks on Terminal Based Agents]
+(https://arxiv.org/abs/2606.01567) [source]:ARXIV
+
+### [Private Embedding Lookup with Encrypted Compact Queries under Fully Homomorphic Encryption]
+(https://arxiv.org/abs/2606.03191) [source]:ARXIV
+
+### [The Usefulness Gap in Proof-of-Useful-Work: An Empirical Study of Pearl's cuPOW Protocol]
+(https://arxiv.org/abs/2606.04819) [source]:ARXIV
+
+### [Robust In-Context Reinforcement Learning Under Reward Poisoning Attacks]
+(https://arxiv.org/abs/2506.06891) [source]:ARXIV
+
+### [Efficient and Stealthy Jailbreak Attacks via Adversarial Prompt Distillation from LLMs to SLMs]
+(https://arxiv.org/abs/2506.17231) [source]:ARXIV
+
+### [Pseudo-Equilibria, or: How to Stop Worrying About Crypto and Just Analyze the Game]
+(https://arxiv.org/abs/2506.22089) [source]:ARXIV
+
+### [SecureVibeBench: Benchmarking Secure Vibe Coding of AI Agents via Reconstructing Vulnerability-Introducing Scenarios]
+(https://arxiv.org/abs/2509.22097) [source]:ARXIV
+
+### [GLP: A Grassroots, Multiagent, Concurrent, Logic Programming Language for AI (Full Version)]
+(https://arxiv.org/abs/2510.15747) [source]:ARXIV
+
+### [Logarithmic Density of Rank $\geq 1$ and Rank $\geq 2$ Genus-2 Jacobians and Applications to Hyperelliptic Curve Cryptography]
+(https://arxiv.org/abs/2601.17142) [source]:ARXIV
+
+### [When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents]
+(https://arxiv.org/abs/2602.08235) [source]:ARXIV
+
+### [A New Approach to Code Smoothing Bounds]
+(https://arxiv.org/abs/2603.18077) [source]:ARXIV
+
+### [Self-Mined Hardness for Safety Fine-Tuning]
+(https://arxiv.org/abs/2605.03226) [source]:ARXIV
+
+### [Causal Unlearning in Collaborative Optimization: Exact and Approximate Influence Reversal under Adversarial Contributions]
+(https://arxiv.org/abs/2605.20341) [source]:ARXIV
+
+### [Cycle-Space Informed Detection of Autoencoded Blind False Data Injection Attacks on Power Systems]
+(https://arxiv.org/abs/2605.28912) [source]:ARXIV
+
+### [On the History of the Square and Multiply Algorithm]
+(https://arxiv.org/abs/2606.00958) [source]:ARXIV
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/) [source]:TOB
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
 

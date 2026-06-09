@@ -69,14 +69,10 @@ func Parse(reader io.Reader, sourceURLshort string) ([]model.Article, error) {
 			return nil, err
 		}
 
-		var count int
-		count = 0
-
 		for i, item := range rssData.Channel.Items {
 			articles = append(articles, model.Article{Id: i + 1, Title: item.Title, Link: item.Link, Source: sourceURLshort})
-			count++
 		}
-		fmt.Printf("源%s共获取到文章数为：%d，正在处理文章信息\n", sourceURLshort, count)
+		fmt.Printf("源%s共获取到文章数为：%d，正在处理文章信息\n", sourceURLshort, len(articles))
 
 	case "feed":
 		atomData, err := ParseAtom(Xmldata)

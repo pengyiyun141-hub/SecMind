@@ -133,8 +133,16 @@ func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, article
 		fmt.Printf("[%s-%d]：\n%s eng:%s \n%s\n\n", articleData.Source, articleData.ID, articleData.Title, articleData.EngTitle, articleData.Reason)
 		articlehtmldata := scraper.FetchArticleHtml(realArticle.Link)
 
+	model_param, err = LoadModelConfigByName("configs/model.yaml", "summarize")
+	if err != nil {
+		log.Fatal("加载 .env 失败: ", err)
+	}
+	
 		storage.SaveArticleToMD(articlehtmldata, articleData.EngTitle)
 	}
+
+	text, _:= AnalyzeArticleByAi(model_param)
+	fmt.Println(text)
 
 }
 
@@ -244,6 +252,6 @@ func CallAiApi(model_param *ModelSpec, promptMessage []Message) ([]byte, error) 
 		return nil, fmt.Errorf("读取响应体失败: %w", err)
 	}
 
-	fmt.Println(string(primaryRespBody))
+	//fmt.Println(string(primaryRespBody))
 	return primaryRespBody, nil
 }

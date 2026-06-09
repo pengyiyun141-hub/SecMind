@@ -1,0 +1,20 @@
+<div id="readability-page-1" class="page"><div id="content-inner">
+    
+    
+                
+    <p><a href="https://arxiv.org/pdf/2606.06502">View PDF</a>
+    <a href="https://arxiv.org/html/2606.06502v1">HTML (experimental)</a></p>
+
+
+
+    <blockquote>
+            <span>Abstract:</span>As large language models (LLMs) are increasingly trained on scraped web corpora without authorisation, content owners require forensic methods to prove that their documents were included in a model&#39;s training set. We propose \textbf{SIGIL} (\textbf{S}ubtle \textbf{I}njection for \textbf{G}round-truth \textbf{I}nference of \textbf{L}LM training data), a framework that embeds imperceptible \emph{canary sequences} into protected text and code such that any LLM trained on those documents exhibits statistically detectable behavioural signatures when probed with targeted queries.
+<br/>SIGIL defines five canary strategies -- lexical-rare, lexical-phrase, syntactic, semantic, and code-pattern -- and a \emph{Membership Inference Score} (MIS) grounded in the Neyman-Pearson hypothesis testing framework with formal false-positive rate (FPR) control. Simulator parameters are calibrated against the empirical membership inference literature, yielding realistic heterogeneous results across $36{,}000$ trials: overall AUC $= 0.892$, rising from $0.831$ at $0.1\%$ injection to $0.947$ at $10\%$. Detection rates range from $33\%$ to $78\%$ across model-size and injection-rate conditions. Code Pattern canaries achieve the highest AUC ($0.903$, Cohen&#39;s $d = 1.84$); Syntactic Structure the lowest ($0.875$, $d = 1.63$). All four experimental factors -- injection rate, model size, canary strategy, and mixture ratio -- have significant independent effects on MIS ($p &lt; 0.001$). SIGIL maintains AUC $&gt; 0.86$ even under $100\%$ paraphrasing ($\text{AUC} = 0.864$), confirming robustness through semantic leakage that survives surface-level rewriting.
+    </blockquote>
+
+    
+    
+  </div><div>
+      <h2>Submission history</h2><p> From: Abraham Itzhak Weinberg [<a href="https://arxiv.org/show-email/a144dd64/2606.06502" rel="nofollow">view email</a>]      <br/>    <strong>[v1]</strong>
+        Mon, 18 May 2026 14:48:44 UTC (614 KB)<br/>
+</p></div></div>

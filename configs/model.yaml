@@ -26,7 +26,10 @@ models:
     user_prompt: configs/prompts/summarize_user.txt
     temperature: 0.3
     top_p: 0.9
-    max_tokens: 600
+    max_tokens: 8000
     frequency_penalty: 0.1
     presence_penalty: 0.0
-    stop: []   # 不需要停止序列
+    stop: []
+    extra_body:
+    thinking:
+      type: enabled
