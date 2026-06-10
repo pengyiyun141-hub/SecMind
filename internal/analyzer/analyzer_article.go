@@ -6,9 +6,9 @@ import (
 	"os"
 )
 
-func AnalyzeArticleByAi(model_param *ModelSpec) (string, error){
+func AnalyzeArticleByAi(model_param *ModelSpec, article_Path string) (string, error){
 
-	articleContextFile, err := os.Open("internal/data/articles/Subtle Injection for Ground-truth Inference of LLM Training Data")
+	articleContextFile, err := os.Open(article_Path)
 	if err != nil {
 		return "", fmt.Errorf("打开文章失败")
 	}

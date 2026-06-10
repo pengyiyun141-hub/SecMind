@@ -141,7 +141,22 @@ func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, article
 		storage.SaveArticleToMD(articlehtmldata, articleData.EngTitle)
 	}
 
-	text, _:= AnalyzeArticleByAi(model_param)
+	//临时测试输入选文章功能
+	fmt.Print("\n请输入要分析的文章（格式：源缩写-ID，如 TOB-12）：")
+	var input string
+    _, scanErr := fmt.Scanln(&input)
+    if scanErr != nil {
+        return 
+    }
+
+	realArticle, ok := articleIndex[input]
+	if !ok {
+    	fmt.Printf("未找到文章: %s\n", input)
+    	return
+	}
+
+	article_Path := fmt.Sprintf("internal/data/articles/%s", realArticle.Title)
+	text, _:= AnalyzeArticleByAi(model_param, article_Path)
 	fmt.Println(text)
 
 }
