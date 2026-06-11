@@ -44,5 +44,6 @@ func AnalyzeArticleByAi(model_param *ModelSpec, article_Path string) (string, er
 
 	text, err:= CallAiApi(model_param, promptMessage)
 	
+
 	return string(text), err
 }

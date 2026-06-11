@@ -6,16 +6,17 @@ import (
 	//"secmind/internal/model"
 )
 
-func SaveArticleToMD(htmldata string, title string) {
+func SaveArticleToMemory(htmldata string, link string) error {
 	var articleTitlePath string
-	articleTitlePath = "internal/data/articles/" + title
+	articleTitlePath = "internal/data/memory/" + link
 
 	file, err := os.OpenFile(articleTitlePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 
 	if err != nil {
-		fmt.Printf("文件打开或创建失败：%s\n\n\n", err)
+		fmt.Println("文件打开或创建失败：", err)
 	}
 
 	fmt.Fprintf(file, "%s", htmldata)
-	
+
+	return err
 }

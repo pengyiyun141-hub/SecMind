@@ -1,0 +1,39 @@
+<div id="readability-page-1" class="page"><div id="content-inner">
+    
+    
+                
+    <p><a href="https://arxiv.org/pdf/2606.12320">View PDF</a>
+    <a href="https://arxiv.org/html/2606.12320v1">HTML (experimental)</a></p>
+
+
+
+    <blockquote>
+            <span>Abstract:</span>Enterprise security was built to govern data boundaries: the protected surface was data at rest and in transit, and the controls -- access control, data-loss prevention, perimeter inspection -- governed crossings of that boundary. Production AI agents dissolve this assumption. An agent reads context, calls tools, invokes connectors, and modifies systems of record on an enterprise&#39;s behalf, so risk moves inside the workflow, into sequences of individually-permitted actions that may transform a business process no one authorized. Existing policy engines do not extend to this regime: they evaluate request-time decisions against atomic principals, where agentic systems require stateful evaluation against composite principals whose authority attenuates through delegation chains.
+<br/>We present a reference architecture for the runtime governance of production agents, built from four composable primitives: a five-plane decomposition (a reasoning plane that adjudicates intent, and four enforcement planes -- network, identity, endpoint, data -- that realize the decision), stop-anywhere mediation, composite principals with capability attenuation, and audit as a structured evidence substrate. We define a taxonomy of six interruption primitives that generalize allow and deny, state and argue for four correctness invariants, and demonstrate the foreclosure of seven production-agent threats across five concrete workflows. A reference implementation of the policy-engine core supplies measured evidence: attenuation correctness and evidence reconstructability hold on every trial, adjudication runs in single-digit microseconds, and the audit substrate&#39;s tamper-evidence behaves exactly as designed. We are explicit about scope: the architecture governs delegated action, not model behavior, and a full-system evaluation against a live agent benchmark is the invited next step.
+    </blockquote>
+
+    
+    
+  </div><div>
+      <h2>Submission history</h2><p> From: Krti Tallam [<a href="https://arxiv.org/show-email/fa87c5e2/2606.12320" rel="nofollow">view email</a>]      <br/>    <strong>[v1]</strong>
+        Wed, 10 Jun 2026 16:54:47 UTC (78 KB)<br/>
+</p></div></div><div id="readability-page-1" class="page"><div id="content-inner">
+    
+    
+                
+    <p><a href="https://arxiv.org/pdf/2606.12320">View PDF</a>
+    <a href="https://arxiv.org/html/2606.12320v1">HTML (experimental)</a></p>
+
+
+
+    <blockquote>
+            <span>Abstract:</span>Enterprise security was built to govern data boundaries: the protected surface was data at rest and in transit, and the controls -- access control, data-loss prevention, perimeter inspection -- governed crossings of that boundary. Production AI agents dissolve this assumption. An agent reads context, calls tools, invokes connectors, and modifies systems of record on an enterprise&#39;s behalf, so risk moves inside the workflow, into sequences of individually-permitted actions that may transform a business process no one authorized. Existing policy engines do not extend to this regime: they evaluate request-time decisions against atomic principals, where agentic systems require stateful evaluation against composite principals whose authority attenuates through delegation chains.
+<br/>We present a reference architecture for the runtime governance of production agents, built from four composable primitives: a five-plane decomposition (a reasoning plane that adjudicates intent, and four enforcement planes -- network, identity, endpoint, data -- that realize the decision), stop-anywhere mediation, composite principals with capability attenuation, and audit as a structured evidence substrate. We define a taxonomy of six interruption primitives that generalize allow and deny, state and argue for four correctness invariants, and demonstrate the foreclosure of seven production-agent threats across five concrete workflows. A reference implementation of the policy-engine core supplies measured evidence: attenuation correctness and evidence reconstructability hold on every trial, adjudication runs in single-digit microseconds, and the audit substrate&#39;s tamper-evidence behaves exactly as designed. We are explicit about scope: the architecture governs delegated action, not model behavior, and a full-system evaluation against a live agent benchmark is the invited next step.
+    </blockquote>
+
+    
+    
+  </div><div>
+      <h2>Submission history</h2><p> From: Krti Tallam [<a href="https://arxiv.org/show-email/fa87c5e2/2606.12320" rel="nofollow">view email</a>]      <br/>    <strong>[v1]</strong>
+        Wed, 10 Jun 2026 16:54:47 UTC (78 KB)<br/>
+</p></div></div>

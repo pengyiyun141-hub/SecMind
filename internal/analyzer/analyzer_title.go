@@ -47,9 +47,9 @@ type ModelSpec struct {
 	FrequencyPenalty float64  `yaml:"frequency_penalty"`
 	PresencePenalty  float64  `yaml:"presence_penalty"`
 	Stop             []string `yaml:"stop"`
-	APIKey    string
-	BaseURL   string
-	ModelName string
+	APIKey           string
+	BaseURL          string
+	ModelName        string
 	ExtraBody        map[string]interface{} `yaml:"extra_body"`
 }
 
@@ -97,7 +97,7 @@ func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, article
 	if err != nil {
 		log.Fatal("Call_Ai返回数据失败: ", err)
 	}
-	
+
 	var aiResponse struct {
 		Choices []struct {
 			Message struct {
@@ -133,30 +133,34 @@ func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, article
 		fmt.Printf("[%s-%d]：\n%s eng:%s \n%s\n\n", articleData.Source, articleData.ID, articleData.Title, articleData.EngTitle, articleData.Reason)
 		articlehtmldata := scraper.FetchArticleHtml(realArticle.Link)
 
-	model_param, err = LoadModelConfigByName("configs/model.yaml", "summarize")
-	if err != nil {
-		log.Fatal("加载 .env 失败: ", err)
-	}
-	
+		model_param, err = LoadModelConfigByName("configs/model.yaml", "summarize")
+		if err != nil {
+			log.Fatal("加载 .env 失败: ", err)
+		}
+
 		storage.SaveArticleToMD(articlehtmldata, articleData.EngTitle)
 	}
 
 	//临时测试输入选文章功能
 	fmt.Print("\n请输入要分析的文章（格式：源缩写-ID，如 TOB-12）：")
 	var input string
-    _, scanErr := fmt.Scanln(&input)
-    if scanErr != nil {
-        return 
-    }
+	_, scanErr := fmt.Scanln(&input)
+	if scanErr != nil {
+		return
+	}
 
 	realArticle, ok := articleIndex[input]
 	if !ok {
-    	fmt.Printf("未找到文章: %s\n", input)
-    	return
+		fmt.Printf("未找到文章: %s\n", input)
+		return
 	}
 
 	article_Path := fmt.Sprintf("internal/data/articles/%s", realArticle.Title)
-	text, _:= AnalyzeArticleByAi(model_param, article_Path)
+	text, _ := AnalyzeArticleByAi(model_param, article_Path)
+	text1 := string(text)
+	sourceID := fmt.Sprintf("%s-%d", realArticle.Source, realArticle.Id) 
+	storage.SaveArticleToMemory(text1, sourceID)
+
 	fmt.Println(text)
 
 }
@@ -233,7 +237,7 @@ func CallAiApi(model_param *ModelSpec, promptMessage []Message) ([]byte, error) 
 	}
 
 	for k, v := range model_param.ExtraBody {
-    	reqBody[k] = v
+		reqBody[k] = v
 	}
 
 	reqBodyJsonData, err := json.Marshal(reqBody)
