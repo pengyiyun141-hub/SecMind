@@ -712,3 +712,402 @@
 ### [Building cryptographic agility into Sigstore]
 (https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
 
+### [Influence Factors on RAG Poisoning]
+(https://arxiv.org/abs/2606.12469) [source]:ARXIV
+
+### [Influence Factors on RAG Poisoning]
+(https://arxiv.org/abs/2606.12469) [source]:ARXIV
+
+### [From Parameters to Feature Space: Task Arithmetic for Backdoor Mitigation in Model Merging]
+(https://arxiv.org/abs/2606.12498) [source]:ARXIV
+
+### [Beyond Attack Success Rate: Examining Trigger Leakage in Vision-Language Agentic Systems]
+(https://arxiv.org/abs/2606.12586) [source]:ARXIV
+
+### [Amnesia: A Stealthy Replay Attack on Continual Learning Dreams]
+(https://arxiv.org/abs/2606.12655) [source]:ARXIV
+
+### [CAPED: Context-Aware Privacy Exposure Defense for Mobile GUI Agents]
+(https://arxiv.org/abs/2606.12666) [source]:ARXIV
+
+### [SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM Agent Systems]
+(https://arxiv.org/abs/2606.12703) [source]:ARXIV
+
+### [PI-Hunter: Automated Red-Teaming for Exposing and Localizing Prompt Injections]
+(https://arxiv.org/abs/2606.12737) [source]:ARXIV
+
+### [Semantic Identification of IoT Devices from Behavioral Primitives]
+(https://arxiv.org/abs/2606.12793) [source]:ARXIV
+
+### [A Privacy-Preserving Framework Using Remote Data Science for Inter-Institutional Student Retention Prediction]
+(https://arxiv.org/abs/2606.12845) [source]:ARXIV
+
+### [Influence Factors on RAG Poisoning]
+(https://arxiv.org/abs/2606.12469) [source]:ARXIV
+
+### [From Parameters to Feature Space: Task Arithmetic for Backdoor Mitigation in Model Merging]
+(https://arxiv.org/abs/2606.12498) [source]:ARXIV
+
+### [Beyond Attack Success Rate: Examining Trigger Leakage in Vision-Language Agentic Systems]
+(https://arxiv.org/abs/2606.12586) [source]:ARXIV
+
+### [Amnesia: A Stealthy Replay Attack on Continual Learning Dreams]
+(https://arxiv.org/abs/2606.12655) [source]:ARXIV
+
+### [CAPED: Context-Aware Privacy Exposure Defense for Mobile GUI Agents]
+(https://arxiv.org/abs/2606.12666) [source]:ARXIV
+
+### [SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM Agent Systems]
+(https://arxiv.org/abs/2606.12703) [source]:ARXIV
+
+### [PI-Hunter: Automated Red-Teaming for Exposing and Localizing Prompt Injections]
+(https://arxiv.org/abs/2606.12737) [source]:ARXIV
+
+### [Semantic Identification of IoT Devices from Behavioral Primitives]
+(https://arxiv.org/abs/2606.12793) [source]:ARXIV
+
+### [A Privacy-Preserving Framework Using Remote Data Science for Inter-Institutional Student Retention Prediction]
+(https://arxiv.org/abs/2606.12845) [source]:ARXIV
+
+### [Influence Factors on RAG Poisoning]
+(https://arxiv.org/abs/2606.12469) [source]:ARXIV
+
+### [From Parameters to Feature Space: Task Arithmetic for Backdoor Mitigation in Model Merging]
+(https://arxiv.org/abs/2606.12498) [source]:ARXIV
+
+### [Beyond Attack Success Rate: Examining Trigger Leakage in Vision-Language Agentic Systems]
+(https://arxiv.org/abs/2606.12586) [source]:ARXIV
+
+### [Amnesia: A Stealthy Replay Attack on Continual Learning Dreams]
+(https://arxiv.org/abs/2606.12655) [source]:ARXIV
+
+### [CAPED: Context-Aware Privacy Exposure Defense for Mobile GUI Agents]
+(https://arxiv.org/abs/2606.12666) [source]:ARXIV
+
+### [SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM Agent Systems]
+(https://arxiv.org/abs/2606.12703) [source]:ARXIV
+
+### [PI-Hunter: Automated Red-Teaming for Exposing and Localizing Prompt Injections]
+(https://arxiv.org/abs/2606.12737) [source]:ARXIV
+
+### [Semantic Identification of IoT Devices from Behavioral Primitives]
+(https://arxiv.org/abs/2606.12793) [source]:ARXIV
+
+### [A Privacy-Preserving Framework Using Remote Data Science for Inter-Institutional Student Retention Prediction]
+(https://arxiv.org/abs/2606.12845) [source]:ARXIV
+
+### [LNTest: A Testbed for Evaluating Bitcoin Lightning Network-Based Botnets]
+(https://arxiv.org/abs/2606.12887) [source]:ARXIV
+
+### [MAStrike: Shapley-Guided Collusive Red-Teaming on Multi-Agent Systems]
+(https://arxiv.org/abs/2606.12918) [source]:ARXIV
+
+### [ViPER: Vision-based Packing-Aware Encoder for Robust Malware Detection]
+(https://arxiv.org/abs/2606.12949) [source]:ARXIV
+
+### [SoK: The Constant Time Model]
+(https://arxiv.org/abs/2606.13000) [source]:ARXIV
+
+### [DIG: Oracle-Guided Directed Input Generation for One-Day Vulnerabilities]
+(https://arxiv.org/abs/2606.13037) [source]:ARXIV
+
+### [The Emergence of Autonomous Penetration Capabilities in Large Language Model-Powered AI Systems]
+(https://arxiv.org/abs/2606.13079) [source]:ARXIV
+
+### [The Invisible Ink of the Android Malware World: A Longitudinal Study on the Usage of Covert Communication Channels]
+(https://arxiv.org/abs/2606.13107) [source]:ARXIV
+
+### [Who Pays the Price? Stakeholder-Centric Prompt Injection Benchmarking for Real-world Web Agents]
+(https://arxiv.org/abs/2606.13385) [source]:ARXIV
+
+### [An Assessment Framework for Application-Level Cryptographic Agility]
+(https://arxiv.org/abs/2606.13425) [source]:ARXIV
+
+### [Intent-Based Cryptographic API Design for Cryptographic Agility]
+(https://arxiv.org/abs/2606.13445) [source]:ARXIV
+
+### [Differentially Private Hierarchical Heavy Hitters]
+(https://arxiv.org/abs/2606.13563) [source]:ARXIV
+
+### [Beyond the IT Checklist: Engineering a Reasonable Standard of Care for Cyber Safety]
+(https://arxiv.org/abs/2606.13612) [source]:ARXIV
+
+### [SAIGuard: Communication-State Simulation for Proactive Defense of LLM Multi-Agent Systems]
+(https://arxiv.org/abs/2606.12474) [source]:ARXIV
+
+### [Fed-FBD: Federated Functional Block Diversification for Isolation, Privacy, and Surgical Unlearning]
+(https://arxiv.org/abs/2606.12679) [source]:ARXIV
+
+### [Smarter Saboteurs, Better Fixers: Scaling & Security in Linear Multi-Agent Workflows]
+(https://arxiv.org/abs/2606.12709) [source]:ARXIV
+
+### [Detecting Functional Memorization in Code Language Models]
+(https://arxiv.org/abs/2606.12764) [source]:ARXIV
+
+### [PolicyGuard: Towards Test-time and Step-level Adversary Defense for Reinforcement Learning Agent]
+(https://arxiv.org/abs/2606.12896) [source]:ARXIV
+
+### [Efficient, Robust, and Anti-Collusion Fingerprinting of Image Diffusion Models]
+(https://arxiv.org/abs/2606.12977) [source]:ARXIV
+
+### [Split Tallies: A Discrete Certificate Calculus for Auditing Dynamic Ordered Sets in Constant Memory]
+(https://arxiv.org/abs/2606.13272) [source]:ARXIV
+
+### [Beyond Runtime Enforcement: Shield Synthesis as Defensibility Analysis for Adversarial Networks]
+(https://arxiv.org/abs/2606.13621) [source]:ARXIV
+
+### [Cybersecurity Threat Hunting and Vulnerability Analysis Using a Neo4j Graph Database of Open Source Intelligence]
+(https://arxiv.org/abs/2301.12013) [source]:ARXIV
+
+### [Unsafer in Many Turns: Benchmarking and Defending Multi-Turn Safety Risks in Tool-Using Agents]
+(https://arxiv.org/abs/2602.13379) [source]:ARXIV
+
+### [A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle]
+(https://arxiv.org/abs/2604.16548) [source]:ARXIV
+
+### [The Range Shrinks, the Threat Remains: Re-evaluating LLM Package Hallucinations on the 2026 Frontier-Model Cohort]
+(https://arxiv.org/abs/2605.17062) [source]:ARXIV
+
+### [ResidualPlanner+: a scalable matrix mechanism for marginals and beyond]
+(https://arxiv.org/abs/2305.08175) [source]:ARXIV
+
+### [Strategic Analysis of Just-In-Time Liquidity Provision in Concentrated Liquidity Market Makers]
+(https://arxiv.org/abs/2509.16157) [source]:ARXIV
+
+### [Classport: Designing Runtime Dependency Introspection for Java]
+(https://arxiv.org/abs/2510.20340) [source]:ARXIV
+
+### [Why Commodity WiFi Sensors Fail at Multi-Person Gait Identification: A Systematic Analysis Using ESP32]
+(https://arxiv.org/abs/2601.02177) [source]:ARXIV
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/) [source]:TOB
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
+
+### [Influence Factors on RAG Poisoning]
+(https://arxiv.org/abs/2606.12469) [source]:ARXIV
+
+### [From Parameters to Feature Space: Task Arithmetic for Backdoor Mitigation in Model Merging]
+(https://arxiv.org/abs/2606.12498) [source]:ARXIV
+
+### [Beyond Attack Success Rate: Examining Trigger Leakage in Vision-Language Agentic Systems]
+(https://arxiv.org/abs/2606.12586) [source]:ARXIV
+
+### [Amnesia: A Stealthy Replay Attack on Continual Learning Dreams]
+(https://arxiv.org/abs/2606.12655) [source]:ARXIV
+
+### [CAPED: Context-Aware Privacy Exposure Defense for Mobile GUI Agents]
+(https://arxiv.org/abs/2606.12666) [source]:ARXIV
+
+### [SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM Agent Systems]
+(https://arxiv.org/abs/2606.12703) [source]:ARXIV
+
+### [PI-Hunter: Automated Red-Teaming for Exposing and Localizing Prompt Injections]
+(https://arxiv.org/abs/2606.12737) [source]:ARXIV
+
+### [Semantic Identification of IoT Devices from Behavioral Primitives]
+(https://arxiv.org/abs/2606.12793) [source]:ARXIV
+
+### [A Privacy-Preserving Framework Using Remote Data Science for Inter-Institutional Student Retention Prediction]
+(https://arxiv.org/abs/2606.12845) [source]:ARXIV
+
+### [LNTest: A Testbed for Evaluating Bitcoin Lightning Network-Based Botnets]
+(https://arxiv.org/abs/2606.12887) [source]:ARXIV
+
+### [MAStrike: Shapley-Guided Collusive Red-Teaming on Multi-Agent Systems]
+(https://arxiv.org/abs/2606.12918) [source]:ARXIV
+
+### [ViPER: Vision-based Packing-Aware Encoder for Robust Malware Detection]
+(https://arxiv.org/abs/2606.12949) [source]:ARXIV
+
+### [SoK: The Constant Time Model]
+(https://arxiv.org/abs/2606.13000) [source]:ARXIV
+
+### [DIG: Oracle-Guided Directed Input Generation for One-Day Vulnerabilities]
+(https://arxiv.org/abs/2606.13037) [source]:ARXIV
+
+### [The Emergence of Autonomous Penetration Capabilities in Large Language Model-Powered AI Systems]
+(https://arxiv.org/abs/2606.13079) [source]:ARXIV
+
+### [The Invisible Ink of the Android Malware World: A Longitudinal Study on the Usage of Covert Communication Channels]
+(https://arxiv.org/abs/2606.13107) [source]:ARXIV
+
+### [Who Pays the Price? Stakeholder-Centric Prompt Injection Benchmarking for Real-world Web Agents]
+(https://arxiv.org/abs/2606.13385) [source]:ARXIV
+
+### [An Assessment Framework for Application-Level Cryptographic Agility]
+(https://arxiv.org/abs/2606.13425) [source]:ARXIV
+
+### [Intent-Based Cryptographic API Design for Cryptographic Agility]
+(https://arxiv.org/abs/2606.13445) [source]:ARXIV
+
+### [Differentially Private Hierarchical Heavy Hitters]
+(https://arxiv.org/abs/2606.13563) [source]:ARXIV
+
+### [Beyond the IT Checklist: Engineering a Reasonable Standard of Care for Cyber Safety]
+(https://arxiv.org/abs/2606.13612) [source]:ARXIV
+
+### [SAIGuard: Communication-State Simulation for Proactive Defense of LLM Multi-Agent Systems]
+(https://arxiv.org/abs/2606.12474) [source]:ARXIV
+
+### [Fed-FBD: Federated Functional Block Diversification for Isolation, Privacy, and Surgical Unlearning]
+(https://arxiv.org/abs/2606.12679) [source]:ARXIV
+
+### [Smarter Saboteurs, Better Fixers: Scaling & Security in Linear Multi-Agent Workflows]
+(https://arxiv.org/abs/2606.12709) [source]:ARXIV
+
+### [Detecting Functional Memorization in Code Language Models]
+(https://arxiv.org/abs/2606.12764) [source]:ARXIV
+
+### [PolicyGuard: Towards Test-time and Step-level Adversary Defense for Reinforcement Learning Agent]
+(https://arxiv.org/abs/2606.12896) [source]:ARXIV
+
+### [Efficient, Robust, and Anti-Collusion Fingerprinting of Image Diffusion Models]
+(https://arxiv.org/abs/2606.12977) [source]:ARXIV
+
+### [Split Tallies: A Discrete Certificate Calculus for Auditing Dynamic Ordered Sets in Constant Memory]
+(https://arxiv.org/abs/2606.13272) [source]:ARXIV
+
+### [Beyond Runtime Enforcement: Shield Synthesis as Defensibility Analysis for Adversarial Networks]
+(https://arxiv.org/abs/2606.13621) [source]:ARXIV
+
+### [Cybersecurity Threat Hunting and Vulnerability Analysis Using a Neo4j Graph Database of Open Source Intelligence]
+(https://arxiv.org/abs/2301.12013) [source]:ARXIV
+
+### [Unsafer in Many Turns: Benchmarking and Defending Multi-Turn Safety Risks in Tool-Using Agents]
+(https://arxiv.org/abs/2602.13379) [source]:ARXIV
+
+### [A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle]
+(https://arxiv.org/abs/2604.16548) [source]:ARXIV
+
+### [The Range Shrinks, the Threat Remains: Re-evaluating LLM Package Hallucinations on the 2026 Frontier-Model Cohort]
+(https://arxiv.org/abs/2605.17062) [source]:ARXIV
+
+### [ResidualPlanner+: a scalable matrix mechanism for marginals and beyond]
+(https://arxiv.org/abs/2305.08175) [source]:ARXIV
+
+### [Strategic Analysis of Just-In-Time Liquidity Provision in Concentrated Liquidity Market Makers]
+(https://arxiv.org/abs/2509.16157) [source]:ARXIV
+
+### [Classport: Designing Runtime Dependency Introspection for Java]
+(https://arxiv.org/abs/2510.20340) [source]:ARXIV
+
+### [Why Commodity WiFi Sensors Fail at Multi-Person Gait Identification: A Systematic Analysis Using ESP32]
+(https://arxiv.org/abs/2601.02177) [source]:ARXIV
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/) [source]:TOB
+
+### [Building cryptographic agility into Sigstore]
+(https://blog.trailofbits.com/2026/01/29/building-cryptographic-agility-into-sigstore/) [source]:TOB
+

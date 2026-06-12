@@ -130,15 +130,15 @@ func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, article
 			continue
 		}
 		fmt.Println("开始抓取文章：", realArticle.Link)
-		fmt.Printf("[%s-%d]：\n%s eng:%s \n%s\n\n", articleData.Source, articleData.ID, articleData.Title, articleData.EngTitle, articleData.Reason)
-		articlehtmldata := scraper.FetchArticleHtml(realArticle.Link)
+		fmt.Printf("[%s-%d]：\n%s eng:%s \n%s\n", articleData.Source, articleData.ID, articleData.Title, articleData.EngTitle, articleData.Reason)
+		articlehtmldata ,_:= scraper.FetchArticleHtml(realArticle.Link, articleData)
 
 		model_param, err = LoadModelConfigByName("configs/model.yaml", "summarize")
 		if err != nil {
 			log.Fatal("加载 .env 失败: ", err)
 		}
 
-		storage.SaveArticleToMD(articlehtmldata, articleData.EngTitle)
+		storage.SaveArticleToMD(articlehtmldata, articleData.Title)
 	}
 
 	//临时测试输入选文章功能
@@ -161,7 +161,7 @@ func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, article
 	sourceID := fmt.Sprintf("%s-%d", realArticle.Source, realArticle.Id) 
 	storage.SaveArticleToMemory(text1, sourceID)
 
-	fmt.Println(text)
+	fmt.Println("AI总结摘要内容：", text1)
 
 }
 
