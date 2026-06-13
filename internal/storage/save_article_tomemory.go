@@ -3,12 +3,11 @@ package storage
 import (
 	"fmt"
 	"os"
-	//"secmind/internal/model"
 )
 
-func SaveArticleToMemory(htmldata string, link string) error {
+func SaveArticleToMemory(htmldata string, sourceID string) error {
 	var articleTitlePath string
-	articleTitlePath = "internal/data/memory/" + link
+	articleTitlePath = "internal/data/memory/" + sourceID
 
 	file, err := os.OpenFile(articleTitlePath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 

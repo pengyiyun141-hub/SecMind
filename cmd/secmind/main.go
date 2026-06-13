@@ -41,7 +41,7 @@ func main() {
 		}
 	}
 
-	articleIndex := make(map[string]*model.Article)
+	articleIndex := make( map[string]*model.Article)
 	for i := range xmlData_slice {
 		key := fmt.Sprintf("%s-%d", xmlData_slice[i].Source, xmlData_slice[i].Id)
 		articleIndex[key] = &xmlData_slice[i]

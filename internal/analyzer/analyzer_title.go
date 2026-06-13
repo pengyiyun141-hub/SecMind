@@ -115,7 +115,8 @@ func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, article
 		fmt.Println("\n=== SecMind 1.0 研判简报 ===")
 		fmt.Println(aiResponse.Choices[0].Message.Content)
 	}
-
+	
+	//从这里开始AI返回的文章信息被解析为ScreenedArticles,因此后续全都应该使用该类型。
 	screeneddata, err := ParseScreeningTitleJSON(aiResponse.Choices[0].Message.Content)
 	if err != nil {
 		fmt.Println("第一轮内容筛选解析失败", err)
@@ -138,7 +139,8 @@ func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, article
 			log.Fatal("加载 .env 失败: ", err)
 		}
 
-		storage.SaveArticleToMD(articlehtmldata, articleData.Title)
+		realArticle.Filename = storage.SaveArticleToMD(articlehtmldata, articleData)
+
 	}
 
 	//临时测试输入选文章功能
@@ -155,8 +157,14 @@ func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, article
 		return
 	}
 
-	article_Path := fmt.Sprintf("internal/data/articles/%s", realArticle.Title)
-	text, _ := AnalyzeArticleByAi(model_param, article_Path)
+	fmt.Printf("\n已选择文章：%s\n", realArticle.Filename)
+	text, err := AnalyzeArticleByAi(model_param, realArticle.Filename)
+	if err != nil {
+    	fmt.Printf("\n❌ AI分析失败: %v\n", err)
+    	return
+	}
+
+	fmt.Printf("\nAI返回的原始内容为：%x\n", text)
 	text1 := string(text)
 	sourceID := fmt.Sprintf("%s-%d", realArticle.Source, realArticle.Id) 
 	storage.SaveArticleToMemory(text1, sourceID)

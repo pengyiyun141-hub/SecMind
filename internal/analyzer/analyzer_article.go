@@ -7,7 +7,6 @@ import (
 )
 
 func AnalyzeArticleByAi(model_param *ModelSpec, article_Path string) (string, error){
-
 	articleContextFile, err := os.Open(article_Path)
 	if err != nil {
 		return "", fmt.Errorf("打开文章失败")
@@ -17,6 +16,7 @@ func AnalyzeArticleByAi(model_param *ModelSpec, article_Path string) (string, er
 	if err != nil || len(articleContext) == 0 {
 		return "", fmt.Errorf("文章数据读入内存失败")
 	}
+	fmt.Printf("\n打开文件获得的byte内容为：%s\n", articleContext)
 
 	var promptSys string
 	var promptText string
@@ -41,7 +41,7 @@ func AnalyzeArticleByAi(model_param *ModelSpec, article_Path string) (string, er
 	}
 
 
-
+	//fmt.Printf("\n准备发给AI的文章内容为：\n%s", promptText)
 	text, err:= CallAiApi(model_param, promptMessage)
 	
 
