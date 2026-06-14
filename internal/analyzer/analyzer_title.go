@@ -164,12 +164,23 @@ func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, article
     	return
 	}
 
-	fmt.Printf("\nAI返回的原始内容为：%x\n", text)
+	//fmt.Printf("\nAI返回的原始内容为：%x\n", text)
 	text1 := string(text)
 	sourceID := fmt.Sprintf("%s-%d", realArticle.Source, realArticle.Id) 
 	storage.SaveArticleToMemory(text1, sourceID)
 
-	fmt.Println("AI总结摘要内容：", text1)
+
+	err = json.Unmarshal([]byte(text), &aiResponse)
+	if err != nil {
+		log.Fatalf("解析AI文章分析响应 JSON 失败: %v", err)
+	}
+
+	if len(aiResponse.Choices) > 0 {
+		fmt.Println("\nAI文章为：")
+		fmt.Println(aiResponse.Choices[0].Message.Content)
+	}
+
+	//fmt.Println("AI总结摘要内容：", text1)
 
 }
 

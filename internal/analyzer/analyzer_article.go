@@ -16,7 +16,7 @@ func AnalyzeArticleByAi(model_param *ModelSpec, article_Path string) (string, er
 	if err != nil || len(articleContext) == 0 {
 		return "", fmt.Errorf("文章数据读入内存失败")
 	}
-	fmt.Printf("\n打开文件获得的byte内容为：%s\n", articleContext)
+	//fmt.Printf("\n打开文件获得的byte内容为：%s\n", articleContext)
 
 	var promptSys string
 	var promptText string
