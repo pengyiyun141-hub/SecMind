@@ -28,6 +28,8 @@ go.work.sum
 /configs/.env
 
 /internal/data/articles
+/internal/data/memory
+/internal/data/intel_report.md
 
 # Editor/IDE
 # .idea/
