@@ -1,5 +1,6 @@
 {
    "TOB":"https://blog.trailofbits.com/index.xml",
    "ARXIV":"https://export.arxiv.org/rss/cs.CR",
-   "U42":"https://unit42.paloaltonetworks.com/feed/"
+   "U42":"https://unit42.paloaltonetworks.com/feed/",
+   "ARXIVAI":"https://export.arxiv.org/rss/cs.AI"
 }
