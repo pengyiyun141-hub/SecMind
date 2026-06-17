@@ -22,7 +22,7 @@ func FetchAbstract(articleURL string) (string, error) {
 
 	
 	articleAbstract := strings.TrimSpace(articleAbstractDoc.Find("blockquote.abstract").First().Text())
-	fmt.Printf("%s的articleAbstract:\n%s\n------------------------------------------------\n\n", articleURL, articleAbstract)
+	//fmt.Printf("%s的articleAbstract:\n%s\n------------------------------------------------\n\n", articleURL, articleAbstract)
 
 	return articleAbstract, err
 }

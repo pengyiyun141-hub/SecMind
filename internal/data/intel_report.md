@@ -2893,3 +2893,51 @@
 ### [When and How Severely: Scenario-Specific Safety Envelopes for Driving VLAs]
 (https://arxiv.org/abs/2606.14238) [source]:ARXIVAI
 
+### [Factoring "short-sleeve" RSA keys with polynomials]
+(https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/) [source]:TOB
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
