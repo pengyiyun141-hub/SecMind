@@ -2941,3 +2941,1248 @@
 ### [Six mistakes in ERC-4337 smart accounts]
 (https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
 
+### [Threat Brief: Mitigating Large-Scale Credential Attacks]
+(https://unit42.paloaltonetworks.com/large-scale-credential-attacks/) [source]:U42
+
+### [Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE]
+(https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/) [source]:U42
+
+### [Inside the Modern SOC: The 72-Minute Race]
+(https://unit42.paloaltonetworks.com/soc-72-minute-race/) [source]:U42
+
+### [Tracing Digital Intent: New MacOS Tahoe 26 Artifact Discovered]
+(https://unit42.paloaltonetworks.com/new-macos-artifact-discovered/) [source]:U42
+
+### [Trust No Skill: Integrity Verification for AI Agent Supply Chains]
+(https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/) [source]:U42
+
+### [Blinding the Watchmen: Abusing Cloud Logging Services for Defense Evasion and Visibility]
+(https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/) [source]:U42
+
+### [Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257]
+(https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/) [source]:U42
+
+### [When “Hi, This Is IT” Comes Through Microsoft Teams]
+(https://unit42.paloaltonetworks.com/microsoft-teams-phishing/) [source]:U42
+
+### [The npm Threat Landscape: Attack Surface and Mitigations (Updated June 2)]
+(https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/) [source]:U42
+
+### [Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor]
+(https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/) [source]:U42
+
+### [2026 World Cup: Discussing The World’s Biggest Game’s Attack Surface]
+(https://unit42.paloaltonetworks.com/fifa-world-cup-attack-surface/) [source]:U42
+
+### [Out of the Crypt: The Evolving Cyber Extortion Economy]
+(https://unit42.paloaltonetworks.com/cyber-extortion-economy/) [source]:U42
+
+### [Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns]
+(https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/) [source]:U42
+
+### [Paved With Intent: ROADtools and Nation-State Tactics in the Cloud]
+(https://unit42.paloaltonetworks.com/roadtools-cloud-attacks/) [source]:U42
+
+### [Tracking TamperedChef Clusters via Certificate and Code Reuse]
+(https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/) [source]:U42
+
+### [Factoring "short-sleeve" RSA keys with polynomials]
+(https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/) [source]:TOB
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Celebrating our 2025 open-source contributions]
+(https://blog.trailofbits.com/2026/01/30/celebrating-our-2025-open-source-contributions/) [source]:TOB
+
+### [Introducing Patch the Planet]
+(https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/) [source]:TOB
+
+### [Factoring "short-sleeve" RSA keys with polynomials]
+(https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/) [source]:TOB
+
+### [The sorry state of skill distribution]
+(https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/) [source]:TOB
+
+### [We hardened zizmor's GitHub Actions static analyzer]
+(https://blog.trailofbits.com/2026/05/22/we-hardened-zizmors-github-actions-static-analyzer/) [source]:TOB
+
+### [Go fuzzing was missing half the toolkit. We forked the toolchain to fix it.]
+(https://blog.trailofbits.com/2026/05/12/go-fuzzing-was-missing-half-the-toolkit.-we-forked-the-toolchain-to-fix-it./) [source]:TOB
+
+### [C/C++ checklist challenges, solved]
+(https://blog.trailofbits.com/2026/05/05/c/c-checklist-challenges-solved/) [source]:TOB
+
+### [Extending Ruzzy with LibAFL]
+(https://blog.trailofbits.com/2026/04/29/extending-ruzzy-with-libafl/) [source]:TOB
+
+### [Trailmark turns code into graphs]
+(https://blog.trailofbits.com/2026/04/23/trailmark-turns-code-into-graphs/) [source]:TOB
+
+### [We beat Google’s zero-knowledge proof of quantum cryptanalysis]
+(https://blog.trailofbits.com/2026/04/17/we-beat-googles-zero-knowledge-proof-of-quantum-cryptanalysis/) [source]:TOB
+
+### [Master C and C++ with our new Testing Handbook chapter]
+(https://blog.trailofbits.com/2026/04/09/master-c-and-c-with-our-new-testing-handbook-chapter/) [source]:TOB
+
+### [What we learned about TEE security from auditing WhatsApp's Private Inference]
+(https://blog.trailofbits.com/2026/04/07/what-we-learned-about-tee-security-from-auditing-whatsapps-private-inference/) [source]:TOB
+
+### [Simplifying MBA obfuscation with CoBRA]
+(https://blog.trailofbits.com/2026/04/03/simplifying-mba-obfuscation-with-cobra/) [source]:TOB
+
+### [Mutation testing for the agentic era]
+(https://blog.trailofbits.com/2026/04/01/mutation-testing-for-the-agentic-era/) [source]:TOB
+
+### [How we made Trail of Bits AI-native (so far)]
+(https://blog.trailofbits.com/2026/03/31/how-we-made-trail-of-bits-ai-native-so-far/) [source]:TOB
+
+### [Try our new dimensional analysis Claude plugin]
+(https://blog.trailofbits.com/2026/03/25/try-our-new-dimensional-analysis-claude-plugin/) [source]:TOB
+
+### [Spotting issues in DeFi with dimensional analysis]
+(https://blog.trailofbits.com/2026/03/24/spotting-issues-in-defi-with-dimensional-analysis/) [source]:TOB
+
+### [Six mistakes in ERC-4337 smart accounts]
+(https://blog.trailofbits.com/2026/03/11/six-mistakes-in-erc-4337-smart-accounts/) [source]:TOB
+
+### [mquire: Linux memory forensics without external dependencies]
+(https://blog.trailofbits.com/2026/02/25/mquire-linux-memory-forensics-without-external-dependencies/) [source]:TOB
+
+### [Using threat modeling and prompt injection to audit Comet]
+(https://blog.trailofbits.com/2026/02/20/using-threat-modeling-and-prompt-injection-to-audit-comet/) [source]:TOB
+
+### [Carelessness versus craftsmanship in cryptography]
+(https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/) [source]:TOB
+
+### [Unprivileged Topology Certificates for Cloud GPU Attestation]
+(https://arxiv.org/abs/2606.24934) [source]:ARXIV
+
+### [Quantum-Resilient Decentralized AI Economies: Proof-of-Useful-Work and Post-Quantum Security]
+(https://arxiv.org/abs/2606.24942) [source]:ARXIV
+
+### [What Does It Mean to Break a Distillation Defense?]
+(https://arxiv.org/abs/2606.25059) [source]:ARXIV
+
+### [SoK: AI Secure Code Generation: Progress, Pitfalls, and Paths Forward]
+(https://arxiv.org/abs/2606.25195) [source]:ARXIV
+
+### [Homomorphic Encryptions for Privacy Preserving Vision]
+(https://arxiv.org/abs/2606.25216) [source]:ARXIV
+
+### [Sponsored Group Signature and its Application to Privacy-preserving Guest Access in Smart Environments]
+(https://arxiv.org/abs/2606.25248) [source]:ARXIV
+
+### [Decoupling Reconnaissance and Exploitation: Measuring the Capability Boundaries of LLM-Based Web Penetration Testing]
+(https://arxiv.org/abs/2606.25332) [source]:ARXIV
+
+### [General Techniques for Reducing Key-Switching Overhead in Privacy-Preserving Two-Party Transformer Inference]
+(https://arxiv.org/abs/2606.25349) [source]:ARXIV
+
+### [Representation Matters: An Empirical Study of Program Representations for LLM Vulnerability Reasoning]
+(https://arxiv.org/abs/2606.25356) [source]:ARXIV
+
+### [Security and Privacy in Retrieval-Augmented Generation: Architectures, Threats, Defenses, and Future Directions for Building Trustworthy Systems]
+(https://arxiv.org/abs/2606.25533) [source]:ARXIV
+
+### [CrypFormBench: Benchmarking Formal Analysis Capability of Large Language Models for Cryptographic Schemes]
+(https://arxiv.org/abs/2606.25561) [source]:ARXIV
+
+### [An Approach for a Supporting Multi-LLM System for Automated Certification Based on the German IT-Grundschutz]
+(https://arxiv.org/abs/2606.25608) [source]:ARXIV
+
+### [Probabilistic Agents in Deterministic Audits: Evaluating Multi-Agent Systems for Automated Audits Based on the German IT-Grundschutz]
+(https://arxiv.org/abs/2606.25622) [source]:ARXIV
+
+### [Taxonomy of Risks on Automated Fact-Checking Systems Considering its Propagation]
+(https://arxiv.org/abs/2606.25645) [source]:ARXIV
+
+### [Tracing Target Answers in Poisoned Retrieval Corpora via Token Influence Attribution]
+(https://arxiv.org/abs/2606.25721) [source]:ARXIV
+
+### [Shoot the Honey, Cloak the Player: Towards Zero-Runtime-Overhead Proactive Defense and Detection for Visual Game Cheating]
+(https://arxiv.org/abs/2606.25734) [source]:ARXIV
+
+### [RAS: Measuring LLM Safety Through Refusal Alignment]
+(https://arxiv.org/abs/2606.25750) [source]:ARXIV
+
+### [Color Matters: Trigger Color Affects Success in Federated Backdoor Attacks]
+(https://arxiv.org/abs/2606.25858) [source]:ARXIV
+
+### [A Tattered Cloak of Invisibility: Measuring Anonymity Loss in Railgun on Ethereum]
+(https://arxiv.org/abs/2606.25926) [source]:ARXIV
+
+### [Do (Not) Tell Me About My Insecurities: Assessing the Status Quo of Coordinated Vulnerability Disclosure in Germany Amid New EU Cybersecurity Regulations]
+(https://arxiv.org/abs/2606.25950) [source]:ARXIV
+
+### [BlowLive: Blow-Based Multi-Factor Biometrics with Liveness Detection and Revocability]
+(https://arxiv.org/abs/2606.25998) [source]:ARXIV
+
+### [Privacy Vulnerabilities of Attention Layers in Tabular Foundation Models and Protection of High-Risk Queries]
+(https://arxiv.org/abs/2606.26021) [source]:ARXIV
+
+### [Can Trustless Agents Be Trusted? An Empirical Study of the ERC-8004 Decentralized AI Agent Ecosystem]
+(https://arxiv.org/abs/2606.26028) [source]:ARXIV
+
+### [Certification of Machine Learning Models via Directional Sharpness]
+(https://arxiv.org/abs/2606.25004) [source]:ARXIV
+
+### [Speculative Decoding at Temperature Zero: A Scoped Safety-Invariance Screen with a 48,072-Sample Expansion]
+(https://arxiv.org/abs/2606.25097) [source]:ARXIV
+
+### [Information flow security on persistent memory]
+(https://arxiv.org/abs/2606.25422) [source]:ARXIV
+
+### [How Reliable Is Your Jailbreak Judge? Calibration and Adversarial Robustness of Automated ASR Scoring]
+(https://arxiv.org/abs/2606.25487) [source]:ARXIV
+
+### [Leaking Circuit Secrets: Gradient Leakage Attacks on Graph Neural Networks]
+(https://arxiv.org/abs/2606.25589) [source]:ARXIV
+
+### [TL++: Accuracy and Privacy Preserving Traversal Learning for Distributed Intelligent Systems]
+(https://arxiv.org/abs/2606.25627) [source]:ARXIV
+
+### [Space-based Missile Defense]
+(https://arxiv.org/abs/2606.25756) [source]:ARXIV
+
+### [Can Machine Learning Break Wi-Fi Privacy? A Study on MAC Address Randomization]
+(https://arxiv.org/abs/2606.25788) [source]:ARXIV
+
+### [Automated Detection of Configuration-Specific Security Vulnerabilities via Patch Analysis]
+(https://arxiv.org/abs/2606.25863) [source]:ARXIV
+
+### [The Web4 Agent Economy: A Large-Scale Empirical Study of the Landscape, Challenges, and Opportunities]
+(https://arxiv.org/abs/2606.25876) [source]:ARXIV
+
+### [Detect, Unlearn, Restore: Defending Text Summarization Models Against Data Poisoning]
+(https://arxiv.org/abs/2606.26036) [source]:ARXIV
+
+### [The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems]
+(https://arxiv.org/abs/2606.26057) [source]:ARXIV
+
+### [PVF:Understanding AI Vulnerability Against SDCs]
+(https://arxiv.org/abs/2405.01741) [source]:ARXIV
+
+### [Leader Rotation Is Not Enough: Scrutinizing Leadership Democracy of Chained BFT Consensus]
+(https://arxiv.org/abs/2501.02970) [source]:ARXIV
+
+### [Epistemic Bias Injection: Manipulating LLM Opinion via Selective Context Retrieval]
+(https://arxiv.org/abs/2512.00804) [source]:ARXIV
+
+### [Verifiable Manifest Signing and Transparency Enforcement for Secure MCP-Based LLM Pipelines]
+(https://arxiv.org/abs/2601.23132) [source]:ARXIV
+
+### [Defense effectiveness across architectural layers: a mechanistic evaluation of persistent memory attacks on stateful LLM agents]
+(https://arxiv.org/abs/2605.08442) [source]:ARXIV
+
+### [PYPILINE: Malicious PyPI Package Detection via Suspicious API Knowledge and Agent Workflow]
+(https://arxiv.org/abs/2606.19063) [source]:ARXIV
+
+### [FinRED: An Expert-Guided Benchmark Generation and Evaluation Framework for Financial LLM Red-Teaming]
+(https://arxiv.org/abs/2606.19887) [source]:ARXIV
+
+### [Image Quality Assessment of Identity Cards Using Measures from Open Face Image Quality]
+(https://arxiv.org/abs/2606.11884) [source]:ARXIV
+
+### [AIChilles: Automatically Uncovering Hidden Weaknesses in AI-Evolved Systems]
+(https://arxiv.org/abs/2606.15834) [source]:ARXIV
+
+### [Exposing the Illusion of Erasure in Knowledge Editing for LLMs]
+(https://arxiv.org/abs/2606.23276) [source]:ARXIV
+
+### [AutoSpec: Safety Rule Evolution for LLM Agents via Inductive Logic Programming]
+(https://arxiv.org/abs/2606.24245) [source]:ARXIV
+
+### [RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems]
+(https://arxiv.org/abs/2606.23927) [source]:ARXIVAI
+
+### [Neuro-Symbolic Drive: Rule-Grounded Faithful Reasoning for Driving VLAs]
+(https://arxiv.org/abs/2606.23938) [source]:ARXIVAI
+
+### [Critique of Agent Model]
+(https://arxiv.org/abs/2606.23991) [source]:ARXIVAI
+
+### [Safe and Generalizable Hierarchical Multi-Agent RL via Constraint Manifold Control]
+(https://arxiv.org/abs/2606.24010) [source]:ARXIVAI
+
+### [Reinforcement Learning Towards Broadly and Persistently Beneficial Models]
+(https://arxiv.org/abs/2606.24014) [source]:ARXIVAI
+
+### [Can Language Model Agents be Helpful Circuit Explainers in Mechanistic Interpretability?]
+(https://arxiv.org/abs/2606.24026) [source]:ARXIVAI
+
+### [Breaking the Filter Bubble: A Semantic Pareto-DQN Framework for Multi-Objective Recommendation]
+(https://arxiv.org/abs/2606.24042) [source]:ARXIVAI
+
+### [Ensemble Feature Selection and Harris Hawks Optimization for Explainable Mental Health Risk Prediction in Female Sex Workers]
+(https://arxiv.org/abs/2606.24047) [source]:ARXIVAI
+
+### [Beyond Trajectory Imitation: Strategy-Guided Policy Optimization for LLM Reasoning]
+(https://arxiv.org/abs/2606.24064) [source]:ARXIVAI
+
+### [Exploring Academic Influence of Algorithms by Co-occurrence Network Based on Full-text of Academic Papers]
+(https://arxiv.org/abs/2606.24099) [source]:ARXIVAI
+
+### [ReMMD: Realistic Multilingual Multi-Image Agentic Verification for Multimodal Misinformation Detection]
+(https://arxiv.org/abs/2606.24112) [source]:ARXIVAI
+
+### [VeryTrace: Verifying Reasoning Traces through Compilable Formalism and Structured Verification]
+(https://arxiv.org/abs/2606.24124) [source]:ARXIVAI
+
+### [OmniPath: A Multi-Modal Agentic Framework for Auditing Wheelchair Accessibility]
+(https://arxiv.org/abs/2606.24129) [source]:ARXIVAI
+
+### [T2D-Bench: Evidence-Gated Evaluation of LLM Outputs for Type 2 Diabetes Using a Multi-Layer Clinical-Lifestyle Knowledge Graph]
+(https://arxiv.org/abs/2606.24145) [source]:ARXIVAI
+
+### [The Geometry Behind Diffusion and Flow Matching: Gradient Flows and Geodesics in Wasserstein Space]
+(https://arxiv.org/abs/2606.24157) [source]:ARXIVAI
+
+### [An Introduction to Causal Reinforcement Learning]
+(https://arxiv.org/abs/2606.24160) [source]:ARXIVAI
+
+### [Data Scale, Not Latency, Shapes Cross-Lingual Encoder Transfer in Streaming ASR]
+(https://arxiv.org/abs/2606.24169) [source]:ARXIVAI
+
+### [Navigating User Behavior toward Personalized Multimodal Generation]
+(https://arxiv.org/abs/2606.24196) [source]:ARXIVAI
+
+### [Exploring the relationship between human-centric AI and firm idiosyncratic risks]
+(https://arxiv.org/abs/2606.24224) [source]:ARXIVAI
+
+### [FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning]
+(https://arxiv.org/abs/2606.24231) [source]:ARXIVAI
+
+### [SP-Mind: An Autonomous Reasoning Agent for Spatial Proteomics Analysis]
+(https://arxiv.org/abs/2606.24235) [source]:ARXIVAI
+
+### [Towards Federated Long-Tailed Graph Learning: An Energy-Guided Dual Decoupling Approach]
+(https://arxiv.org/abs/2606.24237) [source]:ARXIVAI
+
+### [Probing the Misaligned Thinking Process of Language Models]
+(https://arxiv.org/abs/2606.24251) [source]:ARXIVAI
+
+### [Tractable Reasoning and Conjunctive Query Answering for Defeasible DL-Lite under Rational Closure]
+(https://arxiv.org/abs/2606.24279) [source]:ARXIVAI
+
+### [LemonHarness Technical Report]
+(https://arxiv.org/abs/2606.24311) [source]:ARXIVAI
+
+### [Prob-BBDM: a Probabilistic Brownian Bridge Diffusion Model for MRI sequence image-to-image translation]
+(https://arxiv.org/abs/2606.24313) [source]:ARXIVAI
+
+### [MVG-KAN: Multi-View Geo-Wind Guided KAN for PM$_{2.5}$ Forecasting]
+(https://arxiv.org/abs/2606.24347) [source]:ARXIVAI
+
+### [Accelerating Disaggregated RL for Visual Generative LLMs with Diffusion-Based Parallelism and Trainer-Assisted Generation]
+(https://arxiv.org/abs/2606.24369) [source]:ARXIVAI
+
+### [When Helpfulness Overrides Causal Caution: Context-Dependent Suppression and Recovery in LLMs]
+(https://arxiv.org/abs/2606.24370) [source]:ARXIVAI
+
+### [PHANTOM: A Large-Scale Dataset of Multimodal Adversarial Attacks for Vision-Language Models]
+(https://arxiv.org/abs/2606.24388) [source]:ARXIVAI
+
+### [Age of LLM: A Strategic 1v1 Benchmark for Reasoning, Diplomacy and Reliability of Large Language Models under Fog of War]
+(https://arxiv.org/abs/2606.24391) [source]:ARXIVAI
+
+### [ATRIA: Adaptive Traceable ECG Reporting with Iterative Agents]
+(https://arxiv.org/abs/2606.24392) [source]:ARXIVAI
+
+### [Cycle-Consistent Neural Explanation of Formal Verification Certificates]
+(https://arxiv.org/abs/2606.24414) [source]:ARXIVAI
+
+### [Agentic AI for Bilevel Long-Term Optimization of Policy-Driven Physical Layer Systems]
+(https://arxiv.org/abs/2606.24416) [source]:ARXIVAI
+
+### [Can Aggregate Invariants Accelerate Continuous Subgraph Matching? Limits, Laws, and a Dynamic Spectral Index]
+(https://arxiv.org/abs/2606.24421) [source]:ARXIVAI
+
+### [ReM-MoA: Reasoning Memory Sustains Mixture-of-Agents Scaling]
+(https://arxiv.org/abs/2606.24437) [source]:ARXIVAI
+
+### [Bayesian control for coding agents]
+(https://arxiv.org/abs/2606.24453) [source]:ARXIVAI
+
+### [CompressKV: Semantic-Retrieval-Guided KV-Cache Compression for Resource-Efficient Long-Context LLM Inference]
+(https://arxiv.org/abs/2606.24467) [source]:ARXIVAI
+
+### [The Latent Bridge: A Continuous Slow-Fast Channel for Real-Time Game Agents]
+(https://arxiv.org/abs/2606.24470) [source]:ARXIVAI
+
+### [On the Smallness of the Large Language Models Scaling Exponents]
+(https://arxiv.org/abs/2606.24504) [source]:ARXIVAI
+
+### [A specialized reasoning large language model for accelerating rare disease diagnosis: a randomized AI physician assistance trial]
+(https://arxiv.org/abs/2606.24510) [source]:ARXIVAI
+
+### [Reinforcement Learning for Computer-Use Agents with Autonomous Evaluation]
+(https://arxiv.org/abs/2606.24515) [source]:ARXIVAI
+
+### [Governed Shared Memory for Multi-Agent LLM Systems]
+(https://arxiv.org/abs/2606.24535) [source]:ARXIVAI
+
+### [GUI vs. CLI: Execution Bottlenecks in Screen-Only and Skill-Mediated Computer-Use Agents]
+(https://arxiv.org/abs/2606.24551) [source]:ARXIVAI
+
+### [Quant Convergence: Bridging Classical Value Investing and Modern Factor Models for Systematic Equity Selection]
+(https://arxiv.org/abs/2606.24575) [source]:ARXIVAI
+
+### [LLMs Prompted for Legal Context Object More: Overrefusal from Small On-Premises LLMs in Criminal Legal Context]
+(https://arxiv.org/abs/2606.24585) [source]:ARXIVAI
+
+### [AdversaBench: Automated LLM Red-Teaming with Multi-Judge Confirmation and Cross-Model Transferability]
+(https://arxiv.org/abs/2606.24589) [source]:ARXIVAI
+
+### [ASALT: Adaptive State Alignment for Lateral Transfer in Multi-agent Reinforcement Learning]
+(https://arxiv.org/abs/2606.24601) [source]:ARXIVAI
+
+### [Uncertainty-Aware Longitudinal Forecasting of Alzheimer's Disease Progression Using Deep Learning]
+(https://arxiv.org/abs/2606.24604) [source]:ARXIVAI
+
+### [ScaleToT: Generalizing Structured LLM Reasoning for Billion-Scale Low-Activity User Modeling]
+(https://arxiv.org/abs/2606.24605) [source]:ARXIVAI
+
+### [AI Tokenomics: The Economics of Tokens, Computation, and Pricing in Foundation Models]
+(https://arxiv.org/abs/2606.24616) [source]:ARXIVAI
+
+### [Abstractions of Queries in Ontology-Based Data Access]
+(https://arxiv.org/abs/2606.24618) [source]:ARXIVAI
+
+### [When CQs Go Wrong: Challenges in CQ Verification with OE-Assist]
+(https://arxiv.org/abs/2606.24619) [source]:ARXIVAI
+
+### [Themis: An explainable AI-enabled framework for Reinforcement Learning with Human Feedback]
+(https://arxiv.org/abs/2606.24622) [source]:ARXIVAI
+
+### [SAFARI: Scaling Long Horizon Agentic Fault Attribution via Active Investigation]
+(https://arxiv.org/abs/2606.24626) [source]:ARXIVAI
+
+### [CineCap: Structured Reasoning with Spatio-Temporal Anchors for Cinematographic Video Captioning]
+(https://arxiv.org/abs/2606.24636) [source]:ARXIVAI
+
+### [LaGO: Latent Action Guidance for Online Reinforcement Learning]
+(https://arxiv.org/abs/2606.24669) [source]:ARXIVAI
+
+### [Cost-Optimal Decision Diagrams for Stochastic Boolean Function Evaluation]
+(https://arxiv.org/abs/2606.24672) [source]:ARXIVAI
+
+### [Decentralised AI Training and Inference with BlockTrain]
+(https://arxiv.org/abs/2606.24722) [source]:ARXIVAI
+
+### [Scaling Laws for Task-Specific LLM Distillation]
+(https://arxiv.org/abs/2606.24747) [source]:ARXIVAI
+
+### [Can Scale Save Us From Plasticity Loss in Large Language Models?]
+(https://arxiv.org/abs/2606.24752) [source]:ARXIVAI
+
+### [BluTrain: A C++/CUDA Framework for AI Systems]
+(https://arxiv.org/abs/2606.24780) [source]:ARXIVAI
+
+### [Assessing Distribution Shift in Human Activity Recognition for Domain Generalization]
+(https://arxiv.org/abs/2606.24781) [source]:ARXIVAI
+
+### [Solving Inverse Problems of Chaotic Systems with Bidirectional Conditional Flow Matching]
+(https://arxiv.org/abs/2606.24824) [source]:ARXIVAI
+
+### [Difference-Making without Making a Difference]
+(https://arxiv.org/abs/2606.24832) [source]:ARXIVAI
+
+### [Accuracy and Satisfaction in Multi-Turn LLM Dialogues for NFR Assessment]
+(https://arxiv.org/abs/2606.24834) [source]:ARXIVAI
+
+### [Grading the Grader: Lessons from Evaluating an Agentic Data Analysis System]
+(https://arxiv.org/abs/2606.24839) [source]:ARXIVAI
+
+### [Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models]
+(https://arxiv.org/abs/2606.24841) [source]:ARXIVAI
+
+### [World Models in Pieces: Structural Certification for General Agents]
+(https://arxiv.org/abs/2606.24842) [source]:ARXIVAI
+
+### [OpenThoughts-Agent: Data Recipes for Agentic Models]
+(https://arxiv.org/abs/2606.24855) [source]:ARXIVAI
+
+### [Reentrant value fields as delayed coupled reaction-diffusion systems on finite graphs]
+(https://arxiv.org/abs/2605.03940) [source]:ARXIVAI
+
+### [Beyond the Autoregressive Horizon: A Comprehensive Survey of Diffusion Models, World Modelling, and State Space Models for Code]
+(https://arxiv.org/abs/2606.23690) [source]:ARXIVAI
+
+### [Quantifying Prior Dominance in RAG Systems]
+(https://arxiv.org/abs/2606.23695) [source]:ARXIVAI
+
+### [SemChunk-C: Semantic Segmentation for C Code]
+(https://arxiv.org/abs/2606.23697) [source]:ARXIVAI
+
+### [FP8 is All You Need (Part 2): Efficient Ozaki-Bailey Style FFT Through Tensor-core Garner Reformulation and Kulisch Escape Route]
+(https://arxiv.org/abs/2606.23698) [source]:ARXIVAI
+
+### [Self-Recognition Finetuning can Prevent and Reverse Emergent Misalignment]
+(https://arxiv.org/abs/2606.23700) [source]:ARXIVAI
+
+### [Evaluating LLM Usage for Efficient and Explainable Numerical and Classified Implicit Sentiment Analysis of Product Desirability]
+(https://arxiv.org/abs/2606.23701) [source]:ARXIVAI
+
+### [Heterogeneous 2D/1D Signal Representation Fusion for Underwater Acoustic Modulation Recognition Under Distribution Shift]
+(https://arxiv.org/abs/2606.23702) [source]:ARXIVAI
+
+### [Event-Aligned Analysis of Multi-Rater Pain Assessments Using Continuous Wearable Physiology]
+(https://arxiv.org/abs/2606.23705) [source]:ARXIVAI
+
+### [Coordinate-Queryable Neural Field Reconstruction for EEG Spatial Super-Resolution with Unseen-Electrode Generation]
+(https://arxiv.org/abs/2606.23707) [source]:ARXIVAI
+
+### [Audio-visual Contrastive Alignment for Diffusion-based Visual-conditioned Speech Enhancement]
+(https://arxiv.org/abs/2606.23712) [source]:ARXIVAI
+
+### [Random coloured digraphs defined by a Markov logic network]
+(https://arxiv.org/abs/2606.23715) [source]:ARXIVAI
+
+### [Legal Reasoning Is Not Lawyering: Rethinking Legal Benchmarks for Pro Se Access to Justice]
+(https://arxiv.org/abs/2606.23716) [source]:ARXIVAI
+
+### [A Unified Framework for Runtime Verification and Model-Based Diagnosis in LOLA]
+(https://arxiv.org/abs/2606.23720) [source]:ARXIVAI
+
+### [Weight-Space Geometry of Offline Reasoning Training]
+(https://arxiv.org/abs/2606.23740) [source]:ARXIVAI
+
+### [A Survey on Federated Causal Discovery and Inference]
+(https://arxiv.org/abs/2606.23741) [source]:ARXIVAI
+
+### [Low-power analogue neural networks with trainable nonlinear connections for continuous control]
+(https://arxiv.org/abs/2606.23742) [source]:ARXIVAI
+
+### [Sol Video Inference Engine: Agent-Native Full-Stack Acceleration Framework for Efficient Video Generation]
+(https://arxiv.org/abs/2606.23743) [source]:ARXIVAI
+
+### [JEDEL: Zero-Shot DNA-Encoded Library Design for Early-Stage Drug Discovery]
+(https://arxiv.org/abs/2606.23745) [source]:ARXIVAI
+
+### [Synergizing Physically Constrained MCMC and Chemical-Informed Gaussian Processes for Reaction Network Discovery]
+(https://arxiv.org/abs/2606.23757) [source]:ARXIVAI
+
+### [Exploring Dualistic Meta-Learning to Enhance Domain Generalization in Open Set Scenarios]
+(https://arxiv.org/abs/2606.23758) [source]:ARXIVAI
+
+### [VeriPilot: An LLM-Powered Verilog Debugging Framework]
+(https://arxiv.org/abs/2606.23759) [source]:ARXIVAI
+
+### [Engineering Reliable Autonomous Systems: Challenges and Solutions]
+(https://arxiv.org/abs/2606.23760) [source]:ARXIVAI
+
+### [Neuromorphic Speech Enhancement with Dual-Branch Spiking Neural Networks]
+(https://arxiv.org/abs/2606.23761) [source]:ARXIVAI
+
+### [Listening makes Vision Clear for VLMs]
+(https://arxiv.org/abs/2606.23763) [source]:ARXIVAI
+
+### [Emergent Relational Order in LLM Agent Societies: From Collective Affect to Authority Stratification]
+(https://arxiv.org/abs/2606.23764) [source]:ARXIVAI
+
+### [Cryptographic certificates of validity for trustworthy AI]
+(https://arxiv.org/abs/2606.23768) [source]:ARXIVAI
+
+### [Integrated Sensing and Communications for Real-time Avatar Control in XR over 5G]
+(https://arxiv.org/abs/2606.23771) [source]:ARXIVAI
+
+### [From Task-Guided Conversational Graphs to Goal-Oriented Dialogue Runtimes]
+(https://arxiv.org/abs/2606.23797) [source]:ARXIVAI
+
+### [Ten Digits on a Train: AI-Assisted Verification of Two Eigenvalue Problems]
+(https://arxiv.org/abs/2606.23821) [source]:ARXIVAI
+
+### [From Spatial to Spectral: An Efficient, Frequency-Guided Feature Representation Learner for Small Object Detection]
+(https://arxiv.org/abs/2606.23825) [source]:ARXIVAI
+
+### [Deciphering Fingerprints of 3D Molecular Surfaces for Accurate Epitope Prediction]
+(https://arxiv.org/abs/2606.23830) [source]:ARXIVAI
+
+### [Decentralized Coordination of Autonomous Traffic Through Advanced Air Mobility Corridors]
+(https://arxiv.org/abs/2606.23832) [source]:ARXIVAI
+
+### [The Measurable Majority]
+(https://arxiv.org/abs/2606.23853) [source]:ARXIVAI
+
+### [Are Safety Guarantees in Neural Networks Safe? How to Compute Trustworthy Robustness Certifications]
+(https://arxiv.org/abs/2606.23858) [source]:ARXIVAI
+
+### [MGI: Member vs Generated Inference]
+(https://arxiv.org/abs/2606.23872) [source]:ARXIVAI
+
+### [JupOtter: Cell-Level Bug Detection in Jupyter Notebooks]
+(https://arxiv.org/abs/2606.23877) [source]:ARXIVAI
+
+### [Promise and challenges of heart chamber segmentation from non-contrast CT scans using contrastive unpaired image translation: a feasibility study]
+(https://arxiv.org/abs/2606.23879) [source]:ARXIVAI
+
+### [One Year Later...The Harms Persist, But So Do We!]
+(https://arxiv.org/abs/2606.23884) [source]:ARXIVAI
+
+### [Mind the Heads: Topological Representation Alignment for Multimodal LLMs]
+(https://arxiv.org/abs/2606.23885) [source]:ARXIVAI
+
+### [E-MRL: Cross-view Aligned Evidence-driven Multimodal Reinforcement Learning for Reliable 3D Tumor Analysis]
+(https://arxiv.org/abs/2606.23888) [source]:ARXIVAI
+
+### [The Professor: Multi-Teacher Unsupervised Prompt Distillation for Vision-Language Models]
+(https://arxiv.org/abs/2606.23897) [source]:ARXIVAI
+
+### [ARIA: Adaptive Region-Based Importance Allocation for Conditional Diffusion Distillation]
+(https://arxiv.org/abs/2606.23898) [source]:ARXIVAI
+
+### [Catastrophic Compositional Generation: Why Vanilla Diffusion Models Fail to Extrapolate]
+(https://arxiv.org/abs/2606.23920) [source]:ARXIVAI
+
+### [When Retrieval Metrics Mislead: Measuring Policy Signal in Long-Horizon Tool-Use Agents]
+(https://arxiv.org/abs/2606.23937) [source]:ARXIVAI
+
+### [Offline Reinforcement Learning for Warehouse SLAM Throughput Control]
+(https://arxiv.org/abs/2606.23978) [source]:ARXIVAI
+
+### [Maestro Order: A Model-Agnostic Orchestration Harness]
+(https://arxiv.org/abs/2606.23983) [source]:ARXIVAI
+
+### [Faithful by Construction: Claim-Anchored Attribution for Multi-Document Summarization]
+(https://arxiv.org/abs/2606.23989) [source]:ARXIVAI
+
+### [RASC+: Retrieval-Constrained LLM Adjudication for Clinical Value Set Authoring]
+(https://arxiv.org/abs/2606.23992) [source]:ARXIVAI
+
+### [Learning to Trigger: Reinforcement Learning at the Large Hadron Collider]
+(https://arxiv.org/abs/2606.23993) [source]:ARXIVAI
+
+### [EMAgnet: Parameter-Space EMA Regularization for Policy Gradient Self-Play in Large Games]
+(https://arxiv.org/abs/2606.23995) [source]:ARXIVAI
+
+### [Towards Spec Learning: Inference-Time Alignment from Preference Pairs]
+(https://arxiv.org/abs/2606.24004) [source]:ARXIVAI
+
+### [Fast and Slow Variational Continual Learning]
+(https://arxiv.org/abs/2606.24007) [source]:ARXIVAI
+
+### [Towards Version-aware Operations and Transaction Memories for Multi-layer MeMo]
+(https://arxiv.org/abs/2606.24040) [source]:ARXIVAI
+
+### [Rapid FinFET Modelling Using an Autoencoder]
+(https://arxiv.org/abs/2606.24046) [source]:ARXIVAI
+
+### [RAVEN: A Regime-Aware Variable-context Expert Network for Financial Time Series Forecasting]
+(https://arxiv.org/abs/2606.24062) [source]:ARXIVAI
+
+### [Selective Capability Unlearning in End-to-End Spoken Language Understanding]
+(https://arxiv.org/abs/2606.24063) [source]:ARXIVAI
+
+### [Token Complexity of Certifying Stochastic-Oracle Reliability]
+(https://arxiv.org/abs/2606.24074) [source]:ARXIVAI
+
+### [End-to-End Radar and Communication Modulation Recognition with Neuromorphic Computing]
+(https://arxiv.org/abs/2606.24075) [source]:ARXIVAI
+
+### [PixJail: Self-Evolving Paper-to-Pipeline Reproduction for Text-to-Image Jailbreak Evaluation]
+(https://arxiv.org/abs/2606.24081) [source]:ARXIVAI
+
+### [CAVEWOMAN: How Large Language Models Behave Under Linguistic Input and Output Compression]
+(https://arxiv.org/abs/2606.24083) [source]:ARXIVAI
+
+### [Blockwise Policy-Drift Gating for On-Policy Distillation]
+(https://arxiv.org/abs/2606.24084) [source]:ARXIVAI
+
+### [DynaWM: Dynamics-Aware Distillation with World Model and Momentum Targets for Smooth Locomotion over Continuous Stairs]
+(https://arxiv.org/abs/2606.24089) [source]:ARXIVAI
+
+### [Predicting Poets' Origins from Verse: A Computational Analysis of Regional Linguistic Fingerprints in the Complete Tang Poems]
+(https://arxiv.org/abs/2606.24093) [source]:ARXIVAI
+
+### [Beyond Bayer: Task-Optimal Sensor Co-Design for Robust Autonomous-Driving Segmentation]
+(https://arxiv.org/abs/2606.24096) [source]:ARXIVAI
+
+### [The impact of generative artificial intelligence on academic development of Chinese students in humanities and social sciences]
+(https://arxiv.org/abs/2606.24104) [source]:ARXIVAI
+
+### [DramaDirector: Geometry-Guided Short Drama Generation]
+(https://arxiv.org/abs/2606.24107) [source]:ARXIVAI
+
+### [A Benchmark for Hallucination Detection in VLMs for Gastrointestinal Endoscopy]
+(https://arxiv.org/abs/2606.24115) [source]:ARXIVAI
+
+### [DTT-BSR+: A Generative-Regression Cascade for Music Source Restoration]
+(https://arxiv.org/abs/2606.24127) [source]:ARXIVAI
+
+### [Metis: Bridging Text and Code Memory for Self-Evolving Agents]
+(https://arxiv.org/abs/2606.24151) [source]:ARXIVAI
+
+### [Breaking Shortcut Learning for Cross-Trial EEG-Guided Target Speech Extraction via Two-Stage Training]
+(https://arxiv.org/abs/2606.24164) [source]:ARXIVAI
+
+### [A P\={a}ninian Foundation for Indic Language Processing]
+(https://arxiv.org/abs/2606.24172) [source]:ARXIVAI
+
+### [Lightweight Transformer Models for On-Device Fault Detection: A Benchmark Study on Resource-Constrained Deployment]
+(https://arxiv.org/abs/2606.24173) [source]:ARXIVAI
+
+### [Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy]
+(https://arxiv.org/abs/2606.24177) [source]:ARXIVAI
+
+### [Zero-Shot Test-Time Canonicalization using Out-of-Distribution Scoring]
+(https://arxiv.org/abs/2606.24178) [source]:ARXIVAI
+
+### [Deep Learning Approaches for 3D Medical Scene Completion: From Geometric Modeling to Generative Paradigms]
+(https://arxiv.org/abs/2606.24180) [source]:ARXIVAI
+
+### [Co-occurring associated retained concepts in Diffusion Unlearning]
+(https://arxiv.org/abs/2606.24192) [source]:ARXIVAI
+
+### [MMed-Bench-IR: A Heterogeneous Benchmark for Multilingual Medical Information Retrieval]
+(https://arxiv.org/abs/2606.24200) [source]:ARXIVAI
+
+### [Inclusive Interactive Collisions for Multi-View Consistent Compositional 3D Generation]
+(https://arxiv.org/abs/2606.24206) [source]:ARXIVAI
+
+### [AutoSpec: Safety Rule Evolution for LLM Agents via Inductive Logic Programming]
+(https://arxiv.org/abs/2606.24245) [source]:ARXIVAI
+
+### [Social Structure Matters in 3D Human-Human Interaction Generation]
+(https://arxiv.org/abs/2606.24255) [source]:ARXIVAI
+
+### [SURGELLM: Rethinking Multi-Task Evaluation through Task-Aware Feature Gating with Class-Balanced Normalization]
+(https://arxiv.org/abs/2606.24259) [source]:ARXIVAI
+
+### [Neural Network-Based Parametric Model Reduction for Predicting Turbulent Flow for Different Vehicle Geometries]
+(https://arxiv.org/abs/2606.24265) [source]:ARXIVAI
+
+### [Pigeonholing: Bad prompts hurt models to collapse and make mistakes]
+(https://arxiv.org/abs/2606.24267) [source]:ARXIVAI
+
+### [CALIBER: Calibrating Confidence Before and After Reasoning in Language Models]
+(https://arxiv.org/abs/2606.24281) [source]:ARXIVAI
+
+### [Real-Time Interactive Music Generation via Data-Free Streaming Consistency Distillation]
+(https://arxiv.org/abs/2606.24307) [source]:ARXIVAI
+
+### [ZONOS2 Technical Report]
+(https://arxiv.org/abs/2606.24320) [source]:ARXIVAI
+
+### [What Does ODRL Mean? A Cross-Level Ontological Grounding of Permissions, Prohibitions, and Duties in UFO-L]
+(https://arxiv.org/abs/2606.24344) [source]:ARXIVAI
+
+### [Structural Kolmogorov-Arnold Convolutions: Learnable Function on the Values or the Filter Shape as Parameter-Efficient Alternative to Per-Edge Convolutional KANs]
+(https://arxiv.org/abs/2606.24371) [source]:ARXIVAI
+
+### [On the Stability of Prompt Ranking in Large Language Model Evaluation]
+(https://arxiv.org/abs/2606.24381) [source]:ARXIVAI
+
+### [Female-RHINO: A Real-Time Scanner-Integrated Framework for Automated Quantitative Uterine MRI Analysis and Structured Reporting]
+(https://arxiv.org/abs/2606.24390) [source]:ARXIVAI
+
+### [Average Rankings Mask Per-Subject Optimality: A Friedman-Nemenyi Benchmark of EEG Motor-Imagery BCI Decoders]
+(https://arxiv.org/abs/2606.24394) [source]:ARXIVAI
+
+### [Entity Resolution via Batched Oracle Queries]
+(https://arxiv.org/abs/2606.24407) [source]:ARXIVAI
+
+### [Detecting AI Coding Agents in Open Source: A Validated Multi-Method Census of 180 Million Repositories]
+(https://arxiv.org/abs/2606.24429) [source]:ARXIVAI
+
+### [Transformation Behavior of Images in Latent Space]
+(https://arxiv.org/abs/2606.24430) [source]:ARXIVAI
+
+### [MedPCFM: Improving Medical Point Cloud Completion by Integrating Point Transformers and Flow Matching]
+(https://arxiv.org/abs/2606.24433) [source]:ARXIVAI
+
+### [NoContactNoWorries: Estimating Contact through Vision and Proprioception for In-Hand Dexterous Manipulation]
+(https://arxiv.org/abs/2606.24450) [source]:ARXIVAI
+
+### [The African Language Tax: Quantifying the Cost, Latency, and Context Penalty of Tokenizing African Languages in Frontier LLMs]
+(https://arxiv.org/abs/2606.24460) [source]:ARXIVAI
+
+### [G$^3$VLA: Geometric inductive bias for Vision-Language-Action Models]
+(https://arxiv.org/abs/2606.24472) [source]:ARXIVAI
+
+### [video-SALMONN-R$^3$: Learning to ReWatch, ReAsk, and ReAnswer for Efficient Video Understanding]
+(https://arxiv.org/abs/2606.24477) [source]:ARXIVAI
+
+### [Adaptive Machine Learning Framework for UAV Trajectory Optimization in O-RAN]
+(https://arxiv.org/abs/2606.24483) [source]:ARXIVAI
+
+### [RetiSEM: Generalising Causal Models for Fragmented Biomedical Data]
+(https://arxiv.org/abs/2606.24488) [source]:ARXIVAI
+
+### [Red-Teaming the Agentic Red-Team]
+(https://arxiv.org/abs/2606.24496) [source]:ARXIVAI
+
+### [CrossPool: Efficient Multi-LLM Serving for Cold MoE Models through KV-Cache and Weight Disaggregation]
+(https://arxiv.org/abs/2606.24506) [source]:ARXIVAI
+
+### [A Fair Evaluation of Graph Foundation Models for Node Property Prediction]
+(https://arxiv.org/abs/2606.24509) [source]:ARXIVAI
+
+### [Poster: Exploring the Limits of Audio-Based Detection of Turkish Phone Call Scams]
+(https://arxiv.org/abs/2606.24523) [source]:ARXIVAI
+
+### [Toward Self-Evolution-Ready Workflow Harnesses: A Reversible Migration Path and Convertibility Taxonomy for Expert LLM Pipelines]
+(https://arxiv.org/abs/2606.24598) [source]:ARXIVAI
+
+### [Infinitesimal Causality]
+(https://arxiv.org/abs/2606.24621) [source]:ARXIVAI
+
+### [Privacy-Preserving RAG via Multi-Agent Semantic Rewriting: Achieving Confidentiality Without Compromising Contextual Fidelity]
+(https://arxiv.org/abs/2606.24623) [source]:ARXIVAI
+
+### [Visualizing "We the People": Bridging the Perception Gap through Pluralistic Data Storytelling]
+(https://arxiv.org/abs/2606.24635) [source]:ARXIVAI
+
+### [AI-PAVE-Br: Leveraging Large Language Models for Enhanced Product Attribute Value Extraction through a Golden Set Approach]
+(https://arxiv.org/abs/2606.24655) [source]:ARXIVAI
+
+### [FlowPipe: LLM-Enhanced Conditional Generative Flow Networks for Data Preparation Pipeline Construction]
+(https://arxiv.org/abs/2606.24679) [source]:ARXIVAI
+
+### [TACTFUL: Tactile-Driven Exploration For Object Localization and Identification in Confined Environments]
+(https://arxiv.org/abs/2606.24712) [source]:ARXIVAI
+
+### [Evaluating the Interpretability of Sparse Autoencoders with Concept Annotations]
+(https://arxiv.org/abs/2606.24716) [source]:ARXIVAI
+
+### [Task Decomposition for Efficient Annotation]
+(https://arxiv.org/abs/2606.24734) [source]:ARXIVAI
+
+### [Beyond U-Net: A Latent-Representation-Aligned Skip-Free Backbone for Flow-Matching Speech Enhancement]
+(https://arxiv.org/abs/2606.24745) [source]:ARXIVAI
+
+### [UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving]
+(https://arxiv.org/abs/2606.24759) [source]:ARXIVAI
+
+### [Context-Aware Prediction of Student Quiz Performance with Multimodal Textbook Features]
+(https://arxiv.org/abs/2606.24770) [source]:ARXIVAI
+
+### [DeepBD: A Grounded Agentic Workflow for Variant Prioritization and Diagnosis of Genetic Birth Defects]
+(https://arxiv.org/abs/2606.24779) [source]:ARXIVAI
+
+### [Paying to Know: Micro-Transaction Markets for Verified Product Information in Agentic E-Commerce]
+(https://arxiv.org/abs/2606.24783) [source]:ARXIVAI
+
+### [Grad Detect: Gradient-Based Hallucination Detection in LLMs]
+(https://arxiv.org/abs/2606.24790) [source]:ARXIVAI
+
+### [EG-VQA: Benchmarking Verifiable Video Question Answering with Grounded Temporal Evidence]
+(https://arxiv.org/abs/2606.24797) [source]:ARXIVAI
+
+### [OrbitForge: Text-to-3D Scene Generation via Reconstruction-Anchored Video Synthesis]
+(https://arxiv.org/abs/2606.24799) [source]:ARXIVAI
+
+### [Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution]
+(https://arxiv.org/abs/2606.24808) [source]:ARXIVAI
+
+### [IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation]
+(https://arxiv.org/abs/2606.24849) [source]:ARXIVAI
+
+### [It's Complicated: On the Design and Evaluation of AI-Powered AAC Interfaces]
+(https://arxiv.org/abs/2606.24854) [source]:ARXIVAI
+
+### [FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation]
+(https://arxiv.org/abs/2606.24874) [source]:ARXIVAI
+
+### [InSight: Self-Guided Skill Acquisition via Steerable VLAs]
+(https://arxiv.org/abs/2606.24884) [source]:ARXIVAI
+
+### [Random Rule Forest (RRF): Interpretable and Manageable Ensembles of LLM-Generated Questions for Predicting Success from Unstructured Data]
+(https://arxiv.org/abs/2505.24622) [source]:ARXIVAI
+
+### [TIP-Search: Time-Predictable Inference Scheduling for Market Prediction under Uncertain Load]
+(https://arxiv.org/abs/2506.08026) [source]:ARXIVAI
+
+### [From "Aha Moments" to Controllable Thinking: Toward Meta-Cognitive Reasoning in Large Reasoning Models via Decoupled Reasoning and Control]
+(https://arxiv.org/abs/2508.04460) [source]:ARXIVAI
+
+### [A global log for medical AI]
+(https://arxiv.org/abs/2510.04033) [source]:ARXIVAI
+
+### [Representation Interventions Enable Lifelong Knowledge Memory Control in LLMs]
+(https://arxiv.org/abs/2511.20892) [source]:ARXIVAI
+
+### [Evolving Programmatic Skill Networks]
+(https://arxiv.org/abs/2601.03509) [source]:ARXIVAI
+
+### [BioPIE: A Biomedical Protocol Information Extraction Dataset for Experiment Understanding]
+(https://arxiv.org/abs/2601.04524) [source]:ARXIVAI
+
+### [LLM-MINE: Large Language Model based Alzheimer's Disease and Related Dementias Phenotypes Mining from Clinical Notes]
+(https://arxiv.org/abs/2603.13673) [source]:ARXIVAI
+
+### [Grounded Chess Reasoning in Language Models via Master Distillation]
+(https://arxiv.org/abs/2603.20510) [source]:ARXIVAI
+
+### [Subjective-Graph LLM Agents for Simulating Uncertainty in Classroom Social Perception]
+(https://arxiv.org/abs/2603.20750) [source]:ARXIVAI
+
+### [Riemann-Bench: A Benchmark for Moonshot Mathematics]
+(https://arxiv.org/abs/2604.06802) [source]:ARXIVAI
+
+### [Grounding Multi-Hop Reasoning in Structural Causal Models via Group Relative Policy Optimization]
+(https://arxiv.org/abs/2605.01482) [source]:ARXIVAI
+
+### [BioMedArena: An Open-source Toolkit for Building and Evaluating Biomedical Deep Research Agents]
+(https://arxiv.org/abs/2605.06177) [source]:ARXIVAI
+
+### [2.5-D Decomposition for LLM-Based Spatial Construction]
+(https://arxiv.org/abs/2605.07066) [source]:ARXIVAI
+
+### [Efficient Test-time Inference for Generative Planning Models with OCL Search]
+(https://arxiv.org/abs/2606.00618) [source]:ARXIVAI
+
+### [TouchThinker: Scaling Tactile Commonsense Reasoning to the Open World with Large-scale Data and Action-aware Representation]
+(https://arxiv.org/abs/2606.11637) [source]:ARXIVAI
+
+### [EComAgentBench: Benchmarking Shopping Agents on Long-Horizon Tasks with Distributed Hidden Intent]
+(https://arxiv.org/abs/2606.17698) [source]:ARXIVAI
+
+### [BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling]
+(https://arxiv.org/abs/2606.20146) [source]:ARXIVAI
+
+### [Repeated Shared Access Enables Grokking, but Edit Propagation Depends on an Addressable Memory]
+(https://arxiv.org/abs/2606.20737) [source]:ARXIVAI
+
+### [When Preferences Fail to Become Incentives: A Utility-Behavior Gap in Large Language Models]
+(https://arxiv.org/abs/2606.22974) [source]:ARXIVAI
+
+### [IPO Finance Agent: Evaluation of LLM Financial Analysts beyond Finance Agent v2, with Automated Rubric Generation -- the Case of the SpaceX (SPCX) IPO]
+(https://arxiv.org/abs/2606.23032) [source]:ARXIVAI
+
+### [HOLMES: Evaluating Higher-Order Logical Reasoning in LLMs]
+(https://arxiv.org/abs/2606.23238) [source]:ARXIVAI
+
+### [Invariant Graph Representations for Continuous-Time Dynamic Graphs Under Distribution Shifts]
+(https://arxiv.org/abs/2405.19062) [source]:ARXIVAI
+
+### [When AI Meets Finance (StockAgent): Large Language Model-based Stock Trading in Simulated Real-world Environments]
+(https://arxiv.org/abs/2407.18957) [source]:ARXIVAI
+
+### [CORE-Bench: Fostering the Credibility of Published Research Through a Computational Reproducibility Agent Benchmark]
+(https://arxiv.org/abs/2409.11363) [source]:ARXIVAI
+
+### [Variational Model Merging for Pareto Front Estimation in Multitask Finetuning]
+(https://arxiv.org/abs/2412.08147) [source]:ARXIVAI
+
+### [Impatient Bandits: Optimizing for the Long-Term Without Delay]
+(https://arxiv.org/abs/2501.07761) [source]:ARXIVAI
+
+### [Benchmarking LLMs' Mathematical Reasoning with Unseen Random Variables Questions]
+(https://arxiv.org/abs/2501.11790) [source]:ARXIVAI
+
+### [Societal Alignment Frameworks Can Improve LLM Alignment]
+(https://arxiv.org/abs/2503.00069) [source]:ARXIVAI
+
+### [Reward-Centered ReST-MCTS: A Robust Decision-Making Framework for Robotic Manipulation in High Uncertainty Environments]
+(https://arxiv.org/abs/2503.05226) [source]:ARXIVAI
+
+### [Ensemble Learning for Large Language Models in Text and Code Generation: A Survey]
+(https://arxiv.org/abs/2503.13505) [source]:ARXIVAI
+
+### [Multimedia and Visual Analytics in the Agentic Era]
+(https://arxiv.org/abs/2504.06138) [source]:ARXIVAI
+
+### [MuTRAP: Multi-trigger Trojans Attacking Robot Task Planning Systems]
+(https://arxiv.org/abs/2504.17070) [source]:ARXIVAI
+
+### [Minimisation of Quasar-Convex Functions Using Random Zeroth-Order Oracles]
+(https://arxiv.org/abs/2505.02281) [source]:ARXIVAI
+
+### [SEAL: Searching Expandable Architectures for Incremental Learning]
+(https://arxiv.org/abs/2505.10457) [source]:ARXIVAI
+
+### [Graph Alignment for Benchmarking Graph Neural Networks and Learning Positional Encodings]
+(https://arxiv.org/abs/2505.13087) [source]:ARXIVAI
+
+### [Render-FM: Feedforward Model for Real-time Photorealistic Volumetric Rendering]
+(https://arxiv.org/abs/2505.17338) [source]:ARXIVAI
+
+### [Tuning without Peeking: Provable Generalization Bounds and Robust LLM Post-Training]
+(https://arxiv.org/abs/2507.01752) [source]:ARXIVAI
+
+### [FISHER: A Foundation Model for Multi-Modal Industrial Signal Comprehensive Representation]
+(https://arxiv.org/abs/2507.16696) [source]:ARXIVAI
+
+### [Rule2Text: A Framework for Generating and Evaluating Natural Language Explanations of Knowledge Graph Rules]
+(https://arxiv.org/abs/2508.10971) [source]:ARXIVAI
+
+### [FALCON: Transforming Cyber Threat Intelligence into Deployable IDS Rules with Self-Reflection]
+(https://arxiv.org/abs/2508.18684) [source]:ARXIVAI
+
+### [Breaking the Mirror: Activation-Based Mitigation of Self-Preference in LLM Evaluators]
+(https://arxiv.org/abs/2509.03647) [source]:ARXIVAI
+
+### [VoltanaLLM: Energy-Efficient and SLO-Aware Disaggregated LLM Serving via Adaptive Frequency Control and State-Space Routing]
+(https://arxiv.org/abs/2509.04827) [source]:ARXIVAI
+
+### [MOCHA: Multi-modal Objects-aware Cross-arcHitecture Alignment]
+(https://arxiv.org/abs/2509.14001) [source]:ARXIVAI
+
+### [ATHENA: Agentic Team for Hierarchical Evolutionary Numerical Algorithms]
+(https://arxiv.org/abs/2512.03476) [source]:ARXIVAI
+
+### [Computing Evolutionarily Stable Strategies in Imperfect-Information Games]
+(https://arxiv.org/abs/2512.10279) [source]:ARXIVAI
+
+### [EMFusion: Uncertainty-Aware Conditional Diffusion Model for Multivariate Narrow-band Exposure Forecasting]
+(https://arxiv.org/abs/2512.15067) [source]:ARXIVAI
+
+### [Attention in Motion: Secure Platooning via Transformer-based Misbehavior Detection]
+(https://arxiv.org/abs/2512.15503) [source]:ARXIVAI
+
+### [Disentangling Aleatoric and Epistemic Uncertainty in Physics-Informed Neural Networks. Application to Insulation Material Degradation Prognostics]
+(https://arxiv.org/abs/2601.03673) [source]:ARXIVAI
+
+### [The $\mathbf{P}$-Completeness of Inverted Index Traversal: On the Complexity of Evaluating Boolean Query DAGs]
+(https://arxiv.org/abs/2601.18747) [source]:ARXIVAI
+
+### [Are LLM Evaluators Really Narcissists? Sanity Checking Self-Preference Evaluations]
+(https://arxiv.org/abs/2601.22548) [source]:ARXIVAI
+
+### [Toward Autonomous O-RAN: A Multi-Scale Agentic AI Framework for Real-Time Network Control and Management]
+(https://arxiv.org/abs/2602.14117) [source]:ARXIVAI
+
+### [Event-Grounded Question Answering over Long Audio via Structured Retrieval]
+(https://arxiv.org/abs/2602.14612) [source]:ARXIVAI
+
+### [MyoInteract: A Framework for Fast Prototyping of Biomechanical HCI Tasks using Reinforcement Learning]
+(https://arxiv.org/abs/2602.15245) [source]:ARXIVAI
+
+### [Bitwise Systolic Array Architecture for Runtime-Reconfigurable Multi-precision Quantized Multiplication on Hardware Accelerators]
+(https://arxiv.org/abs/2602.23334) [source]:ARXIVAI
+
+### [No Certificate, No Categorical Speech Act: A Brouwerian Assertibility Constraint for Public Reason]
+(https://arxiv.org/abs/2603.03971) [source]:ARXIVAI
+
+### [An Approach to Simultaneous Acquisition of Real-Time MRI Video, EEG, and Surface EMG for Articulatory, Brain, and Muscle Activity During Speech Production]
+(https://arxiv.org/abs/2603.04840) [source]:ARXIVAI
+
+### [CRAFT: A Tendon-Driven Hand with Hybrid Hard-Soft Compliance]
+(https://arxiv.org/abs/2603.12120) [source]:ARXIVAI
+
+### [AI-Driven Predictive Maintenance with Environmental Context Integration for Connected Vehicles: Simulation, Benchmarking, and Field Validation]
+(https://arxiv.org/abs/2603.13343) [source]:ARXIVAI
+
+### [HiPath: Hierarchical Vision-Language Alignment for Structured Pathology Report Prediction]
+(https://arxiv.org/abs/2603.19957) [source]:ARXIVAI
+
+### [Policies Permitting LLM Use for Polishing Peer Reviews Are Currently Not Enforceable]
+(https://arxiv.org/abs/2603.20450) [source]:ARXIVAI
+
+### [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models]
+(https://arxiv.org/abs/2604.08558) [source]:ARXIVAI
+
+### [THEIA: Learning Complete Kleene Three-Valued Logic in a Pure-Neural Modular Architecture]
+(https://arxiv.org/abs/2604.11284) [source]:ARXIVAI
+
+### [Dual-Anchoring: Addressing State Drift in Vision-Language Navigation]
+(https://arxiv.org/abs/2604.17473) [source]:ARXIVAI
+
+### [Fix Initial Programs and Iteratively Refine Repair Instructions Toward Non-Elimination Multi-Turn Program Correction]
+(https://arxiv.org/abs/2604.23989) [source]:ARXIVAI
+
+### [DynamicPO: Dynamic Preference Optimization for Recommendation]
+(https://arxiv.org/abs/2605.00327) [source]:ARXIVAI
+
+### [Ensemble Distributionally Robust Bayesian Optimisation with Continuous Context]
+(https://arxiv.org/abs/2605.07565) [source]:ARXIVAI
+
+### [When Language Overwrites Vision: Over-Alignment and Geometric Debiasing in Vision-Language Models]
+(https://arxiv.org/abs/2605.08245) [source]:ARXIVAI
+
+### [A Simplex Witness Certificate and Escape Force for Constant Collapse in Variational Autoencoders]
+(https://arxiv.org/abs/2605.18224) [source]:ARXIVAI
+
+### [Open-source LLMs administer maximum electric shocks in a Milgram-like obedience experiment]
+(https://arxiv.org/abs/2605.21401) [source]:ARXIVAI
+
+### [Sensing Intelligence as a Trainable Metamaterial Property]
+(https://arxiv.org/abs/2605.23967) [source]:ARXIVAI
+
+### [More Skills, Worse Agents? Skill Shadowing Degrades Performance When Expanding Skill Libraries]
+(https://arxiv.org/abs/2605.24050) [source]:ARXIVAI
+
+### [VISTA: An End-to-End Benchmark for Visual Spec-to-Web-App Coding Agents]
+(https://arxiv.org/abs/2605.26144) [source]:ARXIVAI
+
+### [QSignAI: Quantum-Randomness-Seeded Identity Signatures at the Intersection of AI for Science and Science for AI]
+(https://arxiv.org/abs/2605.27729) [source]:ARXIVAI
+
+### [Cosmos 3: Omnimodal World Models for Physical AI]
+(https://arxiv.org/abs/2606.02800) [source]:ARXIVAI
+
+### [ASymPO: Asymmetric-Scale Policy Optimization for Asynchronous LLM Post-Training Without Behavior Information]
+(https://arxiv.org/abs/2606.03070) [source]:ARXIVAI
+
+### [A Training-Free Mixture-of-Agents Framework for Multi-Document Summarization using LLMs and Knowledge Graphs]
+(https://arxiv.org/abs/2606.03867) [source]:ARXIVAI
+
+### [Page image classifier fine-tuned on century-spanning archives of scanned documents for further content-specific processing]
+(https://arxiv.org/abs/2606.07558) [source]:ARXIVAI
+
+### [AI-Driven Analytics of Team-Teaching Talk: Acoustic Patterns across Experience, Cohorts and the Learning Design]
+(https://arxiv.org/abs/2606.09831) [source]:ARXIVAI
+
+### [FedSteer: Taming Extreme Gradient Staleness in Federated Learning with Corrective Projections and Caching]
+(https://arxiv.org/abs/2606.10124) [source]:ARXIVAI
+
+### [Acquisition state behaves as a structured, measurable variable governing lung-nodule AI: kernel-driven measurement instability and noise-driven detection fragility, invisible to DICOM metadata]
+(https://arxiv.org/abs/2606.12824) [source]:ARXIVAI
+
+### [AgentRivet: an automated system for producing Rivet routines from journal publications]
+(https://arxiv.org/abs/2606.13535) [source]:ARXIVAI
+
+### [Surprise-Guided MergeSort: Budget-Efficient Human-in-the-Loop Ranking via Adaptive Comparison Scheduling]
+(https://arxiv.org/abs/2606.15623) [source]:ARXIVAI
+
+### [Lect\=uraAgents: A Multi-Agent Framework for Adaptive Personalized AI-Assisted Learning and Embodied Teaching]
+(https://arxiv.org/abs/2606.16428) [source]:ARXIVAI
+
+### [Robust Dual-Signal Fusion: Hybrid Neuro-Symbolic Gating with Compressed Chain-of-Thought Refinement for Irony Detection in Social Media Texts]
+(https://arxiv.org/abs/2606.16845) [source]:ARXIVAI
+
+### [Quantum Cinema: An Interactive Cinematic Exploration of Quantum Computing Hardware via Generative World Models]
+(https://arxiv.org/abs/2606.17102) [source]:ARXIVAI
+
+### [Statistical Foundations of LLM-based A/B Testing: A Surrogacy Framework for Human Causal Inference]
+(https://arxiv.org/abs/2606.17165) [source]:ARXIVAI
+
+### [KANLib -- A Modular, Extensible and Fast Kolmogorov-Arnold Network Implementation]
+(https://arxiv.org/abs/2606.17927) [source]:ARXIVAI
+
+### [Essential Subspace Merging for Multi-Task Learning]
+(https://arxiv.org/abs/2606.19164) [source]:ARXIVAI
+
+### [Cross-Dataset, Age, and Gender Generalization: A Comprehensive Analysis of Fine-Tuning Strategies for Low-Resource Children's ASR]
+(https://arxiv.org/abs/2606.19791) [source]:ARXIVAI
+
+### [HilDA: Hierarchical Distillation with Diffusion for Advancing Self-Supervised LiDAR Pre-training]
+(https://arxiv.org/abs/2606.20189) [source]:ARXIVAI
+
+### [Topological Neural Dynamics: A Neuron-wise Framework for Sequence Modeling]
+(https://arxiv.org/abs/2606.21295) [source]:ARXIVAI
+
+### [Sexualised synthetic personas encode and amplify gendered power asymmetries through voice]
+(https://arxiv.org/abs/2606.21366) [source]:ARXIVAI
+
+### [Does Mixture-of-Experts Actually Help Inference on Consumer and Edge Hardware? An Empirical Study]
+(https://arxiv.org/abs/2606.21428) [source]:ARXIVAI
+
+### [Skills for the future software profession: beyond agentic AI!]
+(https://arxiv.org/abs/2606.21894) [source]:ARXIVAI
+
+### [Alternate loss functions and regression models that achieve robustness to outliers by modulating the learning rate]
+(https://arxiv.org/abs/2606.22068) [source]:ARXIVAI
+
+### [MultiMem: Measuring and Mitigating Memorization in Multi-Modal Contrastive Learning]
+(https://arxiv.org/abs/2606.22220) [source]:ARXIVAI
+
+### [Diffusion Integrated Gradients: Controllable Path Generation for Flexible Feature Attribution]
+(https://arxiv.org/abs/2606.22314) [source]:ARXIVAI
+
+### [On the Position Bias of On-Policy Distillation]
+(https://arxiv.org/abs/2606.22600) [source]:ARXIVAI
+
+### [AI Fiction in the Wild]
+(https://arxiv.org/abs/2606.22748) [source]:ARXIVAI
+
+### [Polycepta: Object-Centric Appearance Estimation for Multi-Object Tracking]
+(https://arxiv.org/abs/2606.23604) [source]:ARXIVAI
+
+### [OpenClaw’s Skill Marketplace and the Emerging AI Supply Chain Threat]
+(https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/) [source]:U42
+
+### [The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration]
+(https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/) [source]:U42
+
+### [Threat Brief: Mitigating Large-Scale Credential Attacks]
+(https://unit42.paloaltonetworks.com/large-scale-credential-attacks/) [source]:U42
+
+### [Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE]
+(https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/) [source]:U42
+
+### [Inside the Modern SOC: The 72-Minute Race]
+(https://unit42.paloaltonetworks.com/soc-72-minute-race/) [source]:U42
+
+### [Tracing Digital Intent: New MacOS Tahoe 26 Artifact Discovered]
+(https://unit42.paloaltonetworks.com/new-macos-artifact-discovered/) [source]:U42
+
+### [Trust No Skill: Integrity Verification for AI Agent Supply Chains]
+(https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/) [source]:U42
+
+### [Blinding the Watchmen: Abusing Cloud Logging Services for Defense Evasion and Visibility]
+(https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/) [source]:U42
+
+### [Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257]
+(https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/) [source]:U42
+
+### [When “Hi, This Is IT” Comes Through Microsoft Teams]
+(https://unit42.paloaltonetworks.com/microsoft-teams-phishing/) [source]:U42
+
+### [The npm Threat Landscape: Attack Surface and Mitigations (Updated June 2)]
+(https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/) [source]:U42
+
+### [Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor]
+(https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/) [source]:U42
+
+### [2026 World Cup: Discussing The World’s Biggest Game’s Attack Surface]
+(https://unit42.paloaltonetworks.com/fifa-world-cup-attack-surface/) [source]:U42
+
+### [Out of the Crypt: The Evolving Cyber Extortion Economy]
+(https://unit42.paloaltonetworks.com/cyber-extortion-economy/) [source]:U42
+
+### [Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns]
+(https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/) [source]:U42
+
