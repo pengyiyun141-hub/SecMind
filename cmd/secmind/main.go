@@ -28,6 +28,7 @@ func main() {
 		//fmt.Printf("%s\n", rs)
 	}
 
+	//待封装为getFeed函数，该函数的职责为发出请求获取最新的源并返回映射和存储着信息的结构体数组。
 	var xmlData_slice []model.Article
 	for article := range scraper.Fetch(sourceMap) {
 		xmlData_slice = append(xmlData_slice, article)
