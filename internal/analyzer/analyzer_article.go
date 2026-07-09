@@ -6,6 +6,7 @@ import (
 	"os"
 )
 
+//由于在analyzer模块中的每个文件结构都极其相似，相似的部分为开头的一部分加载配置外加发送请求。因此重构计划预计将这段内容打包为一个client文件，该文件专注于加载配置和发送请求。
 func AnalyzeArticleByAi(model_param *ModelSpec, article_Path string) (string, error){
 	articleContextFile, err := os.Open(article_Path)
 	if err != nil {

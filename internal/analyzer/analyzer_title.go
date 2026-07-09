@@ -18,6 +18,18 @@ import (
 	"gopkg.in/yaml.v3"         //yaml格式处理
 )
 
+/*创建 analyzer/types.go：移入 Message, ChatRequest, ModelSpec。
+
+创建 analyzer/client.go：移入 LoadModelConfigByName, CallAiApi，并实现 Client 结构体。
+
+创建 analyzer/filter.go：移入 ParseScreeningTitleJSON，并实现 FilterArticles 方法。
+
+创建 analyzer/summarize.go：移入 AnalyzeArticleByAi 的相关逻辑。
+
+删除或重构 analyzer_title.go：将剩余的通用代码分配到上述文件中。
+
+更新 main 函数：调用新的 Client 接口，并将抓取/保存逻辑移至 article 包。*/
+
 type Message struct {
 	Role    string `json:"role"`
 	Content string `json:"content"`
