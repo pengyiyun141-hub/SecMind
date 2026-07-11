@@ -1,0 +1,9 @@
+# configs/aiconfig_manifest.yaml
+# AI 模块配置文件清单
+configpath:
+  - env_file: ".env"                         # 相对于 configs 目录,存放api信息
+    model_config: "model.yaml"               # 模型配置
+    prompt_directory: "prompts/"             # 提示词目录（存放所有提示词文件）
+    default_prompt:
+      fliter: "filter_title"
+      summarize: "summarize_article"

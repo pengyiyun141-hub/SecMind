@@ -18,22 +18,30 @@ func (c *Client) Execute(templatestName string, userInput string)(string, error)
 }
 
 
-func NewClient(configPath string)(*Client, error){
-	envPath := configPath + "/.env"
-	err := godotenv.Load(envPath)
+func NewClient(role string)(*Client, error){
+	//现根据role加载对应的配置清单
+	ai_configmanifest_filePath := fmt.Sprintf("configs/%s_aiconfig_manifest.yaml", role) 
+	ai_configmanifest_file, err:= os.ReadFile(ai_configmanifest_filePath)
+
+	var test struct{
+		configManifest ConfigPath `yaml:"configpath"`
+	}
+	err = yaml.Unmarshal(ai_configmanifest_file, &test) 
+
+	//将api信息加载到环境变量
+	err = godotenv.Load(test.configManifest.EnvFile)
 	if err != nil {
 		log.Println("加载 .env 失败: ", err)
 	}
 
 	//加载yaml配置文件
 	var all_model_param *[]ModelSpec
-	modelPath := configPath + "/model.yaml"
-	all_model_param, err = loadModelYamlFile(modelPath)
+	all_model_param, err = loadModelYamlFile(test.configManifest.ModelCofig)
 	if err != nil {
 		log.Fatal("加载 .env 失败: ", err)
 	}
 	fmt.Print(all_model_param)
-	return err
+	//return err
 }
 
 func loadModelYamlFile(configYamlFilePath string)(*[]ModelSpec, error){

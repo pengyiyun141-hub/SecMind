@@ -1,5 +1,11 @@
 package analyzer
 
+type ConfigPath struct {
+	EnvFile		    string   `yaml:"envfile"` 
+	ModelCofig      string   `yaml:"modelconfig"`
+	PromptDirectory string   `yaml:"promptdirectory"`
+}
+
 type Message struct {
 	Role    string `json:"role"`
 	Content string `json:"content"`
@@ -32,5 +38,7 @@ type ModelSpec struct {
 	APIKey           string
 	BaseURL          string
 	ModelName        string
+	PromptSystem     string
+	PromptUser       string
 	ExtraBody        map[string]interface{} `yaml:"extra_body"`
 }
