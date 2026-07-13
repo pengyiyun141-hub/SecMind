@@ -1,5 +1,5 @@
 package analyzer
-
+/*
 import (
 	"fmt"
 	"log"
@@ -60,4 +60,4 @@ func loadModelYamlFile(configYamlFilePath string)(*[]ModelSpec, error){
 	}
 
 	return &wrapper.Models, err
-}
+}*/

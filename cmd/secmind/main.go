@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
+	"secmind/configs"
 	"secmind/internal/analyzer"
 	"secmind/internal/model"
 	"secmind/internal/scraper"
@@ -10,7 +11,7 @@ import (
 )
 
 func main() {
-
+/*
 	var sourceMap map[string]string
 	sourceMap, err := scraper.LoadSourceMap("configs/sourceMap.json")
 	if err != nil {
@@ -18,10 +19,18 @@ func main() {
 		return
 	}
 	fmt.Println("sourceMap加载成功")
+*/
+	//var SecmindConfigs configs.SecmindConfigs
+	fmt.Println("开始加载环境")
+	SecmindConfigs, err := configs.LoadAllConfigs()
+	if err != nil {
+		log.Fatal("初始配置加载失败:%w", err)
+	}
+	fmt.Println("环境加载成功")
 
 	var shortsource []string
 	var realsource []string
-	for ss, rs := range sourceMap {
+	for ss, rs := range SecmindConfigs.Feedconfigs.SouceMap {
 		shortsource = append(shortsource, ss)
 		//fmt.Printf("%s:", ss)
 		realsource = append(realsource, rs)
@@ -30,7 +39,7 @@ func main() {
 
 	//待封装为getFeed函数，该函数的职责为发出请求获取最新的源并返回映射和存储着信息的结构体数组。
 	var xmlData_slice []model.Article
-	for article := range scraper.Fetch(sourceMap) {
+	for article := range scraper.Fetch(SecmindConfigs.Feedconfigs.SouceMap) {
 		xmlData_slice = append(xmlData_slice, article)
 	}
 
@@ -49,7 +58,7 @@ func main() {
 	}
 	fmt.Println("")
 
-	analyzer.AnalyzeByAI(xmlData_slice, sourceMap, articleIndex)
+	analyzer.AnalyzeByAI(xmlData_slice, SecmindConfigs.Feedconfigs.SouceMap, articleIndex)
 	storage.SaveToMD(xmlData_slice)
 
 }

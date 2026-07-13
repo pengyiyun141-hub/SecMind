@@ -14,26 +14,26 @@ import (
 
 //所有配置
 type SecmindConfigs struct{
-	aiconfigs		*AiConfigs
-	feedconfigs     *FeedConfigs 
+	Aiconfigs		*AiConfigs
+	Feedconfigs     *FeedConfigs 
 }
 
 //AI配置
 type AiConfigs struct{
-	apiinfo		map[string]*ApiInfo
-	promptinfo	map[string]*PromptInfo
-	modelinfo	map[string]*ModelInfo
+	Apiinfo		map[string]*ApiInfo
+	Promptinfo	map[string]*PromptInfo
+	Modelinfo	map[string]*ModelInfo
 }
 
 type ApiInfo struct{
-	baseurl		string
-	modelname	string
-	apikey		string
+	Baseurl		string
+	Modelname	string
+	Apikey		string
 }
 
 type PromptInfo struct{
-	system		string
-	user		string
+	System		string
+	User		string
 }
 
 type ModelInfo struct{
@@ -63,17 +63,35 @@ type FeedConfigs struct{
 	SouceMap map[string]string
 }
 
-func LoadAllConfigs() (){
-	sourceMap, _ := LoadFeedConfig("configs/sourceMap.json")
+//LoadAllConfigs()是基础模块，其执行失败则整个程序没有往后执行的必要。
+func LoadAllConfigs() (*SecmindConfigs, error){
+	fmt.Println("执行 LoadAllConfigs()")
+	var Secmindconfigs struct {
+		Aiconfigs   *AiConfigs
+    	Feedconfigs *FeedConfigs
+	}
+	var err error
+	
+	fmt.Println("执行 LoadFeedConfig()")
+	Secmindconfigs.Feedconfigs.SouceMap, err = LoadFeedConfig("configs/sourceMap.json")
+	if err != nil {
+		log.Fatal("sourceMap.json文件加载失败")
+	}
+	fmt.Println("执行 LoadAllConfigs()失败")
 
-	var Secmindconfigs SecmindConfigs
-	Secmindconfigs.feedconfigs.SouceMap = sourceMap
+	Secmindconfigs.Aiconfigs, err = LoadAiConfig("configs/")
 
+	fmt.Printf("%s/n", Secmindconfigs.Feedconfigs.SouceMap)
 
-
+	return &Secmindconfigs, err
 }
 
-func LoadAiConfig(baseDir string) () {
+func LoadAiConfig(baseDir string) (*AiConfigs, error) {
+	airole := &AiConfigs {
+		Modelinfo:  make(map[string]*ModelInfo),
+        Promptinfo: make(map[string]*PromptInfo),
+        Apiinfo:    make(map[string]*ApiInfo),
+	}
 	//先加载model文件
 	yamlfile, err := os.ReadFile(filepath.Join(baseDir, "model.yaml"))
     if err != nil {
@@ -87,15 +105,17 @@ func LoadAiConfig(baseDir string) () {
 
 	//加载api信息
 	godotenv.Load(filepath.Join(baseDir, ".env"))
-	for _, role := range modeldata.Models{
+	for i := range modeldata.Models{
+		role := &modeldata.Models[i]
 		role.ModelName = os.Getenv(role.ModelNameEnv)
 		role.BaseURL = os.Getenv(role.BaseURLEnv)
 		role.APIKey = os.Getenv(role.APIKeyEnv)
+		airole.Modelinfo[role.Name] = role
 	}
 
 	//加载提示词
-
-
+	airole.Promptinfo, err = LoadAllPrompt("configs/prompts/")
+	return airole, err
 }
 
 func LoadFeedConfig(source_file_path string) (map[string]string, error) {
@@ -136,8 +156,8 @@ func LoadAllPrompt(promptDir string) (map[string]*PromptInfo, error) {
 		usrprompt, _ := os.ReadFile(filepath.Join(promptDir, dir.Name(), "user"))
 
 		promptMap[dir.Name()] = &PromptInfo{
-			system: string(sysprompt),
-			user: string(usrprompt),
+			System: string(sysprompt),
+			User: string(usrprompt),
 		}
 	}
 	return promptMap, err
