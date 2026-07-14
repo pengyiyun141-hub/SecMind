@@ -36,14 +36,14 @@ func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, article
 	//加载环境变量
 	err := godotenv.Load("configs/.env")
 	if err != nil {
-		log.Println("加载 .env 失败: ", err)
+		log.Println("加载 .env 失败1: ", err)
 	}
 
 	//加载yaml配置文件
 	var model_param *ModelSpec
 	model_param, err = LoadModelConfigByName("configs/model.yaml", "filter")
 	if err != nil {
-		log.Fatal("加载 .env 失败: ", err)
+		log.Fatal("加载 .env 失败2: ", err)
 	}
 
 	//加载提示词

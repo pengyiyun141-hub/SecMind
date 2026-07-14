@@ -66,24 +66,21 @@ type FeedConfigs struct{
 //LoadAllConfigs()是基础模块，其执行失败则整个程序没有往后执行的必要。
 func LoadAllConfigs() (*SecmindConfigs, error){
 	fmt.Println("执行 LoadAllConfigs()")
-	var Secmindconfigs struct {
-		Aiconfigs   *AiConfigs
-    	Feedconfigs *FeedConfigs
+	SecCfgs := &SecmindConfigs{
+		Feedconfigs: &FeedConfigs{},
+		Aiconfigs: &AiConfigs{},
 	}
 	var err error
 	
 	fmt.Println("执行 LoadFeedConfig()")
-	Secmindconfigs.Feedconfigs.SouceMap, err = LoadFeedConfig("configs/sourceMap.json")
+	SecCfgs.Feedconfigs.SouceMap, err = LoadFeedConfig("configs/sourceMap.json")
 	if err != nil {
 		log.Fatal("sourceMap.json文件加载失败")
 	}
-	fmt.Println("执行 LoadAllConfigs()失败")
 
-	Secmindconfigs.Aiconfigs, err = LoadAiConfig("configs/")
+	SecCfgs.Aiconfigs, err = LoadAiConfig("configs/")
 
-	fmt.Printf("%s/n", Secmindconfigs.Feedconfigs.SouceMap)
-
-	return &Secmindconfigs, err
+	return SecCfgs, err
 }
 
 func LoadAiConfig(baseDir string) (*AiConfigs, error) {
@@ -102,6 +99,7 @@ func LoadAiConfig(baseDir string) (*AiConfigs, error) {
 		Models	[]ModelInfo	`yaml:"models"`
 	}
 	err = yaml.Unmarshal(yamlfile, &modeldata) 
+	//fmt.Printf("yaml:%s", string(yamlfile))
 
 	//加载api信息
 	godotenv.Load(filepath.Join(baseDir, ".env"))
@@ -111,6 +109,7 @@ func LoadAiConfig(baseDir string) (*AiConfigs, error) {
 		role.BaseURL = os.Getenv(role.BaseURLEnv)
 		role.APIKey = os.Getenv(role.APIKeyEnv)
 		airole.Modelinfo[role.Name] = role
+		//fmt.Println("airole:", airole.Modelinfo[role.Name])
 	}
 
 	//加载提示词
@@ -152,8 +151,8 @@ func LoadAllPrompt(promptDir string) (map[string]*PromptInfo, error) {
 			continue
 		}
 	
-		sysprompt, _ := os.ReadFile(filepath.Join(promptDir, dir.Name(), "system"))
-		usrprompt, _ := os.ReadFile(filepath.Join(promptDir, dir.Name(), "user"))
+		sysprompt, _ := os.ReadFile(filepath.Join(promptDir, dir.Name(), "system.txt"))
+		usrprompt, _ := os.ReadFile(filepath.Join(promptDir, dir.Name(), "user.txt"))
 
 		promptMap[dir.Name()] = &PromptInfo{
 			System: string(sysprompt),
