@@ -11,28 +11,21 @@ import (
 )
 
 func main() {
-	/*
-		var sourceMap map[string]string
-		sourceMap, err := scraper.LoadSourceMap("configs/sourceMap.json")
-		if err != nil {
-			log.Fatal("sourceMap.json文件打开失败:", err)
-			return
-		}
-		fmt.Println("sourceMap加载成功")
-	*/
 	//var SecmindConfigs configs.SecmindConfigs
 	fmt.Println("开始加载环境")
 	SecmindConfigs, err := configs.LoadAllConfigs()
 	if err != nil {
-		log.Fatal("初始配置加载失败:%w", err)
+		log.Fatalf("初始配置加载失败：%v", err)
 	}
 
-	//测试结构体变量存储情况。\
-	fmt.Println(SecmindConfigs.Aiconfigs.Apiinfo)
-	for name, model := range SecmindConfigs.Aiconfigs.Apiinfo {
-		fmt.Printf("模型: %s, 温度: %s, MaxTokens: %s, 模型名：%s\n",
-			name, model.Baseurl, model.Apikey, model.Modelname)
-	}
+	//测试结构体变量存储情况。
+	
+	fmt.Println(SecmindConfigs.Aiconfigs.Modelinfo["summarize_article"])
+	/*for name, model := range SecmindConfigs.Aiconfigs.Modelinfo {
+		fmt.Printf("模型: %s, 温度: %s, MaxTokens: %s, 模型名：%s, %s\n",
+			name, model.APIKey, model.BaseURL, model.PromptSysText, model.UserPrompt)
+	}*/
+	
 
 	fmt.Println("环境加载成功")
 

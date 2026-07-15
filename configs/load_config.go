@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"log"
 	"os"
 	"path/filepath"
 
@@ -25,7 +24,7 @@ type AiConfigs struct{
 	Modelinfo	map[string]*ModelInfo
 }
 
-type ApiInfo struct{
+type ApiInfo struct{		//注意该结构体暂时没用到，Api的相关信息直接被填入model中了。
 	Baseurl		string
 	Modelname	string
 	Apikey		string
@@ -52,8 +51,8 @@ type ModelInfo struct{
 	APIKey           string
 	BaseURL          string
 	ModelName        string
-	PromptSystem     string
-	PromptUser       string
+	PromptSysText    string
+	PromptUsrText    string
 	ExtraBody        map[string]interface{} `yaml:"extra_body"`
 }
 
@@ -65,20 +64,21 @@ type FeedConfigs struct{
 
 //LoadAllConfigs()是基础模块，其执行失败则整个程序没有往后执行的必要。
 func LoadAllConfigs() (*SecmindConfigs, error){
-	fmt.Println("执行 LoadAllConfigs()")
 	SecCfgs := &SecmindConfigs{
 		Feedconfigs: &FeedConfigs{},
-		Aiconfigs: &AiConfigs{},
+		Aiconfigs: nil,
 	}
+
 	var err error
-	
-	fmt.Println("执行 LoadFeedConfig()")
 	SecCfgs.Feedconfigs.SouceMap, err = LoadFeedConfig("configs/sourceMap.json")
 	if err != nil {
-		log.Fatal("sourceMap.json文件加载失败")
+		return nil, fmt.Errorf("LoadFeedConfig()执行失败：%w\n", err)
 	}
 
 	SecCfgs.Aiconfigs, err = LoadAiConfig("configs/")
+	if err != nil {
+		return nil, fmt.Errorf("LoadAiConfig()执行失败：%w\n", err)
+	}
 
 	return SecCfgs, err
 }
@@ -109,7 +109,6 @@ func LoadAiConfig(baseDir string) (*AiConfigs, error) {
 		role.BaseURL = os.Getenv(role.BaseURLEnv)
 		role.APIKey = os.Getenv(role.APIKeyEnv)
 		airole.Modelinfo[role.Name] = role
-		//fmt.Println("airole:", airole.Modelinfo[role.Name])
 	}
 
 	//加载提示词
@@ -121,15 +120,13 @@ func LoadFeedConfig(source_file_path string) (map[string]string, error) {
 
 	map_file, err := os.Open(source_file_path)
 	if err != nil {
-		log.Printf("源映射文件加载失败:%s", err)
-		return nil, err
+		return nil, fmt.Errorf("源映射文件加载失败：%w", err)
 	}
 	defer map_file.Close()
 
 	map_file_data, err := io.ReadAll(map_file)
 	if err != nil {
-		log.Printf("从map_file中加载内容失败:%s", err)
-		return nil, err
+		return nil, fmt.Errorf("从map_file中加载内容失败：%w", err)
 	}
 
 	var sourceMap map[string]string
@@ -141,7 +138,7 @@ func LoadFeedConfig(source_file_path string) (map[string]string, error) {
 func LoadAllPrompt(promptDir string) (map[string]*PromptInfo, error) {
 	dirs, err := os.ReadDir(promptDir)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("加载提示词文件夹失败：%w", err)
 	}
 
 	promptMap := make(map[string]*PromptInfo)
