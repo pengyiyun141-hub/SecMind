@@ -1,16 +1,15 @@
 package scraper
 
 import (
-	"encoding/json"
+	//"encoding/json"
 	"fmt"
-	"io"
+	//"io"
 	"log"
 	"net/http"
-	"os"
+	//"os"
 	"secmind/internal/model"
 	"secmind/internal/parser"
 	"sync"
-	//"github.com/araddon/dateparse"
 )
 
 func Fetch(sourceMap map[string]string) <-chan model.Article {
@@ -52,6 +51,7 @@ func Fetch(sourceMap map[string]string) <-chan model.Article {
 	return ch
 }
 
+/*
 func LoadSourceMap(source_file_path string) (map[string]string, error) {
 
 	map_file, err := os.Open(source_file_path)
@@ -72,3 +72,4 @@ func LoadSourceMap(source_file_path string) (map[string]string, error) {
 
 	return sourceMap, err
 }
+*/

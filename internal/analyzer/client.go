@@ -1,63 +1,83 @@
 package analyzer
-/*
+
 import (
 	"fmt"
-	"log"
-	"os"
-
-	"github.com/joho/godotenv"
-	"gopkg.in/yaml.v3"
+	"net/http"
+	"secmind/configs"
+	"strings"
+	"time"
 )
 
 type Client struct {
-	all_model_info []ModelSpec
+	modelSpec  *ModelSpec
+	httpClient *http.Client
 }
 
 func (c *Client) Execute(templatestName string, userInput string)(string, error){
 	
 }
 
+func NewClient(role string, AiCfgs *configs.AiConfigs)(*Client, error){
+	rolesplit := strings.SplitN(role, "-", 2)
+	modelCfg := AiCfgs.Modelinfo[rolesplit[0]]
+	modelCfg.SystemPrompt = AiCfgs.Promptinfo[role].System
+	modelCfg.PromptSysText = AiCfgs.Promptinfo[role].User
 
-func NewClient(role string)(*Client, error){
-	//现根据role加载对应的配置清单
-	ai_configmanifest_filePath := fmt.Sprintf("configs/%s_aiconfig_manifest.yaml", role) 
-	ai_configmanifest_file, err:= os.ReadFile(ai_configmanifest_filePath)
-
-	var test struct{
-		configManifest ConfigPath `yaml:"configpath"`
+	var ms ModelSpec
+	ms = ModelSpec{
+		role: role,
+		Temperature: AiCfgs.Modelinfo[role].Temperature,
+		TopP: AiCfgs.Modelinfo[role].TopP,
+		MaxTokens: AiCfgs.Modelinfo[role].MaxTokens,
+		FrequencyPenalty: AiCfgs.Modelinfo[role].FrequencyPenalty,
+		PresencePenalty: AiCfgs.Modelinfo[role].PresencePenalty,
+		Stop: AiCfgs.Modelinfo[role].Stop,
+		APIKey: AiCfgs.Modelinfo[role].APIKey,
+		BaseURL: AiCfgs.Modelinfo[role].BaseURL,
+		ModelName: AiCfgs.Modelinfo[role].ModelName,
+		PromptSystemText: modelCfg.PromptSysText,
+		PromptUserText: modelCfg.PromptUsrText,
+		ExtraBody: AiCfgs.Modelinfo[role].ExtraBody,
 	}
-	err = yaml.Unmarshal(ai_configmanifest_file, &test) 
 
-	//将api信息加载到环境变量
-	err = godotenv.Load(test.configManifest.EnvFile)
-	if err != nil {
-		log.Println("加载 .env 失败: ", err)
+	var hc http.Client
+	hc = http.Client{
+		Timeout: 30 * time.Second,  // 整个请求（含连接、发送、接收）的总超时
+    	Transport: &http.Transport{
+        	MaxIdleConns:        100,              // 最大空闲连接数（所有 host 合计）
+        	MaxIdleConnsPerHost: 10,               // 每个 host 的最大空闲连接数
+        	IdleConnTimeout:     90 * time.Second, // 空闲连接存活时间
+        	TLSHandshakeTimeout: 10 * time.Second, // TLS 握手超时
+        	ExpectContinueTimeout: 1 * time.Second,
+		},
 	}
 
-	//加载yaml配置文件
-	var all_model_param *[]ModelSpec
-	all_model_param, err = loadModelYamlFile(test.configManifest.ModelCofig)
-	if err != nil {
-		log.Fatal("加载 .env 失败: ", err)
+	client := &Client {
+		modelSpec: &ms,
+		httpClient: &hc,
 	}
-	fmt.Print(all_model_param)
-	//return err
+
+	err := client.Validate()
+
+	return client, fmt.Errorf("modelSpec核心字段为空：%w", err)
 }
 
-func loadModelYamlFile(configYamlFilePath string)(*[]ModelSpec, error){
-	yamlfile, err := os.ReadFile(configYamlFilePath)
-	if err != nil {
-		return nil, fmt.Errorf("加载%s文件失败: %w", configYamlFilePath, err)
-	}
+func (c *Client) Validate() error {
+    if c.modelSpec.role == "" {
+        return fmt.Errorf("role不能为空;")
+    }
+    if c.modelSpec.APIKey == "" {
+        return fmt.Errorf("APIKey不能为空;")
+    }
+    if c.modelSpec.BaseURL == "" {
+        return fmt.Errorf("BaseURL不能为空;")
+    }
+    if c.modelSpec.PromptSystemText == "" {
+        return fmt.Errorf("PromptSystemText不能为空;")
+    }
+    if c.modelSpec.PromptUserText == "" {
+        return fmt.Errorf("PromptUserText不能为空;")
+    }
 
-	var wrapper struct {
-		Models []ModelSpec `yaml:"models"`
-	}
-
-	err = yaml.Unmarshal(yamlfile, &wrapper)
-	if err != nil {
-		return nil, fmt.Errorf("解析yaml值失败: %w", err)
-	}
-
-	return &wrapper.Models, err
-}*/
+    return nil
+}

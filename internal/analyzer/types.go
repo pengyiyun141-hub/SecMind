@@ -23,6 +23,7 @@ type ChatRequest struct {
 }
 
 type ModelSpec struct {
+	role			 string
 	Name             string   `yaml:"name"`
 	APIKeyEnv        string   `yaml:"api_key_env"`
 	BaseURLEnv       string   `yaml:"base_url_env"`
@@ -38,7 +39,7 @@ type ModelSpec struct {
 	APIKey           string
 	BaseURL          string
 	ModelName        string
-	PromptSystem     string
-	PromptUser       string
+	PromptSystemText string
+	PromptUserText   string
 	ExtraBody        map[string]interface{} `yaml:"extra_body"`
 }
