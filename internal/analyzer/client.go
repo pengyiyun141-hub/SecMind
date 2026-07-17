@@ -6,16 +6,21 @@ import (
 	"secmind/configs"
 	"strings"
 	"time"
+	"encoding/json"
+	"io"
+	"bytes"
 )
 
-type Client struct {
-	modelSpec  *ModelSpec
-	httpClient *http.Client
-}
+/*
+func (client *Client) Execute(userInput string)([]byte, error){
+	client.modelSpec.PromptUserText = client.modelSpec.PromptUserText + userInput
+	 primitivedata, err := CallAiApi(client)
+	 if err != nil {
+		return nil, fmt.Errorf("Execute：%w", err)
+	 }
 
-func (c *Client) Execute(templatestName string, userInput string)(string, error){
-	
-}
+	 return primitivedata, err 
+}*/
 
 func NewClient(role string, AiCfgs *configs.AiConfigs)(*Client, error){
 	rolesplit := strings.SplitN(role, "-", 2)
@@ -58,8 +63,62 @@ func NewClient(role string, AiCfgs *configs.AiConfigs)(*Client, error){
 	}
 
 	err := client.Validate()
+	if err != nil {
+		return nil, fmt.Errorf("modelSpec核心字段为空：%w", err)
+	}
 
-	return client, fmt.Errorf("modelSpec核心字段为空：%w", err)
+	return client, err
+}
+
+func (client *Client)CallAiApi(userInput string) ([]byte, error) {
+	userPrompt := client.modelSpec.PromptUserText + userInput
+	chatrequest := &ChatRequest {
+		Model: client.modelSpec.ModelName,
+		Message: []Message{
+			{Role: "system", Content: client.modelSpec.PromptSystemText},
+			{Role: "user", Content: userPrompt},
+		},
+		Temperature: client.modelSpec.Temperature,
+		TopP: client.modelSpec.TopP,
+		MaxTokens: client.modelSpec.MaxTokens,
+		FrequencyPenalty: client.modelSpec.FrequencyPenalty,
+		PresencePenalty: client.modelSpec.PresencePenalty,
+		Stop: client.modelSpec.Stop,
+	}
+
+	chatrequestJsonData, err := json.Marshal(chatrequest)
+	if err != nil {
+		return nil, fmt.Errorf("CallAiApi请求体解析json格式失败", err)
+	}
+
+	reqclient := client.httpClient
+
+	req, err := http.NewRequest("POST", client.modelSpec.BaseURL, bytes.NewBuffer([]byte(chatrequestJsonData)))
+	if err != nil {
+		return nil, fmt.Errorf("NewRequest创建请求包失败：%w", err)
+	}
+
+	req.Header.Set("Content-Type", "application/json")
+	req.Header.Set("Authorization", "Bearer "+ client.modelSpec.APIKey)
+
+	resp, err := reqclient.Do(req)
+	if err != nil {
+		return nil, fmt.Errorf("发送请求失败: %w", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		errbody, _ := io.ReadAll(resp.Body)
+		return nil, fmt.Errorf("API 返回错误状态 %d: %s", resp.StatusCode, string(errbody))
+	}
+
+	primaryRespBody, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("读取响应体失败: %w", err)
+	}
+
+	//fmt.Println(string(primaryRespBody))
+	return primaryRespBody, nil
 }
 
 func (c *Client) Validate() error {

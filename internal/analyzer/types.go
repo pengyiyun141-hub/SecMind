@@ -1,9 +1,12 @@
 package analyzer
 
-type ConfigPath struct {
-	EnvFile		    string   `yaml:"envfile"` 
-	ModelCofig      string   `yaml:"modelconfig"`
-	PromptDirectory string   `yaml:"promptdirectory"`
+import(
+	"net/http"
+)
+
+type Client struct {
+	modelSpec  *ModelSpec
+	httpClient *http.Client
 }
 
 type Message struct {
@@ -13,13 +16,14 @@ type Message struct {
 
 type ChatRequest struct {
 	Model            string    `json:"model"`
-	Messages         []Message `json:"messages"`
+	Message          []Message `json:"messages"`
 	Temperature      float64   `json:"temperature,omitempty"`
 	TopP             float64   `json:"top_p,omitempty"`
 	MaxTokens        int       `json:"max_tokens,omitempty"`
 	FrequencyPenalty float64   `json:"frequency_penalty,omitempty"`
 	PresencePenalty  float64   `json:"presence_penalty,omitempty"`
 	Stop             []string  `json:"stop,omitempty"`
+	ExtraBody        map[string]interface{} `json:"extrabody,omitempty"`
 }
 
 type ModelSpec struct {

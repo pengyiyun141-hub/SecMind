@@ -1,18 +1,14 @@
 package analyzer
 
 import (
-	"bytes"
 	"encoding/json"
 	"fmt"
-	"io"
 	"log"
-	"net/http"
 	"os"
 	"secmind/internal/model"
 	"secmind/internal/scraper"
 	"secmind/internal/storage"
 	"strings"
-	"time"
 
 	"github.com/joho/godotenv" //从文件中获取环境变量用
 	"gopkg.in/yaml.v3"         //yaml格式处理
@@ -220,54 +216,4 @@ func LoadModelConfigByName(yamlPath, modelName string) (*ModelSpec, error) {
 	return nil, fmt.Errorf("model %s not found", modelName)
 }
 
-func CallAiApi(model_param *ModelSpec, promptMessage []Message) ([]byte, error) {
 
-	reqBody := map[string]interface{}{
-		"model":             model_param.ModelName,
-		"messages":          promptMessage,
-		"temperature":       model_param.Temperature,
-		"top_p":             model_param.TopP,
-		"max_tokens":        model_param.MaxTokens,
-		"frequency_penalty": model_param.FrequencyPenalty,
-		"presence_penalty":  model_param.PresencePenalty,
-		"stop":              model_param.Stop,
-	}
-
-	for k, v := range model_param.ExtraBody {
-		reqBody[k] = v
-	}
-
-	reqBodyJsonData, err := json.Marshal(reqBody)
-	if err != nil {
-		log.Fatal("ai api请求体解析json格式失败", err)
-	}
-
-	client := http.Client{Timeout: 60 * time.Second}
-
-	req, err := http.NewRequest("POST", model_param.BaseURL, bytes.NewBuffer([]byte(reqBodyJsonData)))
-	if err != nil {
-		log.Fatal("创建请求包失败", err)
-	}
-
-	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("Authorization", "Bearer "+model_param.APIKey)
-
-	resp, err := client.Do(req)
-	if err != nil {
-		return nil, fmt.Errorf("发送请求失败: %w", err)
-	}
-	defer resp.Body.Close()
-
-	if resp.StatusCode != http.StatusOK {
-		errbody, _ := io.ReadAll(resp.Body)
-		return nil, fmt.Errorf("API 返回错误状态 %d: %s", resp.StatusCode, string(errbody))
-	}
-
-	primaryRespBody, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("读取响应体失败: %w", err)
-	}
-
-	//fmt.Println(string(primaryRespBody))
-	return primaryRespBody, nil
-}
