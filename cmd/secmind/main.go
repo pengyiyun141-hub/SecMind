@@ -4,10 +4,8 @@ import (
 	"fmt"
 	"log"
 	"secmind/configs"
-	"secmind/internal/analyzer"
-	"secmind/internal/model"
+	"secmind/internal/article"
 	"secmind/internal/scraper"
-	"secmind/internal/storage"
 )
 
 func main() {
@@ -34,7 +32,7 @@ func main() {
 	}*/
 
 	//待封装为getFeed函数，该函数的职责为发出请求获取最新的源并返回映射和存储着信息的结构体数组。
-	var xmlData_slice []model.Article
+	var xmlData_slice []article.Article
 	for article := range scraper.Fetch(SecmindConfigs.Feedconfigs.SouceMap) {
 		xmlData_slice = append(xmlData_slice, article)
 	}
@@ -47,14 +45,11 @@ func main() {
 		}
 	}*/
 
-	articleIndex := make(map[string]*model.Article)
+	articleIndex := make(map[string]*article.Article)
 	for i := range xmlData_slice {
 		key := fmt.Sprintf("%s-%d", xmlData_slice[i].Source, xmlData_slice[i].Id)
 		articleIndex[key] = &xmlData_slice[i]
 	}
 	fmt.Println("")
-
-	analyzer.AnalyzeByAI(xmlData_slice, SecmindConfigs.Feedconfigs.SouceMap, articleIndex)
-	storage.SaveToMD(xmlData_slice)
 
 }

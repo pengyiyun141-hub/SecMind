@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 	"secmind/internal/identity"
-	"secmind/internal/model"
+	"secmind/internal/article"
 )
 
-func SaveArticleToMD(htmldata string, articleinfo model.ScreenedArticle) (string){
+func SaveArticleToMD(htmldata string, articleinfo article.ScreenedArticle) (string){
 	var articleTitle string
 	articleTitle = "internal/data/articles/" + identity.GenerateFileName(articleinfo)
 
@@ -24,7 +24,7 @@ func SaveArticleToMD(htmldata string, articleinfo model.ScreenedArticle) (string
 	fmt.Fprintf(file, "%s", htmldata)
 	
 	//暂时用这种笨方法，重构时必须修改此段代码
-	var selectedArticle model.Article
+	var selectedArticle article.Article
 	selectedArticle.Filename = articleinfo.ArticleName
 
 	return selectedArticle.Filename

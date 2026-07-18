@@ -7,15 +7,15 @@ import (
 	"log"
 	"net/http"
 	//"os"
-	"secmind/internal/model"
+	"secmind/internal/article"
 	"secmind/internal/parser"
 	"sync"
 )
 
-func Fetch(sourceMap map[string]string) <-chan model.Article {
+func Fetch(sourceMap map[string]string) <-chan article.Article {
 	var wg sync.WaitGroup
 
-	ch := make(chan model.Article)
+	ch := make(chan article.Article)
 
 	for shortsource, realurl := range sourceMap {
 		wg.Add(1)

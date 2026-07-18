@@ -3,10 +3,10 @@ package storage
 import (
 	"fmt"
 	"os"
-	"secmind/internal/model"
+	"secmind/internal/article"
 )
 
-func SaveToMD(articles []model.Article) error {
+func SaveToMD(articles []article.Article) error {
 	file, err := os.OpenFile("internal/data/intel_report.md", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 
 	if err != nil {

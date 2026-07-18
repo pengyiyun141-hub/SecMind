@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"secmind/internal/model"
+	"secmind/internal/article"
 	"secmind/internal/scraper"
 	"secmind/internal/storage"
 	"strings"
@@ -14,20 +14,7 @@ import (
 	"gopkg.in/yaml.v3"         //yaml格式处理
 )
 
-/*创建 analyzer/types.go：移入 Message, ChatRequest, ModelSpec。
-
-创建 analyzer/client.go：移入 LoadModelConfigByName, CallAiApi，并实现 Client 结构体。
-
-创建 analyzer/filter.go：移入 ParseScreeningTitleJSON，并实现 FilterArticles 方法。
-
-创建 analyzer/summarize.go：移入 AnalyzeArticleByAi 的相关逻辑。
-
-删除或重构 analyzer_title.go：将剩余的通用代码分配到上述文件中。
-
-更新 main 函数：调用新的 Client 接口，并将抓取/保存逻辑移至 article 包。*/
-
-
-func AnalyzeByAI(articles []model.Article, soureceMap map[string]string, articleIndex map[string]*model.Article) {
+func AnalyzeByAI(articles []article.Article, soureceMap map[string]string, articleIndex map[string]*article.Article) {
 
 	//加载环境变量
 	err := godotenv.Load("configs/.env")
@@ -171,14 +158,14 @@ func extractJSON(text string) string {
 	return text[start : end+1]
 }
 
-func ParseScreeningTitleJSON(content string) ([]model.ScreenedArticle, error) {
+func ParseScreeningTitleJSON(content string) ([]article.ScreenedArticle, error) {
 
 	jsonStr := extractJSON(content)
 	if jsonStr == "" {
 		return nil, fmt.Errorf("AI回复中未找到有效的json数组")
 	}
 
-	var screeneddata []model.ScreenedArticle
+	var screeneddata []article.ScreenedArticle
 	err := json.Unmarshal([]byte(jsonStr), &screeneddata)
 	if err != nil {
 		return nil, fmt.Errorf("JSON 解析失败: %w", err)

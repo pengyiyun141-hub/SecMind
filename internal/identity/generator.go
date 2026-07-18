@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 	"crypto/sha256"
-	"secmind/internal/model"
+	"secmind/internal/article"
 )
 
-func GenerateFileName(articleinfo model.ScreenedArticle)(string) {
+func GenerateFileName(articleinfo article.ScreenedArticle)(string) {
 	timeStamp := time.Now().UTC().Format("20060102")
 	LinkHash := sha256.Sum256([]byte(articleinfo.Link))
 

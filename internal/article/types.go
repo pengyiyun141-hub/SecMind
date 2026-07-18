@@ -1,4 +1,4 @@
-package model
+package article
 
 type Article struct {
 	Source      string

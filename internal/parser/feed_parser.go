@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"fmt"
 	"io"
-	"secmind/internal/model"
+	"secmind/internal/article"
 )
 
 //RSS_parser
@@ -45,7 +45,7 @@ type Common struct {
 	XMLName xml.Name
 }
 
-func Parse(reader io.Reader, sourceURLshort string) ([]model.Article, error) {
+func Parse(reader io.Reader, sourceURLshort string) ([]article.Article, error) {
 	var Xmldata []byte
 
 	Xmldata, err := io.ReadAll(reader)
@@ -56,7 +56,7 @@ func Parse(reader io.Reader, sourceURLshort string) ([]model.Article, error) {
 	}
 
 	var common Common
-	var articles []model.Article
+	var articles []article.Article
 
 	xml.Unmarshal(Xmldata, &common)
 
@@ -70,7 +70,7 @@ func Parse(reader io.Reader, sourceURLshort string) ([]model.Article, error) {
 		}
 
 		for i, item := range rssData.Channel.Items {
-			articles = append(articles, model.Article{Id: i + 1, Title: item.Title, Link: item.Link, Source: sourceURLshort})
+			articles = append(articles, article.Article{Id: i + 1, Title: item.Title, Link: item.Link, Source: sourceURLshort})
 		}
 		fmt.Printf("源%s共获取到文章数为：%d，正在处理文章信息\n", sourceURLshort, len(articles))
 
@@ -86,7 +86,7 @@ func Parse(reader io.Reader, sourceURLshort string) ([]model.Article, error) {
 		count = 0
 
 		for i, entry := range atomData.Entries {
-			articles = append(articles, model.Article{Id: i + 1, Title: entry.Title, Link: entry.Link.Href, Source: sourceURLshort})
+			articles = append(articles, article.Article{Id: i + 1, Title: entry.Title, Link: entry.Link.Href, Source: sourceURLshort})
 		}
 		fmt.Printf("源%s共获取到文章数为：%d，正在处理文章信息\n", sourceURLshort, count)
 

@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"net/http"
 	"net/url"
-	"secmind/internal/model"
+	"secmind/internal/article"
 	"strings"
 
 	readability "codeberg.org/readeck/go-readability/v2"
 )
 
-func FetchArticleHtml(articleURL string, source model.ScreenedArticle) (string, error) {
+func FetchArticleHtml(articleURL string, source article.ScreenedArticle) (string, error) {
 	if source.Source == "ARXIV" {
 		arxivAbstract, err := FetchAbstract(articleURL)
 		if err != nil {
