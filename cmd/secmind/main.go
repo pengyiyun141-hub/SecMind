@@ -32,10 +32,11 @@ func main() {
 	}*/
 
 	//待封装为getFeed函数，该函数的职责为发出请求获取最新的源并返回映射和存储着信息的结构体数组。
-	var xmlData_slice []article.Article
+	/*var xmlData_slice []article.Article
 	for article := range scraper.Fetch(SecmindConfigs.Feedconfigs.SouceMap) {
 		xmlData_slice = append(xmlData_slice, article)
-	}
+	}*/
+	article.TitlePool(scraper.Fetch(SecmindConfigs.Feedconfigs.SouceMap))
 
 	//l := len(xmlData_slice)
 
