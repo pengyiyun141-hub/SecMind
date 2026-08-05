@@ -1,6 +1,6 @@
 package article
 
-type Article struct {
+type FeedArticle struct {
 	Source      string
 	Id          int
 	Title       string

@@ -4,6 +4,6 @@ import (
 
 )
 
-func TitlePool (ch <-chan Article) (error) {
-	
+func TitlePool (ch <-chan FeedArticle) (error) {
+		
 }

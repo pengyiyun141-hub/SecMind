@@ -12,10 +12,10 @@ import (
 	"sync"
 )
 
-func Fetch(sourceMap map[string]string) <-chan article.Article {
+func Fetch(sourceMap map[string]string) <-chan article.FeedArticle {
 	var wg sync.WaitGroup
 
-	ch := make(chan article.Article)
+	ch := make(chan article.FeedArticle)
 
 	for shortsource, realurl := range sourceMap {
 		wg.Add(1)
@@ -34,7 +34,7 @@ func Fetch(sourceMap map[string]string) <-chan article.Article {
 
 			fmt.Println("开始抓取：", url)
 
-			xmlData, err := parser.Parse(resp.Body, shortsource)
+			xmlData, err := parser.ParseFeed(resp.Body, shortsource)
 			if err != nil {
 				log.Printf("解析失败:%s，%s", url, err)
 			}

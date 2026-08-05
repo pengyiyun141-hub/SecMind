@@ -6,7 +6,7 @@ import (
 	"secmind/internal/article"
 )
 
-func SaveToMD(articles []article.Article) error {
+func SaveToMD(articles []article.FeedArticle) error {
 	file, err := os.OpenFile("internal/data/intel_report.md", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 
 	if err != nil {

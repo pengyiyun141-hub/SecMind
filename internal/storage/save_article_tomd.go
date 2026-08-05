@@ -24,7 +24,7 @@ func SaveArticleToMD(htmldata string, articleinfo article.ScreenedArticle) (stri
 	fmt.Fprintf(file, "%s", htmldata)
 	
 	//暂时用这种笨方法，重构时必须修改此段代码
-	var selectedArticle article.Article
+	var selectedArticle article.FeedArticle
 	selectedArticle.Filename = articleinfo.ArticleName
 
 	return selectedArticle.Filename

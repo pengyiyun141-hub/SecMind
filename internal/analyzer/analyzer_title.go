@@ -14,7 +14,7 @@ import (
 	"gopkg.in/yaml.v3"         //yaml格式处理
 )
 
-func AnalyzeByAI(articles []article.Article, soureceMap map[string]string, articleIndex map[string]*article.Article) {
+func AnalyzeByAI(articles []article.FeedArticle, soureceMap map[string]string, articleIndex map[string]*article.Article) {
 
 	//加载环境变量
 	err := godotenv.Load("configs/.env")
