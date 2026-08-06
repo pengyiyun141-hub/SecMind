@@ -56,7 +56,7 @@ func ParseFeed(reader io.Reader, sourceURLshort string) ([]article.FeedArticle, 
 	}
 
 	var common Common
-	var articles []article.FeedArticle
+	var Feedarticles []article.FeedArticle
 
 	xml.Unmarshal(Xmldata, &common)
 
@@ -70,10 +70,9 @@ func ParseFeed(reader io.Reader, sourceURLshort string) ([]article.FeedArticle, 
 		}
 
 		for i, item := range rssData.Channel.Items {
-			articles = append(articles, article.FeedArticle{Source: sourceURLshort, Id: i + 1, Title: item.Title, Link: item.Link})
+			Feedarticles = append(Feedarticles, article.FeedArticle{Source: sourceURLshort, Id: i + 1, Title: item.Title, Link: item.Link})
 		}
-		fmt.Printf("源%s共获取到文章数为：%d，正在处理文章信息\n", sourceURLshort, len(articles))
-
+		
 	case "feed":
 		atomData, err := ParseAtom(Xmldata)
 
@@ -82,20 +81,15 @@ func ParseFeed(reader io.Reader, sourceURLshort string) ([]article.FeedArticle, 
 			return nil, err
 		}
 
-		var count int
-		count = 0
-
 		for i, entry := range atomData.Entries {
-			articles = append(articles, article.FeedArticle{Source: sourceURLshort, Id: i + 1, Title: entry.Title, Link: entry.Link.Href})
-			count = i + 1
+			Feedarticles = append(Feedarticles, article.FeedArticle{Source: sourceURLshort, Id: i + 1, Title: entry.Title, Link: entry.Link.Href})
 		}
-		fmt.Printf("源%s共获取到文章数为：%d，正在处理文章信息\n", sourceURLshort, count)
-
+		
 	default:
 		fmt.Println("未知格式")
 
 	}
-	return articles, err
+	return Feedarticles, err
 }
 
 func ParseRSS(Xmldata []byte) (RSS, error) {
