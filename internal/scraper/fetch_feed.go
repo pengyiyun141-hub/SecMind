@@ -12,7 +12,7 @@ import (
 	"sync"
 )
 
-func Fetch(sourceMap map[string]string) <-chan article.FeedArticle {
+func FetchFeed(sourceMap map[string]string) <-chan article.FeedArticle {
 	var wg sync.WaitGroup
 
 	ch := make(chan article.FeedArticle)

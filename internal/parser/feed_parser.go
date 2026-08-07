@@ -47,9 +47,7 @@ type Common struct {
 
 func ParseFeed(reader io.Reader, sourceURLshort string) ([]article.FeedArticle, error) {
 	var Xmldata []byte
-
 	Xmldata, err := io.ReadAll(reader)
-
 	if err != nil {
 		fmt.Println("失败：", err)
 		return nil, err
@@ -63,7 +61,6 @@ func ParseFeed(reader io.Reader, sourceURLshort string) ([]article.FeedArticle, 
 	switch common.XMLName.Local {
 	case "rss":
 		rssData, err := ParseRSS(Xmldata)
-
 		if err != nil {
 			fmt.Println("ParseRss失败：", err)
 			return nil, err
@@ -75,7 +72,6 @@ func ParseFeed(reader io.Reader, sourceURLshort string) ([]article.FeedArticle, 
 		
 	case "feed":
 		atomData, err := ParseAtom(Xmldata)
-
 		if err != nil {
 			fmt.Println("ParseAtom失败：", err)
 			return nil, err
