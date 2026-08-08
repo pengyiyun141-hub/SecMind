@@ -1,20 +1,40 @@
 package article
 
 import (
+	"encoding/json"
 	"fmt"
+	"os"
 	"path/filepath"
+	"sync"
 	"time"
 )
 
-func TitlePool (ch <-chan FeedArticle) (error) {
-	var inputPath string
-	fetchData := time.Now().Format("2006-01-02")
+type SourceManger struct {
+	workers map[string]chan FeedArticle
+	mu sync.Mutex
+}
 
-	for feedarticle := range ch {
-		inputPath = filepath.Join("data", "pool", feedarticle.Source, fetchData)
-		fmt.Fprintf(inputPath,,)  //遍历ch中的结构体写进对应的文件
-		//tomic.AddInt32(&counter, 1) 使用原子操作为特定源的ID计数
+func TitlePool (ch <-chan FeedArticle) (error) {
+	fetchData := time.Now().Format("2006-01-02")
+	sm := &SourceManger{
+		workers: make(map[string]chan FeedArticle),
 	}
-	
-		
+
+	for feedArticleTitle := range ch {
+		sm.mu.Lock()
+		sCH, exists := sm.workers[feedArticleTitle.Source]
+		sm.mu.Unlock()
+
+		if !exists {
+			newCH := make(chan FeedArticle, 10)
+			go func(source string, newCH chan FeedArticle) {
+				inputPath := filepath.Join("data", "pool", feedArticleTitle.Source, fetchData, ".jsonl")
+				
+				for art := range newCH {
+					fmt.Fprintf(inputPath, "%s%d-%s:%s", feedArticleTitle.Source, feedArticleTitle.Id, feedArticleTitle.Title, feedArticleTitle.Link)
+				}
+			}(feedArticleTitle.Source, newCH)
+		}
+	}
+			
 }

@@ -36,7 +36,7 @@ func main() {
 	for article := range scraper.Fetch(SecmindConfigs.Feedconfigs.SouceMap) {
 		xmlData_slice = append(xmlData_slice, article)
 	}*/
-	article.TitlePool(scraper.Fetch(SecmindConfigs.Feedconfigs.SouceMap))
+	article.TitlePool(scraper.FetchFeed(SecmindConfigs.Feedconfigs.SouceMap))
 
 	//l := len(xmlData_slice)
 
