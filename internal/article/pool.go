@@ -26,7 +26,10 @@ func TitlePool (ch <-chan FeedArticle) (error) {
 		sm.mu.Unlock()
 
 		if !exists {
-			newCH := make(chan FeedArticle, 10)
+			newCH := make(chan FeedArticle, 10)					
+			
+			sm.mu.Lock()
+			sm.workers[feedArticleTitle.Source] = newCH
 
 			go func(source string, newCH chan FeedArticle){
 				fetchData := time.Now().Format("2006-01-02") + ".jsonl"
@@ -45,12 +48,10 @@ func TitlePool (ch <-chan FeedArticle) (error) {
 
 				return
 			}(feedArticleTitle.Source, newCH)
-
-			sm.mu.Lock()
-			sm.workers[feedArticleTitle.Source] = newCH
 			sm.mu.Unlock()
 
-			newCH <- feedArticleTitle
+			targetCH = newCH
+			targetCH <- feedArticleTitle
 
 		}else {
 			targetCH <- feedArticleTitle
