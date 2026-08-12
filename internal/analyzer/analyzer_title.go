@@ -1,21 +1,22 @@
 package analyzer
 
 import (
+	/*"fmt"
 	"encoding/json"
-	"fmt"
+	
 	"log"
-	"os"
+	"os"*/
 	"secmind/internal/article"
-	"secmind/internal/scraper"
+	/*"secmind/internal/scraper"
 	"secmind/internal/storage"
 	"strings"
 
 	"github.com/joho/godotenv" //从文件中获取环境变量用
-	"gopkg.in/yaml.v3"         //yaml格式处理
+	"gopkg.in/yaml.v3"     */   //yaml格式处理
 )
 
-func AnalyzeByAI(articles []article.FeedArticle, soureceMap map[string]string, articleIndex map[string]*article.Article) {
-
+func AnalyzeByAI(articles []article.FeedArticle, soureceMap map[string]string){//, articleIndex map[string]*article.Article) {
+/*
 	//加载环境变量
 	err := godotenv.Load("configs/.env")
 	if err != nil {
@@ -199,8 +200,9 @@ func LoadModelConfigByName(yamlPath, modelName string) (*ModelSpec, error) {
 			return &wrapper.Models[i], nil
 		}
 	}
+*/
+	//return nil, fmt.Errorf("model %s not found", modelName)
 
-	return nil, fmt.Errorf("model %s not found", modelName)
 }
 
 

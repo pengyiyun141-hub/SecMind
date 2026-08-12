@@ -25,7 +25,7 @@ func SaveArticleToMD(htmldata string, articleinfo article.ScreenedArticle) (stri
 	
 	//暂时用这种笨方法，重构时必须修改此段代码
 	var selectedArticle article.FeedArticle
-	selectedArticle.Filename = articleinfo.ArticleName
+	selectedArticle.Description = articleinfo.ArticleName
 
-	return selectedArticle.Filename
+	return selectedArticle.Description
 }

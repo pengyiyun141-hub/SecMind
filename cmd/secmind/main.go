@@ -37,20 +37,4 @@ func main() {
 		xmlData_slice = append(xmlData_slice, article)
 	}*/
 	article.TitlePool(scraper.FetchFeed(SecmindConfigs.Feedconfigs.SouceMap))
-
-	//l := len(xmlData_slice)
-
-	/*if l > 0 {
-		for _, article := range xmlData_slice {
-			fmt.Printf("标题 %d: %s\n[%s] 源:[%s]\n\n", article.Id, article.Title, article.Link, article.Source)
-		}
-	}*/
-
-	articleIndex := make(map[string]*article.FeedArticle)
-	for i := range xmlData_slice {
-		key := fmt.Sprintf("%s-%d", xmlData_slice[i].Source, xmlData_slice[i].Id)
-		articleIndex[key] = &xmlData_slice[i]
-	}
-	fmt.Println("")
-
 }

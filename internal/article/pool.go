@@ -1,13 +1,14 @@
 package article
 
 import (
+	"bufio"
 	"encoding/json"
 	"fmt"
+	"log"
 	"os"
 	"path/filepath"
 	"sync"
 	"time"
-	"log"
 )
 
 type SourceManger struct {
@@ -25,6 +26,9 @@ func TitlePool (ch <-chan FeedArticle) (error) {
 		targetCH, exists := sm.workers[feedArticleTitle.Source]
 		sm.mu.Unlock()
 
+		feedArticleTitle.ScmFid = fmt.Sprintf("%s-%d", feedArticleTitle.Source, feedArticleTitle.Id)
+		feedArticleTitle.FetchedAt = time.Now().UTC()
+
 		if !exists {
 			newCH := make(chan FeedArticle, 10)					
 			
@@ -32,8 +36,11 @@ func TitlePool (ch <-chan FeedArticle) (error) {
 			sm.workers[feedArticleTitle.Source] = newCH
 
 			go func(source string, newCH chan FeedArticle){
-				fetchData := time.Now().Format("2006-01-02") + ".jsonl"
-				inputPath := filepath.Join("data", "pool", source, fetchData)
+				fetchDate := time.Now().Format("2006-01-02") + ".jsonl"
+				inputPath := filepath.Join("internal", "data", "pool", source, fetchDate)
+				
+				timer := time.NewTimer(3 * time.Minute)
+				defer timer.Stop()
 
 				sourcejsonl, err := os.OpenFile(inputPath, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
 				if err != nil {
@@ -42,11 +49,32 @@ func TitlePool (ch <-chan FeedArticle) (error) {
 				}
 				defer sourcejsonl.Close()
 
-				for art := range newCH {
-					fmt.Fprintf(sourcejsonl, "%s%d-%s:%s", art.Source, art.Id, art.Title, art.Link)
-				}
+				for {
+					select {
+					case art, ok := <-newCH:
+						if !ok {
+							log.Printf("%s通道不存在", art.Source)
+							return
+						}
+						
+						bufioBufferWriter := bufio.NewWriter(sourcejsonl)
+						jsonEncoder := json.NewEncoder(bufioBufferWriter)
+						err := jsonEncoder.Encode(art)
+						if err != nil {
+							log.Printf("art按jsonl格式写入jsonEncoder失败\n")
+							return 
+						}
+						
+						bufioBufferWriter.Flush()
+						sourcejsonl.Sync()
 
-				return
+						timer.Reset(3 * time.Minute)
+
+					case <- timer.C:
+						sourcejsonl.Sync()
+						return
+					}
+				}
 			}(feedArticleTitle.Source, newCH)
 			sm.mu.Unlock()
 

@@ -88,7 +88,7 @@ func (client *Client)CallAiApi(userInput string) ([]byte, error) {
 
 	chatrequestJsonData, err := json.Marshal(chatrequest)
 	if err != nil {
-		return nil, fmt.Errorf("CallAiApi请求体解析json格式失败", err)
+		return nil, fmt.Errorf("CallAiApi请求体解析json格式失败：%w", err)
 	}
 
 	reqclient := client.httpClient
