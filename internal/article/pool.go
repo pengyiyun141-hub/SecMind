@@ -22,68 +22,79 @@ func TitlePool (ch <-chan FeedArticle) (error) {
 	}
 
 	for feedArticleTitle := range ch {
-		sm.mu.Lock()
-		targetCH, exists := sm.workers[feedArticleTitle.Source]
-		sm.mu.Unlock()
 
 		feedArticleTitle.ScmFid = fmt.Sprintf("%s-%d", feedArticleTitle.Source, feedArticleTitle.Id)
 		feedArticleTitle.FetchedAt = time.Now().UTC()
 
-		if !exists {
-			newCH := make(chan FeedArticle, 10)					
-			
-			sm.mu.Lock()
-			sm.workers[feedArticleTitle.Source] = newCH
+		target := sm.getOrCreateWorker(feedArticleTitle.Source)
+		target <- feedArticleTitle
+	}
+	return nil
+}
 
-			go func(source string, newCH chan FeedArticle){
-				fetchDate := time.Now().Format("2006-01-02") + ".jsonl"
-				inputPath := filepath.Join("internal", "data", "pool", source, fetchDate)
+func (sm *SourceManger)getOrCreateWorker(source string)(chan FeedArticle){
+	
+	sm.mu.Lock()
+	targetCH, exists := sm.workers[source]
+
+	if !exists {
+		newCH := make(chan FeedArticle, 10)					
+		sm.workers[source] = newCH
+		targetCH = newCH
+	}
+	sm.mu.Unlock()
+
+	if !exists{
+		go func(source string, newCH chan FeedArticle){
+			fetchDate := time.Now().Format("2006-01-02") + ".jsonl"
+			inputPath := filepath.Join("internal", "data", "pool", source, fetchDate)
 				
-				timer := time.NewTimer(3 * time.Minute)
-				defer timer.Stop()
+			timer := time.NewTimer(3 * time.Minute)
+			defer timer.Stop()
 
-				sourcejsonl, err := os.OpenFile(inputPath, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
-				if err != nil {
-					log.Printf("源%s.jsonl文件打开失败：%v", source, err)
-					return 
-				}
-				defer sourcejsonl.Close()
+			err := os.MkdirAll(filepath.Dir(inputPath), 0755)
+			if err != nil {
+				log.Printf("创建目录失败：%v", err)
+				return 
+			}
 
-				for {
-					select {
+			sourcejsonl, err := os.OpenFile(inputPath, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
+			if err != nil {
+				log.Printf("源%s.jsonl文件打开失败：%v", source, err)
+				return 
+			}
+			defer sourcejsonl.Close()
+
+			bufioBufferWriter := bufio.NewWriter(sourcejsonl)
+			jsonEncoder := json.NewEncoder(bufioBufferWriter)
+
+			for {
+				select {
 					case art, ok := <-newCH:
 						if !ok {
 							log.Printf("%s通道不存在", art.Source)
 							return
 						}
 						
-						bufioBufferWriter := bufio.NewWriter(sourcejsonl)
-						jsonEncoder := json.NewEncoder(bufioBufferWriter)
 						err := jsonEncoder.Encode(art)
 						if err != nil {
-							log.Printf("art按jsonl格式写入jsonEncoder失败\n")
-							return 
-						}
+						log.Printf("art按jsonl格式写入jsonEncoder失败\n")
+						return 
+					}
 						
-						bufioBufferWriter.Flush()
-						sourcejsonl.Sync()
-
-						timer.Reset(3 * time.Minute)
+					bufioBufferWriter.Flush()
+					sourcejsonl.Sync()
+					timer.Reset(3 * time.Minute)
 
 					case <- timer.C:
 						sourcejsonl.Sync()
 						return
 					}
-				}
-			}(feedArticleTitle.Source, newCH)
-			sm.mu.Unlock()
+			}
+		}(source, targetCH)
 
-			targetCH = newCH
-			targetCH <- feedArticleTitle
-
-		}else {
-			targetCH <- feedArticleTitle
-		}
-	}
-	return nil
+		return targetCH
+	}else{
+		return targetCH
+	}	
 }
