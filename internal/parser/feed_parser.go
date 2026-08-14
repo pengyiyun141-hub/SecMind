@@ -10,8 +10,11 @@ import (
 //RSS_parser
 
 type Item struct {
-	Title string `xml:"title"`
-	Link  string `xml:"link"`
+	Title 		string `xml:"title"`
+	Link  		string `xml:"link"`
+	Guid  		string `xml:"guid"`
+	PubDate		string `xml:"pubDate"`
+	Description string `xml:"description"`
 }
 
 type Channel struct {
@@ -19,7 +22,7 @@ type Channel struct {
 }
 
 type RSS struct {
-	XMLName xml.Name `xml:"rss"`
+	XMLName xml.Name `xml:"rss"` 
 	Channel Channel  `xml:"channel"`
 }
 
@@ -32,6 +35,7 @@ type AtomLink struct {
 type Entry struct {
 	Title string   `xml:"title"`
 	Link  AtomLink `xml:"link"`
+	Guid  string   `xml:"guid"`
 }
 
 type AtomFeed struct {

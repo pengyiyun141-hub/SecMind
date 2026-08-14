@@ -11,13 +11,13 @@ import (
 	"time"
 )
 
-type SourceManger struct {
+type SourceManager struct {
 	workers map[string]chan FeedArticle
 	mu sync.Mutex
 }
 
 func TitlePool (ch <-chan FeedArticle) (error) {
-	sm := &SourceManger{
+	sm := &SourceManager{
 		workers: make(map[string]chan FeedArticle),
 	}
 
@@ -32,7 +32,7 @@ func TitlePool (ch <-chan FeedArticle) (error) {
 	return nil
 }
 
-func (sm *SourceManger)getOrCreateWorker(source string)(chan FeedArticle){
+func (sm *SourceManager)getOrCreateWorker(source string)(chan FeedArticle){
 	
 	sm.mu.Lock()
 	targetCH, exists := sm.workers[source]
@@ -83,7 +83,6 @@ func (sm *SourceManger)getOrCreateWorker(source string)(chan FeedArticle){
 					}
 						
 					bufioBufferWriter.Flush()
-					sourcejsonl.Sync()
 					timer.Reset(3 * time.Minute)
 
 					case <- timer.C:
