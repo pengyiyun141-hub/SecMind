@@ -45,8 +45,8 @@ func FetchFeed(sourceMap map[string]string) <-chan article.FeedArticle {
 		}(realurl)
 	}
 	go func() {
-		wg.Wait() // ① 等待所有 goroutine 完成
-		close(ch) // ② 所有任务完成后关闭通道
+		wg.Wait() // 等待所有 goroutine 完成
+		close(ch) // 所有任务完成后关闭通道
 	}()
 	return ch
 }
