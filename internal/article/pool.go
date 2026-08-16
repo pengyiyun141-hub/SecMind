@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 )
-
+//新架构
 type SourceManager struct {
 	workers map[string]chan FeedArticle
 	mu      sync.Mutex
