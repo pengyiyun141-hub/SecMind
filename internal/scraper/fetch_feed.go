@@ -6,16 +6,18 @@ import (
 	//"io"
 	"log"
 	"net/http"
+
 	//"os"
+	"secmind/configs"
 	"secmind/internal/article"
 	"secmind/internal/parser"
 	"sync"
 )
 
-func FetchFeed(sourceMap map[string]string) <-chan article.FeedArticle {
+func FetchFeed(sourceMap map[string]*configs.SourceInfo) <-chan article.FeedArticle {
 	var wg sync.WaitGroup
 
-	ch := make(chan article.FeedArticle)
+	ch := make(chan article.FeedArticle, 10)
 
 	for shortsource, realurl := range sourceMap {
 		wg.Add(1)
@@ -26,7 +28,7 @@ func FetchFeed(sourceMap map[string]string) <-chan article.FeedArticle {
 
 			resp, err := http.Get(url)
 			if err != nil {
-				log.Printf("请求失败:[URL]: %s, %s", realurl, err)
+				log.Printf("请求失败:[URL]: %s, %s", realurl.URL, err)
 				return
 			}
 
@@ -42,7 +44,7 @@ func FetchFeed(sourceMap map[string]string) <-chan article.FeedArticle {
 			for _, article := range xmlData {
 				ch <- article
 			}
-		}(realurl)
+		}(realurl.URL)
 	}
 	go func() {
 		wg.Wait() // 等待所有 goroutine 完成

@@ -11,31 +11,31 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
-//所有配置
-type SecmindConfigs struct{
-	Aiconfigs		*AiConfigs
-	Feedconfigs     *FeedConfigs 
+// 所有配置
+type SecmindConfigs struct {
+	Aiconfigs   *AiConfigs
+	Feedconfigs *FeedConfigs
 }
 
-//AI配置
-type AiConfigs struct{
-	Apiinfo		map[string]*ApiInfo
-	Promptinfo	map[string]*PromptInfo
-	Modelinfo	map[string]*ModelInfo
+// AI配置
+type AiConfigs struct {
+	Apiinfo    map[string]*ApiInfo
+	Promptinfo map[string]*PromptInfo
+	Modelinfo  map[string]*ModelInfo
 }
 
-type ApiInfo struct{		//注意该结构体暂时没用到，Api的相关信息直接被填入model中了。
-	Baseurl		string
-	Modelname	string
-	Apikey		string
+type ApiInfo struct { //注意该结构体暂时没用到，Api的相关信息直接被填入model中了。
+	Baseurl   string
+	Modelname string
+	Apikey    string
 }
 
-type PromptInfo struct{
-	System		string
-	User		string
+type PromptInfo struct {
+	System string
+	User   string
 }
 
-type ModelInfo struct{
+type ModelInfo struct {
 	Name             string   `yaml:"name"`
 	APIKeyEnv        string   `yaml:"api_key_env"`
 	BaseURLEnv       string   `yaml:"base_url_env"`
@@ -56,26 +56,46 @@ type ModelInfo struct{
 	ExtraBody        map[string]interface{} `yaml:"extra_body"`
 }
 
-
-//Feed配置
-type FeedConfigs struct{
-	SouceMap map[string]string
+// Feed配置
+type FeedConfigs struct {
+	SourceInfoMap map[string]*SourceInfo
 }
 
-//LoadAllConfigs()是基础模块，其执行失败则整个程序没有往后执行的必要。
-func LoadAllConfigs() (*SecmindConfigs, error){
+type SourceInfo struct {
+	SourceName string `json:"SourceName"`
+	URL        string `json:"URL"`
+	Type       string `json:"Type"`
+	Schedule   string `json:"Schedule"`
+	LastFetch  string `json:"LastFetch"`
+	Enabled    bool   `json:"Enabled"`
+}
+
+// LoadAllConfigs()是基础模块，其执行失败则整个程序没有往后执行的必要。
+func LoadAllConfigs() (*SecmindConfigs, error) {
 	SecCfgs := &SecmindConfigs{
 		Feedconfigs: &FeedConfigs{},
-		Aiconfigs: nil,
+		Aiconfigs:   nil,
 	}
 
 	var err error
-	SecCfgs.Feedconfigs.SouceMap, err = LoadFeedConfig("configs/sourceMap.json")
+
+	FeedConfigsSourceInfoFilesPath := filepath.Join("configs", "sourceinfo", "*.json")
+	FeedConfigsFiles, err := filepath.Glob(FeedConfigsSourceInfoFilesPath)
 	if err != nil {
-		return nil, fmt.Errorf("LoadFeedConfig()执行失败：%w\n", err)
+		return nil, fmt.Errorf("LoadFeedConfig(),FeedConfigsFiles文件获取失败：%w\n", err)
 	}
 
-	SecCfgs.Aiconfigs, err = LoadAiConfig("configs/")
+	sourceinfomap := make(map[string]*SourceInfo) 
+	for _, FeedConfigsFile := range FeedConfigsFiles {
+		sourceinfo, err := LoadFeedConfig(FeedConfigsFile)
+		if err != nil {
+			return nil, fmt.Errorf("文件%s:LoadFeedConfig()执行失败：%w\n", FeedConfigsFile, err)
+		}
+		sourceinfomap[sourceinfo.SourceName] = sourceinfo
+	}
+	SecCfgs.Feedconfigs.SourceInfoMap = sourceinfomap
+
+	SecCfgs.Aiconfigs, err = LoadAiConfig(filepath.Join("configs"))
 	if err != nil {
 		return nil, fmt.Errorf("LoadAiConfig()执行失败：%w\n", err)
 	}
@@ -84,26 +104,26 @@ func LoadAllConfigs() (*SecmindConfigs, error){
 }
 
 func LoadAiConfig(baseDir string) (*AiConfigs, error) {
-	airole := &AiConfigs {
+	airole := &AiConfigs{
 		Modelinfo:  make(map[string]*ModelInfo),
-        Promptinfo: make(map[string]*PromptInfo),
-        Apiinfo:    make(map[string]*ApiInfo),
+		Promptinfo: make(map[string]*PromptInfo),
+		Apiinfo:    make(map[string]*ApiInfo),
 	}
 	//先加载model文件
 	yamlfile, err := os.ReadFile(filepath.Join(baseDir, "model.yaml"))
-    if err != nil {
-        return nil, fmt.Errorf("读取 model.yaml 失败: %w", err)
-    }
+	if err != nil {
+		return nil, fmt.Errorf("读取 model.yaml 失败: %w", err)
+	}
 
 	var modeldata struct {
-		Models	[]ModelInfo	`yaml:"models"`
+		Models []ModelInfo `yaml:"models"`
 	}
-	err = yaml.Unmarshal(yamlfile, &modeldata) 
+	err = yaml.Unmarshal(yamlfile, &modeldata)
 	//fmt.Printf("yaml:%s", string(yamlfile))
 
 	//加载api信息
 	godotenv.Load(filepath.Join(baseDir, ".env"))
-	for i := range modeldata.Models{
+	for i := range modeldata.Models {
 		role := &modeldata.Models[i]
 		role.ModelName = os.Getenv(role.ModelNameEnv)
 		role.BaseURL = os.Getenv(role.BaseURLEnv)
@@ -116,7 +136,7 @@ func LoadAiConfig(baseDir string) (*AiConfigs, error) {
 	return airole, err
 }
 
-func LoadFeedConfig(source_file_path string) (map[string]string, error) {
+func LoadFeedConfig(source_file_path string) (*SourceInfo, error) {
 
 	map_file, err := os.Open(source_file_path)
 	if err != nil {
@@ -129,10 +149,10 @@ func LoadFeedConfig(source_file_path string) (map[string]string, error) {
 		return nil, fmt.Errorf("从map_file中加载内容失败：%w", err)
 	}
 
-	var sourceMap map[string]string
-	err = json.Unmarshal(map_file_data, &sourceMap)
+	sourceinfo := &SourceInfo{}
+	err = json.Unmarshal(map_file_data, sourceinfo)
 
-	return sourceMap, err
+	return sourceinfo, err
 }
 
 func LoadAllPrompt(promptDir string) (map[string]*PromptInfo, error) {
@@ -142,18 +162,18 @@ func LoadAllPrompt(promptDir string) (map[string]*PromptInfo, error) {
 	}
 
 	promptMap := make(map[string]*PromptInfo)
-	
+
 	for _, dir := range dirs {
 		if !dir.IsDir() {
 			continue
 		}
-	
+
 		sysprompt, _ := os.ReadFile(filepath.Join(promptDir, dir.Name(), "system.txt"))
 		usrprompt, _ := os.ReadFile(filepath.Join(promptDir, dir.Name(), "user.txt"))
 
 		promptMap[dir.Name()] = &PromptInfo{
 			System: string(sysprompt),
-			User: string(usrprompt),
+			User:   string(usrprompt),
 		}
 	}
 	return promptMap, err
