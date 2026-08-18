@@ -15,6 +15,7 @@ import (
 type SecmindConfigs struct {
 	Aiconfigs   *AiConfigs
 	Feedconfigs *FeedConfigs
+	Poolconfigs *PoolConfigs
 }
 
 // AI配置
@@ -70,6 +71,10 @@ type SourceInfo struct {
 	Enabled    bool   `json:"Enabled"`
 }
 
+type PoolConfigs struct {
+	DataDir	string	`json:"DataDir"`
+}
+
 // LoadAllConfigs()是基础模块，其执行失败则整个程序没有往后执行的必要。
 func LoadAllConfigs() (*SecmindConfigs, error) {
 	SecCfgs := &SecmindConfigs{
@@ -99,6 +104,8 @@ func LoadAllConfigs() (*SecmindConfigs, error) {
 	if err != nil {
 		return nil, fmt.Errorf("LoadAiConfig()执行失败：%w\n", err)
 	}
+
+	SecCfgs.Poolconfigs, err = LoadPoolConfig(filepath.Join("configs", "pool.json"))
 
 	return SecCfgs, err
 }
@@ -136,23 +143,38 @@ func LoadAiConfig(baseDir string) (*AiConfigs, error) {
 	return airole, err
 }
 
-func LoadFeedConfig(source_file_path string) (*SourceInfo, error) {
+func LoadFeedConfig(sourceInfoFilePath string) (*SourceInfo, error) {
 
-	map_file, err := os.Open(source_file_path)
+	map_file, err := os.Open(sourceInfoFilePath)
 	if err != nil {
-		return nil, fmt.Errorf("源映射文件加载失败：%w", err)
+		return nil, fmt.Errorf("源映射文件加载失败:%w", err)
 	}
 	defer map_file.Close()
 
 	map_file_data, err := io.ReadAll(map_file)
 	if err != nil {
-		return nil, fmt.Errorf("从map_file中加载内容失败：%w", err)
+		return nil, fmt.Errorf("从map_file中加载内容失败:%w", err)
 	}
 
 	sourceinfo := &SourceInfo{}
 	err = json.Unmarshal(map_file_data, sourceinfo)
 
 	return sourceinfo, err
+}
+
+func LoadPoolConfig(poolConfigPath string) (*PoolConfigs, error) {
+	configdata, err := os.ReadFile(poolConfigPath)
+	if err != nil {
+		return nil, fmt.Errorf("[err]poolConfig文件加载失败:%w", err)
+	}
+
+	poolconfig := &PoolConfigs{}
+	err = json.Unmarshal(configdata, &poolconfig)
+	if err != nil {
+		return nil, fmt.Errorf("[err]poolConfig解析失败:%w", err)
+	}
+
+	return poolconfig, nil
 }
 
 func LoadAllPrompt(promptDir string) (map[string]*PromptInfo, error) {

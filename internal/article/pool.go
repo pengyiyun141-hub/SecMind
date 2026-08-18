@@ -9,11 +9,27 @@ import (
 	"path/filepath"
 	"sync"
 	"time"
+	"secmind/configs"
 )
 //新架构
+
+type Pool struct {
+	wg 		sync.WaitGroup
+	poolCfg	*configs.PoolConfigs
+}
+
 type SourceManager struct {
 	workers map[string]chan FeedArticle
 	mu      sync.Mutex
+}
+
+func NewPool(poolCfg *configs.PoolConfigs) (*Pool, error) {
+	pool := &Pool{
+		poolCfg: poolCfg,
+		wg: sync.WaitGroup{},
+	}
+	
+	return pool, nil
 }
 
 var wg sync.WaitGroup

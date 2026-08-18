@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"secmind/internal/article"
+	"secmind/configs"
 )
 
 //RSS_parser
@@ -49,7 +50,7 @@ type Common struct {
 	XMLName xml.Name
 }
 
-func ParseFeed(reader io.Reader, sourceURLshort string) ([]article.FeedArticle, error) {
+func ParseFeed(reader io.Reader, sourceInfo *configs.SourceInfo) ([]article.FeedArticle, error) {
 	var Xmldata []byte
 	Xmldata, err := io.ReadAll(reader)
 	if err != nil {
@@ -71,7 +72,7 @@ func ParseFeed(reader io.Reader, sourceURLshort string) ([]article.FeedArticle, 
 		}
 
 		for i, item := range rssData.Channel.Items {
-			Feedarticles = append(Feedarticles, article.FeedArticle{Source: sourceURLshort, Id: i + 1, Title: item.Title, Link: item.Link})
+			Feedarticles = append(Feedarticles, article.FeedArticle{Source: sourceInfo.SourceName, Id: i + 1, Title: item.Title, Link: item.Link})
 		}
 		
 	case "feed":
@@ -82,7 +83,7 @@ func ParseFeed(reader io.Reader, sourceURLshort string) ([]article.FeedArticle, 
 		}
 
 		for i, entry := range atomData.Entries {
-			Feedarticles = append(Feedarticles, article.FeedArticle{Source: sourceURLshort, Id: i + 1, Title: entry.Title, Link: entry.Link.Href})
+			Feedarticles = append(Feedarticles, article.FeedArticle{Source: sourceInfo.SourceName, Id: i + 1, Title: entry.Title, Link: entry.Link.Href})
 		}
 		
 	default:

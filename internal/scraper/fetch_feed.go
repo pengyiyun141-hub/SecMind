@@ -1,21 +1,30 @@
 package scraper
 
 import (
-	//"encoding/json"
 	"fmt"
-	//"io"
-	"log"
 	"net/http"
-
-	//"os"
 	"secmind/configs"
 	"secmind/internal/article"
 	"secmind/internal/parser"
-	"sync"
 )
 
-func FetchFeed(sourceMap map[string]*configs.SourceInfo) <-chan article.FeedArticle {
-	var wg sync.WaitGroup
+func FetchFeed(sourceInfo *configs.SourceInfo) ([]article.FeedArticle, error) {
+	resp, err := http.Get(sourceInfo.URL)
+	if err != nil {
+		return nil, fmt.Errorf("[err]URL请求失败:%s, %w", sourceInfo.URL, err)
+	}
+
+	defer resp.Body.Close()
+
+	xmlData, err := parser.ParseFeed(resp.Body, sourceInfo)
+	if err != nil {
+		return nil, fmt.Errorf("[err]源解析失败:%s, %w", sourceInfo.SourceName, err)
+	}
+
+	return xmlData, nil
+}
+
+/*var wg sync.WaitGroup
 
 	ch := make(chan article.FeedArticle, 10)
 
@@ -51,27 +60,5 @@ func FetchFeed(sourceMap map[string]*configs.SourceInfo) <-chan article.FeedArti
 		close(ch) // 所有任务完成后关闭通道
 	}()
 	return ch
-}
-
-/*
-func LoadSourceMap(source_file_path string) (map[string]string, error) {
-
-	map_file, err := os.Open(source_file_path)
-	if err != nil {
-		log.Printf("源映射文件加载失败:%s", err)
-		return nil, err
-	}
-	defer map_file.Close()
-
-	map_file_data, err := io.ReadAll(map_file)
-	if err != nil {
-		log.Printf("从map_file中加载内容失败:%s", err)
-		return nil, err
-	}
-
-	var sourceMap map[string]string
-	err = json.Unmarshal(map_file_data, &sourceMap)
-
-	return sourceMap, err
 }
 */
