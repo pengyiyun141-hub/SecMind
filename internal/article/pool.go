@@ -13,9 +13,15 @@ import (
 )
 //新架构
 
-type Pool struct {
-	wg 		sync.WaitGroup
-	poolCfg	*configs.PoolConfigs
+type TitlePool struct {
+	titlePoolWg 	sync.WaitGroup
+	poolCfg		*configs.PoolConfigs
+}
+
+type FeedTitleJob struct {
+	TitlePoolCfg			*configs.PoolConfigs
+	SourceInfo		*configs.SourceInfo
+	FeedArticles	[]FeedArticle
 }
 
 type SourceManager struct {
@@ -23,99 +29,67 @@ type SourceManager struct {
 	mu      sync.Mutex
 }
 
-func NewPool(poolCfg *configs.PoolConfigs) (*Pool, error) {
-	pool := &Pool{
+func NewPool(poolCfg *configs.PoolConfigs) (*TitlePool, error) {
+	TitlePool := &TitlePool{
 		poolCfg: poolCfg,
-		wg: sync.WaitGroup{},
+		titlePoolWg: sync.WaitGroup{},
 	}
 	
-	return pool, nil
+	return TitlePool, nil
 }
 
-var wg sync.WaitGroup
+func (TitlePool *TitlePool) Process(SourceInfo *configs.SourceInfo, FeedArticles []FeedArticle) (int, error) {
+	TitlePool.titlePoolWg.Add(1)
 
-func TitlePool(workerCH <-chan FeedArticle) error {
-	sm := &SourceManager{
-		workers: make(map[string]chan FeedArticle),
+	FeedTitleJob := &FeedTitleJob{
+		TitlePoolCfg: TitlePool.poolCfg,
+		SourceInfo: SourceInfo,
+		FeedArticles: FeedArticles,
 	}
 
-	for feedArticleTitle := range workerCH {
+	go func() {
+		defer TitlePool.titlePoolWg.Done()
+		err := TitlePool.Persist(FeedTitleJob)
+		if err != nil {
+			log.Printf("")		//暂时没想好写什么
+		}
+	}()
+	TitlePool.titlePoolWg.Wait()
+	return len(FeedArticles), nil
+}  
 
+func (TitlePool *TitlePool)Persist(FeedTitleJob *FeedTitleJob) (error) {
+	fetchDate := time.Now().Format("2006-01-02") + ".jsonl"
+	inputPath := filepath.Join(TitlePool.poolCfg.DataDir, FeedTitleJob.SourceInfo.SourceName,fetchDate)
+
+	err := os.MkdirAll(filepath.Dir(inputPath), 0755)
+	if err != nil {
+		log.Printf("创建目录失败：%v", err)
+		return nil
+	}
+
+	sourcejsonl, err := os.OpenFile(inputPath, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
+	if err != nil {
+		log.Printf("源%s.jsonl文件打开失败：%v", FeedTitleJob.SourceInfo.SourceName, err)
+		return nil
+	}
+	defer sourcejsonl.Close()
+	
+	bufioBufferWriter := bufio.NewWriter(sourcejsonl)
+	jsonEncoder := json.NewEncoder(bufioBufferWriter)
+
+	for _, feedArticleTitle := range FeedTitleJob.FeedArticles {
 		feedArticleTitle.ScmFid = fmt.Sprintf("%s-%d", feedArticleTitle.Source, feedArticleTitle.Id)
 		feedArticleTitle.FetchedAt = time.Now().UTC()
 
-		target := sm.getOrCreateWorker(feedArticleTitle.Source)
-		target <- feedArticleTitle
-	}
+		err := jsonEncoder.Encode(feedArticleTitle)
+		if err != nil {
+			log.Printf("[err]%s-%d条目写入失败\n", feedArticleTitle.Source, feedArticleTitle.Id)
+		}
 
-	wg.Wait()
+		bufioBufferWriter.Flush()
+	}
+	sourcejsonl.Sync()
+
 	return nil
-}
-
-func (sm *SourceManager) getOrCreateWorker(source string) chan FeedArticle {
-
-	sm.mu.Lock()
-	targetCH, exists := sm.workers[source]
-
-	if !exists {
-		newCH := make(chan FeedArticle, 10)
-		sm.workers[source] = newCH
-		targetCH = newCH
-		wg.Add(1)
-	}
-	sm.mu.Unlock()
-
-	if !exists {
-		go func(source string, newCH chan FeedArticle) {
-			fetchDate := time.Now().Format("2006-01-02") + ".jsonl"
-			inputPath := filepath.Join("internal", "data", "pool", source, fetchDate)
-
-			timer := time.NewTimer(3 * time.Minute)
-			defer timer.Stop()
-
-			err := os.MkdirAll(filepath.Dir(inputPath), 0755)
-			if err != nil {
-				log.Printf("创建目录失败：%v", err)
-				return
-			}
-
-			sourcejsonl, err := os.OpenFile(inputPath, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
-			if err != nil {
-				log.Printf("源%s.jsonl文件打开失败：%v", source, err)
-				return
-			}
-			defer sourcejsonl.Close()
-
-			bufioBufferWriter := bufio.NewWriter(sourcejsonl)
-			jsonEncoder := json.NewEncoder(bufioBufferWriter)
-
-			for {
-				select {
-				case art, ok := <-newCH:
-					if !ok {
-						log.Printf("%s通道不存在", art.Source)
-						return
-					}
-
-					err := jsonEncoder.Encode(art)
-					if err != nil {
-						log.Printf("art按jsonl格式写入jsonEncoder失败\n")
-						return
-					}
-
-					bufioBufferWriter.Flush()
-					timer.Reset(3 * time.Minute)
-
-				case <-timer.C:
-					sourcejsonl.Sync()
-					wg.Done()
-					return
-				}
-			}
-		}(source, targetCH)
-
-		return targetCH
-	} else {
-		return targetCH
-	}
 }
