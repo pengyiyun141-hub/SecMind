@@ -5,7 +5,6 @@ import (
 	"log"
 	"secmind/configs"
 	"secmind/internal/article"
-	"secmind/internal/scraper"
 )
 
 func main() {
@@ -13,6 +12,11 @@ func main() {
 	SecmindConfigs, err := configs.LoadAllConfigs()
 	if err != nil {
 		log.Fatalf("初始配置加载失败：%v", err)
+	}
+
+	TitlePool, err:= article.NewPool(SecmindConfigs.Poolconfigs)
+	if err != nil {
+		log.Fatalf("NewPool创建失败：%w", err)
 	}
 
 	//测试结构体变量存储情况。
@@ -36,5 +40,5 @@ func main() {
 	for article := range scraper.Fetch(SecmindConfigs.Feedconfigs.SouceMap) {
 		xmlData_slice = append(xmlData_slice, article)
 	}*/
-	article.TitlePool(scraper.FetchFeed(SecmindConfigs.Feedconfigs.SourceInfoMap))
+	TitlePool.Close()	
 }

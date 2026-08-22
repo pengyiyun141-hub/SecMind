@@ -13,8 +13,8 @@ import (
 )
 //新架构
 
-type TitlePool struct {
-	titlePoolWg 	sync.WaitGroup
+type FeedTitlePool struct {
+	feedtitlePoolWg 	sync.WaitGroup
 	poolCfg		*configs.PoolConfigs
 }
 
@@ -29,36 +29,36 @@ type SourceManager struct {
 	mu      sync.Mutex
 }
 
-func NewPool(poolCfg *configs.PoolConfigs) (*TitlePool, error) {
-	TitlePool := &TitlePool{
+func NewPool(poolCfg *configs.PoolConfigs) (*FeedTitlePool, error) {
+	TitlePool := &FeedTitlePool{
 		poolCfg: poolCfg,
-		titlePoolWg: sync.WaitGroup{},
+		feedtitlePoolWg: sync.WaitGroup{},
 	}
 	
 	return TitlePool, nil
 }
 
-func (TitlePool *TitlePool) Process(SourceInfo *configs.SourceInfo, FeedArticles []FeedArticle) (int, error) {
-	TitlePool.titlePoolWg.Add(1)
+func (FeedTitlePool *FeedTitlePool) Process(SourceInfo *configs.SourceInfo, FeedArticles []FeedArticle) (int, error) {
+	FeedTitlePool.feedtitlePoolWg.Add(1)
 
 	FeedTitleJob := &FeedTitleJob{
-		TitlePoolCfg: TitlePool.poolCfg,
+		TitlePoolCfg: FeedTitlePool.poolCfg,
 		SourceInfo: SourceInfo,
 		FeedArticles: FeedArticles,
 	}
 
 	go func() {
-		defer TitlePool.titlePoolWg.Done()
-		err := TitlePool.Persist(FeedTitleJob)
+		defer FeedTitlePool.feedtitlePoolWg.Done()
+		err := FeedTitlePool.Persist(FeedTitleJob)
 		if err != nil {
 			log.Printf("")		//暂时没想好写什么
 		}
 	}()
-	TitlePool.titlePoolWg.Wait()
+	FeedTitlePool.feedtitlePoolWg.Wait()
 	return len(FeedArticles), nil
 }  
 
-func (TitlePool *TitlePool)Persist(FeedTitleJob *FeedTitleJob) (error) {
+func (TitlePool *FeedTitlePool)Persist(FeedTitleJob *FeedTitleJob) (error) {
 	fetchDate := time.Now().Format("2006-01-02") + ".jsonl"
 	inputPath := filepath.Join(TitlePool.poolCfg.DataDir, FeedTitleJob.SourceInfo.SourceName,fetchDate)
 
@@ -92,4 +92,8 @@ func (TitlePool *TitlePool)Persist(FeedTitleJob *FeedTitleJob) (error) {
 	sourcejsonl.Sync()
 
 	return nil
+}
+
+func (TitlePool *FeedTitlePool)Close() {
+	TitlePool.feedtitlePoolWg.Wait()
 }
