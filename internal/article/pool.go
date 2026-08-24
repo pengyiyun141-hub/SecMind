@@ -19,7 +19,7 @@ type FeedTitlePool struct {
 }
 
 type FeedTitleJob struct {
-	TitlePoolCfg			*configs.PoolConfigs
+	TitlePoolCfg	*configs.PoolConfigs
 	SourceInfo		*configs.SourceInfo
 	FeedArticles	[]FeedArticle
 }
@@ -38,7 +38,7 @@ func NewPool(poolCfg *configs.PoolConfigs) (*FeedTitlePool, error) {
 	return TitlePool, nil
 }
 
-func (FeedTitlePool *FeedTitlePool) Process(SourceInfo *configs.SourceInfo, FeedArticles []FeedArticle) (int, error) {
+func (FeedTitlePool *FeedTitlePool)Process(SourceInfo *configs.SourceInfo, FeedArticles []FeedArticle) (int, error) {
 	FeedTitlePool.feedtitlePoolWg.Add(1)
 
 	FeedTitleJob := &FeedTitleJob{
