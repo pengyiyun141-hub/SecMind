@@ -9,12 +9,12 @@ import (
 )
 
 type FeedScheduler struct {
-	SourceInfoMap	map[string]*configs.SourceInfo
-	FeedTitlePool	*article.FeedTitlePool
-	BaseScheduler	BaseScheduler
+	SourceInfoMap map[string]*configs.SourceInfo
+	FeedTitlePool *article.FeedTitlePool
+	BaseScheduler BaseScheduler
 }
 
-func NewFeedScheduler(SourceInfoMap map[string]*configs.SourceInfo, FeedTitlePool *article.FeedTitlePool) (*FeedScheduler) {
+func NewFeedScheduler(SourceInfoMap map[string]*configs.SourceInfo, FeedTitlePool *article.FeedTitlePool) *FeedScheduler {
 	feedScheduler := &FeedScheduler{
 		SourceInfoMap: SourceInfoMap,
 		FeedTitlePool: FeedTitlePool,
@@ -24,7 +24,7 @@ func NewFeedScheduler(SourceInfoMap map[string]*configs.SourceInfo, FeedTitlePoo
 	return feedScheduler
 }
 
-func (FeedScheduler *FeedScheduler)Start() () {
+func (FeedScheduler *FeedScheduler) Start() {
 	for _, Source := range FeedScheduler.SourceInfoMap {
 		FeedScheduler.BaseScheduler.baseSchedulWg.Add(1)
 
@@ -33,11 +33,13 @@ func (FeedScheduler *FeedScheduler)Start() () {
 
 }
 
-func (SourceScheduler *FeedScheduler)sourceLoop(SourceInfo *configs.SourceInfo) () {
+func (SourceScheduler *FeedScheduler) sourceLoop(SourceInfo *configs.SourceInfo) {
 	defer SourceScheduler.BaseScheduler.baseSchedulWg.Done()
-	for{
-		select{
-		case <-time.After(1800):
+	ticker := time.NewTicker(5 * time.Second)
+
+	for {
+		select {
+		case <-ticker.C:
 			FeedTitleArts, err := scraper.FetchFeed(SourceInfo)
 			if err != nil {
 				log.Printf("源%s返回文章失败：%v", SourceInfo.SourceName, err)
@@ -47,7 +49,7 @@ func (SourceScheduler *FeedScheduler)sourceLoop(SourceInfo *configs.SourceInfo) 
 			SourceScheduler.FeedTitlePool.Process(SourceInfo, FeedTitleArts)
 
 		case <-SourceScheduler.BaseScheduler.ctx.Done():
-			return 
+			return
 		}
 	}
 }

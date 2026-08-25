@@ -3,6 +3,9 @@ package main
 import (
 	"fmt"
 	"log"
+	"os/signal"
+	"context"
+	"syscall"
 	"secmind/configs"
 	"secmind/internal/article"
 	"secmind/internal/scheduler"
@@ -15,7 +18,9 @@ func main() {
 		log.Fatalf("初始配置加载失败：%v", err)
 	}
 
-	FeedTitlePool, err:= article.NewPool(SecmindConfigs.Poolconfigs)
+	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt)
+
+	FeedTitlePool, err := article.NewPool(SecmindConfigs.Poolconfigs)
 	if err != nil {
 		log.Fatalf("NewPool创建失败：%v", err)
 	}
@@ -24,6 +29,7 @@ func main() {
 	FeedScheduler := scheduler.NewFeedScheduler(SecmindConfigs.Feedconfigs.SourceInfoMap, FeedTitlePool)
 	fmt.Printf("环境加载成功2，%s\n", FeedScheduler)
 	FeedScheduler.Start()
+	<-ctx.Done()
 
 	//测试结构体变量存储情况。
 
@@ -46,5 +52,6 @@ func main() {
 	for article := range scraper.Fetch(SecmindConfigs.Feedconfigs.SouceMap) {
 		xmlData_slice = append(xmlData_slice, article)
 	}*/
+	FeedScheduler.BaseScheduler.Stop()
 	FeedTitlePool.Close()
 }

@@ -54,7 +54,7 @@ func (FeedTitlePool *FeedTitlePool)Process(SourceInfo *configs.SourceInfo, FeedA
 			log.Printf("")		//暂时没想好写什么
 		}
 	}()
-	FeedTitlePool.feedtitlePoolWg.Wait()
+
 	return len(FeedArticles), nil
 }  
 

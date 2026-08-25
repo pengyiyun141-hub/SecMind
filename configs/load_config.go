@@ -72,7 +72,7 @@ type SourceInfo struct {
 }
 
 type PoolConfigs struct {
-	DataDir	string	`json:"DataDir"`
+	DataDir string `json:"DataDir"`
 }
 
 // LoadAllConfigs()是基础模块，其执行失败则整个程序没有往后执行的必要。
@@ -90,7 +90,7 @@ func LoadAllConfigs() (*SecmindConfigs, error) {
 		return nil, fmt.Errorf("LoadFeedConfig(),FeedConfigsFiles文件获取失败：%w\n", err)
 	}
 
-	sourceinfomap := make(map[string]*SourceInfo) 
+	sourceinfomap := make(map[string]*SourceInfo)
 	for _, FeedConfigsFile := range FeedConfigsFiles {
 		sourceinfo, err := LoadFeedConfig(FeedConfigsFile)
 		if err != nil {
