@@ -6,23 +6,19 @@ import (
 )
 
 type BaseScheduler struct {
-	ctx				context.Context
-	cancel 			context.CancelFunc
+	SignalCtx		context.Context
 	baseSchedulWg	sync.WaitGroup
 }
 
-func NewBaseScheduler() (*BaseScheduler) {
-	ctx, cancel := context.WithCancel(context.Background())
-	
+func NewBaseScheduler(SignalCtx context.Context) (*BaseScheduler) {
 	baseScheduler := &BaseScheduler{
-		ctx: ctx,
-		cancel: cancel,
+		SignalCtx: SignalCtx,
 		baseSchedulWg: sync.WaitGroup{},
 	}
 
 	return baseScheduler 
 }
 
-func (BaseScheduler *BaseScheduler)Stop() () {
-
+func (BaseScheduler *BaseScheduler) Close() () {
+	BaseScheduler.baseSchedulWg.Wait()
 }

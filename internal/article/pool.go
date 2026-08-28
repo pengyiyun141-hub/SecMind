@@ -38,7 +38,7 @@ func NewPool(poolCfg *configs.PoolConfigs) (*FeedTitlePool, error) {
 	return TitlePool, nil
 }
 
-func (FeedTitlePool *FeedTitlePool)Process(SourceInfo *configs.SourceInfo, FeedArticles []FeedArticle) (int, error) {
+func (FeedTitlePool *FeedTitlePool) Process(SourceInfo *configs.SourceInfo, FeedArticles []FeedArticle) (int, error) {
 	FeedTitlePool.feedtitlePoolWg.Add(1)
 
 	FeedTitleJob := &FeedTitleJob{
@@ -58,7 +58,7 @@ func (FeedTitlePool *FeedTitlePool)Process(SourceInfo *configs.SourceInfo, FeedA
 	return len(FeedArticles), nil
 }  
 
-func (TitlePool *FeedTitlePool)Persist(FeedTitleJob *FeedTitleJob) (error) {
+func (TitlePool *FeedTitlePool) Persist(FeedTitleJob *FeedTitleJob) (error) {
 	fetchDate := time.Now().Format("2006-01-02") + ".jsonl"
 	inputPath := filepath.Join(TitlePool.poolCfg.DataDir, FeedTitleJob.SourceInfo.SourceName,fetchDate)
 
@@ -94,6 +94,6 @@ func (TitlePool *FeedTitlePool)Persist(FeedTitleJob *FeedTitleJob) (error) {
 	return nil
 }
 
-func (TitlePool *FeedTitlePool)Close() {
+func (TitlePool *FeedTitlePool) Close() {
 	TitlePool.feedtitlePoolWg.Wait()
 }

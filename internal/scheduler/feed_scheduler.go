@@ -1,6 +1,7 @@
 package scheduler
 
 import (
+	"context"
 	"log"
 	"secmind/configs"
 	"secmind/internal/article"
@@ -14,11 +15,11 @@ type FeedScheduler struct {
 	BaseScheduler BaseScheduler
 }
 
-func NewFeedScheduler(SourceInfoMap map[string]*configs.SourceInfo, FeedTitlePool *article.FeedTitlePool) *FeedScheduler {
+func NewFeedScheduler(SourceInfoMap map[string]*configs.SourceInfo, SignalCtx context.Context, FeedTitlePool *article.FeedTitlePool) *FeedScheduler {
 	feedScheduler := &FeedScheduler{
 		SourceInfoMap: SourceInfoMap,
 		FeedTitlePool: FeedTitlePool,
-		BaseScheduler: *NewBaseScheduler(),
+		BaseScheduler: *NewBaseScheduler(SignalCtx),
 	}
 
 	return feedScheduler
@@ -35,7 +36,9 @@ func (FeedScheduler *FeedScheduler) Start() {
 
 func (SourceScheduler *FeedScheduler) sourceLoop(SourceInfo *configs.SourceInfo) {
 	defer SourceScheduler.BaseScheduler.baseSchedulWg.Done()
-	ticker := time.NewTicker(5 * time.Second)
+
+	ticker := time.NewTicker(60 * time.Second)
+	defer ticker.Stop()
 
 	for {
 		select {
@@ -48,8 +51,12 @@ func (SourceScheduler *FeedScheduler) sourceLoop(SourceInfo *configs.SourceInfo)
 
 			SourceScheduler.FeedTitlePool.Process(SourceInfo, FeedTitleArts)
 
-		case <-SourceScheduler.BaseScheduler.ctx.Done():
+		case <-SourceScheduler.BaseScheduler.SignalCtx.Done():
 			return
 		}
 	}
+}
+
+func (SourceScheduler *FeedScheduler) Close() {
+	SourceScheduler.BaseScheduler.Close()
 }

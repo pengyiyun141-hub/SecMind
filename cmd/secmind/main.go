@@ -12,26 +12,25 @@ import (
 )
 
 func main() {
+	SecmindSignalCtx, SecmindSignalCtxStop := signal.NotifyContext(context.Background(), os.Interrupt)
+	defer SecmindSignalCtxStop()
+
 	fmt.Println("开始加载环境")
 	SecmindConfigs, err := configs.LoadAllConfigs()
 	if err != nil {
 		log.Fatalf("初始配置加载失败：%v", err)
 	}
 
-	ctx, _ := signal.NotifyContext(context.Background(), os.Interrupt)
-
 	FeedTitlePool, err := article.NewPool(SecmindConfigs.Poolconfigs)
 	if err != nil {
 		log.Fatalf("NewPool创建失败：%v", err)
 	}
-	fmt.Printf("环境加载成功1，%s\n", FeedTitlePool)
 
-	FeedScheduler := scheduler.NewFeedScheduler(SecmindConfigs.Feedconfigs.SourceInfoMap, FeedTitlePool)
-	fmt.Printf("环境加载成功2，%s\n", FeedScheduler)
+	FeedScheduler := scheduler.NewFeedScheduler(SecmindConfigs.Feedconfigs.SourceInfoMap, SecmindSignalCtx, FeedTitlePool)
 	FeedScheduler.Start()
-	<-ctx.Done()
+	<-SecmindSignalCtx.Done()
 
-	FeedScheduler.BaseScheduler.Stop()
+	FeedScheduler.Close()
 	FeedTitlePool.Close()
 }
 
