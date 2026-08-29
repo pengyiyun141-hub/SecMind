@@ -60,7 +60,7 @@ func (FeedTitlePool *FeedTitlePool) Process(SourceInfo *configs.SourceInfo, Feed
 
 func (TitlePool *FeedTitlePool) Persist(FeedTitleJob *FeedTitleJob) (error) {
 	fetchDate := time.Now().Format("2006-01-02") + ".jsonl"
-	inputPath := filepath.Join(TitlePool.poolCfg.DataDir, FeedTitleJob.SourceInfo.SourceName,fetchDate)
+	inputPath := filepath.Join(TitlePool.poolCfg.DataDir, FeedTitleJob.SourceInfo.SourceName, fetchDate)
 
 	err := os.MkdirAll(filepath.Dir(inputPath), 0755)
 	if err != nil {

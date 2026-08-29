@@ -9,6 +9,7 @@ type FeedArticle struct {
 	Id          int			`json:"id"`
 	Title       string		`json:"title"`
 	Link        string		`json:"link"`
+	Guid		string		`json:"guid"`
 	Description string		`json:"description,omitempty"`
 	ScmFid		string		`json:"scmfid"`
 	FetchedAt   time.Time   `json:"fetched_at"`

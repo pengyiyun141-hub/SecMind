@@ -72,7 +72,7 @@ func ParseFeed(reader io.Reader, sourceInfo *configs.SourceInfo) ([]article.Feed
 		}
 
 		for i, item := range rssData.Channel.Items {
-			Feedarticles = append(Feedarticles, article.FeedArticle{Source: sourceInfo.SourceName, Id: i + 1, Title: item.Title, Link: item.Link})
+			Feedarticles = append(Feedarticles, article.FeedArticle{Source: sourceInfo.SourceName, Id: i + 1, Guid: item.Guid, Title: item.Title, Link: item.Link})
 		}
 		
 	case "feed":
@@ -83,7 +83,7 @@ func ParseFeed(reader io.Reader, sourceInfo *configs.SourceInfo) ([]article.Feed
 		}
 
 		for i, entry := range atomData.Entries {
-			Feedarticles = append(Feedarticles, article.FeedArticle{Source: sourceInfo.SourceName, Id: i + 1, Title: entry.Title, Link: entry.Link.Href})
+			Feedarticles = append(Feedarticles, article.FeedArticle{Source: sourceInfo.SourceName, Id: i + 1, Guid: entry.Guid, Title: entry.Title, Link: entry.Link.Href})
 		}
 		
 	default:
