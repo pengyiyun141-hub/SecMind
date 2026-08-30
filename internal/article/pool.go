@@ -7,21 +7,22 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"secmind/configs"
 	"sync"
 	"time"
-	"secmind/configs"
 )
+
 //新架构
 
 type FeedTitlePool struct {
-	feedtitlePoolWg 	sync.WaitGroup
-	poolCfg		*configs.PoolConfigs
+	feedtitlePoolWg sync.WaitGroup
+	poolCfg         *configs.PoolConfigs
 }
 
 type FeedTitleJob struct {
-	TitlePoolCfg	*configs.PoolConfigs
-	SourceInfo		*configs.SourceInfo
-	FeedArticles	[]FeedArticle
+	TitlePoolCfg *configs.PoolConfigs
+	SourceInfo   *configs.SourceInfo
+	FeedArticles []FeedArticle
 }
 
 type SourceManager struct {
@@ -31,34 +32,42 @@ type SourceManager struct {
 
 func NewPool(poolCfg *configs.PoolConfigs) (*FeedTitlePool, error) {
 	TitlePool := &FeedTitlePool{
-		poolCfg: poolCfg,
+		poolCfg:         poolCfg,
 		feedtitlePoolWg: sync.WaitGroup{},
 	}
-	
+
 	return TitlePool, nil
 }
 
 func (FeedTitlePool *FeedTitlePool) Process(SourceInfo *configs.SourceInfo, FeedArticles []FeedArticle) (int, error) {
 	FeedTitlePool.feedtitlePoolWg.Add(1)
 
+	fileDedup, _ := NewFileDedup(SourceInfo.SourceName)
+	dedupFeedArticles := fileDedup.Filter(FeedArticles)
+
 	FeedTitleJob := &FeedTitleJob{
 		TitlePoolCfg: FeedTitlePool.poolCfg,
-		SourceInfo: SourceInfo,
-		FeedArticles: FeedArticles,
+		SourceInfo:   SourceInfo,
+		FeedArticles: dedupFeedArticles,
 	}
 
 	go func() {
 		defer FeedTitlePool.feedtitlePoolWg.Done()
 		err := FeedTitlePool.Persist(FeedTitleJob)
 		if err != nil {
-			log.Printf("")		//暂时没想好写什么
+			log.Printf("") //暂时没想好写什么
 		}
 	}()
 
 	return len(FeedArticles), nil
-}  
+}
 
-func (TitlePool *FeedTitlePool) Persist(FeedTitleJob *FeedTitleJob) (error) {
+func (TitlePool *FeedTitlePool) Persist(FeedTitleJob *FeedTitleJob) error {
+	//先判断是否有新文章
+	if len(FeedTitleJob.FeedArticles) == 0 {
+		return nil
+	}
+
 	fetchDate := time.Now().Format("2006-01-02") + ".jsonl"
 	inputPath := filepath.Join(TitlePool.poolCfg.DataDir, FeedTitleJob.SourceInfo.SourceName, fetchDate)
 
@@ -74,7 +83,7 @@ func (TitlePool *FeedTitlePool) Persist(FeedTitleJob *FeedTitleJob) (error) {
 		return nil
 	}
 	defer sourcejsonl.Close()
-	
+
 	bufioBufferWriter := bufio.NewWriter(sourcejsonl)
 	jsonEncoder := json.NewEncoder(bufioBufferWriter)
 

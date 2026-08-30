@@ -37,7 +37,7 @@ func (FeedScheduler *FeedScheduler) Start() {
 func (SourceScheduler *FeedScheduler) sourceLoop(SourceInfo *configs.SourceInfo) {
 	defer SourceScheduler.BaseScheduler.baseSchedulWg.Done()
 
-	ticker := time.NewTicker(60 * time.Second)
+	ticker := time.NewTicker(10 * time.Second)
 	defer ticker.Stop()
 
 	for {
