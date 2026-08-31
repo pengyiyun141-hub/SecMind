@@ -3,6 +3,7 @@ package scheduler
 import (
 	"context"
 	"log"
+	"log/slog"
 	"secmind/configs"
 	"secmind/internal/article"
 	"secmind/internal/scraper"
@@ -36,6 +37,8 @@ func (FeedScheduler *FeedScheduler) Start() {
 
 func (SourceScheduler *FeedScheduler) sourceLoop(SourceInfo *configs.SourceInfo) {
 	defer SourceScheduler.BaseScheduler.baseSchedulWg.Done()
+
+	slog.Info("源调度器已启动：", "source", SourceInfo.SourceName)
 
 	ticker := time.NewTicker(10 * time.Second)
 	defer ticker.Stop()

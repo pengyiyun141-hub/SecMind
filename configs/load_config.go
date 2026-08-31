@@ -11,70 +11,6 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
-// 所有配置
-type SecmindConfigs struct {
-	Aiconfigs   *AiConfigs
-	Feedconfigs *FeedConfigs
-	Poolconfigs *PoolConfigs
-}
-
-// AI配置
-type AiConfigs struct {
-	Apiinfo    map[string]*ApiInfo
-	Promptinfo map[string]*PromptInfo
-	Modelinfo  map[string]*ModelInfo
-}
-
-type ApiInfo struct { //注意该结构体暂时没用到，Api的相关信息直接被填入model中了。
-	Baseurl   string
-	Modelname string
-	Apikey    string
-}
-
-type PromptInfo struct {
-	System string
-	User   string
-}
-
-type ModelInfo struct {
-	Name             string   `yaml:"name"`
-	APIKeyEnv        string   `yaml:"api_key_env"`
-	BaseURLEnv       string   `yaml:"base_url_env"`
-	ModelNameEnv     string   `yaml:"model_name_env"`
-	SystemPrompt     string   `yaml:"system_prompt"`
-	UserPrompt       string   `yaml:"user_prompt"`
-	Temperature      float64  `yaml:"temperature"`
-	TopP             float64  `yaml:"top_p"`
-	MaxTokens        int      `yaml:"max_tokens"`
-	FrequencyPenalty float64  `yaml:"frequency_penalty"`
-	PresencePenalty  float64  `yaml:"presence_penalty"`
-	Stop             []string `yaml:"stop"`
-	APIKey           string
-	BaseURL          string
-	ModelName        string
-	PromptSysText    string
-	PromptUsrText    string
-	ExtraBody        map[string]interface{} `yaml:"extra_body"`
-}
-
-// Feed配置
-type FeedConfigs struct {
-	SourceInfoMap map[string]*SourceInfo
-}
-
-type SourceInfo struct {
-	SourceName string `json:"SourceName"`
-	URL        string `json:"URL"`
-	Type       string `json:"Type"`
-	Schedule   string `json:"Schedule"`
-	LastFetch  string `json:"LastFetch"`
-	Enabled    bool   `json:"Enabled"`
-}
-
-type PoolConfigs struct {
-	DataDir string `json:"DataDir"`
-}
-
 // LoadAllConfigs()是基础模块，其执行失败则整个程序没有往后执行的必要。
 func LoadAllConfigs() (*SecmindConfigs, error) {
 	SecCfgs := &SecmindConfigs{
@@ -106,7 +42,15 @@ func LoadAllConfigs() (*SecmindConfigs, error) {
 	}
 
 	SecCfgs.Poolconfigs, err = LoadPoolConfig(filepath.Join("configs", "pool.json"))
+	if err != nil {
+		return nil, fmt.Errorf("LoadPoolConfig()执行失败：%w\n", err)
+	}
 
+	SecCfgs.Logconfigs, err = LoadSecMindLog(filepath.Join("configs", "secmindlog.yaml"))
+	if err != nil {
+		return nil, fmt.Errorf("LoadSecMindLog()执行失败：%w\n", err)
+	}
+	
 	return SecCfgs, err
 }
 
@@ -117,21 +61,21 @@ func LoadAiConfig(baseDir string) (*AiConfigs, error) {
 		Apiinfo:    make(map[string]*ApiInfo),
 	}
 	//先加载model文件
-	yamlfile, err := os.ReadFile(filepath.Join(baseDir, "model.yaml"))
+	yamlFileData, err := os.ReadFile(filepath.Join(baseDir, "model.yaml"))
 	if err != nil {
 		return nil, fmt.Errorf("读取 model.yaml 失败: %w", err)
 	}
 
 	var modeldata struct {
-		Models []ModelInfo `yaml:"models"`
+		ModelCfgs []ModelInfo `yaml:"models"`
 	}
-	err = yaml.Unmarshal(yamlfile, &modeldata)
+	err = yaml.Unmarshal(yamlFileData, &modeldata)
 	//fmt.Printf("yaml:%s", string(yamlfile))
 
 	//加载api信息
 	godotenv.Load(filepath.Join(baseDir, ".env"))
-	for i := range modeldata.Models {
-		role := &modeldata.Models[i]
+	for i := range modeldata.ModelCfgs {
+		role := &modeldata.ModelCfgs[i]
 		role.ModelName = os.Getenv(role.ModelNameEnv)
 		role.BaseURL = os.Getenv(role.BaseURLEnv)
 		role.APIKey = os.Getenv(role.APIKeyEnv)
@@ -199,4 +143,20 @@ func LoadAllPrompt(promptDir string) (map[string]*PromptInfo, error) {
 		}
 	}
 	return promptMap, err
+}
+
+func LoadSecMindLog(OptionsPath string) (*LogConfigs, error) {
+	logconfigdata := &LogConfigs{}
+
+	logConfigFile, err := os.ReadFile(OptionsPath)
+	if err != nil {
+		return nil, fmt.Errorf("加载secmindlog.yaml文件路径失败：%w", err)
+	}
+
+	err = yaml.Unmarshal(logConfigFile, &logconfigdata)
+	if err != nil {
+		return nil, fmt.Errorf("加载secmindlog.yaml文件失败：%w", err)
+	}
+
+	return logconfigdata, nil
 }

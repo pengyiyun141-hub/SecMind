@@ -1,0 +1,4 @@
+level:  info
+format: json
+output: file
+file:   "internal/data/logs/secmind.log"
