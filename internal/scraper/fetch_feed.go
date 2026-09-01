@@ -11,14 +11,13 @@ import (
 func FetchFeed(sourceInfo *configs.SourceInfo) ([]article.FeedArticle, error) {
 	resp, err := http.Get(sourceInfo.URL)
 	if err != nil {
-		return nil, fmt.Errorf("[err]URL请求失败:%s, %w", sourceInfo.URL, err)
+		return nil, fmt.Errorf(" [FetchFeed()]:URL请求失败:%s, %w", sourceInfo.URL, err)
 	}
-
 	defer resp.Body.Close()
 
 	xmlData, err := parser.ParseFeed(resp.Body, sourceInfo)
 	if err != nil {
-		return nil, fmt.Errorf("[err]源解析失败:%s, %w", sourceInfo.SourceName, err)
+		return nil, fmt.Errorf(" [FetchFeed()]:源解析失败:%s, %w", sourceInfo.SourceName, err)
 	}
 
 	return xmlData, nil

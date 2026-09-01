@@ -18,14 +18,14 @@ func NewFileDedup(sourceName string) (*FileDedup, error) {
 	sourceJsonlPath := filepath.Join("internal", "data", "pool", sourceName, "*.jsonl")
 	sourceJsonlFiles, err := filepath.Glob(sourceJsonlPath)
 	if err != nil {
-		return nil, fmt.Errorf("NewFileDedup(),sourceJsonlFiles文件获取失败：%w\n", err)
+		return nil, fmt.Errorf("[NewFileDedup()]:sourceJsonlFiles文件获取失败：%w\n", err)
 	}
 
 	for _, sourceJsonlFile := range sourceJsonlFiles {
 
 		sourceJsonlFileHanlder, err := os.Open(sourceJsonlFile)
 		if err != nil {
-			return nil, err
+			return nil, fmt.Errorf("[NewFileDedup()]:打开sourceJsonlFile文件失败：%w\n", err)
 		}
 
 		decoder := json.NewDecoder(sourceJsonlFileHanlder)
@@ -58,10 +58,8 @@ func (FileDedup *FileDedup) Filter(feedarticles []FeedArticle) []FeedArticle {
 	var fresh []FeedArticle
 
 	for _, feedArticle := range feedarticles {
-
 		ok := FileDedup.Seen(feedArticle.Guid)
 		if ok {
-			fmt.Printf("guid:%s已存在。\n", feedArticle.Guid)
 			continue
 		}
 

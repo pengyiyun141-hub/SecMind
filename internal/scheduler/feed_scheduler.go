@@ -2,7 +2,6 @@ package scheduler
 
 import (
 	"context"
-	"log"
 	"log/slog"
 	"secmind/configs"
 	"secmind/internal/article"
@@ -38,7 +37,7 @@ func (FeedScheduler *FeedScheduler) Start() {
 func (SourceScheduler *FeedScheduler) sourceLoop(SourceInfo *configs.SourceInfo) {
 	defer SourceScheduler.BaseScheduler.baseSchedulWg.Done()
 
-	slog.Info("源调度器已启动：", "source", SourceInfo.SourceName)
+	slog.Info("[sourceLoop()]:源调度器已启动：", "source", SourceInfo.SourceName)
 
 	ticker := time.NewTicker(10 * time.Second)
 	defer ticker.Stop()
@@ -48,7 +47,7 @@ func (SourceScheduler *FeedScheduler) sourceLoop(SourceInfo *configs.SourceInfo)
 		case <-ticker.C:
 			FeedTitleArts, err := scraper.FetchFeed(SourceInfo)
 			if err != nil {
-				log.Printf("源%s返回文章失败：%v", SourceInfo.SourceName, err)
+				slog.Error("[sourceLoop()]:源返回文章失败：", "source", SourceInfo.SourceName, "error", err)
 				continue
 			}
 

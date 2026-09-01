@@ -1,3 +1,9 @@
-time=2026-08-31T16:09:03.648+08:00 level=INFO msg=源调度器已启动： source=U42
-time=2026-08-31T16:09:03.648+08:00 level=INFO msg=源调度器已启动： source=ARXIV
-time=2026-08-31T16:09:03.648+08:00 level=INFO msg=源调度器已启动： source=TOB
+{"time":"2026-09-01T16:11:18.9216404+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"TOB"}
+{"time":"2026-09-01T16:11:18.9231534+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"U42"}
+{"time":"2026-09-01T16:11:18.9231534+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"ARXIV"}
+{"time":"2026-09-01T16:11:29.0844593+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"U42"}
+{"time":"2026-09-01T16:11:29.1352291+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"ARXIV"}
+{"time":"2026-09-01T16:11:29.2842795+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
+{"time":"2026-09-01T16:11:38.9697885+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"U42"}
+{"time":"2026-09-01T16:11:38.9833063+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"ARXIV"}
+{"time":"2026-09-01T16:11:39.1748509+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}

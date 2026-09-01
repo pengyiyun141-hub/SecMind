@@ -4,12 +4,12 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
-	"log"
 	"os"
 	"path/filepath"
 	"secmind/configs"
 	"sync"
 	"time"
+	"log/slog"
 )
 
 //新架构
@@ -55,7 +55,7 @@ func (FeedTitlePool *FeedTitlePool) Process(SourceInfo *configs.SourceInfo, Feed
 		defer FeedTitlePool.feedtitlePoolWg.Done()
 		err := FeedTitlePool.Persist(FeedTitleJob)
 		if err != nil {
-			log.Printf("") //暂时没想好写什么
+			slog.Error("[process()]:Feed源批次持久化失败", "source", SourceInfo.SourceName, "error", err) 
 		}
 	}()
 
@@ -65,6 +65,7 @@ func (FeedTitlePool *FeedTitlePool) Process(SourceInfo *configs.SourceInfo, Feed
 func (TitlePool *FeedTitlePool) Persist(FeedTitleJob *FeedTitleJob) error {
 	//先判断是否有新文章
 	if len(FeedTitleJob.FeedArticles) == 0 {
+		slog.Info("[Process()]:Feed源未更新，", "source", FeedTitleJob.SourceInfo.SourceName)
 		return nil
 	}
 
@@ -73,32 +74,34 @@ func (TitlePool *FeedTitlePool) Persist(FeedTitleJob *FeedTitleJob) error {
 
 	err := os.MkdirAll(filepath.Dir(inputPath), 0755)
 	if err != nil {
-		log.Printf("创建目录失败：%v", err)
-		return nil
+		return fmt.Errorf("[Persist()]:创建目录失败 %s:%w", inputPath, err)
 	}
 
 	sourcejsonl, err := os.OpenFile(inputPath, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
 	if err != nil {
-		log.Printf("源%s.jsonl文件打开失败：%v", FeedTitleJob.SourceInfo.SourceName, err)
-		return nil
+		return fmt.Errorf("[Persist()]:源%s.jsonl文件打开失败：%w", FeedTitleJob.SourceInfo.SourceName, err)
 	}
 	defer sourcejsonl.Close()
 
 	bufioBufferWriter := bufio.NewWriter(sourcejsonl)
 	jsonEncoder := json.NewEncoder(bufioBufferWriter)
 
+	count := 0
 	for _, feedArticleTitle := range FeedTitleJob.FeedArticles {
 		feedArticleTitle.ScmFid = fmt.Sprintf("%s-%d", feedArticleTitle.Source, feedArticleTitle.Id)
 		feedArticleTitle.FetchedAt = time.Now().UTC()
 
 		err := jsonEncoder.Encode(feedArticleTitle)
 		if err != nil {
-			log.Printf("[err]%s-%d条目写入失败\n", feedArticleTitle.Source, feedArticleTitle.Id)
+			slog.Error("[Persist()]:条目写入失败\n", "source", feedArticleTitle.Source, "Link", feedArticleTitle.Link, "error", err)
+			continue
 		}
 
+		count++
 		bufioBufferWriter.Flush()
 	}
 	sourcejsonl.Sync()
+	slog.Info("[Persist()]:", "source", FeedTitleJob.SourceInfo.SourceName, "本次抓取共持久化文章数量:", count)
 
 	return nil
 }
