@@ -10,9 +10,9 @@ import (
 
 type Options struct {
 	Level  string
-	Format string // "text" 或 "json"
-	Output string // "stdout" 或 "file"
-	File   string // 如果是文件，文件路径
+	Format string
+	Output string
+	File   string 
 }
 
 func Init(opts configs.LogConfigs) error {

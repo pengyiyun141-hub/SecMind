@@ -17,6 +17,8 @@ import (
 type FeedTitlePool struct {
 	feedtitlePoolWg sync.WaitGroup
 	poolCfg         *configs.PoolConfigs
+	lastSuccessAt	map[string]time.Time
+	mu      		sync.Mutex
 }
 
 type FeedTitleJob struct {
@@ -25,15 +27,11 @@ type FeedTitleJob struct {
 	FeedArticles []FeedArticle
 }
 
-type SourceManager struct {
-	workers map[string]chan FeedArticle
-	mu      sync.Mutex
-}
-
 func NewPool(poolCfg *configs.PoolConfigs) (*FeedTitlePool, error) {
 	TitlePool := &FeedTitlePool{
 		poolCfg:         poolCfg,
 		feedtitlePoolWg: sync.WaitGroup{},
+		lastSuccessAt: 	 make(map[string]time.Time),
 	}
 
 	return TitlePool, nil
@@ -62,15 +60,27 @@ func (FeedTitlePool *FeedTitlePool) Process(SourceInfo *configs.SourceInfo, Feed
 	return len(FeedArticles), nil
 }
 
-func (TitlePool *FeedTitlePool) Persist(FeedTitleJob *FeedTitleJob) error {
+func (FeedTitlePool *FeedTitlePool) Persist(FeedTitleJob *FeedTitleJob) error {
 	//先判断是否有新文章
 	if len(FeedTitleJob.FeedArticles) == 0 {
 		slog.Info("[Process()]:Feed源未更新，", "source", FeedTitleJob.SourceInfo.SourceName)
 		return nil
 	}
 
+	FeedTitlePool.mu.Lock()
+	now := time.Now()
+	last, ok := FeedTitlePool.lastSuccessAt[FeedTitleJob.SourceInfo.SourceName]
+	var interval string
+	if ok && !last.IsZero() {
+    	interval = now.Sub(last).String()
+	}else {
+		interval = "first"
+	}
+	FeedTitlePool.lastSuccessAt[FeedTitleJob.SourceInfo.SourceName] = now
+	FeedTitlePool.mu.Unlock()
+
 	fetchDate := time.Now().Format("2006-01-02") + ".jsonl"
-	inputPath := filepath.Join(TitlePool.poolCfg.DataDir, FeedTitleJob.SourceInfo.SourceName, fetchDate)
+	inputPath := filepath.Join(FeedTitlePool.poolCfg.DataDir, FeedTitleJob.SourceInfo.SourceName, fetchDate)
 
 	err := os.MkdirAll(filepath.Dir(inputPath), 0755)
 	if err != nil {
@@ -86,7 +96,7 @@ func (TitlePool *FeedTitlePool) Persist(FeedTitleJob *FeedTitleJob) error {
 	bufioBufferWriter := bufio.NewWriter(sourcejsonl)
 	jsonEncoder := json.NewEncoder(bufioBufferWriter)
 
-	count := 0
+	new_count := 0
 	for _, feedArticleTitle := range FeedTitleJob.FeedArticles {
 		feedArticleTitle.ScmFid = fmt.Sprintf("%s-%d", feedArticleTitle.Source, feedArticleTitle.Id)
 		feedArticleTitle.FetchedAt = time.Now().UTC()
@@ -97,11 +107,11 @@ func (TitlePool *FeedTitlePool) Persist(FeedTitleJob *FeedTitleJob) error {
 			continue
 		}
 
-		count++
+		new_count++
 		bufioBufferWriter.Flush()
 	}
 	sourcejsonl.Sync()
-	slog.Info("[Persist()]:", "source", FeedTitleJob.SourceInfo.SourceName, "本次抓取共持久化文章数量:", count)
+	slog.Info("[Persist()]:", "source", FeedTitleJob.SourceInfo.SourceName, "new_count:", new_count, "interval:", interval)
 
 	return nil
 }
