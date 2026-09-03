@@ -23,3 +23,9 @@
 {"time":"2026-09-02T19:34:42.0684794+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
 {"time":"2026-09-02T19:34:43.5984408+08:00","level":"INFO","msg":"[Persist()]:","source":"ARXIV","new_count:":88,"interval:":"first"}
 
+{"time":"2026-09-03T19:59:31.0111928+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"ARXIV"}
+{"time":"2026-09-03T19:59:31.0111928+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"TOB"}
+{"time":"2026-09-03T19:59:31.0111928+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"U42"}
+{"time":"2026-09-03T19:59:41.2589502+08:00","level":"INFO","msg":"[Persist()]:","source":"ARXIV","new_count:":61,"interval:":"first"}
+{"time":"2026-09-03T19:59:41.5131816+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
+{"time":"2026-09-03T19:59:42.2039146+08:00","level":"INFO","msg":"[Persist()]:","source":"U42","new_count:":1,"interval:":"first"}
