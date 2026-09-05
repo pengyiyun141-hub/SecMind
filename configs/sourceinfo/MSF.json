@@ -1,0 +1,8 @@
+{
+   "SourceName": "MSF",
+   "URL": "https://www.microsoft.com/en-us/security/blog/feed/",
+   "Type": "rss",
+   "Schedule": "",
+   "LastFetch": "",
+   "Enabled": true
+}

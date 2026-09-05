@@ -34,9 +34,9 @@ type AtomLink struct {
 }
 
 type Entry struct {
-	Title string   `xml:"title"`
-	Link  AtomLink `xml:"link"`
-	Guid  string   `xml:"guid"`
+	Title 	string   `xml:"title"`
+	Link  	AtomLink `xml:"link"`
+	AtomId  string   `xml:"id"`    //注意atom源的身份验证是字段id
 }
 
 type AtomFeed struct {
@@ -83,7 +83,7 @@ func ParseFeed(reader io.Reader, sourceInfo *configs.SourceInfo) ([]article.Feed
 		}
 
 		for i, entry := range atomData.Entries {
-			Feedarticles = append(Feedarticles, article.FeedArticle{Source: sourceInfo.SourceName, Id: i + 1, Guid: entry.Guid, Title: entry.Title, Link: entry.Link.Href})
+			Feedarticles = append(Feedarticles, article.FeedArticle{Source: sourceInfo.SourceName, Id: i + 1, Guid: entry.AtomId, Title: entry.Title, Link: entry.Link.Href})
 		}
 		
 	default:
