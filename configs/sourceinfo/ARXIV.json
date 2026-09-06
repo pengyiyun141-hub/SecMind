@@ -1,8 +1,10 @@
 {
-   "SourceName": "ARXIV",
-   "URL": "https://export.arxiv.org/rss/cs.CR",
-   "Type": "rss",
+   "SourceName": "ARXIV_CR",
+   "kind": "feed",
    "Schedule": "",
-   "LastFetch": "",
-   "Enabled": true
+   "Enabled": true,
+   "feed": {
+    "url": "https://export.arxiv.org/rss/cs.CR",
+    "type": "rss"
+   }
 }

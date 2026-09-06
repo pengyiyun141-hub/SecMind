@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"secmind/configs"
 	"secmind/internal/article"
-	"secmind/internal/scraper"
+	"secmind/internal/fetcher"
 	"time"
 )
 
@@ -42,10 +42,16 @@ func (SourceScheduler *FeedScheduler) sourceLoop(SourceInfo *configs.SourceInfo)
 	ticker := time.NewTicker(10 * time.Second)
 	defer ticker.Stop()
 
+	//程序启动默认执行一次
+	FeedTitleArts, err := fetcher.FetchFeed(SourceInfo)
+	if err != nil {
+		slog.Error("[sourceLoop()]:源返回文章失败：", "source", SourceInfo.SourceName, "error", err)
+	}
+
 	for {
 		select {
 		case <-ticker.C:
-			FeedTitleArts, err := scraper.FetchFeed(SourceInfo)
+			FeedTitleArts, err = fetcher.FetchFeed(SourceInfo)
 			if err != nil {
 				slog.Error("[sourceLoop()]:源返回文章失败：", "source", SourceInfo.SourceName, "error", err)
 				continue

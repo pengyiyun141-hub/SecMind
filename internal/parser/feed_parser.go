@@ -75,6 +75,12 @@ func ParseFeed(reader io.Reader, sourceInfo *configs.SourceInfo) ([]article.Feed
 			Feedarticles = append(Feedarticles, article.FeedArticle{Source: sourceInfo.SourceName, Id: i + 1, Guid: item.Guid, Title: item.Title, Link: item.Link})
 		}
 		
+		/*
+		for i, item := range rssData.Channel.Items {
+    		fmt.Printf("调试 item %d guid=%q link=%q\n", i+1, item.Guid, item.Link)
+		}
+		*/
+
 	case "feed":
 		atomData, err := ParseAtom(Xmldata)
 		if err != nil {
@@ -87,7 +93,7 @@ func ParseFeed(reader io.Reader, sourceInfo *configs.SourceInfo) ([]article.Feed
 		}
 		
 	default:
-		fmt.Println("未知格式")
+		fmt.Printf("源%s未知格式:%s\n", sourceInfo.SourceName, common.XMLName.Local)
 
 	}
 	return Feedarticles, err

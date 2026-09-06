@@ -1,8 +1,10 @@
 {
    "SourceName": "TOB",
-   "URL": "https://blog.trailofbits.com/index.xml",
-   "Type": "rss",
+   "kind": "feed",
    "Schedule": "",
-   "LastFetch": "",
-   "Enabled": true
+   "Enabled": true,
+   "feed": {
+    "url": "https://blog.trailofbits.com/index.xml",
+    "type": "rss"
+  }
 }

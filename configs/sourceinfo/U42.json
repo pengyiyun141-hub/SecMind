@@ -1,8 +1,10 @@
 {
    "SourceName": "U42",
-   "URL": "https://unit42.paloaltonetworks.com/feed/",
-   "Type": "rss",
+   "kind": "feed",
    "Schedule": "",
-   "LastFetch": "",
-   "Enabled": true
+   "Enabled": true,
+   "feed": {
+    "url": "https://unit42.paloaltonetworks.com/feed/",
+    "type": "rss"
+  }
 }

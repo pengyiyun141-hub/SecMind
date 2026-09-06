@@ -57,11 +57,25 @@ type FeedConfigs struct {
 
 type SourceInfo struct {
 	SourceName string `json:"SourceName"`
-	URL        string `json:"URL"`
+	Kind	   string `json:"Kind"`
 	Type       string `json:"Type"`
 	Schedule   string `json:"Schedule"`
-	LastFetch  string `json:"LastFetch"`
 	Enabled    bool   `json:"Enabled"`
+
+	Feed *FeedSourceInfo `json:"feed,omitempty"`
+    API  *APISourceInfo  `json:"api,omitempty"`
+}
+
+type FeedSourceInfo struct {
+    URL  string `json:"url"`
+    Type string `json:"type"` // rss / atom
+}
+
+type APISourceInfo struct {
+    Provider   string `json:"provider"`   // openalex / dblp
+    Query      string `json:"query"`
+    APIKey     string `json:"api_key"`
+    Checkpoint string `json:"checkpoint"` // time.Time
 }
 
 type PoolConfigs struct {

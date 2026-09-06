@@ -1,8 +1,10 @@
 {
    "SourceName": "GOOGLE",
-   "URL": "https://feeds.feedburner.com/GoogleOnlineSecurityBlog",
-   "Type": "rss",
+   "kind": "feed",
    "Schedule": "",
-   "LastFetch": "",
-   "Enabled": true
+   "Enabled": true,
+   "feed": {
+    "url": "https://feeds.feedburner.com/GoogleOnlineSecurityBlog",
+    "type": "atom"
+  }
 }

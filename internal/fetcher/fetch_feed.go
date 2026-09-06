@@ -1,4 +1,4 @@
-package scraper
+package fetcher
 
 import (
 	"fmt"
@@ -9,9 +9,9 @@ import (
 )
 
 func FetchFeed(sourceInfo *configs.SourceInfo) ([]article.FeedArticle, error) {
-	resp, err := http.Get(sourceInfo.URL)
+	resp, err := http.Get(sourceInfo.Feed.URL)
 	if err != nil {
-		return nil, fmt.Errorf(" [FetchFeed()]:URL请求失败:%s, %w", sourceInfo.URL, err)
+		return nil, fmt.Errorf(" [FetchFeed()]:URL请求失败:%s, %w", sourceInfo.Feed.URL, err)
 	}
 	defer resp.Body.Close()
 
