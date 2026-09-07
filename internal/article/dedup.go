@@ -9,11 +9,15 @@ import (
 )
 
 type FileDedup struct {
-	seen map[string]struct{}
+	guidseen map[string]struct{}
+	linkseen	 map[string]struct{}
 }
 
 func NewFileDedup(sourceName string) (*FileDedup, error) {
-	fileDedup := &FileDedup{seen: make(map[string]struct{})}
+	fileDedup := &FileDedup{
+		guidseen: make(map[string]struct{}),
+		linkseen: make(map[string]struct{}),
+	}
 
 	sourceJsonlPath := filepath.Join("internal", "data", "pool", sourceName, "*.jsonl")
 	sourceJsonlFiles, err := filepath.Glob(sourceJsonlPath)
@@ -33,6 +37,7 @@ func NewFileDedup(sourceName string) (*FileDedup, error) {
 		for {
 			var line struct {
 				Guid string `json:"guid"`
+				Link string `json:"link"`
 			}
 
 			err = decoder.Decode(&line)
@@ -45,7 +50,10 @@ func NewFileDedup(sourceName string) (*FileDedup, error) {
 			}
 
 			if line.Guid != "" {
-				fileDedup.seen[line.Guid] = struct{}{}
+				fileDedup.guidseen[line.Guid] = struct{}{}
+			}
+			if line.Link != "" {
+    			fileDedup.linkseen[line.Link] = struct{}{}
 			}
 		}
 		sourceJsonlFileHanlder.Close()
@@ -58,24 +66,41 @@ func (FileDedup *FileDedup) Filter(feedarticles []FeedArticle) []FeedArticle {
 	var fresh []FeedArticle
 
 	for _, feedArticle := range feedarticles {
-		ok := FileDedup.Seen(feedArticle.Guid)
+		ok := FileDedup.Seen(feedArticle.Guid, feedArticle.Link)
 		if ok {
 			continue
 		}
 
-		FileDedup.Mark(feedArticle.Guid)
+		FileDedup.Mark(feedArticle.Guid, feedArticle.Link)
 		fresh = append(fresh, feedArticle)
 	}
 
 	return fresh
 }
 
-func (FileDedup *FileDedup) Seen(key string) bool {
-	_, ok := FileDedup.seen[key]
+func (FileDedup *FileDedup) Seen(guidkey string, linkkey string) bool {
+	if guidkey != "" {
+        if _, ok := FileDedup.guidseen[guidkey] 
+		ok {
+            return true
+        }
+    }
 
-	return ok
+    if linkkey != "" {
+        if _, ok := FileDedup.linkseen[linkkey]
+		ok {
+            return true
+        }
+    }
+
+	return false
 }
 
-func (FileDedup *FileDedup) Mark(key string) {
-	FileDedup.seen[key] = struct{}{}
+func (FileDedup *FileDedup) Mark(guidkey string, linkkey string) {
+	 if guidkey != "" {
+        FileDedup.guidseen[guidkey] = struct{}{}
+    }
+    if linkkey != "" {
+        FileDedup.linkseen[linkkey] = struct{}{}
+    }
 }

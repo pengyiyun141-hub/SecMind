@@ -39,7 +39,7 @@ func (SourceScheduler *FeedScheduler) sourceLoop(SourceInfo *configs.SourceInfo)
 
 	slog.Info("[sourceLoop()]:源调度器已启动：", "source", SourceInfo.SourceName)
 
-	ticker := time.NewTicker(10 * time.Second)
+	ticker := time.NewTicker(30 * time.Second)
 	defer ticker.Stop()
 
 	//程序启动默认执行一次

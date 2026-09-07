@@ -6,6 +6,11 @@ import (
 	"secmind/internal/article"
 )
 
+
+type Fetcher interface {
+    Fetch(ctx context.Context, fetchRequest FetchRequest)(FetchResult, error)
+}
+
 type FetchRequest struct {
 	SourceInfo	*configs.SourceInfo
 }
@@ -13,8 +18,4 @@ type FetchRequest struct {
 type FetchResult struct {
 	FeedArticles	[]article.FeedArticle
 	NewCount		int
-}
-
-type Fetcher interface {
-    Fetch(ctx context.Context, fetchRequest FetchRequest)(FetchResult, error)
 }
