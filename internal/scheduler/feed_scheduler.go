@@ -39,19 +39,13 @@ func (SourceScheduler *FeedScheduler) sourceLoop(SourceInfo *configs.SourceInfo)
 
 	slog.Info("[sourceLoop()]:源调度器已启动：", "source", SourceInfo.SourceName)
 
-	ticker := time.NewTicker(30 * time.Second)
+	ticker := time.NewTicker(10 * time.Second)
 	defer ticker.Stop()
-
-	//程序启动默认执行一次
-	FeedTitleArts, err := fetcher.FetchFeed(SourceInfo)
-	if err != nil {
-		slog.Error("[sourceLoop()]:源返回文章失败：", "source", SourceInfo.SourceName, "error", err)
-	}
 
 	for {
 		select {
 		case <-ticker.C:
-			FeedTitleArts, err = fetcher.FetchFeed(SourceInfo)
+			FeedTitleArts, err := fetcher.FetchFeed(SourceInfo)
 			if err != nil {
 				slog.Error("[sourceLoop()]:源返回文章失败：", "source", SourceInfo.SourceName, "error", err)
 				continue

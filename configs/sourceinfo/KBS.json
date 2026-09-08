@@ -1,0 +1,10 @@
+{
+   "SourceName": "KBS",
+   "kind": "feed",
+   "Schedule": "",
+   "Enabled": true,
+   "feed": {
+    "url": "https://krebsonsecurity.com/feed/",
+    "type": "rss"
+   }
+}

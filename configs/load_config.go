@@ -32,6 +32,8 @@ func LoadAllConfigs() (*SecmindConfigs, error) {
 			return nil, fmt.Errorf("文件%s:LoadFeedConfig()执行失败：%w\n", FeedConfigsFile, err)
 		}
 		sourceinfomap[sourceinfo.SourceName] = sourceinfo
+
+		//fmt.Printf("源存在：%s\n", sourceinfo.SourceName) //测试获取到的源
 	}
 	SecCfgs.Feedconfigs.SourceInfoMap = sourceinfomap
 

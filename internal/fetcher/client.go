@@ -3,6 +3,7 @@ package fetcher
 import (
 	"net/http"
 	"time"
+	"context"
 )
 
 type FetcherClinent struct {
@@ -13,8 +14,6 @@ type Options struct {
 	HttpTimeout time.Duration
 }
 
-
-
 func NewFetcherClient(opts Options) (*FetcherClinent) {
 	fetcherClinent := &FetcherClinent{
 		HttpClient: &http.Client{
@@ -23,5 +22,9 @@ func NewFetcherClient(opts Options) (*FetcherClinent) {
 	}
 
 	return fetcherClinent
+}
+
+func Fetch(ctx context.Context, fetchRequest FetchRequest)(FetchResult, error) {
+	
 }
 
