@@ -4,9 +4,11 @@ import (
 	"context"
 	"fmt"
 	"log"
+	"time"
 	"os"
 	"os/signal"
 	"secmind/configs"
+	"secmind/internal/fetcher"
 	"secmind/internal/article"
 	"secmind/internal/scheduler"
 	"secmind/internal/secmindlog"
@@ -27,12 +29,15 @@ func main() {
 		log.Fatalf("日志系统启动失败：%v", err)
 	}
 
+	opts := &fetcher.Options{HttpTimeout: time.Duration(30) * time.Second}
+	FetcherClient := fetcher.NewFetcherClient(*opts)
+
 	FeedTitlePool, err := article.NewPool(SecmindConfigs.Poolconfigs)
 	if err != nil {
 		log.Fatalf("NewPool创建失败：%v", err)
 	}
 
-	FeedScheduler := scheduler.NewFeedScheduler(SecmindConfigs.Feedconfigs.SourceInfoMap, SecmindSignalCtx, FeedTitlePool)
+	FeedScheduler := scheduler.NewFeedScheduler(SecmindConfigs.Feedconfigs.SourceInfoMap, SecmindSignalCtx, FeedTitlePool, FetcherClient)
 	FeedScheduler.Start()
 	<-SecmindSignalCtx.Done()
 

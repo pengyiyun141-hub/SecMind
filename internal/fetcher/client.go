@@ -6,7 +6,7 @@ import (
 	"context"
 )
 
-type FetcherClinent struct {
+type FetcherClient struct {
 	HttpClient	*http.Client
 }
 
@@ -14,8 +14,8 @@ type Options struct {
 	HttpTimeout time.Duration
 }
 
-func NewFetcherClient(opts Options) (*FetcherClinent) {
-	fetcherClinent := &FetcherClinent{
+func NewFetcherClient(opts Options) (*FetcherClient) {
+	fetcherClinent := &FetcherClient{
 		HttpClient: &http.Client{
 			Timeout: opts.HttpTimeout,
 		},
@@ -24,7 +24,13 @@ func NewFetcherClient(opts Options) (*FetcherClinent) {
 	return fetcherClinent
 }
 
-func Fetch(ctx context.Context, fetchRequest FetchRequest)(FetchResult, error) {
-	
+func (FetcherClient *FetcherClient) Fetch(ctx context.Context, fetchRequest FetchRequest)(FetchResult, error) {
+	switch fetchRequest.SourceInfo.Kind {
+	case "feed":
+		f := &FeedFetcher{
+			httpClient: *FetcherClient.HttpClient,
+			
+		}
+	}
 }
 

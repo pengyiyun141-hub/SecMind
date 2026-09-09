@@ -15,7 +15,7 @@ type FeedScheduler struct {
 	BaseScheduler BaseScheduler
 }
 
-func NewFeedScheduler(SourceInfoMap map[string]*configs.SourceInfo, SignalCtx context.Context, FeedTitlePool *article.FeedTitlePool) *FeedScheduler {
+func NewFeedScheduler(SourceInfoMap map[string]*configs.SourceInfo, SignalCtx context.Context, FeedTitlePool *article.FeedTitlePool, Fetcher *fetcher.FetcherClient) *FeedScheduler {
 	feedScheduler := &FeedScheduler{
 		SourceInfoMap: SourceInfoMap,
 		FeedTitlePool: FeedTitlePool,
