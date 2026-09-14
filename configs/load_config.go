@@ -103,7 +103,7 @@ func LoadFeedConfig(sourceInfoFilePath string) (*SourceInfo, error) {
 
 	sourceinfo := &SourceInfo{}
 	err = json.Unmarshal(map_file_data, sourceinfo)
-
+	fmt.Printf("sourceinfo:%+v\n", sourceinfo)
 	return sourceinfo, err
 }
 

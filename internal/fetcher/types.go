@@ -2,7 +2,6 @@ package fetcher
 
 import (
 	"context"
-	"net/http"
 	"secmind/configs"
 	"secmind/internal/article"
 )
@@ -13,8 +12,14 @@ type Fetcher interface {
 }
 
 type FeedFetcher struct {
-	httpClient	   http.Client
-	FeedSourceInfo configs.FeedSourceInfo
+	SourceName		string
+	FetcherClient	*FetcherClient
+	FeedSourceInfo	*configs.FeedSourceInfo
+}
+
+type APIFetcher struct {
+	FetcherClient	*FetcherClient
+	APISourceInfo	*configs.APISourceInfo
 }
 
 type FetchRequest struct {

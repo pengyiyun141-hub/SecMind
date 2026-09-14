@@ -67,8 +67,8 @@ type SourceInfo struct {
 }
 
 type FeedSourceInfo struct {
-    URL  string `json:"url"`
-    Type string `json:"type"` // rss / atom
+    URL  		string `json:"url"`
+    Type 		string `json:"type"` // rss / atom
 }
 
 type APISourceInfo struct {

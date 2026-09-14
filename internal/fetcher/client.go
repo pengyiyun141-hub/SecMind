@@ -2,19 +2,19 @@ package fetcher
 
 import (
 	"net/http"
+	"secmind/configs"
 	"time"
-	"context"
 )
 
 type FetcherClient struct {
-	HttpClient	*http.Client
+	HttpClient *http.Client
 }
 
 type Options struct {
 	HttpTimeout time.Duration
 }
 
-func NewFetcherClient(opts Options) (*FetcherClient) {
+func NewFetcherClient(opts Options) *FetcherClient {
 	fetcherClinent := &FetcherClient{
 		HttpClient: &http.Client{
 			Timeout: opts.HttpTimeout,
@@ -24,13 +24,22 @@ func NewFetcherClient(opts Options) (*FetcherClient) {
 	return fetcherClinent
 }
 
-func (FetcherClient *FetcherClient) Fetch(ctx context.Context, fetchRequest FetchRequest)(FetchResult, error) {
-	switch fetchRequest.SourceInfo.Kind {
+func (FetcherClient *FetcherClient) NewFetcher(sourceInfo *configs.SourceInfo) Fetcher {
+	switch sourceInfo.Kind {
 	case "feed":
 		f := &FeedFetcher{
-			httpClient: *FetcherClient.HttpClient,
-			
+			SourceName: sourceInfo.SourceName,
+			FetcherClient:  FetcherClient,
+			FeedSourceInfo: sourceInfo.Feed,
 		}
+		return f
+		/*
+			case "openalex":
+				f := &APIFetcher{
+					FetcherClient: FetcherClient,
+					APISourceInfo: sourceInfo.API,
+				}
+				return f*/
 	}
+	return nil
 }
-

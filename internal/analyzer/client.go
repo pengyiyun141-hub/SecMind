@@ -22,7 +22,7 @@ func (client *Client) Execute(userInput string)([]byte, error){
 	 return primitivedata, err 
 }*/
 
-func NewClient(role string, AiCfgs *configs.AiConfigs)(*Client, error){
+func NewClient(role string, AiCfgs *configs.AiConfigs) (*Client, error) {
 	rolesplit := strings.SplitN(role, "-", 2)
 	modelCfg := AiCfgs.Modelinfo[rolesplit[0]]
 	modelCfg.SystemPrompt = AiCfgs.Promptinfo[role].System
@@ -70,7 +70,7 @@ func NewClient(role string, AiCfgs *configs.AiConfigs)(*Client, error){
 	return client, err
 }
 
-func (client *Client)CallAiApi(userInput string) ([]byte, error) {
+func (client *Client) CallAiApi(userInput string) ([]byte, error) {
 	userPrompt := client.modelSpec.PromptUserText + userInput
 	chatrequest := &ChatRequest {
 		Model: client.modelSpec.ModelName,
