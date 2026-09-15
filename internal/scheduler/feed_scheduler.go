@@ -47,9 +47,7 @@ func (SourceScheduler *FeedScheduler) sourceLoop(sourceInfo *configs.SourceInfo,
 	ticker := time.NewTicker(10 * time.Second)
 	defer ticker.Stop()
 
-	fReq := &fetcher.FetchRequest{
-		SourceInfo: sourceInfo,
-	}
+	fReq := &fetcher.FetchRequest{}
 
 	for {
 		select {

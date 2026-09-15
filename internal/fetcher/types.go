@@ -18,12 +18,15 @@ type FeedFetcher struct {
 }
 
 type APIFetcher struct {
+	SourceName		string
 	FetcherClient	*FetcherClient
 	APISourceInfo	*configs.APISourceInfo
 }
 
 type FetchRequest struct {
-	SourceInfo	*configs.SourceInfo
+	FromDate string
+    ToDate   string
+    Cursor   string
 }
 
 type FetchResult struct {

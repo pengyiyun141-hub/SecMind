@@ -1,0 +1,15 @@
+{
+  "SourceName": "OPENALEX",
+  "Kind": "api",
+  "Schedule": "24h",
+  "Enabled": true,
+  "api": {
+    "provider": "openalex",
+    "base_url": "https://api.openalex.org",
+    "search": "AI security",
+    "sort": "publication_date:asc",
+    "per_page": 100,
+    "select": "id,doi,title,publication_year,publication_date,primary_location,best_oa_location,open_access",
+    "api_key": "QmvweGsnQgT6bhvo28HKuu"
+  }
+}

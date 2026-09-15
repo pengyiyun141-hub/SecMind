@@ -33,13 +33,15 @@ func (FetcherClient *FetcherClient) NewFetcher(sourceInfo *configs.SourceInfo) F
 			FeedSourceInfo: sourceInfo.Feed,
 		}
 		return f
-		/*
-			case "openalex":
-				f := &APIFetcher{
-					FetcherClient: FetcherClient,
-					APISourceInfo: sourceInfo.API,
-				}
-				return f*/
+
+	case "api":
+		f := &APIFetcher{
+			SourceName: sourceInfo.SourceName,
+			FetcherClient: FetcherClient,
+			APISourceInfo: sourceInfo.API,
+		}
+		return f
+	
 	}
 	return nil
 }

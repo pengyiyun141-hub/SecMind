@@ -20,20 +20,13 @@ func (FeedFetcher *FeedFetcher) Fetch(ctx context.Context, fetchReq FetchRequest
 
 	resp, err := FeedFetcher.FetcherClient.HttpClient.Do(req)
 	if err != nil {
-		return FetchResult{}, fmt.Errorf("发送请求失败: %w", err)
+		return FetchResult{}, fmt.Errorf("[FetchFeed()]:URL:%s 请求失败: %w", FeedFetcher.FeedSourceInfo.URL, err)
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return FetchResult{}, fmt.Errorf("请求失败，状态码: %d", resp.StatusCode)
+		return FetchResult{}, fmt.Errorf("[FetchFeed()]:URL:%s 错误响应，状态码: %d", FeedFetcher.FeedSourceInfo.URL, resp.StatusCode)
 	}
-
-	/*
-		if err != nil {
-			return nil, fmt.Errorf(" [FetchFeed()]:URL请求失败:%s, %w", FeedFetcher.FeedSourceInfo.URL, err)
-		}
-		defer resp.Body.Close()
-	*/
 
 	xmlData, err := parser.ParseFeed(resp.Body, FeedFetcher.SourceName)
 	if err != nil {

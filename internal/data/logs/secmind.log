@@ -292,3 +292,17 @@
 {"time":"2026-09-14T22:23:35.259968+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
 {"time":"2026-09-14T22:23:35.3443242+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
 {"time":"2026-09-14T22:23:38.086977+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"MSF"}
+{"time":"2026-09-15T21:46:10.0001326+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"GOOGLE"}
+{"time":"2026-09-15T21:46:10.0006647+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"TOB"}
+{"time":"2026-09-15T21:46:10.0006647+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"MSF"}
+{"time":"2026-09-15T21:46:10.0006647+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"OPENALEX"}
+{"time":"2026-09-15T21:46:10.0006647+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"U42"}
+{"time":"2026-09-15T21:46:10.0006647+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"KBS"}
+{"time":"2026-09-15T21:46:10.0006647+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"ARXIV_CR"}
+{"time":"2026-09-15T21:46:20.2577158+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"U42"}
+{"time":"2026-09-15T21:46:20.2577158+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"KBS"}
+{"time":"2026-09-15T21:46:20.479028+08:00","level":"INFO","msg":"[Persist()]:","source":"ARXIV_CR","new_count:":125,"interval:":"first"}
+{"time":"2026-09-15T21:46:20.5182325+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
+{"time":"2026-09-15T21:46:20.5639289+08:00","level":"INFO","msg":"[Persist()]:","source":"TOB","new_count:":1,"interval:":"first"}
+{"time":"2026-09-15T21:46:21.4287072+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"OPENALEX"}
+{"time":"2026-09-15T21:46:22.3304468+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"MSF"}

@@ -72,10 +72,13 @@ type FeedSourceInfo struct {
 }
 
 type APISourceInfo struct {
-    Provider   string `json:"provider"`   // openalex / dblp
-    Query      string `json:"query"`
-    APIKey     string `json:"api_key"`
-    Checkpoint string `json:"checkpoint"` // time.Time
+    Provider string `json:"provider"`
+    BaseURL  string `json:"base_url"`
+    Search   string `json:"search"`
+    Sort     string `json:"sort"`
+    PerPage  int    `json:"per_page"`
+    Select   string `json:"select"`
+	Apikey	 string `json:"api_key"`
 }
 
 type PoolConfigs struct {
