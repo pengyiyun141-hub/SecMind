@@ -320,3 +320,17 @@
 {"time":"2026-09-16T22:34:32.517916+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
 {"time":"2026-09-16T22:34:33.6809452+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"OPENALEX"}
 {"time":"2026-09-16T22:34:34.19385+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"MSF"}
+{"time":"2026-09-17T18:29:39.0154314+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"KBS"}
+{"time":"2026-09-17T18:29:39.0172927+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"TOB"}
+{"time":"2026-09-17T18:29:39.0172927+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"MSF"}
+{"time":"2026-09-17T18:29:39.0172927+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"OPENALEX"}
+{"time":"2026-09-17T18:29:39.0172927+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"ARXIV_CR"}
+{"time":"2026-09-17T18:29:39.0172927+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"U42"}
+{"time":"2026-09-17T18:29:39.0172927+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"GOOGLE"}
+{"time":"2026-09-17T18:29:49.2487947+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"U42"}
+{"time":"2026-09-17T18:29:49.2499248+08:00","level":"INFO","msg":"[Persist()]:","source":"KBS","new_count:":1,"interval:":"first"}
+{"time":"2026-09-17T18:29:49.4242673+08:00","level":"INFO","msg":"[Persist()]:","source":"ARXIV_CR","new_count:":63,"interval:":"first"}
+{"time":"2026-09-17T18:29:49.5585957+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
+{"time":"2026-09-17T18:29:49.6109772+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
+{"time":"2026-09-17T18:29:50.4309507+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"OPENALEX"}
+{"time":"2026-09-17T18:29:52.1528426+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"MSF","error":"[FetchFeed()]:URL:https://www.microsoft.com/en-us/security/blog/feed/ 请求失败: Get \"https://www.microsoft.com/en-us/security/blog/feed/\": context canceled"}

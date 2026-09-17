@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"net/http"
 	//"secmind/internal/article"
-	"secmind/internal/parser"
 )
 
 func (FeedFetcher *FeedFetcher) Fetch(ctx context.Context, fetchReq FetchRequest) (FetchResult, error) {
@@ -28,7 +27,7 @@ func (FeedFetcher *FeedFetcher) Fetch(ctx context.Context, fetchReq FetchRequest
 		return FetchResult{}, fmt.Errorf("[FetchFeed()]:URL:%s 错误响应，状态码: %d", FeedFetcher.FeedSourceInfo.URL, resp.StatusCode)
 	}
 
-	xmlData, err := parser.ParseFeed(resp.Body, FeedFetcher.SourceName)
+	xmlData, err := ParseFeed(resp.Body, FeedFetcher.SourceName)
 	if err != nil {
 		return FetchResult{}, fmt.Errorf(" [FetchFeed()]:源解析失败:%s, %w", FeedFetcher.FeedSourceInfo.URL, err)
 	}
