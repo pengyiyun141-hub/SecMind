@@ -64,16 +64,23 @@ func ParseOpenalex(reader io.Reader) ([]article.FeedArticle, error) {
 			Source: "openalex",
 			Guid: work.ID,
 			Title: work.Title,
+			FetchedAt: time.Now().UTC(),
 			PublishedAt: parseOpenAlexData(work.PublicationDate),
 			OpenAlex: &article.OpenAlexArticleInfo{
 				OpenAlexID: work.ID,
 				DOI: work.DOI,
 				IsOA: work.OpenAccess.IsOA,
 				OAStatus: work.OpenAccess.OAStatus,
+				LandingPageURLs: collectLandingPageURLs(work),
+				PDFURLs: collectPDFUrls(work),
 			},
 		}
-		openalexArticle.Link = pickLink(work)
+		articles = append(articles, openalexArticle)
+		fmt.Printf("%+v\n", openalexArticle)
+		fmt.Printf("openalexinfo:%+v\n\n", openalexArticle.OpenAlex)
 	}
+
+	return articles, err
 }
 
 func parseOpenAlexData(s string) time.Time {
@@ -88,3 +95,40 @@ func parseOpenAlexData(s string) time.Time {
 
 	return  t
 }
+
+func collectLandingPageURLs(work OpenAlexWork) ([]string) {
+	var urls []string
+
+	if work.PrimaryLocation != nil {
+		urls = append(urls, work.PrimaryLocation.LandingPageURL)
+	}
+
+	if work.BestOALocation != nil {
+		urls = append(urls, work.BestOALocation.LandingPageURL)
+	}
+
+	if work.DOI != "" {
+		urls = append(urls, work.DOI)
+	}
+
+	return urls
+}
+
+func collectPDFUrls(work OpenAlexWork) ([]string) {
+	var urls []string
+
+	if work.BestOALocation != nil && work.BestOALocation.PDFURL != "" {
+		urls = append(urls, work.BestOALocation.PDFURL)
+	}
+
+	if work.PrimaryLocation != nil && work.PrimaryLocation.PDFURL != ""  {
+		urls = append(urls, work.PrimaryLocation.PDFURL)
+	}
+
+	if work.OpenAccess.OAURL != "" {
+		urls = append(urls, work.OpenAccess.OAURL)
+	}
+
+	return urls
+}
+

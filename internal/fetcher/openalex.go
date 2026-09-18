@@ -3,7 +3,6 @@ package fetcher
 import (
 	"context"
 	"fmt"
-	"io"
 	"net/http"
 	"net/url"
 )
@@ -28,7 +27,7 @@ func (APIFetcher *APIFetcher) Fetch(ctx context.Context, fetchReq FetchRequest) 
 	query.Set("search", APIFetcher.APISourceInfo.Search)
 	query.Set("per-page", "3")
 	query.Set("api_key", APIFetcher.APISourceInfo.Apikey)
-	query.Set("select", "id,doi,title")
+	//query.Set("select", "id,doi,title")
 
 	endpoint.RawQuery = query.Encode()
 	requestURL := endpoint.String()
@@ -48,12 +47,13 @@ func (APIFetcher *APIFetcher) Fetch(ctx context.Context, fetchReq FetchRequest) 
 		return FetchResult{}, fmt.Errorf("OpenAlex 请求失败: %d", resp.StatusCode)
 	}
 
-	body, err := io.ReadAll(resp.Body)
+	/*body, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return FetchResult{}, err
-	}
+	}*/
 
-	fmt.Println(string(body))
+	ParseOpenalex(resp.Body)
+	//fmt.Println(string(body))
 
 	return FetchResult{}, err
 }
