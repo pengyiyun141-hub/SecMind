@@ -76,8 +76,8 @@ func ParseOpenalex(reader io.Reader) ([]article.FeedArticle, error) {
 			},
 		}
 		articles = append(articles, openalexArticle)
-		fmt.Printf("%+v\n", openalexArticle)
-		fmt.Printf("openalexinfo:%+v\n\n", openalexArticle.OpenAlex)
+		//fmt.Printf("%+v\n", openalexArticle)
+		fmt.Printf("openalexinfo:%+v\n\n\n", openalexArticle.OpenAlex)
 	}
 
 	return articles, err

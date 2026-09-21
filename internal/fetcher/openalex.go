@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"net/http"
 	"net/url"
+	//"io"
 )
 
 //这是收到响应后要提取出的信息
@@ -25,9 +26,9 @@ func (APIFetcher *APIFetcher) Fetch(ctx context.Context, fetchReq FetchRequest) 
 
 	query := endpoint.Query()
 	query.Set("search", APIFetcher.APISourceInfo.Search)
-	query.Set("per-page", "3")
+	//query.Set("per-page", "3")
 	query.Set("api_key", APIFetcher.APISourceInfo.Apikey)
-	//query.Set("select", "id,doi,title")
+	query.Set("select", "id,doi,title")
 
 	endpoint.RawQuery = query.Encode()
 	requestURL := endpoint.String()
@@ -36,6 +37,25 @@ func (APIFetcher *APIFetcher) Fetch(ctx context.Context, fetchReq FetchRequest) 
 	if err != nil {
     	return FetchResult{}, err
 	}
+
+
+
+	/*urltest := "https://link.springer.com/article/10.1007/s10676-010-9253-3"
+	resptest, err:= APIFetcher.FetcherClient.HttpClient.Get(urltest)
+	defer resptest.Body.Close()
+
+	body, err := io.ReadAll(resptest.Body)
+	if err != nil {
+    	fmt.Println("读取失败:", err)
+	}
+
+	fmt.Printf("状态码: %d\n", resptest.StatusCode)
+	fmt.Printf("最终URL: %s\n", resptest.Request.URL)
+	fmt.Printf("Content-Type: %s\n", resptest.Header.Get("Content-Type"))
+	fmt.Printf("长度: %d\n", len(body))
+	fmt.Printf("前 500 字节:\n%s\n", body)
+*/
+
 
 	resp, err := APIFetcher.FetcherClient.HttpClient.Do(req)
 	if err != nil {

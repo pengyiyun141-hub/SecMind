@@ -23,8 +23,9 @@ type OpenAlexArticleInfo struct {
 
 	LandingPageURLs []string `json:"landing_page_urls,omitempty"`
 	PDFURLs         []string `json:"pdf_urls,omitempty"`
+	PDFUrlStatus	string   `json:"pdf_status,omitempty"`
 	GrobidXMLURLs   []string `json:"grobid_xml_urls,omitempty"`
-    DOI             string `json:"doi"`
+    DOI             string 	 `json:"doi"`
 
     OAStatus        string `json:"oa_status"`
     IsOA       	    bool   `json:"is_oa"`
