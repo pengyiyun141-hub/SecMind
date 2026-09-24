@@ -54,7 +54,7 @@ func ParseFeed(reader io.Reader, sourceName string) ([]article.FeedArticle, erro
 	var Xmldata []byte
 	Xmldata, err := io.ReadAll(reader)
 	if err != nil {
-		fmt.Println("失败：", err)
+		fmt.Println("[ParseFeed()]失败：", err)
 		return nil, err
 	}
 

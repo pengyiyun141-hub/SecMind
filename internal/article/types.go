@@ -26,6 +26,7 @@ type OpenAlexArticleInfo struct {
 	PDFUrlStatus	string   `json:"pdf_status,omitempty"`
 	GrobidXMLURLs   []string `json:"grobid_xml_urls,omitempty"`
     DOI             string 	 `json:"doi"`
+	Abstract		string	 `json:"abstract_inverted_index"`
 
     OAStatus        string `json:"oa_status"`
     IsOA       	    bool   `json:"is_oa"`

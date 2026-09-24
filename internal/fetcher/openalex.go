@@ -28,7 +28,7 @@ func (APIFetcher *APIFetcher) Fetch(ctx context.Context, fetchReq FetchRequest) 
 	query.Set("search", APIFetcher.APISourceInfo.Search)
 	//query.Set("per-page", "3")
 	query.Set("api_key", APIFetcher.APISourceInfo.Apikey)
-	query.Set("select", "id,doi,title")
+	query.Set("select", "id,doi,title,abstract_inverted_index")
 
 	endpoint.RawQuery = query.Encode()
 	requestURL := endpoint.String()
@@ -37,8 +37,6 @@ func (APIFetcher *APIFetcher) Fetch(ctx context.Context, fetchReq FetchRequest) 
 	if err != nil {
     	return FetchResult{}, err
 	}
-
-
 
 	/*urltest := "https://link.springer.com/article/10.1007/s10676-010-9253-3"
 	resptest, err:= APIFetcher.FetcherClient.HttpClient.Get(urltest)

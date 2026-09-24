@@ -6,6 +6,7 @@ import (
 	"io"
 	"secmind/internal/article"
 	"time"
+	"strings"
 	//"secmind/configs"
 )
 
@@ -73,10 +74,11 @@ func ParseOpenalex(reader io.Reader) ([]article.FeedArticle, error) {
 				OAStatus: work.OpenAccess.OAStatus,
 				LandingPageURLs: collectLandingPageURLs(work),
 				PDFURLs: collectPDFUrls(work),
+				Abstract: ReconstructAbstract(work.AbstractInvertedIndex),
 			},
 		}
 		articles = append(articles, openalexArticle)
-		//fmt.Printf("%+v\n", openalexArticle)
+		fmt.Printf("%+v\n", openalexArticle)
 		fmt.Printf("openalexinfo:%+v\n\n\n", openalexArticle.OpenAlex)
 	}
 
@@ -132,3 +134,31 @@ func collectPDFUrls(work OpenAlexWork) ([]string) {
 	return urls
 }
 
+func ReconstructAbstract (index map[string][]int) (string) {
+	//先判断是否有内容，没有返回空让调用方做决定。
+	if len(index) == 0 {
+		return ""
+	}
+
+	//先遍历整个映射，确右边界。
+	maxPos := -1
+    for _, positions := range index {
+        for _, pos := range positions {
+            if pos > maxPos {
+                maxPos = pos
+            }
+        }
+    }
+
+	//根据右边界make一个字符串切片。
+	words := make([]string, maxPos+1)
+
+	//word为具体的单词，positions为该单词出现的位置集合。对于每个单词都根据其index放入到words切片中对应的位置。最终words就是完整的摘要。
+	for word, positions := range index {
+    	for _, pos := range positions {
+            words[pos] = word
+        }
+    }
+
+	return strings.Join(words, " ")
+}
