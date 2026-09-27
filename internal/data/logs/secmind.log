@@ -628,3 +628,113 @@
 {"time":"2026-09-24T17:01:39.2347057+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"MSF"}
 {"time":"2026-09-24T17:01:40.6529304+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"OPENALEX"}
 {"time":"2026-09-24T17:01:41.1769162+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"KBS","error":" [FetchFeed()]:源解析失败:https://krebsonsecurity.com/feed/, context canceled"}
+{"time":"2026-09-27T17:50:46.1462378+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"U42"}
+{"time":"2026-09-27T17:50:46.1483273+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"KBS"}
+{"time":"2026-09-27T17:50:46.1483273+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"ARXIV_CR"}
+{"time":"2026-09-27T17:50:46.1483273+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"GOOGLE"}
+{"time":"2026-09-27T17:50:46.1483273+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"OPENALEX"}
+{"time":"2026-09-27T17:50:46.1483273+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"MSF"}
+{"time":"2026-09-27T17:50:46.1483273+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"TOB"}
+{"time":"2026-09-27T17:50:56.6530996+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"ARXIV_CR"}
+{"time":"2026-09-27T17:50:56.6975161+08:00","level":"INFO","msg":"[Persist()]:","source":"U42","new_count:":1,"interval:":"first"}
+{"time":"2026-09-27T17:50:56.7010965+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"OPENALEX","error":"OpenAlex 请求失败: 429"}
+{"time":"2026-09-27T17:50:56.743185+08:00","level":"INFO","msg":"[Persist()]:","source":"KBS","new_count:":1,"interval:":"first"}
+{"time":"2026-09-27T17:50:56.9434445+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
+{"time":"2026-09-27T17:50:56.9785839+08:00","level":"INFO","msg":"[Persist()]:","source":"TOB","new_count:":1,"interval:":"first"}
+{"time":"2026-09-27T17:50:58.7305009+08:00","level":"INFO","msg":"[Persist()]:","source":"MSF","new_count:":3,"interval:":"first"}
+{"time":"2026-09-27T17:52:52.6608799+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"U42"}
+{"time":"2026-09-27T17:52:52.6631537+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"KBS"}
+{"time":"2026-09-27T17:52:52.6631537+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"ARXIV_CR"}
+{"time":"2026-09-27T17:52:52.6631537+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"GOOGLE"}
+{"time":"2026-09-27T17:52:52.6631537+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"OPENALEX"}
+{"time":"2026-09-27T17:52:52.6631537+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"MSF"}
+{"time":"2026-09-27T17:52:52.6631537+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"TOB"}
+{"time":"2026-09-27T17:53:02.7922637+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"U42"}
+{"time":"2026-09-27T17:53:02.8147229+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"KBS"}
+{"time":"2026-09-27T17:53:02.8582049+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"ARXIV_CR"}
+{"time":"2026-09-27T17:53:03.0497128+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
+{"time":"2026-09-27T17:53:03.1860545+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
+{"time":"2026-09-27T17:53:04.1554445+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"MSF"}
+{"time":"2026-09-27T17:53:04.6410862+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"OPENALEX"}
+{"time":"2026-09-27T17:54:43.6342737+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"OPENALEX"}
+{"time":"2026-09-27T17:54:43.6355335+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"ARXIV_CR"}
+{"time":"2026-09-27T17:54:43.6355335+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"TOB"}
+{"time":"2026-09-27T17:54:43.6355335+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"U42"}
+{"time":"2026-09-27T17:54:43.6355335+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"KBS"}
+{"time":"2026-09-27T17:54:43.6355335+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"GOOGLE"}
+{"time":"2026-09-27T17:54:43.6355335+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"MSF"}
+{"time":"2026-09-27T17:54:53.9659234+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"U42"}
+{"time":"2026-09-27T17:54:54.0311575+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"ARXIV_CR"}
+{"time":"2026-09-27T17:54:54.1402572+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"KBS"}
+{"time":"2026-09-27T17:54:54.2114775+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"OPENALEX","error":"OpenAlex 请求失败: 429"}
+{"time":"2026-09-27T17:54:54.3775455+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
+{"time":"2026-09-27T17:54:54.4535149+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
+{"time":"2026-09-27T17:54:55.1728188+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"MSF"}
+{"time":"2026-09-27T17:55:03.710394+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"OPENALEX","error":"OpenAlex 请求失败: 429"}
+{"time":"2026-09-27T17:55:03.7144927+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"U42"}
+{"time":"2026-09-27T17:55:03.7443406+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"ARXIV_CR"}
+{"time":"2026-09-27T17:55:03.7782009+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"KBS"}
+{"time":"2026-09-27T17:55:03.9549574+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
+{"time":"2026-09-27T17:55:04.1506686+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
+{"time":"2026-09-27T17:55:04.8826407+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"MSF"}
+{"time":"2026-09-27T17:55:13.7450424+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"KBS"}
+{"time":"2026-09-27T17:55:13.7477057+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"ARXIV_CR"}
+{"time":"2026-09-27T17:55:13.9148538+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
+{"time":"2026-09-27T17:55:14.1516021+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
+{"time":"2026-09-27T17:55:23.7354067+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"KBS"}
+{"time":"2026-09-27T17:55:23.7410745+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"ARXIV_CR"}
+{"time":"2026-09-27T17:55:23.9150228+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
+{"time":"2026-09-27T17:55:24.1171735+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
+{"time":"2026-09-27T17:55:31.0269632+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"MSF","error":"[FetchFeed()]:URL:https://www.microsoft.com/en-us/security/blog/feed/ 请求失败: Get \"https://www.microsoft.com/en-us/security/blog/feed/\": context canceled"}
+{"time":"2026-09-27T17:55:31.0269632+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"MSF","error":"[FetchFeed()]:URL:https://www.microsoft.com/en-us/security/blog/feed/ 请求失败: Get \"https://www.microsoft.com/en-us/security/blog/feed/\": context canceled"}
+{"time":"2026-09-27T17:55:31.0269632+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"OPENALEX","error":"Get \"https://api.openalex.org/works?api_key=QmvweGsnQgT6bhvo28HKuu&filter=from_created_date%3A2026-09-01%2Cto_created_date%3A2026-09-27&search=AI+security&select=id%2Cdoi%2Ctitle%2Cabstract_inverted_index\": context canceled"}
+{"time":"2026-09-27T17:55:31.0274659+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"U42","error":"[FetchFeed()]:URL:https://unit42.paloaltonetworks.com/feed/ 请求失败: Get \"https://unit42.paloaltonetworks.com/feed/\": interrupt signal received"}
+{"time":"2026-09-27T17:55:31.0274659+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"OPENALEX","error":"Get \"https://api.openalex.org/works?api_key=QmvweGsnQgT6bhvo28HKuu&filter=from_created_date%3A2026-09-01%2Cto_created_date%3A2026-09-27&search=AI+security&select=id%2Cdoi%2Ctitle%2Cabstract_inverted_index\": context canceled"}
+{"time":"2026-09-27T22:28:56.0140195+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"MSF"}
+{"time":"2026-09-27T22:28:56.0140195+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"U42"}
+{"time":"2026-09-27T22:28:56.0140195+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"OPENALEX"}
+{"time":"2026-09-27T22:28:56.0140195+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"TOB"}
+{"time":"2026-09-27T22:28:56.0140195+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"ARXIV_CR"}
+{"time":"2026-09-27T22:28:56.0140195+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"KBS"}
+{"time":"2026-09-27T22:28:56.0140195+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"GOOGLE"}
+{"time":"2026-09-27T22:29:06.1835095+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"U42"}
+{"time":"2026-09-27T22:29:06.2036036+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"KBS"}
+{"time":"2026-09-27T22:29:06.4598952+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
+{"time":"2026-09-27T22:29:06.5748477+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
+{"time":"2026-09-27T22:29:06.5902066+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"OPENALEX","error":"OpenAlex 请求失败: 429"}
+{"time":"2026-09-27T22:29:07.718957+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"ARXIV_CR"}
+{"time":"2026-09-27T22:29:09.2624462+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"MSF"}
+{"time":"2026-09-27T22:29:16.0454469+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"OPENALEX","error":"OpenAlex 请求失败: 429"}
+{"time":"2026-09-27T22:29:16.0582161+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"U42"}
+{"time":"2026-09-27T22:29:16.0816755+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"ARXIV_CR"}
+{"time":"2026-09-27T22:29:16.0944677+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"KBS"}
+{"time":"2026-09-27T22:29:16.2948106+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
+{"time":"2026-09-27T22:29:16.4312209+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
+{"time":"2026-09-27T22:29:18.1987659+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"MSF"}
+{"time":"2026-09-27T22:29:26.0499862+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"U42"}
+{"time":"2026-09-27T22:29:26.0776931+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"KBS"}
+{"time":"2026-09-27T22:29:26.0823034+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"ARXIV_CR"}
+{"time":"2026-09-27T22:29:26.6257146+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
+{"time":"2026-09-27T22:29:26.6594989+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
+{"time":"2026-09-27T22:29:28.1683899+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"MSF"}
+{"time":"2026-09-27T22:29:36.0893062+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"KBS"}
+{"time":"2026-09-27T22:29:36.2783135+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"U42"}
+{"time":"2026-09-27T22:29:36.3094581+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
+{"time":"2026-09-27T22:29:36.3151612+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"ARXIV_CR"}
+{"time":"2026-09-27T22:29:36.417797+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
+{"time":"2026-09-27T22:29:37.1527365+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"MSF"}
+{"time":"2026-09-27T22:29:38.5663556+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"OPENALEX","error":"Get \"https://api.openalex.org/works?api_key=QmvweGsnQgT6bhvo28HKuu&filter=from_created_date%3A2026-09-01%2Cto_created_date%3A2026-09-27&search=AI+security&select=id%2Cdoi%2Ctitle%2Cabstract_inverted_index\": context canceled"}
+{"time":"2026-09-27T23:22:39.7398173+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"KBS"}
+{"time":"2026-09-27T23:22:39.7423306+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"U42"}
+{"time":"2026-09-27T23:22:39.7423306+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"TOB"}
+{"time":"2026-09-27T23:22:39.7423306+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"MSF"}
+{"time":"2026-09-27T23:22:39.7423306+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"OPENALEX"}
+{"time":"2026-09-27T23:22:39.7423306+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"GOOGLE"}
+{"time":"2026-09-27T23:22:39.7423306+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"ARXIV_CR"}
+{"time":"2026-09-27T23:22:49.9107879+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"U42"}
+{"time":"2026-09-27T23:22:50.1955889+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
+{"time":"2026-09-27T23:22:51.6530882+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"GOOGLE"}
+{"time":"2026-09-27T23:22:51.6721397+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"ARXIV_CR"}
+{"time":"2026-09-27T23:22:53.0638311+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"OPENALEX"}
+{"time":"2026-09-27T23:22:53.2251805+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"MSF"}
+{"time":"2026-09-27T23:22:54.167247+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"KBS"}

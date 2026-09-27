@@ -29,6 +29,8 @@ func (APIFetcher *APIFetcher) Fetch(ctx context.Context, fetchReq FetchRequest) 
 	//query.Set("per-page", "3")
 	query.Set("api_key", APIFetcher.APISourceInfo.Apikey)
 	query.Set("select", "id,doi,title,abstract_inverted_index")
+	query.Set("filter", "from_publication_date:2024-01-01")
+	query.Set("sort", "cited_by_count:desc")
 
 	endpoint.RawQuery = query.Encode()
 	requestURL := endpoint.String()
