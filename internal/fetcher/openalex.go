@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"net/http"
 	"net/url"
+	"strings"
 	//"io"
 )
 
@@ -24,11 +25,36 @@ func (APIFetcher *APIFetcher) Fetch(ctx context.Context, fetchReq FetchRequest) 
     	return FetchResult{}, err
 	}
 
+includeTerms := []string{
+    `"AI security"`,
+    `"LLM security"`,
+    `"large language model security"`,
+    `"prompt injection"`,
+    `"adversarial machine learning"`,
+    `"AI safety"`,
+    `"cybersecurity"`,
+    `"system security"`,
+}
+
+excludeTerms := []string{
+    `"medical"`,
+    `"healthcare"`,
+    `"biomedical"`,
+    `"agriculture"`,
+    `"food security"`,
+    `"farming"`,
+}
+
+include := strings.Join(includeTerms, " OR ")
+exclude := strings.Join(excludeTerms, " OR ")
+
+searchQuery := "(" + include + ") NOT (" + exclude + ")"
+
 	query := endpoint.Query()
-	query.Set("search", APIFetcher.APISourceInfo.Search)
+	query.Set("search", APIFetcher.APISourceInfo.Search + searchQuery)
 	//query.Set("per-page", "3")
 	query.Set("api_key", APIFetcher.APISourceInfo.Apikey)
-	query.Set("select", "id,doi,title,abstract_inverted_index")
+	query.Set("select", "id,doi,title,publication_date,abstract_inverted_index,open_access,best_oa_location")
 	query.Set("filter", "from_publication_date:2024-01-01")
 	query.Set("sort", "cited_by_count:desc")
 

@@ -6,7 +6,7 @@
   "api": {
     "provider": "openalex",
     "base_url": "https://api.openalex.org",
-    "search": "AI security",
+    "search": "",
     "sort": "publication_date:asc",
     "per_page": 100,
     "select": "id,doi,title,publication_year,publication_date,primary_location,best_oa_location,open_access",
