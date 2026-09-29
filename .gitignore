@@ -31,6 +31,10 @@ go.work.sum
 /internal/data/memory
 /internal/data/intel_report.md
 
+/internal/data/logs/secmind.log
+
+/configs/sourceinfo/OPENALEX.json
+
 # Editor/IDE
 # .idea/
 # .vscode/

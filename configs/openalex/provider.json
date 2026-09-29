@@ -1,0 +1,19 @@
+{
+  "base_url": "https://api.openalex.org",
+  "api_key_env": "OPENALEX_API_KEY",
+  "daily_budget": 1.0,
+  "defaults": {
+    "filter": "from_publication_date:2024-01-01",
+    "sort": "publication_date:desc",
+    "per_page": 100,
+    "select": [
+      "id",
+      "doi",
+      "title",
+      "publication_date",
+      "abstract_inverted_index",
+      "open_access",
+      "best_oa_location"
+    ]
+  }
+}

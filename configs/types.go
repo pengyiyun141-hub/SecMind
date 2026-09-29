@@ -5,10 +5,11 @@ import (
 )
 
 type SecmindConfigs struct {
-	Aiconfigs   *AiConfigs
-	Feedconfigs *FeedConfigs
-	Poolconfigs *PoolConfigs
-	Logconfigs	*LogConfigs
+	Aiconfigs   	*AiConfigs
+	Feedconfigs 	*FeedConfigs
+	OpenAlexConfigs *OpenAlexConfigs
+	Poolconfigs 	*PoolConfigs
+	Logconfigs		*LogConfigs
 }
 
 // AI配置
@@ -71,6 +72,37 @@ type FeedSourceInfo struct {
     Type 		string `json:"type"` // rss / atom
 }
 
+//Openalex作为独立大类型。
+type OpenAlexConfigs struct {
+    Provider OpenAlexProviderConfig `json:"provider"`
+    Profiles []*SearchProfile       `json:"profiles"`
+}
+
+type OpenAlexProviderConfig struct {
+    BaseURL     string `json:"base_url"`
+    APIKeyEnv   string `json:"api_key_env"`
+    DailyBudget float64 `json:"daily_budget"`
+}
+
+type SearchProfile struct {
+    Name        string `json:"name"`
+    DisplayName string `json:"display_name"`
+    Enabled     bool   `json:"enabled"`
+
+    IncludeTerms []string `json:"include_terms"`
+    ExcludeTerms []string `json:"exclude_terms"`
+
+    Filter  string `json:"filter"`
+    Sort    string `json:"sort"`
+    PerPage int    `json:"per_page"`
+    Select  []string `json:"select"`
+
+    Schedule string `json:"schedule"`
+    Priority int    `json:"priority"`
+}
+
+
+//准备废弃
 type APISourceInfo struct {
     Provider string `json:"provider"`
     BaseURL  string `json:"base_url"`
@@ -80,6 +112,8 @@ type APISourceInfo struct {
     Select   string `json:"select"`
 	Apikey	 string `json:"api_key"`
 }
+
+
 
 type PoolConfigs struct {
 	DataDir string `json:"DataDir"`

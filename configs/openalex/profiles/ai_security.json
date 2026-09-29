@@ -1,0 +1,18 @@
+{
+  "name": "ai_security",
+  "display_name": "AI Security",
+  "enabled": true,
+  "include_terms": [
+    "\"AI security\"",
+    "\"LLM security\"",
+    "\"prompt injection\"",
+    "\"adversarial machine learning\""
+  ],
+  "exclude_terms": [
+    "\"medical\"",
+    "\"healthcare\"",
+    "\"food security\""
+  ],
+  "schedule": "24h",
+  "priority": 10
+}
