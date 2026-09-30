@@ -794,3 +794,17 @@
 {"time":"2026-09-28T13:55:46.2405635+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
 {"time":"2026-09-28T13:55:47.9145264+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"MSF"}
 {"time":"2026-09-28T13:55:49.3025386+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"OPENALEX"}
+{"time":"2026-09-30T22:29:58.5785839+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"U42"}
+{"time":"2026-09-30T22:29:58.5794517+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"KBS"}
+{"time":"2026-09-30T22:29:58.5794517+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"ARXIV_CR"}
+{"time":"2026-09-30T22:29:58.5794517+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"GOOGLE"}
+{"time":"2026-09-30T22:29:58.5794517+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"OPENALEX"}
+{"time":"2026-09-30T22:29:58.5794517+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"MSF"}
+{"time":"2026-09-30T22:29:58.5794517+08:00","level":"INFO","msg":"[sourceLoop()]:源调度器已启动：","source":"TOB"}
+{"time":"2026-09-30T22:30:09.3435213+08:00","level":"INFO","msg":"[Persist()]:","source":"U42","new_count:":2,"interval:":"first"}
+{"time":"2026-09-30T22:30:09.3771988+08:00","level":"INFO","msg":"[Persist()]:","source":"KBS","new_count:":1,"interval:":"first"}
+{"time":"2026-09-30T22:30:09.607818+08:00","level":"INFO","msg":"[Persist()]:","source":"ARXIV_CR","new_count:":98,"interval:":"first"}
+{"time":"2026-09-30T22:30:10.6825657+08:00","level":"INFO","msg":"[Persist()]:","source":"MSF","new_count:":5,"interval:":"first"}
+{"time":"2026-09-30T22:30:11.0001536+08:00","level":"INFO","msg":"[Process()]:Feed源未更新，","source":"TOB"}
+{"time":"2026-09-30T22:30:18.215701+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"OPENALEX","error":"Get \"https://api.openalex.org/works?api_key=QmvweGsnQgT6bhvo28HKuu&filter=from_publication_date%3A2024-01-01&search=%28%22AI+security%22+OR+%22LLM+security%22+OR+%22large+language+model+security%22+OR+%22prompt+injection%22+OR+%22adversarial+machine+learning%22+OR+%22AI+safety%22+OR+%22cybersecurity%22+OR+%22system+security%22%29+NOT+%28%22medical%22+OR+%22healthcare%22+OR+%22biomedical%22+OR+%22agriculture%22+OR+%22food+security%22+OR+%22farming%22%29&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cabstract_inverted_index%2Copen_access%2Cbest_oa_location&sort=cited_by_count%3Adesc\": context canceled"}
+{"time":"2026-09-30T22:30:18.2169642+08:00","level":"ERROR","msg":"[sourceLoop()]:源返回文章失败：","source":"GOOGLE","error":"[FetchFeed()]:URL:https://feeds.feedburner.com/GoogleOnlineSecurityBlog 请求失败: Get \"https://feeds.feedburner.com/GoogleOnlineSecurityBlog\": interrupt signal received"}

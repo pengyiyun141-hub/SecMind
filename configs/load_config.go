@@ -161,3 +161,25 @@ func LoadSecMindLog(OptionsPath string) (*LogConfigs, error) {
 
 	return logconfigdata, nil
 }
+
+func LoadOpenalexConfigs(OpenAlexConfigsPath string) (*OpenAlexConfigs) {
+	providerPath := filepath.Join(OpenAlexConfigsPath, "provider.json")
+	profilesPath := filepath.Join(OpenAlexConfigsPath, "profiles", "*json")
+	profiles, err :=filepath.Glob(profilesPath)
+
+	openAlexConfigs := &OpenAlexConfigs{
+		Provider: OpenAlexProviderConfig{},
+		Profiles: []*SearchProfile{},
+	}
+
+	providerData, err := os.ReadFile(providerPath)
+	json.Unmarshal(providerData, &openAlexConfigs.Provider)
+
+	var parseredProfile SearchProfile
+	for _, profile := range profiles {
+		profiledata, err:= os.ReadFile(profile)
+		json.Unmarshal(profiledata, &parseredProfile)
+
+		openAlexConfigs.Profiles = append(openAlexConfigs.Profiles, &parseredProfile)
+	}
+}
